@@ -9121,6 +9121,35 @@
 <wire x1="3.1" y1="2" x2="3.1" y2="-2" width="0.1" layer="21"/>
 <wire x1="3.1" y1="-2" x2="-3.1" y2="-2" width="0.1" layer="21"/>
 </package>
+<package name="R0603">
+<description>Resistor, 0603 Package</description>
+<polygon width="0.1" layer="51">
+<vertex x="-0.8" y="-0.4"/>
+<vertex x="-0.8" y="0.4"/>
+<vertex x="-0.5" y="0.4"/>
+<vertex x="-0.5" y="-0.4"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="0.5" y="-0.4"/>
+<vertex x="0.5" y="0.4"/>
+<vertex x="0.8" y="0.4"/>
+<vertex x="0.8" y="-0.4"/>
+</polygon>
+<wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="0.4" x2="0.8" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="0.4" x2="0.8" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
+<smd name="1" x="-0.8" y="0" dx="0.9" dy="1" layer="1"/>
+<smd name="2" x="0.8" y="0" dx="0.9" dy="1" layer="1"/>
+<wire x1="-1.5" y1="-0.75" x2="-1.5" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="0.75" x2="1.5" y2="0.75" width="0.1" layer="21"/>
+<wire x1="1.5" y1="0.75" x2="1.5" y2="-0.75" width="0.1" layer="21"/>
+<wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.1" layer="21"/>
+<text x="1.95" y="0.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="1.95" y="-0.45" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<dimension x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" x3="0" y3="-2.75" textsize="0.8" layer="51" width="0.05" extwidth="0.05" extlength="0.1" visible="yes"/>
+<dimension x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" x3="-1.8" y3="0" textsize="0.8" layer="51" width="0.05" extlength="0.1" visible="yes"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -15115,6 +15144,18 @@ Datasheet: http://www.issi.com/WW/pdf/42-45S16400J.pdf</description>
 <text x="0" y="-2.54" size="0.4064" layer="99" rot="R180" align="center">SpiceOrder 1</text>
 <text x="0" y="2.54" size="0.4064" layer="99" rot="R180" align="center">SpiceOrder 2</text>
 </symbol>
+<symbol name="R">
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -15584,6 +15625,43 @@ Datasheet: http://www.mouser.com/ds/2/54/SMBJ-51809.pdf</description>
 <connects>
 <connect gate="D$1" pin="A" pad="1"/>
 <connect gate="D$1" pin="C" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-0-0.1W">
+<description>Resistor: 0 Ohm, 0.1W, 5%;
+Specs: http://www.mouser.com/ds/2/315/AOA0000CE1-37422.pdf</description>
+<gates>
+<gate name="R$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="R$1" pin="1" pad="1"/>
+<connect gate="R$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-2.2K-0.1W">
+<description>Resistor, 2.2kOhm, 0.1W, 0.05%
+Package: 0603
+Specs: http://www.mouser.com/ds/2/315/AOA0000CE26-197354.pdf</description>
+<gates>
+<gate name="R$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="R$1" pin="1" pad="1"/>
+<connect gate="R$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
