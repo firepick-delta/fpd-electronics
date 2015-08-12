@@ -9042,15 +9042,17 @@
 <wire x1="1.4" y1="-0.7" x2="-1.4" y2="-0.7" width="0.1" layer="21"/>
 <wire x1="-1.4" y1="-0.7" x2="-1.4" y2="0.7" width="0.1" layer="21"/>
 </package>
-<package name="UKL1C470KEDXXX">
+<package name="C-RAD-6.3MM">
+<description>Capacitor, Electrolytic, 6.3mm barrel diameter</description>
 <circle x="0" y="0" radius="3.15" width="0.1" layer="51"/>
 <circle x="0" y="0" radius="3.3" width="0.1" layer="21"/>
-<pad name="POS" x="0" y="1.25" drill="0.5" diameter="0.75"/>
-<pad name="NEG" x="0" y="-1.25" drill="0.5" diameter="0.75"/>
+<pad name="NEG" x="0" y="1.25" drill="0.5" diameter="0.75" shape="square"/>
+<pad name="POS" x="0" y="-1.25" drill="0.5" diameter="0.75"/>
 <dimension x1="0" y1="3.15" x2="0" y2="-3.15" x3="5.4" y3="0" textsize="1.016" textratio="12" layer="51" dtype="diameter" width="0.05" visible="yes"/>
 <dimension x1="0" y1="-1.25" x2="0" y2="1.25" x3="-3.8" y3="0" textsize="1.016" textratio="12" layer="51" width="0.05"/>
 <text x="-1.5" y="-4.8" size="1.016" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-1.4" y="-6.1" size="0.85" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-2.15" y1="2.05" x2="2.1" y2="2.05" width="0.2" layer="21"/>
 </package>
 <package name="C1210">
 <wire x1="-2.15" y1="-1.575" x2="-2.15" y2="1.575" width="0.1" layer="21"/>
@@ -9084,17 +9086,18 @@
 <description>Capacitor, Radial Lead, 10mm Case</description>
 <circle x="0" y="0" radius="5.5" width="0.1" layer="21"/>
 <circle x="0" y="0" radius="5" width="0.1" layer="51"/>
-<pad name="1" x="0" y="2.5" drill="0.6" diameter="0.85"/>
-<pad name="2" x="0" y="-2.5" drill="0.6" diameter="0.85"/>
+<pad name="NEG" x="0" y="2.5" drill="0.6" diameter="0.85" shape="square"/>
+<pad name="POS" x="0" y="-2.5" drill="0.6" diameter="0.85"/>
 <dimension x1="0" y1="5.5" x2="0" y2="-5.5" x3="-9.8" y3="0" textsize="1.3" textratio="12" layer="51" dtype="diameter" visible="yes"/>
 <dimension x1="0" y1="-5" x2="0" y2="5" x3="-7.3" y3="0" textsize="1.3" textratio="12" layer="51" dtype="diameter" visible="yes"/>
 <text x="7" y="1.9" size="1.27" layer="25" ratio="12">&gt;Name</text>
 <text x="7" y="0.4" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-3.2" y1="3.5" x2="3.3" y2="3.5" width="0.2" layer="21"/>
 </package>
 <package name="DO-214AA">
 <description>DO-214AA</description>
-<smd name="1" x="-2.05" y="0" dx="1.6" dy="2.4" layer="1"/>
-<smd name="2" x="2.05" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="C" x="-2.05" y="0" dx="1.6" dy="2.4" layer="1"/>
+<smd name="A" x="2.05" y="0" dx="1.6" dy="2.4" layer="1"/>
 <polygon width="0.1" layer="52">
 <vertex x="-2.622" y="-1.05"/>
 <vertex x="-2.622" y="1.05"/>
@@ -9178,6 +9181,70 @@
 <dimension x1="-1.55" y1="-0.8" x2="-1.55" y2="0.8" x3="-2.8" y3="0" textsize="0.75" textratio="10" layer="51" width="0.05" extlength="0.25" visible="yes"/>
 <text x="2.6" y="0.7" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.6" y="-0.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-HDR-3POS-MALE">
+<description>Header, male, 0.1" pitch, 3-pos</description>
+<pad name="1" x="-2.54" y="0" drill="0.9" shape="square"/>
+<pad name="2" x="0" y="0" drill="0.9"/>
+<pad name="3" x="2.54" y="0" drill="0.9"/>
+<wire x1="-3.65" y1="-1.1" x2="-3.65" y2="1.1" width="0.1" layer="21"/>
+<wire x1="-3.65" y1="1.1" x2="3.65" y2="1.1" width="0.1" layer="21"/>
+<wire x1="3.65" y1="1.1" x2="3.65" y2="-1.1" width="0.1" layer="21"/>
+<wire x1="3.65" y1="-1.1" x2="-3.65" y2="-1.1" width="0.1" layer="21"/>
+<text x="4.35" y="0.05" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="4.35" y="-1.2" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="SOT-23">
+<wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.1" layer="51"/>
+<wire x1="-1.46" y1="0.65" x2="1.46" y2="0.65" width="0.1" layer="51"/>
+<wire x1="1.46" y1="0.65" x2="1.46" y2="-0.65" width="0.1" layer="51"/>
+<wire x1="1.46" y1="-0.65" x2="-1.46" y2="-0.65" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-1.17" y="-1.2"/>
+<vertex x="-1.17" y="-1"/>
+<vertex x="-0.57" y="-1"/>
+<vertex x="-0.57" y="-1.2"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="0.57" y="-1.2"/>
+<vertex x="0.57" y="-1"/>
+<vertex x="1.17" y="-1"/>
+<vertex x="1.17" y="-1.2"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="-0.3" y="1"/>
+<vertex x="-0.3" y="1.2"/>
+<vertex x="0.3" y="1.2"/>
+<vertex x="0.3" y="1"/>
+</polygon>
+<smd name="1" x="-0.85" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.85" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<wire x1="-1.55" y1="-0.8" x2="-1.6" y2="-0.8" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.1" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="-0.7" y2="0.8" width="0.1" layer="21"/>
+<wire x1="0.7" y1="0.8" x2="1.6" y2="0.8" width="0.1" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.1" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="1.55" y2="-0.8" width="0.1" layer="21"/>
+<wire x1="0.16" y1="-0.9" x2="-0.16" y2="-0.9" width="0.1" layer="21"/>
+<text x="2.4" y="0" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="2.4" y="-1.3" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-1.3" y1="-0.2" x2="-1" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.2" x2="-0.7" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-0.7" y1="-0.2" x2="-1" y2="0.1" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.1" x2="-1.3" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.1" x2="-1" y2="0.3" width="0.1" layer="51"/>
+<wire x1="-1" y1="0.3" x2="0" y2="0.3" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="1" y2="0.3" width="0.1" layer="51"/>
+<wire x1="1" y1="0.3" x2="1" y2="0.1" width="0.1" layer="51"/>
+<wire x1="0.7" y1="0.1" x2="1.3" y2="0.1" width="0.1" layer="51"/>
+<wire x1="1.3" y1="0.1" x2="1" y2="-0.2" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.2" x2="0.7" y2="0.1" width="0.1" layer="51"/>
+<wire x1="1" y1="-0.2" x2="1" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="-1" y1="-0.2" x2="-1" y2="-0.5" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0" y2="0.5" width="0.1" layer="51"/>
+<wire x1="-1.2" y1="0.1" x2="-0.8" y2="0.1" width="0.1" layer="51"/>
+<wire x1="0.8" y1="-0.2" x2="1.2" y2="-0.2" width="0.1" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -14950,162 +15017,164 @@ Datasheet: http://www.issi.com/WW/pdf/42-45S16400J.pdf</description>
 </symbol>
 <symbol name="32F429ZIT6U">
 <description>CPU (ST Microelectronics); STM32F429ZIT6U; Datasheet: http://www.st.com/web/en/resource/technical/document/datasheet/DM00071990.pdf</description>
-<pin name="PE2" x="-91.44" y="83.82" length="short"/>
-<pin name="PE3" x="-91.44" y="81.28" length="short"/>
-<pin name="PE4" x="-91.44" y="78.74" length="short"/>
-<pin name="PE5" x="-91.44" y="76.2" length="short"/>
-<pin name="PE6" x="-91.44" y="73.66" length="short"/>
-<pin name="VBAT" x="-55.88" y="88.9" length="short" direction="pwr"/>
-<pin name="PC13" x="-104.14" y="55.88" length="short" rot="R180"/>
-<pin name="PC14" x="-104.14" y="53.34" length="short" rot="R180"/>
-<pin name="PC15" x="-104.14" y="50.8" length="short" rot="R180"/>
-<pin name="PF0" x="-68.58" y="88.9" length="short" rot="R180"/>
-<pin name="PF1" x="-68.58" y="86.36" length="short" rot="R180"/>
-<pin name="PF2" x="-68.58" y="83.82" length="short" rot="R180"/>
-<pin name="PF3" x="-68.58" y="81.28" length="short" rot="R180"/>
-<pin name="PF4" x="-68.58" y="78.74" length="short" rot="R180"/>
-<pin name="PF5" x="-68.58" y="76.2" length="short" rot="R180"/>
-<pin name="VSS@16" x="-55.88" y="86.36" length="short" direction="pwr"/>
-<pin name="VDD@17" x="-55.88" y="83.82" length="short" direction="pwr"/>
-<pin name="PF6" x="-68.58" y="73.66" length="short" rot="R180"/>
-<pin name="PF7" x="-68.58" y="71.12" length="short" rot="R180"/>
-<pin name="PF8" x="-68.58" y="68.58" length="short" rot="R180"/>
-<pin name="PF9" x="-68.58" y="66.04" length="short" rot="R180"/>
-<pin name="PF10" x="-68.58" y="63.5" length="short" rot="R180"/>
-<pin name="PH0" x="-91.44" y="43.18" length="short"/>
-<pin name="PH1" x="-91.44" y="40.64" length="short"/>
-<pin name="NRST" x="-91.44" y="22.86" length="short"/>
-<pin name="PC0" x="-104.14" y="88.9" length="short" rot="R180"/>
-<pin name="PC1" x="-104.14" y="86.36" length="short" rot="R180"/>
-<pin name="PC2" x="-104.14" y="83.82" length="short" rot="R180"/>
-<pin name="PC3" x="-104.14" y="81.28" length="short" rot="R180"/>
-<pin name="VDD@30" x="-55.88" y="81.28" length="short" direction="pwr"/>
-<pin name="VSSA" x="-55.88" y="78.74" length="short" direction="pwr"/>
-<pin name="VREF+" x="-55.88" y="76.2" length="short" direction="pwr"/>
-<pin name="VDDA" x="-55.88" y="73.66" length="short" direction="pwr"/>
-<pin name="PA0" x="-127" y="88.9" length="short"/>
-<pin name="PA1" x="-127" y="86.36" length="short"/>
-<pin name="PA2" x="-127" y="83.82" length="short"/>
-<pin name="PA3" x="-127" y="81.28" length="short"/>
-<pin name="VSS@38" x="-55.88" y="71.12" length="short" direction="pwr"/>
-<pin name="VDD@39" x="-55.88" y="68.58" length="short" direction="pwr"/>
-<pin name="PA4" x="-127" y="78.74" length="short"/>
-<pin name="PA5" x="-127" y="76.2" length="short"/>
-<pin name="PA6" x="-127" y="73.66" length="short"/>
-<pin name="PA7" x="-127" y="71.12" length="short"/>
-<pin name="PC4" x="-104.14" y="78.74" length="short" rot="R180"/>
-<pin name="PC5" x="-104.14" y="76.2" length="short" rot="R180"/>
-<pin name="PB0" x="-127" y="45.72" length="short"/>
-<pin name="PB1" x="-127" y="43.18" length="short"/>
-<pin name="PB2" x="-127" y="40.64" length="short"/>
-<pin name="PF11" x="-68.58" y="60.96" length="short" rot="R180"/>
-<pin name="PF12" x="-68.58" y="58.42" length="short" rot="R180"/>
-<pin name="VSS@51" x="-55.88" y="66.04" length="short" direction="pwr"/>
-<pin name="VDD@52" x="-55.88" y="63.5" length="short" direction="pwr"/>
-<pin name="PF13" x="-68.58" y="55.88" length="short" rot="R180"/>
-<pin name="PF14" x="-68.58" y="53.34" length="short" rot="R180"/>
-<pin name="PF15" x="-68.58" y="50.8" length="short" rot="R180"/>
-<pin name="PG0" x="-68.58" y="45.72" length="short" rot="R180"/>
-<pin name="PG1" x="-68.58" y="43.18" length="short" rot="R180"/>
-<pin name="PE7" x="-91.44" y="71.12" length="short"/>
-<pin name="PE8" x="-91.44" y="68.58" length="short"/>
-<pin name="PE9" x="-91.44" y="66.04" length="short"/>
-<pin name="VSS@61" x="-55.88" y="60.96" length="short" direction="pwr"/>
-<pin name="VDD@62" x="-55.88" y="58.42" length="short" direction="pwr"/>
-<pin name="PE10" x="-91.44" y="63.5" length="short"/>
-<pin name="PE11" x="-91.44" y="60.96" length="short"/>
-<pin name="PE12" x="-91.44" y="58.42" length="short"/>
-<pin name="PE13" x="-91.44" y="55.88" length="short"/>
-<pin name="PE14" x="-91.44" y="53.34" length="short"/>
-<pin name="PE15" x="-91.44" y="50.8" length="short"/>
-<pin name="PB10" x="-127" y="20.32" length="short"/>
-<pin name="PB11" x="-127" y="17.78" length="short"/>
-<pin name="VCAP_1" x="-55.88" y="55.88" length="short" direction="pwr"/>
-<pin name="VDD@72" x="-25.4" y="88.9" length="short" direction="pwr" rot="R180"/>
-<pin name="PB12" x="-127" y="15.24" length="short"/>
-<pin name="PB13" x="-127" y="12.7" length="short"/>
-<pin name="PB14" x="-127" y="10.16" length="short"/>
-<pin name="PB15" x="-127" y="7.62" length="short"/>
-<pin name="PD8" x="-104.14" y="25.4" length="short" rot="R180"/>
-<pin name="PD9" x="-104.14" y="22.86" length="short" rot="R180"/>
-<pin name="PD10" x="-104.14" y="20.32" length="short" rot="R180"/>
-<pin name="PD11" x="-104.14" y="17.78" length="short" rot="R180"/>
-<pin name="PD12" x="-104.14" y="15.24" length="short" rot="R180"/>
-<pin name="PD13" x="-104.14" y="12.7" length="short" rot="R180"/>
-<pin name="VSS@83" x="-25.4" y="86.36" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@84" x="-25.4" y="83.82" length="short" direction="pwr" rot="R180"/>
-<pin name="PD14" x="-104.14" y="10.16" length="short" rot="R180"/>
-<pin name="PD15" x="-104.14" y="7.62" length="short" rot="R180"/>
-<pin name="PG2" x="-68.58" y="40.64" length="short" rot="R180"/>
-<pin name="PG3" x="-68.58" y="38.1" length="short" rot="R180"/>
-<pin name="PG4" x="-68.58" y="35.56" length="short" rot="R180"/>
-<pin name="PG5" x="-68.58" y="33.02" length="short" rot="R180"/>
-<pin name="PG6" x="-68.58" y="30.48" length="short" rot="R180"/>
-<pin name="PG7" x="-68.58" y="27.94" length="short" rot="R180"/>
-<pin name="PG8" x="-68.58" y="25.4" length="short" rot="R180"/>
-<pin name="VSS@94" x="-25.4" y="81.28" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@95" x="-25.4" y="78.74" length="short" direction="pwr" rot="R180"/>
-<pin name="PC6" x="-104.14" y="73.66" length="short" rot="R180"/>
-<pin name="PC7" x="-104.14" y="71.12" length="short" rot="R180"/>
-<pin name="PC8" x="-104.14" y="68.58" length="short" rot="R180"/>
-<pin name="PC9" x="-104.14" y="66.04" length="short" rot="R180"/>
-<pin name="PA8" x="-127" y="68.58" length="short"/>
-<pin name="PA9" x="-127" y="66.04" length="short"/>
-<pin name="PA10" x="-127" y="63.5" length="short"/>
-<pin name="PA11" x="-127" y="60.96" length="short"/>
-<pin name="PA12" x="-127" y="58.42" length="short"/>
-<pin name="PA13" x="-127" y="55.88" length="short"/>
-<pin name="VCAP_2" x="-25.4" y="76.2" length="short" direction="pwr" rot="R180"/>
-<pin name="VSS@107" x="-25.4" y="73.66" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@108" x="-25.4" y="71.12" length="short" direction="pwr" rot="R180"/>
-<pin name="PA14" x="-127" y="53.34" length="short"/>
-<pin name="PA15" x="-127" y="50.8" length="short"/>
-<pin name="PC10" x="-104.14" y="63.5" length="short" rot="R180"/>
-<pin name="PC11" x="-104.14" y="60.96" length="short" rot="R180"/>
-<pin name="PC12" x="-104.14" y="58.42" length="short" rot="R180"/>
-<pin name="PD0" x="-104.14" y="45.72" length="short" rot="R180"/>
-<pin name="PD1" x="-104.14" y="43.18" length="short" rot="R180"/>
-<pin name="PD2" x="-104.14" y="40.64" length="short" rot="R180"/>
-<pin name="PD3" x="-104.14" y="38.1" length="short" rot="R180"/>
-<pin name="PD4" x="-104.14" y="35.56" length="short" rot="R180"/>
-<pin name="PD5" x="-104.14" y="33.02" length="short" rot="R180"/>
-<pin name="VSS@120" x="-25.4" y="68.58" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@121" x="-25.4" y="66.04" length="short" direction="pwr" rot="R180"/>
-<pin name="PD6" x="-104.14" y="30.48" length="short" rot="R180"/>
-<pin name="PD7" x="-104.14" y="27.94" length="short" rot="R180"/>
-<pin name="PG9" x="-68.58" y="22.86" length="short" rot="R180"/>
-<pin name="PG10" x="-68.58" y="20.32" length="short" rot="R180"/>
-<pin name="PG11" x="-68.58" y="17.78" length="short" rot="R180"/>
-<pin name="PG12" x="-68.58" y="15.24" length="short" rot="R180"/>
-<pin name="PG13" x="-68.58" y="12.7" length="short" rot="R180"/>
-<pin name="PG14" x="-68.58" y="10.16" length="short" rot="R180"/>
-<pin name="VSS@130" x="-25.4" y="63.5" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@131" x="-25.4" y="60.96" length="short" direction="pwr" rot="R180"/>
-<pin name="PG15" x="-68.58" y="7.62" length="short" rot="R180"/>
-<pin name="PB3" x="-127" y="38.1" length="short"/>
-<pin name="PB4" x="-127" y="35.56" length="short"/>
-<pin name="PB5" x="-127" y="33.02" length="short"/>
-<pin name="PB6" x="-127" y="30.48" length="short"/>
-<pin name="PB7" x="-127" y="27.94" length="short"/>
-<pin name="BOOT0" x="-91.44" y="30.48" length="short" direction="in"/>
-<pin name="PB8" x="-127" y="25.4" length="short"/>
-<pin name="PB9" x="-127" y="22.86" length="short"/>
-<pin name="PE0" x="-91.44" y="88.9" length="short"/>
-<pin name="PE1" x="-91.44" y="86.36" length="short"/>
-<pin name="PDR_ON" x="-25.4" y="58.42" length="short" direction="pwr" rot="R180"/>
-<pin name="VDD@144" x="-25.4" y="55.88" length="short" direction="pwr" rot="R180"/>
-<wire x1="-124.46" y1="91.44" x2="-124.46" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-124.46" y1="5.08" x2="-106.68" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-106.68" y1="5.08" x2="-106.68" y2="91.44" width="0.254" layer="94"/>
-<wire x1="-106.68" y1="91.44" x2="-124.46" y2="91.44" width="0.254" layer="94"/>
-<wire x1="-88.9" y1="91.44" x2="-88.9" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-88.9" y1="5.08" x2="-71.12" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-71.12" y1="5.08" x2="-71.12" y2="91.44" width="0.254" layer="94"/>
-<wire x1="-71.12" y1="91.44" x2="-88.9" y2="91.44" width="0.254" layer="94"/>
-<wire x1="-53.34" y1="91.44" x2="-53.34" y2="53.34" width="0.254" layer="94"/>
-<wire x1="-53.34" y1="53.34" x2="-27.94" y2="53.34" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="53.34" x2="-27.94" y2="91.44" width="0.254" layer="94"/>
-<wire x1="-27.94" y1="91.44" x2="-53.34" y2="91.44" width="0.254" layer="94"/>
+<pin name="PE2" x="-2.54" y="33.02" length="short"/>
+<pin name="PE3" x="-2.54" y="30.48" length="short"/>
+<pin name="PE4" x="-2.54" y="27.94" length="short"/>
+<pin name="PE5" x="-2.54" y="25.4" length="short"/>
+<pin name="PE6" x="-2.54" y="22.86" length="short"/>
+<pin name="VBAT" x="33.02" y="38.1" length="short" direction="pwr"/>
+<pin name="PC13" x="-15.24" y="5.08" length="short" rot="R180"/>
+<pin name="PC14" x="-15.24" y="2.54" length="short" rot="R180"/>
+<pin name="PC15" x="-15.24" y="0" length="short" rot="R180"/>
+<pin name="PF0" x="20.32" y="38.1" length="short" rot="R180"/>
+<pin name="PF1" x="20.32" y="35.56" length="short" rot="R180"/>
+<pin name="PF2" x="20.32" y="33.02" length="short" rot="R180"/>
+<pin name="PF3" x="20.32" y="30.48" length="short" rot="R180"/>
+<pin name="PF4" x="20.32" y="27.94" length="short" rot="R180"/>
+<pin name="PF5" x="20.32" y="25.4" length="short" rot="R180"/>
+<pin name="VSS@16" x="33.02" y="35.56" length="short" direction="pwr"/>
+<pin name="VDD@17" x="33.02" y="33.02" length="short" direction="pwr"/>
+<pin name="PF6" x="20.32" y="22.86" length="short" rot="R180"/>
+<pin name="PF7" x="20.32" y="20.32" length="short" rot="R180"/>
+<pin name="PF8" x="20.32" y="17.78" length="short" rot="R180"/>
+<pin name="PF9" x="20.32" y="15.24" length="short" rot="R180"/>
+<pin name="PF10" x="20.32" y="12.7" length="short" rot="R180"/>
+<pin name="PH0" x="-2.54" y="-7.62" length="short"/>
+<pin name="PH1" x="-2.54" y="-10.16" length="short"/>
+<pin name="NRST" x="-2.54" y="-27.94" length="short"/>
+<pin name="PC0" x="-15.24" y="38.1" length="short" rot="R180"/>
+<pin name="PC1" x="-15.24" y="35.56" length="short" rot="R180"/>
+<pin name="PC2" x="-15.24" y="33.02" length="short" rot="R180"/>
+<pin name="PC3" x="-15.24" y="30.48" length="short" rot="R180"/>
+<pin name="VDD@30" x="33.02" y="30.48" length="short" direction="pwr"/>
+<pin name="VSSA" x="33.02" y="27.94" length="short" direction="pwr"/>
+<pin name="VREF+" x="33.02" y="25.4" length="short" direction="pwr"/>
+<pin name="VDDA" x="33.02" y="22.86" length="short" direction="pwr"/>
+<pin name="PA0" x="-38.1" y="38.1" length="short"/>
+<pin name="PA1" x="-38.1" y="35.56" length="short"/>
+<pin name="PA2" x="-38.1" y="33.02" length="short"/>
+<pin name="PA3" x="-38.1" y="30.48" length="short"/>
+<pin name="VSS@38" x="33.02" y="20.32" length="short" direction="pwr"/>
+<pin name="VDD@39" x="33.02" y="17.78" length="short" direction="pwr"/>
+<pin name="PA4" x="-38.1" y="27.94" length="short"/>
+<pin name="PA5" x="-38.1" y="25.4" length="short"/>
+<pin name="PA6" x="-38.1" y="22.86" length="short"/>
+<pin name="PA7" x="-38.1" y="20.32" length="short"/>
+<pin name="PC4" x="-15.24" y="27.94" length="short" rot="R180"/>
+<pin name="PC5" x="-15.24" y="25.4" length="short" rot="R180"/>
+<pin name="PB0" x="-38.1" y="-5.08" length="short"/>
+<pin name="PB1" x="-38.1" y="-7.62" length="short"/>
+<pin name="PB2" x="-38.1" y="-10.16" length="short"/>
+<pin name="PF11" x="20.32" y="10.16" length="short" rot="R180"/>
+<pin name="PF12" x="20.32" y="7.62" length="short" rot="R180"/>
+<pin name="VSS@51" x="33.02" y="15.24" length="short" direction="pwr"/>
+<pin name="VDD@52" x="33.02" y="12.7" length="short" direction="pwr"/>
+<pin name="PF13" x="20.32" y="5.08" length="short" rot="R180"/>
+<pin name="PF14" x="20.32" y="2.54" length="short" rot="R180"/>
+<pin name="PF15" x="20.32" y="0" length="short" rot="R180"/>
+<pin name="PG0" x="20.32" y="-5.08" length="short" rot="R180"/>
+<pin name="PG1" x="20.32" y="-7.62" length="short" rot="R180"/>
+<pin name="PE7" x="-2.54" y="20.32" length="short"/>
+<pin name="PE8" x="-2.54" y="17.78" length="short"/>
+<pin name="PE9" x="-2.54" y="15.24" length="short"/>
+<pin name="VSS@61" x="33.02" y="10.16" length="short" direction="pwr"/>
+<pin name="VDD@62" x="33.02" y="7.62" length="short" direction="pwr"/>
+<pin name="PE10" x="-2.54" y="12.7" length="short"/>
+<pin name="PE11" x="-2.54" y="10.16" length="short"/>
+<pin name="PE12" x="-2.54" y="7.62" length="short"/>
+<pin name="PE13" x="-2.54" y="5.08" length="short"/>
+<pin name="PE14" x="-2.54" y="2.54" length="short"/>
+<pin name="PE15" x="-2.54" y="0" length="short"/>
+<pin name="PB10" x="-38.1" y="-30.48" length="short"/>
+<pin name="PB11" x="-38.1" y="-33.02" length="short"/>
+<pin name="VCAP_1" x="33.02" y="5.08" length="short" direction="pwr"/>
+<pin name="VDD@72" x="63.5" y="38.1" length="short" direction="pwr" rot="R180"/>
+<pin name="PB12" x="-38.1" y="-35.56" length="short"/>
+<pin name="PB13" x="-38.1" y="-38.1" length="short"/>
+<pin name="PB14" x="-38.1" y="-40.64" length="short"/>
+<pin name="PB15" x="-38.1" y="-43.18" length="short"/>
+<pin name="PD8" x="-15.24" y="-25.4" length="short" rot="R180"/>
+<pin name="PD9" x="-15.24" y="-27.94" length="short" rot="R180"/>
+<pin name="PD10" x="-15.24" y="-30.48" length="short" rot="R180"/>
+<pin name="PD11" x="-15.24" y="-33.02" length="short" rot="R180"/>
+<pin name="PD12" x="-15.24" y="-35.56" length="short" rot="R180"/>
+<pin name="PD13" x="-15.24" y="-38.1" length="short" rot="R180"/>
+<pin name="VSS@83" x="63.5" y="35.56" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@84" x="63.5" y="33.02" length="short" direction="pwr" rot="R180"/>
+<pin name="PD14" x="-15.24" y="-40.64" length="short" rot="R180"/>
+<pin name="PD15" x="-15.24" y="-43.18" length="short" rot="R180"/>
+<pin name="PG2" x="20.32" y="-10.16" length="short" rot="R180"/>
+<pin name="PG3" x="20.32" y="-12.7" length="short" rot="R180"/>
+<pin name="PG4" x="20.32" y="-15.24" length="short" rot="R180"/>
+<pin name="PG5" x="20.32" y="-17.78" length="short" rot="R180"/>
+<pin name="PG6" x="20.32" y="-20.32" length="short" rot="R180"/>
+<pin name="PG7" x="20.32" y="-22.86" length="short" rot="R180"/>
+<pin name="PG8" x="20.32" y="-25.4" length="short" rot="R180"/>
+<pin name="VSS@94" x="63.5" y="30.48" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@95" x="63.5" y="27.94" length="short" direction="pwr" rot="R180"/>
+<pin name="PC6" x="-15.24" y="22.86" length="short" rot="R180"/>
+<pin name="PC7" x="-15.24" y="20.32" length="short" rot="R180"/>
+<pin name="PC8" x="-15.24" y="17.78" length="short" rot="R180"/>
+<pin name="PC9" x="-15.24" y="15.24" length="short" rot="R180"/>
+<pin name="PA8" x="-38.1" y="17.78" length="short"/>
+<pin name="PA9" x="-38.1" y="15.24" length="short"/>
+<pin name="PA10" x="-38.1" y="12.7" length="short"/>
+<pin name="PA11" x="-38.1" y="10.16" length="short"/>
+<pin name="PA12" x="-38.1" y="7.62" length="short"/>
+<pin name="PA13" x="-38.1" y="5.08" length="short"/>
+<pin name="VCAP_2" x="63.5" y="25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="VSS@107" x="63.5" y="22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@108" x="63.5" y="20.32" length="short" direction="pwr" rot="R180"/>
+<pin name="PA14" x="-38.1" y="2.54" length="short"/>
+<pin name="PA15" x="-38.1" y="0" length="short"/>
+<pin name="PC10" x="-15.24" y="12.7" length="short" rot="R180"/>
+<pin name="PC11" x="-15.24" y="10.16" length="short" rot="R180"/>
+<pin name="PC12" x="-15.24" y="7.62" length="short" rot="R180"/>
+<pin name="PD0" x="-15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="PD1" x="-15.24" y="-7.62" length="short" rot="R180"/>
+<pin name="PD2" x="-15.24" y="-10.16" length="short" rot="R180"/>
+<pin name="PD3" x="-15.24" y="-12.7" length="short" rot="R180"/>
+<pin name="PD4" x="-15.24" y="-15.24" length="short" rot="R180"/>
+<pin name="PD5" x="-15.24" y="-17.78" length="short" rot="R180"/>
+<pin name="VSS@120" x="63.5" y="17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@121" x="63.5" y="15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="PD6" x="-15.24" y="-20.32" length="short" rot="R180"/>
+<pin name="PD7" x="-15.24" y="-22.86" length="short" rot="R180"/>
+<pin name="PG9" x="20.32" y="-27.94" length="short" rot="R180"/>
+<pin name="PG10" x="20.32" y="-30.48" length="short" rot="R180"/>
+<pin name="PG11" x="20.32" y="-33.02" length="short" rot="R180"/>
+<pin name="PG12" x="20.32" y="-35.56" length="short" rot="R180"/>
+<pin name="PG13" x="20.32" y="-38.1" length="short" rot="R180"/>
+<pin name="PG14" x="20.32" y="-40.64" length="short" rot="R180"/>
+<pin name="VSS@130" x="63.5" y="12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@131" x="63.5" y="10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="PG15" x="20.32" y="-43.18" length="short" rot="R180"/>
+<pin name="PB3" x="-38.1" y="-12.7" length="short"/>
+<pin name="PB4" x="-38.1" y="-15.24" length="short"/>
+<pin name="PB5" x="-38.1" y="-17.78" length="short"/>
+<pin name="PB6" x="-38.1" y="-20.32" length="short"/>
+<pin name="PB7" x="-38.1" y="-22.86" length="short"/>
+<pin name="BOOT0" x="-2.54" y="-20.32" length="short" direction="in"/>
+<pin name="PB8" x="-38.1" y="-25.4" length="short"/>
+<pin name="PB9" x="-38.1" y="-27.94" length="short"/>
+<pin name="PE0" x="-2.54" y="38.1" length="short"/>
+<pin name="PE1" x="-2.54" y="35.56" length="short"/>
+<pin name="PDR_ON" x="63.5" y="7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD@144" x="63.5" y="5.08" length="short" direction="pwr" rot="R180"/>
+<wire x1="-35.56" y1="40.64" x2="-35.56" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-35.56" y1="-45.72" x2="-17.78" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-45.72" x2="-17.78" y2="40.64" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="40.64" x2="-35.56" y2="40.64" width="0.254" layer="94"/>
+<wire x1="0" y1="40.64" x2="0" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="0" y1="-45.72" x2="17.78" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-45.72" x2="17.78" y2="40.64" width="0.254" layer="94"/>
+<wire x1="17.78" y1="40.64" x2="0" y2="40.64" width="0.254" layer="94"/>
+<wire x1="35.56" y1="40.64" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="2.54" x2="60.96" y2="2.54" width="0.254" layer="94"/>
+<wire x1="60.96" y1="2.54" x2="60.96" y2="40.64" width="0.254" layer="94"/>
+<wire x1="60.96" y1="40.64" x2="35.56" y2="40.64" width="0.254" layer="94"/>
+<text x="33.02" y="-7.62" size="6.35" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="33.02" y="-15.24" size="5.08" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
 <symbol name="L3GD20">
 <description>L3GD20 Gyroscope; Mfr.: ST Microelectronics; Specs: http://www.st.com/web/en/resource/technical/document/datasheet/DM00036465.pdf</description>
@@ -15147,8 +15216,8 @@ Datasheet: http://www.issi.com/WW/pdf/42-45S16400J.pdf</description>
 <rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
 <wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
 <wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<pin name="NEG" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="POS" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="POS" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="NEG" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-4.826" y="-4.699" size="1.778" layer="95">&gt;NAME</text>
 <text x="-4.826" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="0.254" y1="-2.032" x2="0.254" y2="2.032" width="0.127" layer="94"/>
@@ -15156,11 +15225,11 @@ Datasheet: http://www.issi.com/WW/pdf/42-45S16400J.pdf</description>
 <wire x1="1.016" y1="2.032" x2="1.016" y2="0" width="0.127" layer="94"/>
 <wire x1="1.016" y1="0" x2="1.016" y2="-2.032" width="0.127" layer="94"/>
 <wire x1="1.016" y1="-2.032" x2="0.254" y2="-2.032" width="0.127" layer="94"/>
-<wire x1="1.778" y1="1.778" x2="1.778" y2="1.27" width="0.127" layer="94"/>
-<wire x1="1.524" y1="1.524" x2="2.032" y2="1.524" width="0.127" layer="94"/>
 <wire x1="-1.27" y1="1.524" x2="-1.778" y2="1.524" width="0.127" layer="94"/>
+<wire x1="2.13" y1="1.624" x2="1.622" y2="1.624" width="0.127" layer="94"/>
+<wire x1="-1.524" y1="1.78" x2="-1.524" y2="1.272" width="0.127" layer="94"/>
 </symbol>
-<symbol name="DIODE_SCHOTTKY">
+<symbol name="DIODE">
 <wire x1="1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
@@ -15187,6 +15256,61 @@ Datasheet: http://www.issi.com/WW/pdf/42-45S16400J.pdf</description>
 <wire x1="0.508" y1="-1.27" x2="1.524" y2="1.27" width="0.254" layer="94"/>
 <wire x1="1.524" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-1.27" x2="3.048" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CON-HDR-3P">
+<description>Header, 0.1", 3-position</description>
+<pin name="1" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="2" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="-2.54" length="short" rot="R180"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="-12.7" size="6.35" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="-20.32" size="5.08" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="DIODE_SCHOTTKY-DIODE-1">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.905" y1="1.27" x2="1.905" y2="1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="-1.016" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<pin name="C" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<text x="-4.826" y="-3.683" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-5.969" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<pin name="A" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DIODE_2SCHOTTKY">
+<wire x1="-3.81" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="-1.016" x2="-1.905" y2="-1.27" width="0.254" layer="94"/>
+<pin name="3" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="1.27" y1="-1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="4.445" y1="1.27" x2="4.445" y2="1.016" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="3.175" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.175" y1="-1.016" x2="3.175" y2="-1.27" width="0.254" layer="94"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="-4.826" y="-3.683" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-5.969" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -15345,9 +15469,10 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="32F429ZIT6U">
+<deviceset name="32F429ZIT6U" prefix="IC">
+<description>STMicroelectronics CPU chip</description>
 <gates>
-<gate name="G$1" symbol="32F429ZIT6U" x="81.28" y="-43.18"/>
+<gate name="G$1" symbol="32F429ZIT6U" x="86.36" y="-43.18"/>
 </gates>
 <devices>
 <device name="" package="LQFP144">
@@ -15570,19 +15695,19 @@ Datasheet: http://www.mouser.com/ds/2/212/KEM_C1002_X7R_SMD-357932.pdf</descript
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CAP-ALU-RAD-47UF-16V">
+<deviceset name="CPL-CAP-ALU-RAD-47UF-16V" prefix="C">
 <description>Aluminum Electrolytic Capacitor (Modeled on UKL1C470KEDANA);
 Mfr: Nichicon;
 Specs: 47uF, 16V, Radial Leaded;
 Datasheet: http://www.mouser.com/ds/2/293/e-kl-14230.pdf</description>
 <gates>
-<gate name="C1" symbol="C" x="2.54" y="0"/>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="UKL1C470KEDXXX">
+<device name="" package="C-RAD-6.3MM">
 <connects>
-<connect gate="C1" pin="1" pad="POS"/>
-<connect gate="C1" pin="2" pad="NEG"/>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15627,17 +15752,17 @@ Datasheet: http://www.mouser.com/ds/2/400/mlcc_commercial_midvoltage_en-469114.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CAP-ALU-RAD-100UF-50V">
+<deviceset name="CPL-CAP-ALU-RAD-100UF-50V" prefix="C">
 <description>Aluminum Electrolytic Capacitor (100uF, 50V, 10%);
 Dia.: 10mm</description>
 <gates>
-<gate name="C$1" symbol="CPOLAR" x="0" y="0"/>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
 </gates>
 <devices>
 <device name="UKL1H101LPD" package="C-RAD-10MM">
 <connects>
-<connect gate="C$1" pin="NEG" pad="2"/>
-<connect gate="C$1" pin="POS" pad="1"/>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15645,18 +15770,18 @@ Dia.: 10mm</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-DIO-SMBJ43A-DO214AA">
+<deviceset name="CPL-DIO-SMBJ43A-DO214AA" prefix="D">
 <description>SMBJ-Series Voltage Suppressor Diode;
 3.5V, 100A, 600W(max), 47.8-54.9 BD Voltage
 Datasheet: http://www.mouser.com/ds/2/54/SMBJ-51809.pdf</description>
 <gates>
-<gate name="D$1" symbol="DIODE_SCHOTTKY" x="0" y="0"/>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="DO-214AA">
 <connects>
-<connect gate="D$1" pin="A" pad="1"/>
-<connect gate="D$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="A" pad="C"/>
+<connect gate="G$1" pin="C" pad="A"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15751,6 +15876,115 @@ Datasheet: http://www.mouser.com/ds/2/427/rcwe-244377.pdf</description>
 <connects>
 <connect gate="R$1" pin="1" pad="1"/>
 <connect gate="R$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-HEADER-0.1IN-3P-M" prefix="J">
+<gates>
+<gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-HDR-3POS-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-15K-0.1W" prefix="R">
+<description>Resistor: 15kOhm, 0.1W, 1%;
+Package: 0603
+Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-4.7K-0.1W" prefix="R">
+<description>Resistor: 10kOhm, 0.1W, 1%;
+Package: 0603;
+Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-10K-0.1W" prefix="R">
+<description>Resistor: 10kOhm, 0.1W, 1%;
+Package: 0603;
+Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-1K-0.1W" prefix="R">
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DIO-BAT54S-SOT23" prefix="D">
+<description>Diode: BAT54S (Schottky Diode)
+Datasheet: http://www.mouser.com/ds/2/149/BAT54S-181307.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE_2SCHOTTKY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
