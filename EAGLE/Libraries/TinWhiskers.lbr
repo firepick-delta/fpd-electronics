@@ -15992,6 +15992,25 @@ Datasheet: http://www.mouser.com/ds/2/149/BAT54S-181307.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPL-CAP-X5R-4.7UF-10V">
+<description>Capacitor: 4.7uF, 10V, 10%
+Package: 0603;
+Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc_all_e.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
