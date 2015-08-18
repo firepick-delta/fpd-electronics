@@ -1076,25 +1076,6 @@ Datasheet: http://product.tdk.com/en/catalog/datasheets/mlcc_commercial_general_
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CAP-X7R-0603-0.1UF-35V" prefix="C">
-<description>Capacitor: 0.1uF, 35V, 10%, X7R;
-Package: 0603;
-Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</description>
-<gates>
-<gate name="G$1" symbol="C" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Aesthetics">
@@ -1147,40 +1128,40 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
+<part name="C4" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
 <part name="C1" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.47UF-35V" device="" value="470 nF"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="R1" library="TinWhiskers" deviceset="CPL-RES-1206-0.22-0.5W" device="" value="0.22"/>
 <part name="R2" library="TinWhiskers" deviceset="CPL-RES-1206-0.22-0.5W" device="" value="0.22"/>
-<part name="R3" library="TinWhiskers" deviceset="CPL-RES-1206-0.22-0.5W" device="" value="0.22"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C8" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
-<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
+<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
+<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="TinWhiskers" deviceset="CPL-DIO-MSS1P6-MICROSMP" device="" value="MSS1P6"/>
 <part name="D2" library="TinWhiskers" deviceset="CPL-DIO-MSS1P6-MICROSMP" device="" value="MSS1P6"/>
 <part name="D3" library="TinWhiskers" deviceset="CPL-DIO-MSS1P6-MICROSMP" device="" value="MSS1P6"/>
 <part name="D4" library="TinWhiskers" deviceset="CPL-DIO-MSS1P6-MICROSMP" device="" value="MSS1P6"/>
+<part name="C8" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-470PF-100V" device="" value="470pF"/>
+<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-470PF-100V" device="" value="470pF"/>
 <part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-470PF-100V" device="" value="470pF"/>
 <part name="C11" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-470PF-100V" device="" value="470pF"/>
-<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-470PF-100V" device="" value="470pF"/>
-<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-470PF-100V" device="" value="470pF"/>
-<part name="C15" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100nF"/>
-<part name="C14" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100nF"/>
+<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100nF"/>
+<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100nF"/>
 <part name="GND14" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND15" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND16" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND17" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-22NF-50V" device="&quot;" value="22 nF"/>
+<part name="C5" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-22NF-50V" device="&quot;" value="22 nF"/>
 <part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device=""/>
 <part name="J1" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device=""/>
 <part name="J3" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device=""/>
 <part name="U2" library="TinWhiskers" deviceset="CPL-REG-LIN-5V-0.1A" device=""/>
-<part name="C5" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.33UF-35V" device="" value="0.33uF"/>
-<part name="C4" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C2" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.33UF-35V" device="" value="0.33uF"/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="C3" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -1218,7 +1199,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <instance part="GND3" gate="1" x="190.5" y="88.9"/>
 <instance part="GND4" gate="1" x="172.72" y="88.9"/>
 <instance part="GND5" gate="1" x="147.32" y="88.9"/>
-<instance part="C6" gate="C1" x="210.82" y="172.72" smashed="yes">
+<instance part="C4" gate="C1" x="210.82" y="172.72" smashed="yes">
 <attribute name="NAME" x="211.328" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.566" y="170.307" size="1.778" layer="96"/>
 </instance>
@@ -1228,21 +1209,21 @@ or MSS1P3 (VM limited to 30V)</text>
 </instance>
 <instance part="GND8" gate="1" x="104.14" y="157.48"/>
 <instance part="GND9" gate="1" x="208.28" y="88.9"/>
-<instance part="R2" gate="R$1" x="223.52" y="104.14" smashed="yes" rot="R90">
+<instance part="R1" gate="R$1" x="223.52" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="224.79" y="108.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="224.79" y="100.838" size="1.778" layer="96"/>
 </instance>
-<instance part="R3" gate="R$1" x="236.22" y="104.14" smashed="yes" rot="R90">
+<instance part="R2" gate="R$1" x="236.22" y="104.14" smashed="yes" rot="R90">
 <attribute name="NAME" x="236.982" y="108.1786" size="1.778" layer="95"/>
 <attribute name="VALUE" x="236.728" y="99.568" size="1.778" layer="96"/>
 </instance>
 <instance part="GND7" gate="1" x="223.52" y="88.9"/>
 <instance part="GND10" gate="1" x="236.22" y="88.9"/>
-<instance part="C8" gate="C1" x="259.08" y="170.18" smashed="yes" rot="R270">
+<instance part="C6" gate="C1" x="259.08" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="259.842" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="259.334" y="168.275" size="1.778" layer="96"/>
 </instance>
-<instance part="C9" gate="C1" x="271.78" y="170.18" smashed="yes" rot="R270">
+<instance part="C7" gate="C1" x="271.78" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="272.542" y="173.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="272.288" y="168.529" size="1.778" layer="96"/>
 </instance>
@@ -1264,27 +1245,27 @@ or MSS1P3 (VM limited to 30V)</text>
 <attribute name="NAME" x="238.252" y="134.493" size="1.778" layer="95"/>
 <attribute name="VALUE" x="244.729" y="126.492" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C10" gate="G$1" x="254" y="119.38" smashed="yes" rot="R270">
+<instance part="C8" gate="G$1" x="254" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="254.508" y="122.047" size="1.778" layer="95"/>
 <attribute name="VALUE" x="254.889" y="117.348" size="1.778" layer="96"/>
 </instance>
-<instance part="C11" gate="G$1" x="266.7" y="119.38" smashed="yes" rot="R270">
+<instance part="C9" gate="G$1" x="266.7" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="267.208" y="122.047" size="1.778" layer="95"/>
 <attribute name="VALUE" x="267.462" y="117.475" size="1.778" layer="96"/>
 </instance>
-<instance part="C12" gate="G$1" x="279.4" y="119.38" smashed="yes" rot="R270">
+<instance part="C10" gate="G$1" x="279.4" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="279.908" y="122.047" size="1.778" layer="95"/>
 <attribute name="VALUE" x="280.162" y="117.475" size="1.778" layer="96"/>
 </instance>
-<instance part="C13" gate="G$1" x="292.1" y="119.38" smashed="yes" rot="R270">
+<instance part="C11" gate="G$1" x="292.1" y="119.38" smashed="yes" rot="R270">
 <attribute name="NAME" x="292.862" y="122.047" size="1.778" layer="95"/>
 <attribute name="VALUE" x="292.608" y="117.475" size="1.778" layer="96"/>
 </instance>
-<instance part="C15" gate="C1" x="243.84" y="104.14" smashed="yes" rot="R270">
+<instance part="C13" gate="C1" x="243.84" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="244.348" y="107.061" size="1.778" layer="95"/>
 <attribute name="VALUE" x="244.348" y="101.981" size="1.778" layer="96"/>
 </instance>
-<instance part="C14" gate="C1" x="213.36" y="104.14" smashed="yes" rot="R270">
+<instance part="C12" gate="C1" x="213.36" y="104.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="214.122" y="106.807" size="1.778" layer="95"/>
 <attribute name="VALUE" x="213.868" y="101.981" size="1.778" layer="96"/>
 </instance>
@@ -1292,7 +1273,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <instance part="GND15" gate="1" x="266.7" y="88.9"/>
 <instance part="GND16" gate="1" x="279.4" y="88.9"/>
 <instance part="GND17" gate="1" x="292.1" y="88.9"/>
-<instance part="C7" gate="C1" x="210.82" y="162.56" smashed="yes" rot="R90">
+<instance part="C5" gate="C1" x="210.82" y="162.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="214.884" y="164.465" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="219.456" y="160.147" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -1306,15 +1287,15 @@ or MSS1P3 (VM limited to 30V)</text>
 <instance part="U2" gate="G$1" x="50.8" y="172.72" smashed="yes">
 <attribute name="NAME" x="49.53" y="176.276" size="1.778" layer="125" font="vector"/>
 </instance>
-<instance part="C5" gate="G$1" x="38.1" y="167.64" smashed="yes" rot="R90">
+<instance part="C2" gate="G$1" x="38.1" y="167.64" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.862" y="168.021" size="1.778" layer="95"/>
 <attribute name="VALUE" x="39.116" y="162.941" size="1.778" layer="96"/>
 </instance>
-<instance part="C4" gate="G$1" x="63.5" y="167.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="64.516" y="168.275" size="1.778" layer="95"/>
-<attribute name="VALUE" x="64.77" y="162.941" size="1.778" layer="96"/>
-</instance>
 <instance part="GND13" gate="1" x="50.8" y="154.94"/>
+<instance part="C3" gate="C1" x="63.5" y="167.64" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.024" y="168.021" size="1.778" layer="95"/>
+<attribute name="VALUE" x="65.024" y="162.941" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1393,12 +1374,12 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="337.566" y1="180.34" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="180.34" x2="259.08" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="180.34" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C6" gate="C1" pin="2"/>
+<pinref part="C4" gate="C1" pin="2"/>
 <wire x1="213.36" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="172.72" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C8" gate="C1" pin="1"/>
+<pinref part="C6" gate="C1" pin="1"/>
 <wire x1="259.08" y1="175.26" x2="259.08" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C9" gate="C1" pin="1"/>
+<pinref part="C7" gate="C1" pin="1"/>
 <wire x1="271.78" y1="175.26" x2="271.78" y2="180.34" width="0.1524" layer="91"/>
 <junction x="259.08" y="180.34"/>
 <junction x="271.78" y="180.34"/>
@@ -1422,7 +1403,7 @@ or MSS1P3 (VM limited to 30V)</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="172.72" x2="38.1" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="172.72" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="172.72" x2="30.48" y2="172.72" width="0.1524" layer="91"/>
@@ -1442,7 +1423,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="218.44" y1="139.7" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="139.7" x2="254" y2="139.7" width="0.1524" layer="91"/>
 <junction x="218.44" y="139.7"/>
-<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="254" y1="139.7" x2="312.42" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="254" y1="124.46" x2="254" y2="139.7" width="0.1524" layer="91"/>
 <junction x="254" y="139.7"/>
@@ -1461,7 +1442,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="226.06" y1="142.24" x2="226.06" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="142.24" x2="266.7" y2="142.24" width="0.1524" layer="91"/>
 <junction x="226.06" y="142.24"/>
-<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="C9" gate="G$1" pin="1"/>
 <wire x1="266.7" y1="142.24" x2="309.88" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="266.7" y1="124.46" x2="266.7" y2="142.24" width="0.1524" layer="91"/>
 <junction x="266.7" y="142.24"/>
@@ -1477,7 +1458,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="233.68" y1="134.62" x2="233.68" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="147.32" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 <junction x="233.68" y="147.32"/>
-<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="279.4" y1="147.32" x2="307.34" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="279.4" y1="124.46" x2="279.4" y2="147.32" width="0.1524" layer="91"/>
 <junction x="279.4" y="147.32"/>
@@ -1496,7 +1477,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="241.3" y1="149.86" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="149.86" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
 <junction x="241.3" y="149.86"/>
-<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="149.86" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="124.46" x2="292.1" y2="149.86" width="0.1524" layer="91"/>
 <junction x="292.1" y="149.86"/>
@@ -1557,67 +1538,67 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="208.28" y1="116.84" x2="208.28" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R2" gate="R$1" pin="1"/>
+<pinref part="R1" gate="R$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="223.52" y1="99.06" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C14" gate="C1" pin="2"/>
+<pinref part="C12" gate="C1" pin="2"/>
 <wire x1="223.52" y1="96.52" x2="223.52" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="101.6" x2="213.36" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="96.52" x2="223.52" y2="96.52" width="0.1524" layer="91"/>
 <junction x="223.52" y="96.52"/>
 </segment>
 <segment>
-<pinref part="R3" gate="R$1" pin="1"/>
+<pinref part="R2" gate="R$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="236.22" y1="99.06" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="C15" gate="C1" pin="2"/>
+<pinref part="C13" gate="C1" pin="2"/>
 <wire x1="236.22" y1="96.52" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="101.6" x2="243.84" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="96.52" x2="236.22" y2="96.52" width="0.1524" layer="91"/>
 <junction x="236.22" y="96.52"/>
 </segment>
 <segment>
-<pinref part="C8" gate="C1" pin="2"/>
+<pinref part="C6" gate="C1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="259.08" y1="167.64" x2="259.08" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C9" gate="C1" pin="2"/>
+<pinref part="C7" gate="C1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="271.78" y1="167.64" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <wire x1="254" y1="116.84" x2="254" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
+<pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="266.7" y1="116.84" x2="266.7" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C12" gate="G$1" pin="2"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="116.84" x2="279.4" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="C13" gate="G$1" pin="2"/>
+<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="292.1" y1="116.84" x2="292.1" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="2"/>
 <wire x1="50.8" y1="167.64" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="162.56" x2="63.5" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
+<pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="162.56" x2="38.1" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="160.02" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
 <junction x="50.8" y="160.02"/>
 <wire x1="50.8" y1="160.02" x2="50.8" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="C3" gate="C1" pin="1"/>
 </segment>
 </net>
 <net name="CLK" class="0">
@@ -1692,12 +1673,12 @@ or MSS1P3 (VM limited to 30V)</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="3"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="58.42" y1="172.72" x2="63.5" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="172.72" x2="63.5" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="172.72" x2="71.12" y2="172.72" width="0.1524" layer="91"/>
 <junction x="63.5" y="172.72"/>
 <label x="66.04" y="172.72" size="1.778" layer="95"/>
+<pinref part="C3" gate="C1" pin="2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1706,7 +1687,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="205.74" y1="165.1" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="CPI"/>
 <wire x1="205.74" y1="162.56" x2="203.2" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="C7" gate="C1" pin="2"/>
+<pinref part="C5" gate="C1" pin="2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -1715,13 +1696,13 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="203.2" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="160.02" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="157.48" x2="210.82" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C7" gate="C1" pin="1"/>
+<pinref part="C5" gate="C1" pin="1"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCP"/>
-<pinref part="C6" gate="C1" pin="1"/>
+<pinref part="C4" gate="C1" pin="1"/>
 <wire x1="203.2" y1="175.26" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="175.26" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
 </segment>
@@ -1735,7 +1716,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="223.52" y1="127" x2="226.06" y2="127" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="127" x2="226.06" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="127" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R2" gate="R$1" pin="2"/>
+<pinref part="R1" gate="R$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="BRA"/>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="109.728" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="132.08" x2="214.122" y2="132.08" width="0.1524" layer="91"/>
@@ -1743,7 +1724,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="214.122" y1="127" x2="218.44" y2="127" width="0.1524" layer="91"/>
 <junction x="218.44" y="127"/>
 <junction x="223.52" y="127"/>
-<pinref part="C14" gate="C1" pin="1"/>
+<pinref part="C12" gate="C1" pin="1"/>
 <wire x1="213.36" y1="109.22" x2="213.36" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="111.76" x2="223.52" y2="111.76" width="0.1524" layer="91"/>
 <junction x="223.52" y="111.76"/>
@@ -1758,7 +1739,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="236.22" y1="124.46" x2="241.3" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="124.46" x2="241.3" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="124.46" x2="236.22" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="R3" gate="R$1" pin="2"/>
+<pinref part="R2" gate="R$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="BRB"/>
 <wire x1="236.22" y1="111.76" x2="236.22" y2="109.728" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="127" x2="213.36" y2="127" width="0.1524" layer="91"/>
@@ -1766,7 +1747,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="213.36" y1="124.46" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
 <junction x="233.68" y="124.46"/>
 <junction x="236.22" y="124.46"/>
-<pinref part="C15" gate="C1" pin="1"/>
+<pinref part="C13" gate="C1" pin="1"/>
 <wire x1="236.22" y1="111.76" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="111.76" x2="243.84" y2="109.22" width="0.1524" layer="91"/>
 <junction x="236.22" y="111.76"/>
