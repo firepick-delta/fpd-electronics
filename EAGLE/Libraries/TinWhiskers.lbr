@@ -9622,6 +9622,24 @@ Note that the center round dot is for optical centering / testing, not an actual
 <text x="2.7" y="0.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.7" y="-0.5" size="1" layer="25" font="vector" ratio="10">&gt;Value</text>
 </package>
+<package name="ETH-MAGJACK-PULSE">
+</package>
+<package name="ETH-MAGJACK">
+<hole x="-5.715" y="-3.685" drill="3.3"/>
+<hole x="5.715" y="-3.685" drill="3.3"/>
+<smd name="LED_G" x="-5.715" y="-7.925" dx="3.425" dy="4.58" layer="1"/>
+<smd name="LED_Y" x="5.715" y="-7.925" dx="3.425" dy="4.58" layer="1"/>
+<smd name="1" x="-4.445" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="2" x="-3.175" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="3" x="-1.905" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="4" x="-0.635" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="5" x="0.635" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="6" x="1.905" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="7" x="3.175" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<smd name="8" x="4.445" y="7.925" dx="0.76" dy="4.18" layer="1"/>
+<text x="9.3" y="2.5" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="9.3" y="0.8" size="1.27" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -15902,6 +15920,26 @@ Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</descriptio
 <text x="22.86" y="30.48" size="1.778" layer="104" font="vector" ratio="12">&gt;Name</text>
 <text x="22.86" y="27.94" size="1.27" layer="127" font="vector" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="MAGJACK">
+<description>Ethernet MagJack;
+Datasheet: http://www.mouser.com/ds/2/336/-180197.pdf</description>
+<pin name="5" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="6" x="-10.16" y="5.08" length="short" direction="pas"/>
+<pin name="7" x="-10.16" y="7.62" length="short" direction="pas"/>
+<pin name="8" x="-10.16" y="10.16" length="short" direction="pas"/>
+<pin name="4" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="-5.08" length="short" direction="pas"/>
+<pin name="3" x="-10.16" y="-2.54" length="short" direction="pas"/>
+<pin name="1" x="-10.16" y="-7.62" length="short" direction="pas"/>
+<pin name="LED_Y" x="15.24" y="15.24" length="short" direction="pas" rot="R270"/>
+<pin name="LED_G" x="15.24" y="-12.7" length="short" direction="pas" rot="R90"/>
+<wire x1="17.78" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="17.78" y2="-10.16" width="0.254" layer="94"/>
+<text x="22.86" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="22.86" y="7.62" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -17021,6 +17059,50 @@ Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</descriptio
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
 <connect gate="G$1" pin="PAD" pad="PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-ETH-MAGJACK-PULSE" prefix="J">
+<description>Ethernet MagJack;
+Datasheet: http://www.mouser.com/ds/2/336/-180197.pdf</description>
+<gates>
+<gate name="G$1" symbol="MAGJACK" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="ETH-MAGJACK">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="LED_G" pad="LED_G"/>
+<connect gate="G$1" pin="LED_Y" pad="LED_Y"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-22R-0.1W" prefix="R">
+<description>Resistor, 22 Ohm, 0.1W, 10%;
+Package: 0603</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
