@@ -1732,7 +1732,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <junction x="223.52" y="111.76"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="BRB" class="0">
 <segment>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="233.68" y1="129.54" x2="233.68" y2="124.46" width="0.1524" layer="91"/>
