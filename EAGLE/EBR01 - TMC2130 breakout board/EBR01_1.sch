@@ -1709,7 +1709,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="205.74" y1="175.26" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="BRA" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="218.44" y1="129.54" x2="218.44" y2="127" width="0.1524" layer="91"/>
