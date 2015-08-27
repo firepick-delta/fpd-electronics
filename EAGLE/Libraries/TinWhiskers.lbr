@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -9814,6 +9814,272 @@ Datasheet:</description>
 <wire x1="2.794" y1="1.524" x2="2.794" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="51"/>
 </package>
+<package name="FIDUCIAL">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<text x="-1.27" y="1.27" size="1.27" layer="51">&gt;NAME</text>
+</package>
+<package name="FIDUCIAL_19X">
+<smd name="1" x="-90" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-91" y="0" curve="90"/>
+<vertex x="-90" y="-1" curve="90"/>
+<vertex x="-89" y="0" curve="90"/>
+<vertex x="-90" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-91" y="0" curve="90"/>
+<vertex x="-90" y="-1" curve="90"/>
+<vertex x="-89" y="0" curve="90"/>
+<vertex x="-90" y="1" curve="90"/>
+</polygon>
+<text x="-91.27" y="1.27" size="1.27" layer="51">&gt;NAME</text>
+<smd name="2" x="-80" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-81" y="0" curve="90"/>
+<vertex x="-80" y="-1" curve="90"/>
+<vertex x="-79" y="0" curve="90"/>
+<vertex x="-80" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-81" y="0" curve="90"/>
+<vertex x="-80" y="-1" curve="90"/>
+<vertex x="-79" y="0" curve="90"/>
+<vertex x="-80" y="1" curve="90"/>
+</polygon>
+<smd name="3" x="-70" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-71" y="0" curve="90"/>
+<vertex x="-70" y="-1" curve="90"/>
+<vertex x="-69" y="0" curve="90"/>
+<vertex x="-70" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-71" y="0" curve="90"/>
+<vertex x="-70" y="-1" curve="90"/>
+<vertex x="-69" y="0" curve="90"/>
+<vertex x="-70" y="1" curve="90"/>
+</polygon>
+<smd name="4" x="-60" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-61" y="0" curve="90"/>
+<vertex x="-60" y="-1" curve="90"/>
+<vertex x="-59" y="0" curve="90"/>
+<vertex x="-60" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-61" y="0" curve="90"/>
+<vertex x="-60" y="-1" curve="90"/>
+<vertex x="-59" y="0" curve="90"/>
+<vertex x="-60" y="1" curve="90"/>
+</polygon>
+<smd name="5" x="-50" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-51" y="0" curve="90"/>
+<vertex x="-50" y="-1" curve="90"/>
+<vertex x="-49" y="0" curve="90"/>
+<vertex x="-50" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-51" y="0" curve="90"/>
+<vertex x="-50" y="-1" curve="90"/>
+<vertex x="-49" y="0" curve="90"/>
+<vertex x="-50" y="1" curve="90"/>
+</polygon>
+<smd name="6" x="-40" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-41" y="0" curve="90"/>
+<vertex x="-40" y="-1" curve="90"/>
+<vertex x="-39" y="0" curve="90"/>
+<vertex x="-40" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-41" y="0" curve="90"/>
+<vertex x="-40" y="-1" curve="90"/>
+<vertex x="-39" y="0" curve="90"/>
+<vertex x="-40" y="1" curve="90"/>
+</polygon>
+<smd name="7" x="-30" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-31" y="0" curve="90"/>
+<vertex x="-30" y="-1" curve="90"/>
+<vertex x="-29" y="0" curve="90"/>
+<vertex x="-30" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-31" y="0" curve="90"/>
+<vertex x="-30" y="-1" curve="90"/>
+<vertex x="-29" y="0" curve="90"/>
+<vertex x="-30" y="1" curve="90"/>
+</polygon>
+<smd name="8" x="-20" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-21" y="0" curve="90"/>
+<vertex x="-20" y="-1" curve="90"/>
+<vertex x="-19" y="0" curve="90"/>
+<vertex x="-20" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-21" y="0" curve="90"/>
+<vertex x="-20" y="-1" curve="90"/>
+<vertex x="-19" y="0" curve="90"/>
+<vertex x="-20" y="1" curve="90"/>
+</polygon>
+<smd name="9" x="-10" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-11" y="0" curve="90"/>
+<vertex x="-10" y="-1" curve="90"/>
+<vertex x="-9" y="0" curve="90"/>
+<vertex x="-10" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-11" y="0" curve="90"/>
+<vertex x="-10" y="-1" curve="90"/>
+<vertex x="-9" y="0" curve="90"/>
+<vertex x="-10" y="1" curve="90"/>
+</polygon>
+<smd name="10" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<smd name="11" x="10" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="9" y="0" curve="90"/>
+<vertex x="10" y="-1" curve="90"/>
+<vertex x="11" y="0" curve="90"/>
+<vertex x="10" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="9" y="0" curve="90"/>
+<vertex x="10" y="-1" curve="90"/>
+<vertex x="11" y="0" curve="90"/>
+<vertex x="10" y="1" curve="90"/>
+</polygon>
+<smd name="12" x="20" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="19" y="0" curve="90"/>
+<vertex x="20" y="-1" curve="90"/>
+<vertex x="21" y="0" curve="90"/>
+<vertex x="20" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="19" y="0" curve="90"/>
+<vertex x="20" y="-1" curve="90"/>
+<vertex x="21" y="0" curve="90"/>
+<vertex x="20" y="1" curve="90"/>
+</polygon>
+<smd name="13" x="30" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="29" y="0" curve="90"/>
+<vertex x="30" y="-1" curve="90"/>
+<vertex x="31" y="0" curve="90"/>
+<vertex x="30" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="29" y="0" curve="90"/>
+<vertex x="30" y="-1" curve="90"/>
+<vertex x="31" y="0" curve="90"/>
+<vertex x="30" y="1" curve="90"/>
+</polygon>
+<smd name="14" x="40" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="39" y="0" curve="90"/>
+<vertex x="40" y="-1" curve="90"/>
+<vertex x="41" y="0" curve="90"/>
+<vertex x="40" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="39" y="0" curve="90"/>
+<vertex x="40" y="-1" curve="90"/>
+<vertex x="41" y="0" curve="90"/>
+<vertex x="40" y="1" curve="90"/>
+</polygon>
+<smd name="15" x="50" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="49" y="0" curve="90"/>
+<vertex x="50" y="-1" curve="90"/>
+<vertex x="51" y="0" curve="90"/>
+<vertex x="50" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="49" y="0" curve="90"/>
+<vertex x="50" y="-1" curve="90"/>
+<vertex x="51" y="0" curve="90"/>
+<vertex x="50" y="1" curve="90"/>
+</polygon>
+<smd name="16" x="60" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="59" y="0" curve="90"/>
+<vertex x="60" y="-1" curve="90"/>
+<vertex x="61" y="0" curve="90"/>
+<vertex x="60" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="59" y="0" curve="90"/>
+<vertex x="60" y="-1" curve="90"/>
+<vertex x="61" y="0" curve="90"/>
+<vertex x="60" y="1" curve="90"/>
+</polygon>
+<smd name="17" x="70" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="69" y="0" curve="90"/>
+<vertex x="70" y="-1" curve="90"/>
+<vertex x="71" y="0" curve="90"/>
+<vertex x="70" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="69" y="0" curve="90"/>
+<vertex x="70" y="-1" curve="90"/>
+<vertex x="71" y="0" curve="90"/>
+<vertex x="70" y="1" curve="90"/>
+</polygon>
+<smd name="18" x="80" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="79" y="0" curve="90"/>
+<vertex x="80" y="-1" curve="90"/>
+<vertex x="81" y="0" curve="90"/>
+<vertex x="80" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="79" y="0" curve="90"/>
+<vertex x="80" y="-1" curve="90"/>
+<vertex x="81" y="0" curve="90"/>
+<vertex x="80" y="1" curve="90"/>
+</polygon>
+<smd name="19" x="90" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="89" y="0" curve="90"/>
+<vertex x="90" y="-1" curve="90"/>
+<vertex x="91" y="0" curve="90"/>
+<vertex x="90" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="89" y="0" curve="90"/>
+<vertex x="90" y="-1" curve="90"/>
+<vertex x="91" y="0" curve="90"/>
+<vertex x="90" y="1" curve="90"/>
+</polygon>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -12867,6 +13133,7 @@ Specs: http://www.trinamic.com/products/integrated-circuits/stepper-power-driver
 <wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 <symbol name="A3L-LOC">
 <wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
@@ -17622,6 +17889,48 @@ Datasheet: http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL_19X" prefix="FAKEFID">
+<gates>
+<gate name="A" symbol="FIDUCIAL" x="0" y="0"/>
+<gate name="B" symbol="FIDUCIAL" x="10.16" y="0"/>
+<gate name="C" symbol="FIDUCIAL" x="20.32" y="0"/>
+<gate name="D" symbol="FIDUCIAL" x="30.48" y="0"/>
+<gate name="E" symbol="FIDUCIAL" x="40.64" y="0"/>
+<gate name="F" symbol="FIDUCIAL" x="50.8" y="0"/>
+<gate name="G" symbol="FIDUCIAL" x="60.96" y="0"/>
+<gate name="H" symbol="FIDUCIAL" x="71.12" y="0"/>
+<gate name="I" symbol="FIDUCIAL" x="81.28" y="0"/>
+<gate name="J" symbol="FIDUCIAL" x="91.44" y="0"/>
+<gate name="K" symbol="FIDUCIAL" x="101.6" y="0"/>
+<gate name="L" symbol="FIDUCIAL" x="111.76" y="0"/>
+<gate name="M" symbol="FIDUCIAL" x="121.92" y="0"/>
+<gate name="N" symbol="FIDUCIAL" x="132.08" y="0"/>
+<gate name="O" symbol="FIDUCIAL" x="142.24" y="0"/>
+<gate name="P" symbol="FIDUCIAL" x="152.4" y="0"/>
+<gate name="Q" symbol="FIDUCIAL" x="162.56" y="0"/>
+<gate name="R" symbol="FIDUCIAL" x="172.72" y="0"/>
+<gate name="S" symbol="FIDUCIAL" x="182.88" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL_19X">
 <technologies>
 <technology name=""/>
 </technologies>
