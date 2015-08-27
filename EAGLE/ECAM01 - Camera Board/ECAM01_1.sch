@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -729,6 +729,29 @@ Source: http://www.murata.com/ Ferrite Bead BLM15H.pdf</description>
 <wire x1="2.794" y1="1.524" x2="2.794" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="51"/>
 </package>
+<package name="USB-B(THRU)">
+<description>Connector: USB, Thru-hole;
+Package: B-Type;
+Datasheet: http://portal.fciconnect.com/Comergent//fci/drawing/61729.pdf</description>
+<pad name="1" x="1.25" y="1" drill="0.95"/>
+<pad name="2" x="-1.25" y="1" drill="0.95"/>
+<pad name="3" x="-1.25" y="-1" drill="0.95"/>
+<pad name="4" x="1.25" y="-1" drill="0.95"/>
+<hole x="-6.02" y="-3.71" drill="2.3"/>
+<hole x="6.02" y="-3.71" drill="2.3"/>
+<wire x1="-6.02" y1="1.85" x2="6.02" y2="1.85" width="0.127" layer="51"/>
+<wire x1="6.02" y1="1.85" x2="6.02" y2="-14" width="0.127" layer="51"/>
+<wire x1="6.02" y1="-14" x2="-6.02" y2="-14" width="0.127" layer="51"/>
+<wire x1="-6.02" y1="-14" x2="-6.02" y2="1.85" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-2.3" x2="-6.2" y2="2" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="2" x2="6.2" y2="2" width="0.127" layer="21"/>
+<wire x1="6.2" y1="2" x2="6.2" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-5.2" x2="6.2" y2="-14.2" width="0.127" layer="21"/>
+<wire x1="6.2" y1="-14.2" x2="-6.2" y2="-14.2" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="-14.2" x2="-6.2" y2="-5.2" width="0.127" layer="21"/>
+<text x="7.3" y="-0.2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="7.3" y="-1.3" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="32F429ZIT6U">
@@ -1229,6 +1252,19 @@ Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</descriptio
 <wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="USB-B">
+<description>USB-B Connector</description>
+<pin name="1" x="2.54" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="2.54" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="2.54" y="-5.08" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-5.08" y="5.08" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1976,6 +2012,25 @@ Datasheet: http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</descrip
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-USB-B" prefix="J">
+<description>Connector: USB, B-type</description>
+<gates>
+<gate name="G$1" symbol="USB-B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="USB-B(THRU)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12652,6 +12707,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J4" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2P-M" device="" value="USART1"/>
 <part name="J5" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-4P-M" device="" value="USART2"/>
+<part name="J6" library="TinWhiskers" deviceset="CPL-CON-USB-B" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13806,6 +13862,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="305.308" y="206.756" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="305.308" y="204.216" size="1.27" layer="96" font="vector" ratio="10"/>
 </instance>
+<instance part="J6" gate="G$1" x="355.6" y="149.86" rot="MR0"/>
 </instances>
 <busses>
 </busses>
