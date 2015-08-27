@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -752,6 +752,44 @@ Datasheet: http://portal.fciconnect.com/Comergent//fci/drawing/61729.pdf</descri
 <text x="7.3" y="-0.2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="7.3" y="-1.3" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
+<package name="SOT-23-5">
+<description>SOT-23-5
+(5-Pin)</description>
+<smd name="1" x="0.95" y="1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="2" x="0" y="1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="3" x="-0.95" y="1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="4" x="-0.95" y="-1.2" dx="0.7" dy="1" layer="1"/>
+<smd name="5" x="0.95" y="-1.2" dx="0.7" dy="1" layer="1"/>
+<wire x1="-1.85" y1="0.825" x2="-1.85" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="-1.85" y1="-0.825" x2="1.85" y2="-0.825" width="0.127" layer="51"/>
+<wire x1="1.85" y1="-0.825" x2="1.85" y2="0.825" width="0.127" layer="51"/>
+<wire x1="1.85" y1="0.825" x2="-1.85" y2="0.825" width="0.127" layer="51"/>
+<wire x1="-1.5" y1="1" x2="-2" y2="1" width="0.127" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2" y1="-1" x2="-1.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-0.4" y1="-1" x2="0.4" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-1" x2="2" y2="-1" width="0.127" layer="21"/>
+<wire x1="2" y1="-1" x2="2" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="1" x2="1.5" y2="1" width="0.127" layer="21"/>
+<text x="2.5" y="0.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="2.5" y="-0.4" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-HDR-3POS-MALE">
+<description>Header, male, 0.1" pitch, 3-pos</description>
+<pad name="1" x="-2.54" y="0" drill="0.9" shape="square"/>
+<pad name="2" x="0" y="0" drill="0.9"/>
+<pad name="3" x="2.54" y="0" drill="0.9"/>
+<text x="4.35" y="0.05" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="4.35" y="-1.2" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-4.064" y1="1.524" x2="4.064" y2="1.524" width="0.127" layer="21"/>
+<wire x1="4.064" y1="1.524" x2="4.064" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="4.064" y1="-1.524" x2="-4.064" y2="-1.524" width="0.127" layer="21"/>
+<wire x1="-4.064" y1="-1.524" x2="-4.064" y2="1.524" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="32F429ZIT6U">
@@ -1265,6 +1303,32 @@ Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</descriptio
 <wire x1="-5.08" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-5.08" y="5.08" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="SOT-23">
+<description>SOT-23-5</description>
+<pin name="4" x="2.54" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="5" x="2.54" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-10.16" y="5.08" length="short" direction="pas"/>
+<wire x1="0" y1="7.62" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="10.16" y="5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="10.16" y="2.54" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CON-HDR-3P">
+<description>Connector: 0.1" Pitch, 3Pins</description>
+<pin name="1" x="2.54" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="2.54" y="-2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2031,6 +2095,64 @@ Datasheet: http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</descrip
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-REG-LIN-3.3V-0.1A" prefix="U">
+<description>Voltage Regulator: Linear, Vmax=6, Vout=3.3V, Io=0.1mA;
+Package: SOT-23-5
+Datasheet: http://www.mouser.com/ds/2/268/21335b-29125.pdf</description>
+<gates>
+<gate name="G$1" symbol="SOT-23" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-HEADER-0.1IN-3P-M" prefix="J">
+<gates>
+<gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-HDR-3POS-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X5R-0603-1UF-50V" prefix="C">
+<description>Capacitor: 0.1uF, 50V, 10%;
+Package: 0603;
+Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -12707,7 +12829,14 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J4" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2P-M" device="" value="USART1"/>
 <part name="J5" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-4P-M" device="" value="USART2"/>
-<part name="J6" library="TinWhiskers" deviceset="CPL-CON-USB-B" device=""/>
+<part name="J6" library="TinWhiskers" deviceset="CPL-CON-USB-B" device="" value="USB-B"/>
+<part name="U5" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713"/>
+<part name="SUPPLY6" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="J7" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device=""/>
+<part name="C25" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF"/>
+<part name="C26" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF"/>
+<part name="SUPPLY22" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12790,6 +12919,9 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="DGND2" gate="1" x="330.2" y="76.2" smashed="yes">
 <attribute name="VALUE" x="327.66" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="J7" gate="G$1" x="193.04" y="243.84" smashed="yes" rot="R270">
+<attribute name="NAME" x="188.214" y="252.476" size="1.778" layer="95" font="vector" ratio="12"/>
 </instance>
 </instances>
 <busses>
@@ -13472,7 +13604,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="29.21" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDD" class="0">
+<net name="" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <pinref part="AVDD(2.8V)" gate="VCC" pin="VCC"/>
@@ -13484,6 +13616,11 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="10"/>
 <pinref part="SUPPLY5" gate="VCC" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VDD@52"/>
+<wire x1="193.04" y1="195.58" x2="193.04" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="NBL0" class="0">
@@ -13622,8 +13759,8 @@ Source: AVX .. aphvc.pdf</description>
 <net name="ETH_TXD1" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB13"/>
-<wire x1="124.46" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<label x="99.06" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="124.46" y1="114.3" x2="96.52" y2="114.3" width="0.1524" layer="91"/>
+<label x="96.52" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="ETH_TX_EN" class="0">
@@ -13689,8 +13826,16 @@ Source: AVX .. aphvc.pdf</description>
 <net name="USB_OTG_DP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="PB15"/>
-<wire x1="124.46" y1="109.22" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="99.06" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="124.46" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
+<label x="96.52" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VROUT" class="0">
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="190.5" y1="241.3" x2="190.5" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="238.76" x2="187.96" y2="238.76" width="0.1524" layer="91"/>
+<label x="187.96" y="238.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -13862,7 +14007,25 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="305.308" y="206.756" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="305.308" y="204.216" size="1.27" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="J6" gate="G$1" x="355.6" y="149.86" rot="MR0"/>
+<instance part="J6" gate="G$1" x="299.72" y="157.48" smashed="yes">
+<attribute name="NAME" x="294.894" y="165.354" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="294.64" y="163.322" size="1.27" layer="95" font="vector" ratio="10"/>
+</instance>
+<instance part="U5" gate="G$1" x="353.06" y="154.94" smashed="yes">
+<attribute name="NAME" x="345.44" y="166.116" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="345.44" y="163.576" size="1.27" layer="95" font="vector" ratio="10"/>
+</instance>
+<instance part="SUPPLY6" gate="GND" x="304.8" y="147.32"/>
+<instance part="C25" gate="G$1" x="340.36" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="335.026" y="149.987" size="1.778" layer="95"/>
+<attribute name="VALUE" x="335.28" y="145.669" size="1.778" layer="96"/>
+</instance>
+<instance part="C26" gate="G$1" x="360.68" y="149.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="355.6" y="149.733" size="1.778" layer="95"/>
+<attribute name="VALUE" x="355.6" y="145.669" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY22" gate="GND" x="340.36" y="139.7"/>
+<instance part="SUPPLY23" gate="GND" x="360.68" y="139.7"/>
 </instances>
 <busses>
 </busses>
@@ -14098,6 +14261,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="276.86" y1="182.88" x2="271.78" y2="182.88" width="0.1524" layer="91"/>
 <junction x="271.78" y="182.88"/>
 <pinref part="SUPPLY21" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="152.4" x2="304.8" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="152.4" x2="304.8" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C25" gate="G$1" pin="1"/>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+<wire x1="340.36" y1="142.24" x2="340.36" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="1"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<wire x1="360.68" y1="142.24" x2="360.68" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TD+" class="0">
@@ -14395,6 +14574,53 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="317.5" y1="238.76" x2="317.5" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="317.5" y1="241.3" x2="320.04" y2="241.3" width="0.1524" layer="91"/>
 <label x="320.04" y="241.3" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VRIN" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="160.02" x2="335.28" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="160.02" x2="342.9" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="335.28" y1="160.02" x2="335.28" y2="154.94" width="0.1524" layer="91"/>
+<junction x="335.28" y="160.02"/>
+<pinref part="U5" gate="G$1" pin="3"/>
+<wire x1="335.28" y1="154.94" x2="342.9" y2="154.94" width="0.1524" layer="91"/>
+<label x="337.82" y="160.02" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_OTG_DM" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="157.48" x2="307.34" y2="157.48" width="0.1524" layer="91"/>
+<label x="307.34" y="157.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="USB_OTG_DP" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="154.94" x2="307.34" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="307.34" y1="154.94" x2="307.34" y2="152.4" width="0.1524" layer="91"/>
+<label x="307.34" y="152.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="2"/>
+<wire x1="342.9" y1="157.48" x2="340.36" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="157.48" x2="340.36" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="VROUT" class="0">
+<segment>
+<pinref part="U5" gate="G$1" pin="5"/>
+<wire x1="355.6" y1="160.02" x2="360.68" y2="160.02" width="0.1524" layer="91"/>
+<label x="363.22" y="160.02" size="1.778" layer="95" xref="yes"/>
+<wire x1="360.68" y1="160.02" x2="363.22" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="160.02" x2="360.68" y2="152.4" width="0.1524" layer="91"/>
+<junction x="360.68" y="160.02"/>
+<pinref part="C26" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
