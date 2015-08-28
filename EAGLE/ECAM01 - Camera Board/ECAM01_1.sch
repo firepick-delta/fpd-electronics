@@ -13604,7 +13604,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="29.21" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="" class="0">
+<net name="Dan" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <pinref part="AVDD(2.8V)" gate="VCC" pin="VCC"/>
