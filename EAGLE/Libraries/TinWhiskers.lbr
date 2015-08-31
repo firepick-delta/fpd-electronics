@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -143,6 +143,7 @@
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <library>
+<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
 <packages>
 <package name="QFN36-(5X6)">
 <wire x1="-2.5" y1="3" x2="2.5" y2="3" width="0.127" layer="51"/>
@@ -10265,6 +10266,202 @@ Datasheet: http://www.kosmodrom.com.ua/pdf/HR911105A.pdf</description>
 <package name="CON-SDCARD">
 <description>SD Card Connector</description>
 </package>
+<package name="SD(MICRO)-CONN-47219(MOLEX)">
+<description>MicroSD Connector: Molex (47219-001);
+Datasheet: http://www.molex.com/pdm_docs/sd/472192001_sd.pdf</description>
+<smd name="G1" x="-6.875" y="-2.6" dx="1.45" dy="2" layer="1"/>
+<smd name="G2" x="6.875" y="-2.6" dx="1.45" dy="2" layer="1"/>
+<smd name="G3" x="-6.875" y="5.7" dx="1.45" dy="2" layer="1"/>
+<smd name="G4" x="6.875" y="5.7" dx="1.45" dy="2" layer="1"/>
+<smd name="1" x="3.85" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="2" x="2.75" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="3" x="1.65" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="4" x="0.55" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="5" x="-0.55" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="6" x="-1.65" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="7" x="-2.75" y="0" dx="0.8" dy="1.1" layer="1"/>
+<smd name="8" x="-3.85" y="0" dx="0.8" dy="1.1" layer="1"/>
+<wire x1="-7.6" y1="-7.25" x2="-7.6" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-7.6" y1="7.25" x2="7.6" y2="7.25" width="0.127" layer="51"/>
+<wire x1="7.6" y1="7.25" x2="7.6" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="7.6" y1="-7.25" x2="-7.6" y2="-7.25" width="0.127" layer="51"/>
+<wire x1="-7.8" y1="-7.5" x2="-7.8" y2="7.5" width="0.1" layer="21"/>
+<wire x1="-7.8" y1="7.5" x2="7.8" y2="7.5" width="0.1" layer="21"/>
+<wire x1="7.8" y1="7.5" x2="7.8" y2="-7.5" width="0.1" layer="21"/>
+<wire x1="7.8" y1="-7.5" x2="-7.8" y2="-7.5" width="0.1" layer="21"/>
+<text x="8.8" y="4.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="8.8" y="3" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-MICROSD(MLX47334XXXX)">
+<description>Connector: MicroSD;
+Package: SMT;
+Mfr: Molex;
+Datasheet: http://www.molex.com/pdm_docs/sd/473340001_sd.pdf</description>
+</package>
+<package name="USD-SOCKET-PP">
+<wire x1="-6.725" y1="5.5" x2="-6.725" y2="17" width="0.2032" layer="21"/>
+<wire x1="4" y1="17" x2="7.825" y2="17" width="0.2032" layer="21"/>
+<wire x1="7.825" y1="17" x2="7.825" y2="1.7" width="0.2032" layer="21"/>
+<wire x1="6" y1="0" x2="4" y2="0" width="0.2032" layer="21"/>
+<wire x1="4" y1="0" x2="4" y2="1.65" width="0.2032" layer="21"/>
+<wire x1="-4" y1="1.65" x2="-4" y2="1" width="0.2032" layer="21"/>
+<wire x1="-4" y1="1" x2="-5" y2="1" width="0.2032" layer="21"/>
+<wire x1="4" y1="1.65" x2="-4" y2="1.65" width="0.2032" layer="21" curve="69.416099"/>
+<wire x1="4" y1="-0.7" x2="-4" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="4" y1="-1.6" x2="-4" y2="-1.6" width="0.127" layer="51"/>
+<wire x1="4" y1="-5.4" x2="-4" y2="-5.4" width="0.127" layer="51"/>
+<wire x1="-6.725" y1="3.6" x2="-6.725" y2="2.6" width="0.2032" layer="21"/>
+<smd name="1" x="3.2" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="2" x="2.1" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="3" x="1" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="4" x="-0.1" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="5" x="-1.2" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="6" x="-2.3" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="7" x="-3.4" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="8" x="-4.5" y="16.8" dx="0.75" dy="1.5" layer="1"/>
+<smd name="CD1" x="-5.85" y="16.75" dx="1" dy="1.3" layer="1"/>
+<smd name="CD2" x="-6.425" y="4.5" dx="1.4" dy="1" layer="1"/>
+<smd name="GND1" x="-6.275" y="1.475" dx="1.5" dy="1.35" layer="1"/>
+<smd name="GND2" x="7.375" y="0.475" dx="1.5" dy="1.35" layer="1"/>
+<text x="-5.08" y="7.62" size="0.4064" layer="25">&gt;Name</text>
+<text x="-5.08" y="6.35" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="MICRO-SD-SOCKET-PP">
+<description>Connector: MicroSD;
+Package: SMT;
+Mfr: 4UCon, Molex (47334);
+Datasheet: http://www.molex.com/pdm_docs/sd/473340001_sd.pdf;
+Datashee: http://cdn.sparkfun.com/datasheets/Components/General/15882.pdf</description>
+<wire x1="-14" y1="0" x2="-14" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="0" y1="12.1" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="-11.7" y1="15.3" x2="-12.5" y2="15.3" width="0.2032" layer="21"/>
+<wire x1="-11" y1="16" x2="0" y2="16" width="0.2032" layer="51"/>
+<wire x1="-10" y1="13.6" x2="-1.6" y2="13.6" width="0.2032" layer="21"/>
+<wire x1="-14" y1="0" x2="-9.1" y2="0" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="0" x2="-6.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.7" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="17.6" x2="-11" y2="17.6" width="0.2032" layer="51"/>
+<wire x1="0" y1="20.7" x2="-11" y2="20.7" width="0.2032" layer="51"/>
+<wire x1="-11" y1="14.6" x2="-11.7" y2="15.3" width="0.2032" layer="21" curve="98.797411"/>
+<wire x1="-11" y1="14.6" x2="-10" y2="13.6" width="0.2032" layer="21" curve="87.205638"/>
+<smd name="1" x="-8.94" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="2" x="-7.84" y="10.3" dx="0.8" dy="1.5" layer="1"/>
+<smd name="3" x="-6.74" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="4" x="-5.64" y="10.9" dx="0.8" dy="1.5" layer="1"/>
+<smd name="5" x="-4.54" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="6" x="-3.44" y="10.9" dx="0.8" dy="1.5" layer="1"/>
+<smd name="7" x="-2.34" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="8" x="-1.24" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="CD1" x="-7.75" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="CD2" x="-2.05" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="GND1" x="-13.6" y="14.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="GND2" x="-0.45" y="13.55" dx="1.4" dy="1.9" layer="1"/>
+<text x="-8.89" y="6.35" size="0.8128" layer="25">&gt;Name</text>
+<text x="-8.89" y="5.08" size="0.8128" layer="27">&gt;Value</text>
+</package>
+<package name="FTSH-105-01-XXX-DV-K">
+<description>Connector: TERMINAL STRIP, .050 inch(1.27mm) PITCH, 10 PINS, KEYED;
+Datashee: https://www.samtec.com/technical-specifications/default.aspx?SeriesMaster=FTSH</description>
+<smd name="1" x="-2.54" y="-2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="2" x="-2.54" y="2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="3" x="-1.27" y="-2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="4" x="-1.27" y="2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="5" x="0" y="-2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="6" x="0" y="2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="7" x="1.27" y="-2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="8" x="1.27" y="2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="9" x="2.54" y="-2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<smd name="10" x="2.54" y="2.032" dx="2.794" dy="0.7366" layer="1" rot="R90"/>
+<wire x1="-3.175" y1="1.714" x2="-2.54" y2="1.714" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="1.714" x2="-2.54" y2="2.54" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="51"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.715" width="0.254" layer="51"/>
+<wire x1="2.54" y1="1.715" x2="3.175" y2="1.715" width="0.254" layer="51"/>
+<wire x1="3.175" y1="1.715" x2="3.175" y2="-1.714" width="0.254" layer="51"/>
+<wire x1="3.175" y1="-1.714" x2="2.54" y2="-1.714" width="0.254" layer="51"/>
+<wire x1="2.54" y1="-1.714" x2="2.54" y2="-2.54" width="0.254" layer="51"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.714" width="0.254" layer="51"/>
+<wire x1="-2.54" y1="-1.714" x2="-3.175" y2="-1.714" width="0.254" layer="51"/>
+<wire x1="-3.175" y1="-1.714" x2="-3.175" y2="1.714" width="0.254" layer="51"/>
+<wire x1="-3.683" y1="-3.81" x2="-3.683" y2="3.81" width="0.254" layer="21"/>
+<wire x1="-3.683" y1="3.81" x2="3.683" y2="3.81" width="0.254" layer="21"/>
+<wire x1="3.683" y1="3.81" x2="3.683" y2="-3.81" width="0.254" layer="21"/>
+<wire x1="3.683" y1="-3.81" x2="-3.683" y2="-3.81" width="0.254" layer="21"/>
+<text x="4.9" y="2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="4.9" y="0.7" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="SOICN-8">
+<description>SOIC-8 (Narrow)</description>
+<smd name="1" x="-2.6" y="1.905" dx="2.2" dy="0.6" layer="1"/>
+<smd name="2" x="-2.6" y="0.635" dx="2.2" dy="0.6" layer="1"/>
+<smd name="3" x="-2.6" y="-0.635" dx="2.2" dy="0.6" layer="1"/>
+<smd name="4" x="-2.6" y="-1.905" dx="2.2" dy="0.6" layer="1"/>
+<smd name="8" x="2.6" y="1.905" dx="2.2" dy="0.6" layer="1"/>
+<smd name="7" x="2.6" y="0.635" dx="2.2" dy="0.6" layer="1"/>
+<smd name="6" x="2.6" y="-0.635" dx="2.2" dy="0.6" layer="1"/>
+<smd name="5" x="2.6" y="-1.905" dx="2.2" dy="0.6" layer="1"/>
+<wire x1="-1.95" y1="2.95" x2="-1.95" y2="-2.95" width="0.127" layer="51"/>
+<wire x1="-1.95" y1="-2.95" x2="1.95" y2="-2.95" width="0.127" layer="51"/>
+<wire x1="1.95" y1="-2.95" x2="1.95" y2="2.95" width="0.127" layer="51"/>
+<wire x1="1.95" y1="2.95" x2="-1.95" y2="2.95" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-3" y="2.11"/>
+<vertex x="-3" y="1.7"/>
+<vertex x="-2.165" y="1.7"/>
+<vertex x="-2.165" y="2.11"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3" y="2.11"/>
+<vertex x="3" y="1.7"/>
+<vertex x="2.165" y="1.7"/>
+<vertex x="2.165" y="2.11"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3" y="0.84"/>
+<vertex x="-3" y="0.43"/>
+<vertex x="-2.165" y="0.43"/>
+<vertex x="-2.165" y="0.84"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3" y="0.84"/>
+<vertex x="3" y="0.43"/>
+<vertex x="2.165" y="0.43"/>
+<vertex x="2.165" y="0.84"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3" y="-0.84"/>
+<vertex x="-3" y="-0.43"/>
+<vertex x="-2.165" y="-0.43"/>
+<vertex x="-2.165" y="-0.84"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3" y="-0.84"/>
+<vertex x="3" y="-0.43"/>
+<vertex x="2.165" y="-0.43"/>
+<vertex x="2.165" y="-0.84"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-3" y="-1.7"/>
+<vertex x="-3" y="-2.11"/>
+<vertex x="-2.165" y="-2.11"/>
+<vertex x="-2.165" y="-1.7"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="3" y="-1.7"/>
+<vertex x="3" y="-2.11"/>
+<vertex x="2.165" y="-2.11"/>
+<vertex x="2.165" y="-1.7"/>
+</polygon>
+<wire x1="-2.3" y1="2.4" x2="-2.3" y2="3.3" width="0.1" layer="21"/>
+<wire x1="-2.3" y1="3.3" x2="2.3" y2="3.3" width="0.1" layer="21"/>
+<wire x1="2.3" y1="3.3" x2="2.3" y2="2.4" width="0.1" layer="21"/>
+<wire x1="2.3" y1="-2.4" x2="2.3" y2="-3.3" width="0.1" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="-2.3" y2="-3.3" width="0.1" layer="21"/>
+<wire x1="-2.3" y1="-3.3" x2="-2.3" y2="-2.4" width="0.1" layer="21"/>
+<text x="5" y="1.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="5" y="0.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -16779,6 +16976,85 @@ Datasheet: http://www.kosmodrom.com.ua/pdf/HR911105A.pdf</description>
 <text x="45.72" y="60.96" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="45.72" y="58.42" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="CON-MICROSD(MOLEX)">
+<description>Connector: MicroSD
+Package: SMT
+Source: Molex</description>
+<pin name="DAT2" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="CD/DAT3" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="CMD" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="VDD" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="CLK" x="10.16" y="10.16" length="short" rot="R180"/>
+<pin name="VSS" x="10.16" y="12.7" length="short" rot="R180"/>
+<pin name="DAT0" x="10.16" y="15.24" length="short" rot="R180"/>
+<pin name="DAT1" x="10.16" y="17.78" length="short" rot="R180"/>
+<pin name="GND1" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="GND2" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="GND3" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="GND4" x="10.16" y="-12.7" length="short" rot="R180"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<text x="-2.54" y="25.4" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.54" y="22.86" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="USDCARD">
+<wire x1="-2.54" y1="15.24" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-20.32" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<pin name="CD1" x="-7.62" y="-10.16" length="middle"/>
+<pin name="CD2" x="-7.62" y="-12.7" length="middle"/>
+<pin name="CS" x="-7.62" y="10.16" length="middle"/>
+<pin name="DI" x="-7.62" y="7.62" length="middle"/>
+<pin name="DO" x="-7.62" y="-2.54" length="middle"/>
+<pin name="GND" x="-7.62" y="0" length="middle"/>
+<pin name="NC" x="-7.62" y="12.7" length="middle"/>
+<pin name="RSV" x="-7.62" y="-5.08" length="middle"/>
+<pin name="SCK" x="-7.62" y="2.54" length="middle"/>
+<pin name="SHIELD1" x="-7.62" y="-15.24" length="middle"/>
+<pin name="SHIELD2" x="-7.62" y="-17.78" length="middle"/>
+<pin name="VCC" x="-7.62" y="5.08" length="middle"/>
+<text x="-2.54" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="CON-HDR-10P">
+<description>10-Pin Header</description>
+<pin name="1" x="2.54" y="10.16" length="short" rot="R180"/>
+<pin name="2" x="2.54" y="7.62" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="4" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="5" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="6" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="7" x="2.54" y="-5.08" length="short" rot="R180"/>
+<pin name="8" x="2.54" y="-7.62" length="short" rot="R180"/>
+<pin name="9" x="2.54" y="-10.16" length="short" rot="R180"/>
+<pin name="10" x="2.54" y="-12.7" length="short" rot="R180"/>
+<wire x1="0" y1="12.7" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<text x="-10.16" y="15.24" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-10.16" y="13.208" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="SOIC-8">
+<description>SOIC-8 Package</description>
+<pin name="1" x="-5.08" y="5.08" length="short"/>
+<pin name="2" x="-5.08" y="2.54" length="short"/>
+<pin name="3" x="-5.08" y="0" length="short"/>
+<pin name="4" x="-5.08" y="-2.54" length="short"/>
+<pin name="5" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="6" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="7" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="8" x="12.7" y="5.08" length="short" rot="R180"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="0" y="12.7" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="0" y="10.16" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -18451,6 +18727,112 @@ Datasheet: http://www.nxp.com/documents/data_sheet/LPC1769_68_67_66_65_64_63.pdf
 <connect gate="G$1" pin="97" pad="97"/>
 <connect gate="G$1" pin="98" pad="98"/>
 <connect gate="G$1" pin="99" pad="99"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-MICROSD" prefix="J">
+<description>Connector: MicroSD;
+Mfr: Molex (47219-2001)
+Datasheet: http://www.molex.com/pdm_docs/sd/472192001_sd.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-MICROSD(MOLEX)" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="MOLEX(47219XXXX)" package="SD(MICRO)-CONN-47219(MOLEX)">
+<connects>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="GND1" pad="G1"/>
+<connect gate="G$1" pin="GND2" pad="G2"/>
+<connect gate="G$1" pin="GND3" pad="G3"/>
+<connect gate="G$1" pin="GND4" pad="G4"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="USD-SOCKET" prefix="U">
+<description>&lt;b&gt;microSD Socket&lt;/b&gt;
+Push-push type uSD socket. Schematic element and footprint production proven. Spark Fun Electronics SKU : PRT-00127. tDoc lines correctly indicate media card edge positions when inserting (unlocked, locked, depressed).</description>
+<gates>
+<gate name="G$1" symbol="USDCARD" x="-2.54" y="5.08"/>
+</gates>
+<devices>
+<device name="SMD" package="MICRO-SD-SOCKET-PP">
+<connects>
+<connect gate="G$1" pin="CD1" pad="CD1"/>
+<connect gate="G$1" pin="CD2" pad="CD2"/>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="DI" pad="3"/>
+<connect gate="G$1" pin="DO" pad="7"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="NC" pad="1"/>
+<connect gate="G$1" pin="RSV" pad="8"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="SHIELD1" pad="GND1"/>
+<connect gate="G$1" pin="SHIELD2" pad="GND2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-HEADER-0.05IN-10P-M" prefix="J">
+<gates>
+<gate name="G$1" symbol="CON-HDR-10P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="FTSH-105-01-XXX-DV-K">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SP3485" prefix="U">
+<description>Transceiver: RS-485 Chip;
+Package: SOICN-8;
+Datasheet: http://www.exar.com/common/content/document.ashx?id=639</description>
+<gates>
+<gate name="G$1" symbol="SOIC-8" x="-2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOICN-8">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
