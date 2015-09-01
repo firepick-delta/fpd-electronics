@@ -1683,7 +1683,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <label x="66.04" y="172.72" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="CPI" class="0">
 <segment>
 <wire x1="210.82" y1="165.1" x2="205.74" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="165.1" x2="205.74" y2="162.56" width="0.1524" layer="91"/>
@@ -1692,7 +1692,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <pinref part="C5" gate="C1" pin="2"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="CPO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="CPO"/>
 <wire x1="203.2" y1="160.02" x2="205.74" y2="160.02" width="0.1524" layer="91"/>
@@ -1701,7 +1701,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <pinref part="C5" gate="C1" pin="1"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="VCP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCP"/>
 <pinref part="C4" gate="C1" pin="1"/>
