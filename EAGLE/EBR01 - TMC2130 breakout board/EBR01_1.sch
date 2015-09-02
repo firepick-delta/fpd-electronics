@@ -1187,6 +1187,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <text x="147.32" y="129.54" size="1.778" layer="97">N/C</text>
 <text x="147.32" y="132.08" size="1.778" layer="97">N/C</text>
 <text x="33.02" y="180.34" size="1.778" layer="97">Linear Regulator Circuit</text>
+<text x="30.48" y="43.18" size="1.778" layer="97">*Capacitors C8-C11 are included for ESD protection. 100V-rating required.</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="170.18" y="175.26" smashed="yes">
