@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2177,7 +2177,7 @@ Package: 0603</description>
 <part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-22R-0.1W" device="" value="22R"/>
 <part name="R3" library="TinWhiskers" deviceset="CPL-RES-0603-22R-0.1W" device="" value="22R"/>
 <part name="SUPPLY3" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="Q2" library="TinWhiskers" deviceset="CPL-OSC-CRY-25MHZ-18PF" device="" value="25MHz"/>
+<part name="Q1" library="TinWhiskers" deviceset="CPL-OSC-CRY-25MHZ-18PF" device="" value="25MHz"/>
 <part name="C9" library="TinWhiskers" deviceset="CPL-CAP-C0G-0603-12PF-50V" device="" value="12pF"/>
 <part name="C10" library="TinWhiskers" deviceset="CPL-CAP-C0G-0603-12PF-50V" device="" value="12pF"/>
 <part name="SUPPLY7" library="TinWhiskers" deviceset="GND" device=""/>
@@ -2229,7 +2229,7 @@ Package: 0603</description>
 <part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-330-0.1W" device="" value="330R"/>
 <part name="SUPPLY4" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U2" library="TinWhiskers" deviceset="USD-SOCKET" device="SMD"/>
+<part name="J4" library="TinWhiskers" deviceset="USD-SOCKET" device="SMD"/>
 <part name="C1" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF"/>
 <part name="C2" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
 <part name="R16" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K"/>
@@ -2237,7 +2237,7 @@ Package: 0603</description>
 <part name="R18" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY6" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J6" library="TinWhiskers" deviceset="CPL-CON-USB-B" device="" value="USB-B"/>
+<part name="J5" library="TinWhiskers" deviceset="CPL-CON-USB-B" device="" value="USB-B"/>
 <part name="U5" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713"/>
 <part name="SUPPLY14" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="C25" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF"/>
@@ -2247,7 +2247,7 @@ Package: 0603</description>
 <part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.05IN-10P-M" device="" value="SWD"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U6" library="TinWhiskers" deviceset="SP3485" device=""/>
+<part name="U2" library="TinWhiskers" deviceset="SP3485" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="U1" library="TinWhiskers" deviceset="LPC1768" device="LQFP-100" value="LPC1768"/>
@@ -2950,7 +2950,7 @@ Package: 0603</description>
 <attribute name="VALUE" x="52.07" y="174.498" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="99.06" y="165.1"/>
-<instance part="Q2" gate="G$1" x="104.14" y="154.94" smashed="yes">
+<instance part="Q1" gate="G$1" x="104.14" y="154.94" smashed="yes">
 <attribute name="NAME" x="102.87" y="157.48" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.584" y="150.622" size="1.778" layer="96"/>
 </instance>
@@ -3100,7 +3100,7 @@ Package: 0603</description>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="294.64" y="208.28"/>
 <instance part="SUPPLY5" gate="GND" x="276.86" y="147.32"/>
-<instance part="U2" gate="G$1" x="350.52" y="73.66"/>
+<instance part="J4" gate="G$1" x="350.52" y="73.66"/>
 <instance part="C1" gate="G$1" x="314.96" y="96.52" smashed="yes" rot="R90">
 <attribute name="NAME" x="316.484" y="96.901" size="1.778" layer="95"/>
 <attribute name="VALUE" x="316.484" y="91.821" size="1.778" layer="96"/>
@@ -3125,7 +3125,7 @@ Package: 0603</description>
 <attribute name="VALUE" x="307.34" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY6" gate="GND" x="314.96" y="48.26"/>
-<instance part="J6" gate="G$1" x="167.64" y="88.9" smashed="yes">
+<instance part="J5" gate="G$1" x="167.64" y="88.9" smashed="yes">
 <attribute name="NAME" x="162.814" y="96.774" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="162.56" y="94.742" size="1.27" layer="95" font="vector" ratio="10"/>
 </instance>
@@ -3152,7 +3152,7 @@ Package: 0603</description>
 <attribute name="VALUE" x="330.2" y="205.74" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY21" gate="GND" x="342.9" y="167.64"/>
-<instance part="U6" gate="G$1" x="48.26" y="78.74"/>
+<instance part="U2" gate="G$1" x="48.26" y="78.74"/>
 <instance part="+3V6" gate="G$1" x="76.2" y="91.44" smashed="yes">
 <attribute name="VALUE" x="73.66" y="92.71" size="1.778" layer="96"/>
 </instance>
@@ -3432,21 +3432,21 @@ Package: 0603</description>
 <wire x1="314.96" y1="88.9" x2="314.96" y2="73.66" width="0.1524" layer="91"/>
 <junction x="314.96" y="88.9"/>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
-<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="J4" gate="G$1" pin="GND"/>
 <wire x1="314.96" y1="73.66" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="60.96" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="314.96" y1="58.42" x2="314.96" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="73.66" x2="314.96" y2="73.66" width="0.1524" layer="91"/>
 <junction x="314.96" y="73.66"/>
-<pinref part="U2" gate="G$1" pin="CD2"/>
+<pinref part="J4" gate="G$1" pin="CD2"/>
 <wire x1="342.9" y1="60.96" x2="314.96" y2="60.96" width="0.1524" layer="91"/>
 <junction x="314.96" y="60.96"/>
-<pinref part="U2" gate="G$1" pin="SHIELD1"/>
+<pinref part="J4" gate="G$1" pin="SHIELD1"/>
 <wire x1="342.9" y1="58.42" x2="314.96" y2="58.42" width="0.1524" layer="91"/>
 <junction x="314.96" y="58.42"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="4"/>
+<pinref part="J5" gate="G$1" pin="4"/>
 <wire x1="170.18" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="83.82" x2="172.72" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="SUPPLY14" gate="GND" pin="GND"/>
@@ -3476,7 +3476,7 @@ Package: 0603</description>
 <junction x="342.9" y="177.8"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="5"/>
+<pinref part="U2" gate="G$1" pin="5"/>
 <label x="66.04" y="76.2" size="1.778" layer="95"/>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <wire x1="60.96" y1="76.2" x2="76.2" y2="76.2" width="0.1524" layer="91"/>
@@ -3569,7 +3569,7 @@ Package: 0603</description>
 <wire x1="104.14" y1="170.18" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="160.02" x2="99.06" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="160.02" x2="99.06" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="1"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
 <wire x1="99.06" y1="154.94" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="154.94" x2="99.06" y2="144.78" width="0.1524" layer="91"/>
 <junction x="99.06" y="154.94"/>
@@ -3584,7 +3584,7 @@ Package: 0603</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="4"/>
 <wire x1="109.22" y1="170.18" x2="109.22" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="154.94" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="154.94" x2="109.22" y2="144.78" width="0.1524" layer="91"/>
 <junction x="109.22" y="154.94"/>
@@ -3644,7 +3644,7 @@ Package: 0603</description>
 <junction x="160.02" y="238.76"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="VCC"/>
+<pinref part="J4" gate="G$1" pin="VCC"/>
 <wire x1="342.9" y1="78.74" x2="337.82" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="78.74" x2="337.82" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -3680,7 +3680,7 @@ Package: 0603</description>
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="76.2" y1="88.9" x2="76.2" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="8"/>
+<pinref part="U2" gate="G$1" pin="8"/>
 <label x="66.04" y="83.82" size="1.778" layer="95"/>
 <wire x1="76.2" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
 </segment>
@@ -3815,7 +3815,7 @@ Package: 0603</description>
 </net>
 <net name="SD_CS" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="CS"/>
+<pinref part="J4" gate="G$1" pin="CS"/>
 <wire x1="342.9" y1="83.82" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="83.82" x2="271.78" y2="83.82" width="0.1524" layer="91"/>
@@ -3826,7 +3826,7 @@ Package: 0603</description>
 </net>
 <net name="SD_MOSI" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="DI"/>
+<pinref part="J4" gate="G$1" pin="DI"/>
 <wire x1="342.9" y1="81.28" x2="304.8" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="304.8" y1="81.28" x2="271.78" y2="81.28" width="0.1524" layer="91"/>
@@ -3837,14 +3837,14 @@ Package: 0603</description>
 </net>
 <net name="SD_SCK" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="SCK"/>
+<pinref part="J4" gate="G$1" pin="SCK"/>
 <wire x1="342.9" y1="76.2" x2="271.78" y2="76.2" width="0.1524" layer="91"/>
 <label x="271.78" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_MISO" class="0">
 <segment>
-<pinref part="U2" gate="G$1" pin="DO"/>
+<pinref part="J4" gate="G$1" pin="DO"/>
 <wire x1="342.9" y1="71.12" x2="294.64" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="294.64" y1="71.12" x2="271.78" y2="71.12" width="0.1524" layer="91"/>
@@ -3855,7 +3855,7 @@ Package: 0603</description>
 </net>
 <net name="VRIN" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="1"/>
+<pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="91.44" x2="203.2" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
@@ -3868,14 +3868,14 @@ Package: 0603</description>
 </net>
 <net name="USB_D-" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="88.9" x2="175.26" y2="88.9" width="0.1524" layer="91"/>
 <label x="175.26" y="88.9" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D+" class="0">
 <segment>
-<pinref part="J6" gate="G$1" pin="3"/>
+<pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="170.18" y1="86.36" x2="175.26" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="86.36" x2="175.26" y2="83.82" width="0.1524" layer="91"/>
 <label x="175.26" y="83.82" size="1.778" layer="95" xref="yes"/>
@@ -3923,15 +3923,15 @@ Package: 0603</description>
 </net>
 <net name="RO" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="1"/>
+<pinref part="U2" gate="G$1" pin="1"/>
 <wire x1="43.18" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
 <label x="35.56" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="DTR1" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="3"/>
-<pinref part="U6" gate="G$1" pin="2"/>
+<pinref part="U2" gate="G$1" pin="3"/>
+<pinref part="U2" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="81.28" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="78.74" x2="22.86" y2="78.74" width="0.1524" layer="91"/>
@@ -3942,14 +3942,14 @@ Package: 0603</description>
 </net>
 <net name="DI" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="4"/>
+<pinref part="U2" gate="G$1" pin="4"/>
 <wire x1="43.18" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
 <label x="35.56" y="76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="B" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="7"/>
+<pinref part="U2" gate="G$1" pin="7"/>
 <label x="66.04" y="81.28" size="1.778" layer="95"/>
 <wire x1="60.96" y1="81.28" x2="83.82" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -3969,7 +3969,7 @@ Package: 0603</description>
 </net>
 <net name="A" class="0">
 <segment>
-<pinref part="U6" gate="G$1" pin="6"/>
+<pinref part="U2" gate="G$1" pin="6"/>
 <label x="66.04" y="78.74" size="1.778" layer="95"/>
 <wire x1="60.96" y1="78.74" x2="83.82" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
