@@ -38143,8 +38143,6 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <part name="R41" library="TinWhiskers" deviceset="CPL-RES-0603-100-0.1W" device="" value="100R"/>
 <part name="RJ1" library="TinWhiskers" deviceset="CPL-CON-MOD-RJ45" device="" value="RJ-45"/>
 <part name="SUPPLY39" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="R42" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K"/>
-<part name="SUPPLY40" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -38229,9 +38227,9 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <attribute name="VALUE" x="312.42" y="157.48" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY34" gate="GND" x="314.96" y="116.84"/>
-<instance part="LED4" gate="G$1" x="22.86" y="170.18" smashed="yes">
-<attribute name="NAME" x="26.416" y="165.608" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="28.575" y="165.608" size="1.778" layer="96" rot="R90"/>
+<instance part="LED4" gate="G$1" x="22.86" y="180.34" smashed="yes">
+<attribute name="NAME" x="26.416" y="175.768" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="28.575" y="175.768" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LED5" gate="G$1" x="274.32" y="241.3" smashed="yes">
 <attribute name="NAME" x="277.876" y="236.728" size="1.778" layer="95" rot="R90"/>
@@ -38281,11 +38279,6 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <attribute name="VALUE" x="297.18" y="210.82" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY38" gate="GND" x="299.72" y="170.18"/>
-<instance part="R42" gate="G$1" x="22.86" y="180.34" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.3614" y="176.53" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="26.162" y="176.53" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="SUPPLY40" gate="GND" x="22.86" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -38399,11 +38392,6 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <pinref part="SUPPLY38" gate="GND" pin="GND"/>
 <wire x1="299.72" y1="172.72" x2="299.72" y2="175.26" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="LED4" gate="G$1" pin="C"/>
-<pinref part="SUPPLY40" gate="GND" pin="GND"/>
-<wire x1="22.86" y1="165.1" x2="22.86" y2="162.56" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="VDD" class="0">
 <segment>
@@ -38439,7 +38427,7 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <wire x1="40.64" y1="187.96" x2="48.26" y2="187.96" width="0.1524" layer="91"/>
 <junction x="48.26" y="187.96"/>
 <label x="99.06" y="182.88" size="1.778" layer="95"/>
-<wire x1="40.64" y1="187.96" x2="22.86" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="187.96" x2="27.94" y2="187.96" width="0.1524" layer="91"/>
 <junction x="40.64" y="187.96"/>
 <pinref part="U1" gate="G$1" pin="VDD@96"/>
 <wire x1="149.86" y1="175.26" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
@@ -38470,10 +38458,6 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <wire x1="40.64" y1="139.7" x2="40.64" y2="147.32" width="0.1524" layer="91"/>
 <junction x="40.64" y="147.32"/>
 <label x="30.48" y="187.96" size="1.778" layer="95"/>
-<wire x1="22.86" y1="187.96" x2="22.86" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="R42" gate="G$1" pin="2"/>
-<wire x1="22.86" y1="185.42" x2="22.86" y2="187.96" width="0.1524" layer="91"/>
-<junction x="22.86" y="187.96"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -38779,13 +38763,6 @@ Datasheet: http://www.farnell.com/cad/1859325.pdf</description>
 <pinref part="U1" gate="G$1" pin="P0-11"/>
 <wire x1="187.96" y1="208.28" x2="198.12" y2="208.28" width="0.1524" layer="91"/>
 <label x="193.04" y="208.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="LED4" gate="G$1" pin="A"/>
-<pinref part="R42" gate="G$1" pin="1"/>
-<wire x1="22.86" y1="172.72" x2="22.86" y2="175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
