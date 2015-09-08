@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="4" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -396,6 +396,22 @@
 <vertex x="90" y="1" curve="90"/>
 </polygon>
 </package>
+<package name="FIDUCIAL">
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" cream="no"/>
+<polygon width="0.127" layer="29">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="41">
+<vertex x="-1" y="0" curve="90"/>
+<vertex x="0" y="-1" curve="90"/>
+<vertex x="1" y="0" curve="90"/>
+<vertex x="0" y="1" curve="90"/>
+</polygon>
+<text x="-1.27" y="1.27" size="1.27" layer="51">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FIDUCIAL">
@@ -430,6 +446,18 @@
 </gates>
 <devices>
 <device name="" package="FIDUCIAL_19X">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FID">
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="FIDUCIAL">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -537,6 +565,42 @@ DIN A3, landscape with location and doc. field</description>
 <part name="FAKEFID37" library="TinWhiskers" deviceset="FIDUCIAL_19X" device=""/>
 <part name="FAKEFID38" library="TinWhiskers" deviceset="FIDUCIAL_19X" device=""/>
 <part name="FAKEFID39" library="TinWhiskers" deviceset="FIDUCIAL_19X" device=""/>
+<part name="FID1" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID2" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID4" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID7" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID11" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID12" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID13" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID14" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID15" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID16" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID17" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID18" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID19" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID20" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID24" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID27" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID29" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID30" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID31" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID32" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID33" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID34" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID35" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID36" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID40" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID43" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID45" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID46" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID47" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID49" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID52" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID56" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID57" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID58" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID59" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="FID60" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1286,6 +1350,42 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="FAKEFID39" gate="Q" x="365.76" y="223.52"/>
 <instance part="FAKEFID39" gate="R" x="375.92" y="223.52"/>
 <instance part="FAKEFID39" gate="S" x="386.08" y="223.52"/>
+<instance part="FID1" gate="G$1" x="10.16" y="30.48"/>
+<instance part="FID2" gate="G$1" x="20.32" y="30.48"/>
+<instance part="FID4" gate="G$1" x="40.64" y="30.48"/>
+<instance part="FID7" gate="G$1" x="71.12" y="30.48"/>
+<instance part="FID11" gate="G$1" x="111.76" y="30.48"/>
+<instance part="FID12" gate="G$1" x="121.92" y="30.48"/>
+<instance part="FID13" gate="G$1" x="132.08" y="30.48"/>
+<instance part="FID14" gate="G$1" x="142.24" y="30.48"/>
+<instance part="FID15" gate="G$1" x="152.4" y="30.48"/>
+<instance part="FID16" gate="G$1" x="10.16" y="22.86"/>
+<instance part="FID17" gate="G$1" x="20.32" y="22.86"/>
+<instance part="FID18" gate="G$1" x="30.48" y="22.86"/>
+<instance part="FID19" gate="G$1" x="40.64" y="22.86"/>
+<instance part="FID20" gate="G$1" x="50.8" y="22.86"/>
+<instance part="FID24" gate="G$1" x="91.44" y="22.86"/>
+<instance part="FID27" gate="G$1" x="121.92" y="22.86"/>
+<instance part="FID29" gate="G$1" x="142.24" y="22.86"/>
+<instance part="FID30" gate="G$1" x="152.4" y="22.86"/>
+<instance part="FID31" gate="G$1" x="10.16" y="15.24"/>
+<instance part="FID32" gate="G$1" x="20.32" y="15.24"/>
+<instance part="FID33" gate="G$1" x="30.48" y="15.24"/>
+<instance part="FID34" gate="G$1" x="40.64" y="15.24"/>
+<instance part="FID35" gate="G$1" x="50.8" y="15.24"/>
+<instance part="FID36" gate="G$1" x="60.96" y="15.24"/>
+<instance part="FID40" gate="G$1" x="101.6" y="15.24"/>
+<instance part="FID43" gate="G$1" x="132.08" y="15.24"/>
+<instance part="FID45" gate="G$1" x="152.4" y="15.24"/>
+<instance part="FID46" gate="G$1" x="10.16" y="7.62"/>
+<instance part="FID47" gate="G$1" x="20.32" y="7.62"/>
+<instance part="FID49" gate="G$1" x="40.64" y="7.62"/>
+<instance part="FID52" gate="G$1" x="71.12" y="7.62"/>
+<instance part="FID56" gate="G$1" x="111.76" y="7.62"/>
+<instance part="FID57" gate="G$1" x="121.92" y="7.62"/>
+<instance part="FID58" gate="G$1" x="132.08" y="7.62"/>
+<instance part="FID59" gate="G$1" x="142.24" y="7.62"/>
+<instance part="FID60" gate="G$1" x="152.4" y="7.62"/>
 </instances>
 <busses>
 </busses>
