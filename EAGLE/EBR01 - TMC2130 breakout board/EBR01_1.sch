@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1411,7 +1411,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="38.1" y1="172.72" x2="38.1" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="172.72" x2="35.56" y2="172.72" width="0.1524" layer="91"/>
 <junction x="38.1" y="172.72"/>
-<label x="35.56" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="33.02" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="2B" class="0">
@@ -1672,7 +1672,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="152.4" y1="175.26" x2="149.86" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="175.26" x2="149.86" y2="172.72" width="0.1524" layer="91"/>
 <junction x="149.86" y="172.72"/>
-<label x="142.24" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="139.7" y="172.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="3"/>
@@ -1681,7 +1681,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="63.5" y1="172.72" x2="66.04" y2="172.72" width="0.1524" layer="91"/>
 <junction x="63.5" y="172.72"/>
 <pinref part="C3" gate="C1" pin="2"/>
-<label x="66.04" y="172.72" size="1.778" layer="95" xref="yes"/>
+<label x="66.04" y="172.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CPI" class="0">

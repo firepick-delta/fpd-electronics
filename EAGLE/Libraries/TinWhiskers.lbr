@@ -10538,6 +10538,223 @@ Datasheet: http://www.micrel.com/_PDF/lm2576.pdf</description>
 <text x="6.9" y="3.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="6.9" y="2.4" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
+<package name="C-SMD-12.5MM">
+<description>Capacitor: Polar;
+Package: 12.5MM (Dia.)
+Datasheet: http://www.mouser.com/ds/2/420/-552881.pdf</description>
+<circle x="0" y="0" radius="6.25" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="-6.5" x2="-6.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="-6.5" y1="3.5" x2="-3.5" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="6.5" x2="3.5" y2="6.5" width="0.127" layer="51"/>
+<wire x1="3.5" y1="6.5" x2="6.5" y2="3.5" width="0.127" layer="51"/>
+<wire x1="6.5" y1="3.5" x2="6.5" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="6.5" y1="-6.5" x2="-6.5" y2="-6.5" width="0.127" layer="51"/>
+<wire x1="-6.8" y1="-6.8" x2="-6.8" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-6.8" y1="3.7" x2="-3.7" y2="6.8" width="0.127" layer="21"/>
+<wire x1="3.8" y1="6.8" x2="6.8" y2="3.8" width="0.127" layer="21"/>
+<wire x1="6.8" y1="3.8" x2="6.8" y2="-6.8" width="0.127" layer="21"/>
+<smd name="POS" x="0" y="4.9875" dx="1.56" dy="6.175" layer="1"/>
+<smd name="NEG" x="0" y="-4.9875" dx="1.56" dy="6.175" layer="1"/>
+<wire x1="-6.8" y1="-6.8" x2="-1.1" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-6.8" x2="6.8" y2="-6.8" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="6.8" x2="-1.1" y2="6.8" width="0.127" layer="21"/>
+<wire x1="1.1" y1="6.8" x2="3.8" y2="6.8" width="0.127" layer="21"/>
+<polygon width="0.127" layer="51">
+<vertex x="-0.65" y="-2.1"/>
+<vertex x="0.65" y="-2.1"/>
+<vertex x="0.65" y="-6.85"/>
+<vertex x="-0.65" y="-6.85"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-0.65" y="2.1"/>
+<vertex x="-0.65" y="6.85"/>
+<vertex x="0.65" y="6.85"/>
+<vertex x="0.65" y="2.1"/>
+</polygon>
+<text x="7.8" y="2.6" size="1.27" layer="25" ratio="12">&gt;Name</text>
+<text x="7.8" y="1.3" size="1" layer="27" ratio="10">&gt;Value</text>
+<wire x1="-4.7" y1="-3.2" x2="-2.1" y2="-3.2" width="0.5" layer="27"/>
+<wire x1="-4.6" y1="3.2" x2="-3.4" y2="3.2" width="0.5" layer="27"/>
+<wire x1="-3.4" y1="3.2" x2="-2.1" y2="3.2" width="0.5" layer="27"/>
+<wire x1="-3.4" y1="3.2" x2="-3.4" y2="1.9" width="0.5" layer="27"/>
+<wire x1="-3.4" y1="3.2" x2="-3.4" y2="4.5" width="0.5" layer="27"/>
+</package>
+<package name="DIO-1N5822">
+<description>Diode: Shottky, Rectifier, Vrrm=40V, If=3A, Ifsm=80A;
+Package: Thru-hole, (9.5mm x 5.6mm);
+Datasheet: http://www.mouser.com/ds/2/395/1N5820%20SERIES_G13-526541.pdf</description>
+<wire x1="-4.75" y1="-2.8" x2="-4.75" y2="2.8" width="0.127" layer="51"/>
+<wire x1="-4.75" y1="2.8" x2="4.75" y2="2.8" width="0.127" layer="51"/>
+<wire x1="4.75" y1="2.8" x2="4.75" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="4.75" y1="-2.8" x2="-4.75" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="3.1" x2="-5.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="-5.1" y1="-3.1" x2="5.1" y2="-3.1" width="0.127" layer="21"/>
+<wire x1="5.1" y1="-3.1" x2="5.1" y2="3.1" width="0.127" layer="21"/>
+<wire x1="5.1" y1="3.1" x2="-5.1" y2="3.1" width="0.127" layer="21"/>
+<polygon width="0.127" layer="21">
+<vertex x="4.1" y="2.7"/>
+<vertex x="4.1" y="-2.7"/>
+<vertex x="3.5" y="-2.7"/>
+<vertex x="3.5" y="2.7"/>
+</polygon>
+<pad name="POS" x="-8.56" y="0" drill="1.65"/>
+<pad name="NEG" x="8.56" y="0" drill="1.65"/>
+<wire x1="-5.2" y1="0" x2="-7" y2="0" width="0.254" layer="21"/>
+<wire x1="7" y1="0" x2="5.2" y2="0" width="0.254" layer="21"/>
+<text x="-4.4" y="5.3" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-4.4" y="4.1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="DIO-SMA">
+<description>Package: SMA(DIODE-SMT);
+Datasheet: http://www.mouser.com/ds/2/115/ds30891-89887.pdf</description>
+<wire x1="-2.3" y1="-1.3025" x2="-2.3" y2="1.3025" width="0.127" layer="51"/>
+<wire x1="-2.3" y1="1.3025" x2="2.3" y2="1.3025" width="0.127" layer="51"/>
+<wire x1="2.3" y1="1.3025" x2="2.3" y2="-1.3025" width="0.127" layer="51"/>
+<wire x1="2.3" y1="-1.3025" x2="-2.3" y2="-1.3025" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.5975" y="-0.725"/>
+<vertex x="-2.5975" y="0.725"/>
+<vertex x="-1.4575" y="0.725"/>
+<vertex x="-1.4575" y="-0.725"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="2.5975" y="-0.725"/>
+<vertex x="2.5975" y="0.725"/>
+<vertex x="1.4575" y="0.725"/>
+<vertex x="1.4575" y="-0.725"/>
+</polygon>
+<wire x1="-0.8" y1="0.8" x2="-0.8" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0" x2="-0.8" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="-0.8" x2="0.7" y2="0" width="0.127" layer="21"/>
+<wire x1="0.7" y1="0" x2="-0.8" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.7" y1="0" x2="1.1" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0" x2="-1.2" y2="0" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.8" x2="0.7" y2="0.8" width="0.127" layer="21"/>
+<smd name="POS" x="-2.5" y="0" dx="2.505" dy="1.7" layer="1"/>
+<smd name="NEG" x="2.5" y="0" dx="2.505" dy="1.7" layer="1"/>
+<text x="-2.2" y="1.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.2" y="-2.7" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="C-SMD-10MM">
+<description>Capacitor: Al-Electrolytic, SMD
+Package: 10MM;
+Datasheet: http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=mva</description>
+<smd name="NEG" x="0" y="-4.1625" dx="1.32" dy="4.225" layer="1"/>
+<smd name="POS" x="0" y="4.1625" dx="1.32" dy="4.225" layer="1"/>
+<wire x1="-5.15" y1="-5.15" x2="-5.15" y2="2.15" width="0.127" layer="51"/>
+<wire x1="-5.15" y1="2.15" x2="-2.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="-2.15" y1="5.15" x2="2.15" y2="5.15" width="0.127" layer="51"/>
+<wire x1="2.15" y1="5.15" x2="5.15" y2="2.15" width="0.127" layer="51"/>
+<wire x1="5.15" y1="2.15" x2="5.15" y2="-5.15" width="0.127" layer="51"/>
+<wire x1="5.15" y1="-5.15" x2="-5.15" y2="-5.15" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="51"/>
+<polygon width="0.127" layer="51">
+<vertex x="-0.55" y="-2.25"/>
+<vertex x="-0.55" y="-5.5"/>
+<vertex x="0.55" y="-5.5"/>
+<vertex x="0.55" y="-2.25"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="-0.55" y="2.25"/>
+<vertex x="-0.55" y="5.5"/>
+<vertex x="0.55" y="5.5"/>
+<vertex x="0.55" y="2.25"/>
+</polygon>
+<wire x1="-5.5" y1="-5.5" x2="-5.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="2.5" x2="-2.5" y2="5.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="5.5" x2="-1" y2="5.5" width="0.127" layer="21"/>
+<wire x1="1" y1="5.5" x2="2.5" y2="5.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="5.5" x2="5.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="5.5" y1="2.5" x2="5.5" y2="-5.4" width="0.127" layer="21"/>
+<wire x1="5.5" y1="-5.4" x2="1" y2="-5.4" width="0.127" layer="21"/>
+<wire x1="-1" y1="-5.5" x2="-5.5" y2="-5.5" width="0.127" layer="21"/>
+<wire x1="-3.8" y1="-2.3" x2="-1.6" y2="-2.3" width="0.5" layer="21"/>
+<wire x1="-3.8" y1="2.3" x2="-1.6" y2="2.3" width="0.5" layer="21"/>
+<wire x1="-2.7" y1="1.2" x2="-2.7" y2="3.4" width="0.5" layer="21"/>
+<text x="6.2" y="1.7" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="6.2" y="0.4" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="L-SMD-12.5MM">
+<description>Inductor: SMD, 12.5mm (Dia.);
+Datasheet: http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_4315_DR_Series.pdf</description>
+<smd name="P$1" x="-5.1" y="0" dx="3.95" dy="5.5" layer="1"/>
+<smd name="P$2" x="5.1" y="0" dx="3.95" dy="5.5" layer="1"/>
+<polygon width="0.127" layer="51">
+<vertex x="-4.2" y="-2.45"/>
+<vertex x="-6.25" y="-2.45"/>
+<vertex x="-6.25" y="2.45"/>
+<vertex x="-4.2" y="2.45"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="4.2" y="-2.45"/>
+<vertex x="6.25" y="-2.45"/>
+<vertex x="6.25" y="2.45"/>
+<vertex x="4.2" y="2.45"/>
+</polygon>
+<wire x1="-6.25" y1="-6.25" x2="-6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="-6.25" y1="6.25" x2="6.25" y2="6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="6.25" x2="6.25" y2="-6.25" width="0.127" layer="51"/>
+<wire x1="6.25" y1="-6.25" x2="-6.25" y2="-6.25" width="0.127" layer="51"/>
+<text x="-4.9" y="8.2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-4.9" y="7" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="DIO-SM2">
+<description>Diode: SM2 Package</description>
+<smd name="NEG" x="-2" y="0" dx="1.85" dy="1.8" layer="1"/>
+<smd name="POS" x="2" y="0" dx="1.85" dy="1.8" layer="1"/>
+<polygon width="0.127" layer="51">
+<vertex x="-2.5" y="-0.75"/>
+<vertex x="-2.5" y="0.75"/>
+<vertex x="-1.2" y="0.75"/>
+<vertex x="-1.2" y="-0.75"/>
+</polygon>
+<polygon width="0.127" layer="51">
+<vertex x="2.5" y="-0.75"/>
+<vertex x="2.5" y="0.75"/>
+<vertex x="1.2" y="0.75"/>
+<vertex x="1.2" y="-0.75"/>
+</polygon>
+<wire x1="-2.25" y1="-1.3" x2="-2.25" y2="1.3" width="0.127" layer="51"/>
+<wire x1="-2.25" y1="1.3" x2="2.25" y2="1.3" width="0.127" layer="51"/>
+<wire x1="2.25" y1="1.3" x2="2.25" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="2.25" y1="-1.3" x2="-2.25" y2="-1.3" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.6" x2="-2.5" y2="-1.2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.2" x2="-2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="1.6" x2="2.5" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.6" x2="2.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.2" x2="2.6" y2="-1.6" width="0.127" layer="21"/>
+<wire x1="2.6" y1="-1.6" x2="-2.5" y2="-1.6" width="0.127" layer="21"/>
+<text x="-2.2" y="3.4" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.2" y="2.2" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="0.7" y1="0.7" x2="0.7" y2="-0.7" width="0.1" layer="21"/>
+<wire x1="0.7" y1="-0.7" x2="-0.5" y2="0" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.7" y2="0.7" width="0.1" layer="21"/>
+<wire x1="-0.5" y1="-0.7" x2="-0.5" y2="0.7" width="0.1" layer="21"/>
+</package>
+<package name="SUKW2-22">
+<description>&lt;B&gt;INDUCTOR&lt;/B&gt;&lt;p&gt;
+manufacturer Siemens</description>
+<wire x1="11.43" y1="0" x2="10.16" y2="0" width="0.8128" layer="51"/>
+<wire x1="-11.43" y1="0" x2="-10.16" y2="0" width="0.8128" layer="51"/>
+<wire x1="-9.144" y1="-1.905" x2="-9.144" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-9.144" y1="1.905" x2="-7.747" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="-9.144" y1="-1.905" x2="-7.747" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="7.747" y1="2.794" x2="-7.747" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="7.747" y1="-2.794" x2="-7.747" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="9.144" y1="1.905" x2="7.747" y2="2.794" width="0.1524" layer="21"/>
+<wire x1="9.144" y1="-1.905" x2="7.747" y2="-2.794" width="0.1524" layer="21"/>
+<wire x1="9.144" y1="-1.905" x2="9.144" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-7.747" y1="2.413" x2="-7.747" y2="-2.413" width="0.0508" layer="21"/>
+<wire x1="7.747" y1="2.413" x2="7.747" y2="-2.413" width="0.0508" layer="21"/>
+<pad name="1" x="-11.43" y="0" drill="1.016" shape="long"/>
+<pad name="2" x="11.43" y="0" drill="1.016" shape="long"/>
+<text x="-7.874" y="3.0734" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-6.604" y="-0.5842" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="9.144" y1="-0.762" x2="9.525" y2="0.762" layer="21"/>
+<rectangle x1="-9.525" y1="-0.762" x2="-9.144" y2="0.762" layer="21"/>
+<rectangle x1="9.525" y1="-0.4064" x2="10.0838" y2="0.4064" layer="21"/>
+<rectangle x1="-10.0838" y1="-0.4064" x2="-9.525" y2="0.4064" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -17208,18 +17425,26 @@ Source: Molex</description>
 </symbol>
 <symbol name="TO263-5">
 <description>TO263-5 (5-Pin)</description>
-<pin name="3" x="0" y="-7.62" length="short" rot="R90"/>
-<pin name="2" x="-2.54" y="-7.62" length="short" rot="R90"/>
-<pin name="1" x="-5.08" y="-7.62" length="short" rot="R90"/>
-<pin name="4" x="2.54" y="-7.62" length="short" rot="R90"/>
+<pin name="3" x="-5.08" y="-7.62" length="short" rot="R90"/>
+<pin name="2" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="1" x="-10.16" y="5.08" length="short"/>
+<pin name="4" x="10.16" y="5.08" length="short" rot="R180"/>
 <pin name="5" x="5.08" y="-7.62" length="short" rot="R90"/>
 <wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<pin name="GND" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" length="short" rot="R90"/>
 <text x="-7.62" y="12.7" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-7.62" y="10.16" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="DRK">
+<wire x1="-3.81" y1="1.651" x2="3.81" y2="1.651" width="0.254" layer="94"/>
+<text x="-3.81" y="2.286" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.937" y="-3.048" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-3.81" y1="-0.889" x2="3.81" y2="0.889" layer="94"/>
+<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19159,6 +19384,179 @@ Datasheet: http://www.micrel.com/_PDF/lm2576.pdf</description>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-ALU-SMD-100UF-100V" prefix="C">
+<description>Capacitor: 100uF, 100V, 20%, Al-Electrolytic;
+Package: 12.5mm Barrel;
+Datasheet: http://www.mouser.com/ds/2/420/-552881.pdf</description>
+<gates>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-SMD-12.5MM">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DIO-1N5822-DO201AD" prefix="D">
+<description>Diode: Rectifier, Schottky, Vrrm=40V, If=3A;
+Package: Thru-hole, (9.5mm x 6.5mm);
+Datasheet: http://www.mouser.com/ds/2/395/1N5820%20SERIES_G13-526541.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE_SCHOTTKY-DIODE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIO-1N5822">
+<connects>
+<connect gate="G$1" pin="A" pad="POS"/>
+<connect gate="G$1" pin="C" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DIO-B340-13-F-SMA" prefix="D">
+<description>Diode: B340-13-F (Rectifier, Shottky), Vrrm=40V, If=3A
+Package: SMA
+Datasheet: http://www.mouser.com/ds/2/115/ds30891-89887.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE_SCHOTTKY-DIODE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIO-SMA">
+<connects>
+<connect gate="G$1" pin="A" pad="POS"/>
+<connect gate="G$1" pin="C" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-ALU-SMD-220-50V" prefix="C">
+<description>Capacitor: Al-Electrolytic, 220uF, 50V;
+Package: SMD-10mm;
+Datasheet: http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=mva</description>
+<gates>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-SMD-10MM">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-ALU-SMD-470UF-25V" prefix="C">
+<description>Capacitor: Al-Electrolytic, 470uF, 25V;
+Package: SMD, 10mm;
+Datasheet: http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&amp;j=p&amp;pdfname=mva</description>
+<gates>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-SMD-10MM">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-IND-100UH-1.8A" prefix="L">
+<description>Inductor: SMD, 100uH, 1.78A;
+Package: SMD, 12.5mm (Dia.);
+Datasheet: http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/Bus_Elx_DS_4315_DR_Series.pdf</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L-SMD-12.5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B82132" prefix="L">
+<description>&lt;B&gt;INDUCTOR&lt;/B&gt;</description>
+<gates>
+<gate name="1" symbol="DRK" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SUKW2-22">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-REG-SWI-5V-1.5A" prefix="U">
+<description>Voltage Regulator: 5V, 1.5A, Switching;
+Package: TO263-5;
+Datasheet: http://www.semicon.sanken-ele.co.jp/sk_content/si-8033jd_ds_en.pdf</description>
+<gates>
+<gate name="G$1" symbol="TO263-5" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO263-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DIO-SJPB-H6-SM2" prefix="D">
+<description>Diode: Rectifier, Schottky, 40V
+Package: SM2;
+Datasheet: http://www.semicon.sanken-ele.co.jp/sk_content/sjpb-h6_ds_en.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE_SCHOTTKY-DIODE-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIO-SM2">
+<connects>
+<connect gate="G$1" pin="A" pad="NEG"/>
+<connect gate="G$1" pin="C" pad="POS"/>
 </connects>
 <technologies>
 <technology name=""/>

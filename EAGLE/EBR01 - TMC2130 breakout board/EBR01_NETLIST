@@ -1,0 +1,124 @@
+Netlist
+
+Exported from EBR01.sch at 9/8/2015 2:35 PM
+
+EAGLE Version 7.4.0 Copyright (c) 1988-2015 CadSoft
+
+Net      Part     Pad      Pin        Sheet
+
+!ENABLE! J1       1        1          1
+         U1       22       DRV_ENN    1
+
+!RESET!  J1       5        5          1
+
+!SLEEP!  J1       6        6          1
+
+1A       C12      1        1          1
+         D3       NEG      C          1
+         J2       5        5          1
+         U1       32       OA2        1
+
+1B       C13      1        1          1
+         D4       NEG      C          1
+         J2       6        6          1
+         U1       34       OA1        1
+
+2A       C11      1        1          1
+         D2       NEG      C          1
+         J2       4        4          1
+         U1       13       OB1        1
+
+2B       C10      1        1          1
+         D1       NEG      C          1
+         J2       3        3          1
+         U1       15       OB2        1
+
+CLK      J3       1        1          1
+         U1       1        CLK        1
+
+DIR      J1       8        8          1
+         U1       7        DIR        1
+
+GND      C1       1        1          1
+         C10      2        2          1
+         C11      2        2          1
+         C12      2        2          1
+         C13      2        2          1
+         C14      2        2          1
+         C15      2        2          1
+         C4       1        1          1
+         C5       1        1          1
+         C8       2        2          1
+         C9       2        2          1
+         J2       2        2          1
+         J2       8        8          1
+         R2       1        1          1
+         R3       1        1          1
+         U1       12       GNDP       1
+         U1       18       DCEN       1
+         U1       24       GNDA       1
+         U1       35       GNDP       1
+         U1       36       TST_MODE   1
+         U1       VSS      PAD        1
+         U2       2        2          1
+
+MS1      J1       2        2          1
+
+MS2      J1       3        3          1
+
+MS3      J1       4        4          1
+
+N$1      C7       2        2          1
+         U1       28       CPI        1
+
+N$3      C14      1        1          1
+         D1       POS      A          1
+         D2       POS      A          1
+         R2       2        2          1
+         U1       33       BRA        1
+
+N$4      C15      1        1          1
+         D3       POS      A          1
+         D4       POS      A          1
+         R3       2        2          1
+         U1       14       BRB        1
+
+N$5      C7       1        1          1
+         U1       27       CPO        1
+
+N$8      C6       1        1          1
+         U1       29       VCP        1
+
+SPI_!CS! J3       5        5          1
+         U1       2        !CS        1
+
+SPI_SCK  J3       4        4          1
+         U1       3        SCK        1
+
+SPI_SDI  J3       3        3          1
+         U1       4        SDI        1
+
+SPI_SDO  J3       2        2          1
+         U1       5        SDO        1
+
+STEP     J1       7        7          1
+         U1       6        STEP       1
+
+VCC      C4       2        2          1
+         U1       26       VCC        1
+         U1       8        VCC_IO     1
+         U2       3        3          1
+
+VDD      J2       7        7          1
+
+VMOT     C1       2        2          1
+         C5       2        2          1
+         C6       2        2          1
+         C8       1        1          1
+         C9       1        1          1
+         J2       1        1          1
+         U1       16       VS         1
+         U1       30       VSA        1
+         U1       31       VS         1
+         U2       1        1          1
+
