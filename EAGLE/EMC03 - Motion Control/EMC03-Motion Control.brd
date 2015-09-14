@@ -8588,15 +8588,15 @@ design rules under a new name.
 </pass>
 </autorouter>
 <elements>
-<element name="J6" library="TinWhiskers" package="CON-HDR-3POS-MALE" value="CONN-0.1-RA-1X3" x="17.75" y="40.227" smashed="yes" rot="R300">
+<element name="J6" library="TinWhiskers" package="CON-HDR-3POS-MALE" value="68000-103HLF" x="17.75" y="40.227" smashed="yes" rot="R300">
 <attribute name="NAME" x="13.02494375" y="44.25180625" size="1.5" layer="25" ratio="10" rot="R30"/>
 <attribute name="PARTNO" value="CONN-0.1-RA-1X3" x="17.75" y="40.227" size="1.778" layer="27" rot="R300" display="off"/>
 </element>
-<element name="J5" library="TinWhiskers" package="CON-HDR-3POS-MALE" value="CONN-0.1-RA-1X3" x="94.5" y="126.603" smashed="yes" rot="R180">
+<element name="J5" library="TinWhiskers" package="CON-HDR-3POS-MALE" value="68000-103HLF" x="94.5" y="126.603" smashed="yes" rot="R180">
 <attribute name="NAME" x="101.949" y="126.593" size="1.5" layer="25" ratio="10" rot="R90"/>
 <attribute name="PARTNO" value="CONN-0.1-RA-1X3" x="94.5" y="126.603" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J7" library="TinWhiskers" package="CON-HDR-3POS-MALE" value="CONN-0.1-RA-1X3" x="125.056" y="27.745" smashed="yes" rot="R60">
+<element name="J7" library="TinWhiskers" package="CON-HDR-3POS-MALE" value="68000-103HLF" x="125.056" y="27.745" smashed="yes" rot="R60">
 <attribute name="NAME" x="123.606059375" y="21.498190625" size="1.5" layer="25" ratio="10" rot="R150"/>
 <attribute name="PARTNO" value="CONN-0.1-RA-1X3" x="125.056" y="27.745" size="1.778" layer="27" rot="R60" display="off"/>
 </element>
@@ -8676,7 +8676,7 @@ design rules under a new name.
 <attribute name="VALUE" x="81.234" y="34.805" size="0.4064" layer="27"/>
 <attribute name="PARTNO" value="CC0805ZRY5V9BB104" x="82.25" y="36.202" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J9" library="TinWhiskers" package="CON-HDR-2POS-MALE" value="CONN-0.1-S-1X2" x="75" y="2.702" smashed="yes">
+<element name="J9" library="TinWhiskers" package="CON-HDR-2POS-MALE" value="68000-102HLF" x="75" y="2.702" smashed="yes">
 <attribute name="NAME" x="78.21" y="3.103" size="1.2" layer="25" ratio="10"/>
 <attribute name="PARTNO" value="CONN-0.1-S-1X2" x="75" y="2.702" size="1.778" layer="27" display="off"/>
 </element>
@@ -8724,7 +8724,7 @@ design rules under a new name.
 <element name="FID7" library="FirePick" package="FIDUCIAL" value="FIDUCIAL" x="108" y="122.11">
 <attribute name="BOM" value="EXCLUDE" x="108" y="122.11" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J8" library="TinWhiskers" package="CON-HDR-6POS-MALE" value="OSTTH050160" x="75" y="125.952" smashed="yes">
+<element name="J8" library="TinWhiskers" package="CON-HDR-6POS-MALE" value="TBD" x="75" y="125.952" smashed="yes">
 <attribute name="PARTNO" value="OSTTH050160" x="75" y="125.952" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$25" library="!tin-whiskers" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="50" y="1.452"/>
@@ -8759,7 +8759,7 @@ design rules under a new name.
 <element name="R4" library="TinWhiskers" package="R0603" value="10k" x="259.808" y="-194.856"/>
 <element name="S3" library="TinWhiskers" package="0603" value="147873-2" x="129.904" y="-389.712"/>
 <element name="R5" library="TinWhiskers" package="R0603" value="10k" x="324.76" y="-194.856"/>
-<element name="U3" library="TinWhiskers" package="QFN-24" value="CPL-ETH-PHY-LAN8720A" x="714.472" y="-64.952"/>
+<element name="U3" library="TinWhiskers" package="QFN-24" value="LAN8720A" x="714.472" y="-64.952"/>
 <element name="R10" library="TinWhiskers" package="R0603" value="22R" x="324.76" y="194.856"/>
 <element name="R11" library="TinWhiskers" package="R0603" value="22R" x="389.712" y="194.856"/>
 <element name="R12" library="TinWhiskers" package="R0603" value="22R" x="454.664" y="194.856"/>
@@ -8795,7 +8795,7 @@ design rules under a new name.
 <element name="R23" library="TinWhiskers" package="R0603" value="10K" x="324.76" y="129.904"/>
 <element name="R33" library="TinWhiskers" package="R0603" value="330R" x="584.568" y="259.808"/>
 <element name="R34" library="TinWhiskers" package="R0603" value="330R" x="649.52" y="259.808"/>
-<element name="J4" library="TinWhiskers" package="MICRO-SD-SOCKET-PP" value="USD-SOCKETSMD" x="324.76" y="324.76"/>
+<element name="J4" library="TinWhiskers" package="MICRO-SD-SOCKET-PP" value="MicroSD" x="324.76" y="324.76"/>
 <element name="C33" library="TinWhiskers" package="C0603" value="1uF" x="519.616" y="-64.952"/>
 <element name="C34" library="TinWhiskers" package="C0603" value="0.1uF" x="519.616" y="0"/>
 <element name="R35" library="TinWhiskers" package="R0603" value="10K" x="389.712" y="129.904"/>
@@ -8839,8 +8839,8 @@ design rules under a new name.
 <element name="C47" library="TinWhiskers" package="C0603" value="100nF" x="194.856" y="389.712"/>
 <element name="C48" library="TinWhiskers" package="C0603" value="100nF" x="-64.952" y="454.664"/>
 <element name="C49" library="TinWhiskers" package="C0603" value="22 nF" x="0" y="454.664"/>
-<element name="J11" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="8-PIN HDR" x="64.952" y="194.856"/>
-<element name="J10" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="CPL-CON-HEADER-0.1IN-8P-M" x="129.904" y="194.856"/>
+<element name="J11" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="67997-108HLF" x="64.952" y="194.856"/>
+<element name="J10" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="67997-108HLF" x="129.904" y="194.856"/>
 <element name="C50" library="TinWhiskers" package="C0603" value="0.33uF" x="194.856" y="324.76"/>
 <element name="C51" library="TinWhiskers" package="C0603" value="100 nF" x="129.904" y="324.76"/>
 <element name="U8" library="TinWhiskers" package="QFN36-(5X6)" value="TMC2130-LA" x="194.856" y="519.616"/>
@@ -8861,7 +8861,7 @@ design rules under a new name.
 <element name="C57" library="TinWhiskers" package="C0603" value="100nF" x="-129.904" y="129.904"/>
 <element name="C58" library="TinWhiskers" package="C0603" value="100nF" x="-389.712" y="194.856"/>
 <element name="C59" library="TinWhiskers" package="C0603" value="22 nF" x="-324.76" y="194.856"/>
-<element name="J14" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="8-PIN HDR" x="129.904" y="519.616"/>
+<element name="J14" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="67997-108HLF" x="129.904" y="519.616"/>
 <element name="C60" library="TinWhiskers" package="C0603" value="0.33uF" x="-129.904" y="64.952"/>
 <element name="C61" library="TinWhiskers" package="C0603" value="100 nF" x="-194.856" y="64.952"/>
 <element name="LOGO9" library="FirePick" package="LOGO-CC-BY-SA" value="LOGO-CC-BY-SALARGE" x="-324.76" y="-259.808">
@@ -8886,8 +8886,8 @@ design rules under a new name.
 <element name="C70" library="TinWhiskers" package="C0603" value="100nF" x="-129.904" y="454.664"/>
 <element name="C71" library="TinWhiskers" package="C0603" value="100nF" x="-389.712" y="519.616"/>
 <element name="C72" library="TinWhiskers" package="C0603" value="22 nF" x="-324.76" y="519.616"/>
-<element name="J13" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="8-PIN HDR" x="-259.808" y="259.808"/>
-<element name="J12" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="8-PIN HDR" x="-194.856" y="259.808"/>
+<element name="J13" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="67997-108HLF" x="-259.808" y="259.808"/>
+<element name="J12" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="67997-108HLF" x="-194.856" y="259.808"/>
 <element name="C73" library="TinWhiskers" package="C0603" value="0.33uF" x="-129.904" y="389.712"/>
 <element name="C74" library="TinWhiskers" package="C0603" value="100 nF" x="-194.856" y="389.712"/>
 <element name="LOGO10" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICKLARGE" x="-519.616" y="259.808">
@@ -8903,7 +8903,7 @@ design rules under a new name.
 <element name="R7" library="TinWhiskers" package="R0603" value="470R" x="-64.952" y="-194.856"/>
 <element name="R8" library="TinWhiskers" package="R0603" value="470R" x="-64.952" y="-259.808"/>
 <element name="R9" library="TinWhiskers" package="R0603" value="470R" x="-64.952" y="-324.76"/>
-<element name="J15" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="8-PIN HDR" x="0" y="-389.712"/>
+<element name="J15" library="TinWhiskers" package="CON-HDR-8POS-MALE" value="67997-108HLF" x="0" y="-389.712"/>
 <element name="U5" library="TinWhiskers" package="SC70" value="74AHCT" x="0" y="0"/>
 <element name="Q1" library="TinWhiskers" package="HC-49/U-S" value="TBD" x="-454.664" y="454.664"/>
 <element name="C1" library="TinWhiskers" package="C0603" value="12pF" x="-519.616" y="519.616"/>
@@ -9287,6 +9287,7 @@ design rules under a new name.
 <contactref element="VR4" pad="2"/>
 <contactref element="VR3" pad="2"/>
 <contactref element="VR5" pad="2"/>
+<contactref element="U5" pad="3"/>
 <wire x1="73.882" y1="194.856" x2="58.612" y2="194.856" width="0" layer="19" extent="1-1"/>
 <wire x1="77.1" y1="128.503" x2="73.882" y2="194.856" width="0" layer="19" extent="1-1"/>
 <wire x1="72.7" y1="128.403" x2="77.1" y2="128.503" width="0" layer="19" extent="1-1"/>
@@ -9506,16 +9507,17 @@ design rules under a new name.
 <wire x1="43.5" y1="62.952" x2="34.525" y2="55.778" width="0" layer="19" extent="1-1"/>
 <wire x1="100.65" y1="3.153" x2="115.35" y2="12.077" width="0" layer="19" extent="1-1"/>
 <wire x1="90.525" y1="3.653" x2="100.65" y2="3.153" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.65" y1="1.1" x2="30.3" y2="19.627" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.952" y1="-61.457" x2="-0.65" y2="1.1" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.952" y1="-73.082" x2="-64.952" y2="-61.457" width="0" layer="19" extent="1-1"/>
+<wire x1="-61.552" y1="-73.082" x2="-64.952" y2="-73.082" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.952" y1="-134.0665" x2="-64.952" y2="-73.082" width="0" layer="19" extent="1-1"/>
 <wire x1="193.606" y1="192.056" x2="114.4" y2="122.528" width="0" layer="19" extent="1-1"/>
 <wire x1="196.606" y1="192.056" x2="193.606" y2="192.056" width="0" layer="19" extent="1-1"/>
 <wire x1="194.856" y1="194.856" x2="193.606" y2="192.056" width="0" layer="19" extent="1-1"/>
 <wire x1="197.156" y1="195.106" x2="194.856" y2="194.856" width="0" layer="19" extent="1-1"/>
 <wire x1="193.606" y1="197.656" x2="194.856" y2="194.856" width="0" layer="19" extent="1-1"/>
 <wire x1="193.106" y1="197.656" x2="193.606" y2="197.656" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.952" y1="-61.457" x2="35.85" y2="7.603" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.952" y1="-73.082" x2="-64.952" y2="-61.457" width="0" layer="19" extent="1-1"/>
-<wire x1="-61.552" y1="-73.082" x2="-64.952" y2="-73.082" width="0" layer="19" extent="1-1"/>
-<wire x1="-64.952" y1="-134.0665" x2="-64.952" y2="-73.082" width="0" layer="19" extent="1-1"/>
 <wire x1="194.131" y1="324.76" x2="193.606" y2="197.656" width="0" layer="19" extent="1-1"/>
 <wire x1="129.179" y1="324.76" x2="194.131" y2="324.76" width="0" layer="19" extent="1-1"/>
 <wire x1="65.677" y1="324.76" x2="129.179" y2="324.76" width="0" layer="19" extent="1-1"/>
@@ -9814,12 +9816,14 @@ design rules under a new name.
 <contactref element="U8" pad="22"/>
 <contactref element="U6" pad="22"/>
 <contactref element="J10" pad="1"/>
+<contactref element="U5" pad="4"/>
 <wire x1="121.014" y1="519.616" x2="197.156" y2="518.866" width="0" layer="19" extent="1-1"/>
-<wire x1="-203.746" y1="259.808" x2="121.014" y2="519.616" width="0" layer="19" extent="1-1"/>
-<wire x1="-127.604" y1="259.058" x2="-203.746" y2="259.808" width="0" layer="19" extent="1-1"/>
 <wire x1="197.156" y1="194.106" x2="197.156" y2="518.866" width="0" layer="19" extent="1-1"/>
 <wire x1="121.014" y1="194.856" x2="197.156" y2="194.106" width="0" layer="19" extent="1-1"/>
 <wire x1="72.75" y1="36.452" x2="121.014" y2="194.856" width="0" layer="19" extent="1-1"/>
+<wire x1="-0.65" y1="-1.1" x2="46.69281875" y2="41.102" width="0" layer="19" extent="1-1"/>
+<wire x1="-127.604" y1="259.058" x2="121.014" y2="194.856" width="0" layer="19" extent="1-1"/>
+<wire x1="-203.746" y1="259.808" x2="-127.604" y2="259.058" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="Z_MIN">
 <contactref element="R24" pad="1"/>
@@ -9878,6 +9882,8 @@ design rules under a new name.
 <wire x1="76.555" y1="52.397" x2="74" y2="54.952" width="0.3" layer="1"/>
 <wire x1="74" y1="54.952" x2="70.035" y2="54.952" width="0.3" layer="1"/>
 <wire x1="70.035" y1="54.952" x2="70" y2="54.917" width="0.3" layer="1"/>
+<contactref element="U5" pad="1"/>
+<wire x1="0.65" y1="1.1" x2="70" y2="14.452" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$5">
 <contactref element="J9" pad="1"/>
