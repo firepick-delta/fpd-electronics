@@ -11,6 +11,16 @@
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -900,6 +910,25 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPL-CAP-X7R-0603-100NF-100V" prefix="C">
+<description>Capacitor: 100nF, 100V, 10%;
+Package: 0603;
+Datasheet:</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CPL-CAP-X7R-0603-100NF-50V">
 <description>Capacitor: 100nF, 50V, 10%;
 Package: 0603</description>
@@ -1128,7 +1157,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C4" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
+<part name="C4" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-100V" device="" value="100 nF"/>
 <part name="C1" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.47UF-35V" device="" value="470 nF"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -1136,8 +1165,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R2" library="TinWhiskers" deviceset="CPL-RES-1206-0.22-0.5W" device="" value="0.22"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
-<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="100 nF"/>
+<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-100V" device="" value="100 nF"/>
+<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-100V" device="" value="100 nF"/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="D1" library="TinWhiskers" deviceset="CPL-DIO-MSS1P6-MICROSMP" device="" value="MSS1P6"/>
@@ -1200,7 +1229,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <instance part="GND3" gate="1" x="190.5" y="88.9"/>
 <instance part="GND4" gate="1" x="172.72" y="88.9"/>
 <instance part="GND5" gate="1" x="147.32" y="88.9"/>
-<instance part="C4" gate="C1" x="210.82" y="172.72" smashed="yes">
+<instance part="C4" gate="G$1" x="210.82" y="172.72" smashed="yes">
 <attribute name="NAME" x="211.328" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="210.566" y="170.307" size="1.778" layer="96"/>
 </instance>
@@ -1220,11 +1249,11 @@ or MSS1P3 (VM limited to 30V)</text>
 </instance>
 <instance part="GND7" gate="1" x="223.52" y="88.9"/>
 <instance part="GND10" gate="1" x="236.22" y="88.9"/>
-<instance part="C6" gate="C1" x="259.08" y="170.18" smashed="yes" rot="R270">
+<instance part="C6" gate="G$1" x="259.08" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="259.842" y="173.355" size="1.778" layer="95"/>
 <attribute name="VALUE" x="259.334" y="168.275" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="C1" x="271.78" y="170.18" smashed="yes" rot="R270">
+<instance part="C7" gate="G$1" x="271.78" y="170.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="272.542" y="173.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="272.288" y="168.529" size="1.778" layer="96"/>
 </instance>
@@ -1377,12 +1406,12 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="337.566" y1="180.34" x2="271.78" y2="180.34" width="0.6096" layer="91"/>
 <wire x1="271.78" y1="180.34" x2="259.08" y2="180.34" width="0.6096" layer="91"/>
 <wire x1="259.08" y1="180.34" x2="256.54" y2="180.34" width="0.6096" layer="91"/>
-<pinref part="C4" gate="C1" pin="2"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="213.36" y1="172.72" x2="256.54" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="172.72" x2="256.54" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C6" gate="C1" pin="1"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="259.08" y1="175.26" x2="259.08" y2="180.34" width="0.6096" layer="91"/>
-<pinref part="C7" gate="C1" pin="1"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="271.78" y1="175.26" x2="271.78" y2="180.34" width="0.6096" layer="91"/>
 <junction x="259.08" y="180.34"/>
 <junction x="271.78" y="180.34"/>
@@ -1561,12 +1590,12 @@ or MSS1P3 (VM limited to 30V)</text>
 <junction x="236.22" y="96.52"/>
 </segment>
 <segment>
-<pinref part="C6" gate="C1" pin="2"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="259.08" y1="167.64" x2="259.08" y2="165.1" width="0.6096" layer="91"/>
 </segment>
 <segment>
-<pinref part="C7" gate="C1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="271.78" y1="167.64" x2="271.78" y2="165.1" width="0.6096" layer="91"/>
 </segment>
@@ -1705,7 +1734,7 @@ or MSS1P3 (VM limited to 30V)</text>
 <net name="VCP" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="VCP"/>
-<pinref part="C4" gate="C1" pin="1"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="203.2" y1="175.26" x2="205.74" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="175.26" x2="205.74" y2="172.72" width="0.1524" layer="91"/>
 </segment>
