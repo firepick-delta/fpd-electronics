@@ -10850,6 +10850,142 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74ahct1g126-q1.pdf</description>
 <text x="2.2" y="1.4" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.2" y="-0.1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
+<package name="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="3" y="0" dx="1" dy="4" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="4" layer="1"/>
+<text x="8.23" y="3.54" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="8.23" y="2.27" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<smd name="3" x="-1" y="0" dx="1" dy="4" layer="1"/>
+<smd name="4" x="-3" y="0" dx="1" dy="4" layer="1"/>
+<smd name="NC2" x="-5.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC1" x="5.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<wire x1="-5.95" y1="-0.35" x2="-5.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-5.95" y1="7.25" x2="5.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="5.95" y1="7.25" x2="5.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="5.95" y1="-0.35" x2="-5.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-0.6" x2="-3.8" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="-0.6" x2="-6.2" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="7.6" x2="4.3" y2="7.6" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-0.7" x2="6.3" y2="3.8" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-0.7" x2="3.8" y2="-0.7" width="0.127" layer="21"/>
+</package>
+<package name="CONN-JST-PH-2.0MM-2P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 2-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="1" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="2" x="-1" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="NC1" x="-3.35" y="5.85" dx="1.7" dy="3.6" layer="1" rot="R180"/>
+<smd name="NC2" x="3.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<text x="6.63" y="4.24" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="6.63" y="2.67" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-3.95" y1="-0.35" x2="-3.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-3.95" y1="7.25" x2="3.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="3.95" y1="7.25" x2="3.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="3.95" y1="-0.35" x2="-3.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-4.3" y1="-0.7" x2="-1.9" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="-0.7" x2="-4.3" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="7.6" x2="2.3" y2="7.6" width="0.127" layer="21"/>
+<wire x1="4.3" y1="-0.7" x2="4.3" y2="3.8" width="0.127" layer="21"/>
+<wire x1="4.3" y1="-0.7" x2="1.9" y2="-0.7" width="0.127" layer="21"/>
+</package>
+<package name="CONN-JST-PH-2.0MM-3P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 3-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="2" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="3" x="-2" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="NC1" x="-4.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC2" x="4.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.2" dy="4" layer="1"/>
+<text x="6.94" y="3.04" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="6.94" y="1.97" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-4.95" y1="-0.35" x2="-4.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="7.25" x2="4.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="7.25" x2="4.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-0.35" x2="-4.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-5.3" y1="-0.7" x2="-2.9" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="-0.7" x2="-5.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="7.6" x2="3.2" y2="7.6" width="0.127" layer="21"/>
+<wire x1="5.3" y1="-0.7" x2="5.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="5.3" y1="-0.7" x2="2.9" y2="-0.7" width="0.127" layer="21"/>
+</package>
+<package name="CONN-JST-PH-2.0MM-6P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 6-POS, Pins, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="5" x="-3" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="6" x="-5" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="4" x="-1" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="3" x="1" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="2" x="3" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="1" x="5" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="NC2" x="-7.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC1" x="7.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<wire x1="-7.95" y1="7.25" x2="7.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="7.95" y1="7.25" x2="7.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="7.95" y1="-0.35" x2="-7.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-7.95" y1="-0.35" x2="-7.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-5.9" y1="-0.7" x2="-8.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="8.3" y1="-0.7" x2="5.9" y2="-0.7" width="0.127" layer="21"/>
+<text x="10" y="6.6" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="10" y="5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-8.3" y1="-0.7" x2="-8.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-6.3" y1="7.6" x2="6.3" y2="7.6" width="0.127" layer="21"/>
+<wire x1="8.3" y1="-0.7" x2="8.3" y2="3.7" width="0.127" layer="21"/>
+</package>
+<package name="CONN-JST-PH-2.0MM-8P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 8-POS, Pin, Shrouded;
+Package: HR-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="6" x="-3" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="7" x="-5" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="5" x="-1" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="4" x="1" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="3" x="3" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="2" x="5" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="NC2" x="-9.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC1" x="9.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<text x="11" y="6.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="11" y="5.4" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<smd name="1" x="7" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="8" x="-7" y="0" dx="1.2" dy="4" layer="1"/>
+<wire x1="-9.95" y1="-0.35" x2="-9.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-9.95" y1="7.25" x2="9.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="9.95" y1="7.25" x2="9.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="9.95" y1="-0.35" x2="-9.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-10.3" y1="-0.7" x2="-7.9" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-10.3" y1="-0.7" x2="-10.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-8.2" y1="7.6" x2="8.2" y2="7.6" width="0.127" layer="21"/>
+<wire x1="10.3" y1="-0.7" x2="10.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="10.3" y1="-0.7" x2="7.9" y2="-0.7" width="0.127" layer="21"/>
+</package>
+<package name="CONN-JST-PH-2.0MM-5P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 5-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="4" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="2" x="2" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="3" x="0" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="4" x="-2" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="5" x="-4" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="NC2" x="-6.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC1" x="6.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<wire x1="-6.95" y1="-0.35" x2="-6.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-6.95" y1="7.25" x2="6.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="6.95" y1="7.25" x2="6.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="6.95" y1="-0.35" x2="-6.95" y2="-0.35" width="0.127" layer="51"/>
+<text x="8.6" y="4.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="8.6" y="3.1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-7.3" y1="-0.7" x2="-4.9" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-7.3" y1="-0.7" x2="-7.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-5.2" y1="7.6" x2="5.1" y2="7.6" width="0.127" layer="21"/>
+<wire x1="7.3" y1="-0.7" x2="7.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="7.3" y1="-0.7" x2="4.9" y2="-0.7" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -17556,6 +17692,20 @@ Source: Molex</description>
 <text x="-5.08" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-5.08" y="7.62" size="1.27" layer="96" font="vector" ratio="12">&gt;Value</text>
 </symbol>
+<symbol name="CON-HDR-5P">
+<description>Connector: 5-Pin, Header</description>
+<pin name="1" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="2" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="4" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="5" x="2.54" y="-5.08" length="short" rot="R180"/>
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -19862,6 +20012,136 @@ Datasheet:</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-2P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 2-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-2P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-2P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-3P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 3-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-3P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-4P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-5P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 5-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-5P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-6P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 6-POS, Pins, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-6P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-8P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 8-POS, Pin, Shrouded;
+Package: HR-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-8P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-8P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
