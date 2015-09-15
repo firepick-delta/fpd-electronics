@@ -10986,6 +10986,40 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="7.3" y1="-0.7" x2="7.3" y2="3.7" width="0.127" layer="21"/>
 <wire x1="7.3" y1="-0.7" x2="4.9" y2="-0.7" width="0.127" layer="21"/>
 </package>
+<package name="PJ-014DH-SMT">
+<description>Power Jack: 16VDC, 5A, Switch (Normally Closed);
+Package: SMT, R/A
+Datasheet: http://www.cui.com/product/resource/pj-014dh-smt.pdf</description>
+<hole x="0" y="0" drill="1.6"/>
+<hole x="4.5" y="0" drill="1.8"/>
+<smd name="TAB1" x="0" y="5.7" dx="2.8" dy="2.4" layer="1"/>
+<smd name="2" x="0" y="-5.7" dx="2.8" dy="2.4" layer="1"/>
+<smd name="TAB2" x="6.1" y="5.7" dx="2.8" dy="2.4" layer="1"/>
+<smd name="3" x="6.1" y="-5.7" dx="2.8" dy="2.4" layer="1"/>
+<wire x1="-5" y1="-4.5" x2="-5" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="4.5" x2="9.5" y2="4.5" width="0.127" layer="51"/>
+<wire x1="9.5" y1="4.5" x2="9.5" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="9.5" y1="-4.5" x2="-5" y2="-4.5" width="0.127" layer="51"/>
+<text x="10.9" y="3.3" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="10.9" y="1.6" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="PJ-694106106102">
+<description>Power Jack: 24V, 5A, 694106106102 (Wurth Elect);
+Package: SMT, R/A;
+Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</description>
+<hole x="0" y="0" drill="1.6"/>
+<hole x="4.5" y="0" drill="1.8"/>
+<smd name="TAB2" x="0" y="5.5" dx="2" dy="2" layer="1"/>
+<smd name="TAB1" x="6.15" y="5.5" dx="2" dy="2" layer="1"/>
+<smd name="2" x="0" y="-5.5" dx="2" dy="2" layer="1"/>
+<smd name="3" x="6.15" y="-5.5" dx="2" dy="2" layer="1"/>
+<wire x1="-5" y1="-4.5" x2="-5" y2="4.5" width="0.127" layer="51"/>
+<wire x1="-5" y1="4.5" x2="9.7" y2="4.5" width="0.127" layer="51"/>
+<wire x1="9.7" y1="4.5" x2="9.7" y2="-4.5" width="0.127" layer="51"/>
+<wire x1="9.7" y1="-4.5" x2="-5" y2="-4.5" width="0.127" layer="51"/>
+<text x="10.5" y="3.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="10.5" y="2.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -17706,6 +17740,19 @@ Source: Molex</description>
 <text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="PWR-JACK">
+<description>Power Jack (4-PIN), Switch (Normally-Open)</description>
+<pin name="2" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="T1" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="T2" x="2.54" y="-2.54" length="short" rot="R180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-5.08" y="7.62" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -20142,6 +20189,48 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <connect gate="G$1" pin="6" pad="6"/>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-BARREL-2.1MM-24V" prefix="J" uservalue="yes">
+<description>Power Connector: Barrel, 24V, 5A, Switched (NO);
+Package: SMT, R/A;
+Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</description>
+<gates>
+<gate name="G$1" symbol="PWR-JACK" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="PJ-694106106102">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="T1" pad="TAB1"/>
+<connect gate="G$1" pin="T2" pad="TAB2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-BARREL-2.5MM-16V" prefix="J" uservalue="yes">
+<description>Power Jack: Barrel(2.5MM), 16V, 5A;
+Package: SMT, R/A;
+Datasheet: http://www.cui.com/product/resource/pj-002bh-smt.pdf</description>
+<gates>
+<gate name="G$1" symbol="PWR-JACK" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="PJ-014DH-SMT">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="T1" pad="TAB1"/>
+<connect gate="G$1" pin="T2" pad="TAB2"/>
 </connects>
 <technologies>
 <technology name=""/>
