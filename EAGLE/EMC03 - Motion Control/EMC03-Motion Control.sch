@@ -34527,24 +34527,6 @@ Datasheet: http://www.cooperindustries.com/content/dam/public/bussmann/Electroni
 <text x="2.6" y="0.7" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.6" y="-0.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="CON-HDR-8POS-MALE">
-<description>Connector: 0.1" Pitch, Header, Male;
-Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825433_S_baseFilename-673623.pdf</description>
-<wire x1="-10.16" y1="-1.27" x2="-10.16" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-10.16" y1="1.27" x2="10.16" y2="1.27" width="0.127" layer="51"/>
-<wire x1="10.16" y1="1.27" x2="10.16" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="10.16" y1="-1.27" x2="-10.16" y2="-1.27" width="0.127" layer="51"/>
-<pad name="1" x="-8.89" y="0" drill="1.25" shape="square"/>
-<pad name="2" x="-6.34" y="0" drill="1.25"/>
-<pad name="3" x="-3.8" y="0" drill="1.25"/>
-<pad name="4" x="-1.26" y="0" drill="1.25"/>
-<pad name="5" x="1.31" y="0" drill="1.25"/>
-<pad name="6" x="3.85" y="0" drill="1.25"/>
-<pad name="7" x="6.39" y="0" drill="1.25"/>
-<pad name="8" x="8.93" y="0" drill="1.25"/>
-<text x="2.8" y="1.9" size="1.27" layer="25" ratio="12">&gt;Name</text>
-<text x="2.9" y="-2.7" size="1" layer="27" ratio="10">&gt;Value</text>
-</package>
 <package name="SOT-89">
 <description>UC Package: SOT-89</description>
 <wire x1="-2.25" y1="-1.25" x2="-2.25" y2="1.25" width="0.1" layer="51"/>
@@ -34673,21 +34655,26 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74ahct1g126-q1.pdf</description>
 <text x="2.2" y="1.4" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.2" y="-0.1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="CON-HDR-3POS-MALE">
-<description>Header, male, 0.1" pitch, 3-pos</description>
-<pad name="1" x="-2.54" y="0" drill="0.9" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.9"/>
-<pad name="3" x="2.54" y="0" drill="0.9"/>
-<text x="4.35" y="0.05" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="4.35" y="-1.2" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="51"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-4.064" y1="1.524" x2="4.064" y2="1.524" width="0.127" layer="21"/>
-<wire x1="4.064" y1="1.524" x2="4.064" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.064" y1="-1.524" x2="-4.064" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-4.064" y1="-1.524" x2="-4.064" y2="1.524" width="0.127" layer="21"/>
+<package name="CONN-JST-PH-2.0MM-3P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 3-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="2" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="3" x="-2" y="0" dx="1.2" dy="4" layer="1"/>
+<smd name="NC1" x="-4.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC2" x="4.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.2" dy="4" layer="1"/>
+<text x="6.94" y="3.04" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="6.94" y="1.97" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-4.95" y1="-0.35" x2="-4.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-4.95" y1="7.25" x2="4.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="4.95" y1="7.25" x2="4.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="4.95" y1="-0.35" x2="-4.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-5.3" y1="-0.7" x2="-2.9" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-5.3" y1="-0.7" x2="-5.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="7.6" x2="3.2" y2="7.6" width="0.127" layer="21"/>
+<wire x1="5.3" y1="-0.7" x2="5.3" y2="3.7" width="0.127" layer="21"/>
+<wire x1="5.3" y1="-0.7" x2="2.9" y2="-0.7" width="0.127" layer="21"/>
 </package>
 <package name="CON-HDR-2POS-MALE">
 <description>Header: 2Pos, Male</description>
@@ -34703,6 +34690,28 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74ahct1g126-q1.pdf</description>
 <wire x1="-2.794" y1="-1.524" x2="-2.794" y2="1.524" width="0.127" layer="21"/>
 <wire x1="2.794" y1="1.524" x2="2.794" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="51"/>
+</package>
+<package name="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="3" y="0" dx="1" dy="4" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="4" layer="1"/>
+<text x="8.23" y="3.54" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="8.23" y="2.27" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<smd name="3" x="-1" y="0" dx="1" dy="4" layer="1"/>
+<smd name="4" x="-3" y="0" dx="1" dy="4" layer="1"/>
+<smd name="NC2" x="-5.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<smd name="NC1" x="5.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
+<wire x1="-5.95" y1="-0.35" x2="-5.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="-5.95" y1="7.25" x2="5.95" y2="7.25" width="0.127" layer="51"/>
+<wire x1="5.95" y1="7.25" x2="5.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="5.95" y1="-0.35" x2="-5.95" y2="-0.35" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="-0.6" x2="-3.8" y2="-0.6" width="0.127" layer="21"/>
+<wire x1="-6.2" y1="-0.6" x2="-6.2" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-4.3" y1="7.6" x2="4.3" y2="7.6" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-0.7" x2="6.3" y2="3.8" width="0.127" layer="21"/>
+<wire x1="6.3" y1="-0.7" x2="3.8" y2="-0.7" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -35221,22 +35230,6 @@ Specs: http://www.trinamic.com/products/integrated-circuits/stepper-power-driver
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
 </symbol>
-<symbol name="CON-HDR-8P">
-<pin name="4" x="2.54" y="1.27" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="2.54" y="3.81" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="6.35" length="short" direction="pas" rot="R180"/>
-<pin name="1" x="2.54" y="8.89" length="short" direction="pas" rot="R180"/>
-<pin name="5" x="2.54" y="-1.27" length="short" direction="pas" rot="R180"/>
-<pin name="6" x="2.54" y="-3.81" length="short" direction="pas" rot="R180"/>
-<pin name="7" x="2.54" y="-6.35" length="short" direction="pas" rot="R180"/>
-<pin name="8" x="2.54" y="-8.89" length="short" direction="pas" rot="R180"/>
-<wire x1="0" y1="10.16" x2="0" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="0" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="0" y2="10.16" width="0.254" layer="94"/>
-<text x="-5.08" y="12.7" size="1.778" layer="104" ratio="12">&gt;Name</text>
-<text x="-5.08" y="10.16" size="1.524" layer="96" ratio="10">&gt;Value</text>
-</symbol>
 <symbol name="SOT-89">
 <description>Package: SOT-89 (3-PIN)</description>
 <pin name="1" x="-7.62" y="0" length="short" direction="pas"/>
@@ -35285,6 +35278,19 @@ Specs: http://www.trinamic.com/products/integrated-circuits/stepper-power-driver
 <wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CON-HDR-4P">
+<description>Header, 0.1", 3-position</description>
+<pin name="1" x="2.54" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="2.54" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="2.54" y="-2.54" length="short" direction="pas" rot="R180"/>
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="-17.78" size="6.35" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="-25.4" size="5.08" layer="96" font="vector" ratio="10">&gt;Value</text>
+<pin name="4" x="2.54" y="-5.08" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -36413,28 +36419,6 @@ Datasheet: http://www.mouser.com/ds/2/427/rcwe-244377.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CON-HEADER-0.1IN-8P-M" prefix="J">
-<gates>
-<gate name="G$1" symbol="CON-HDR-8P" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="CON-HDR-8POS-MALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CPL-REG-LIN-5V-0.1A" prefix="U" uservalue="yes">
 <description>Voltage Regulator: Vo=5V, Vin,max=30V, Io=0.1A;
 Package: SOT-89;
@@ -36515,12 +36499,15 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74ahct1g126-q1.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CON-HEADER-0.1IN-3P-M" prefix="J">
+<deviceset name="CPL-CON-JST-2.0MM-3P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 3-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gates>
 <gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON-HDR-3POS-MALE">
+<device name="" package="CONN-JST-PH-2.0MM-3P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -36624,6 +36611,27 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-4P-M-RA" prefix="J">
+<description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
+Package: PH-Series (SMT, R/A);
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="smd-special">
@@ -36706,14 +36714,14 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <parts>
 <part name="GND27" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
-<part name="J6" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device="" value="68000-103HLF">
-<attribute name="PARTNO" value="68000-103HLF"/>
+<part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-3P-M-RA" device="" value="S3B-PH-SM4">
+<attribute name="PARTNO" value="S3B-PH-SM4-TB(LF)(SN)"/>
 </part>
-<part name="J5" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device="" value="68000-103HLF">
-<attribute name="PARTNO" value="68000-103HLF"/>
+<part name="J5" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-3P-M-RA" device="" value="S3B-PH-SM4">
+<attribute name="PARTNO" value="S3B-PH-SM4-TB(LF)(SN)"/>
 </part>
-<part name="J7" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device="" value="68000-103HLF">
-<attribute name="PARTNO" value="68000-103HLF"/>
+<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-3P-M-RA" device="" value="S3B-PH-SM4">
+<attribute name="PARTNO" value="S3B-PH-SM4-TB(LG)(SN)"/>
 </part>
 <part name="TP3" library="FirePick" deviceset="CONN-TESTPOINT" device="" value="+24V">
 <attribute name="DNP" value="T"/>
@@ -37152,7 +37160,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="U6" library="TinWhiskers" deviceset="CPL-MDR-2PHSTEPPER" device="" value="TMC2130-LA">
 <attribute name="PARTNO" value="TMC2130-LA"/>
 </part>
-<part name="GND3" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND6" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND12" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND15" library="TinWhiskers" deviceset="GND" device=""/>
@@ -37218,12 +37225,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="C49" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-22NF-50V" device="&quot;" value="22 nF">
 <attribute name="PARTNO" value="GRM188R71H223KA01D"/>
 </part>
-<part name="J11" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device="" value="67997-108HLF">
-<attribute name="PARTNO" value="67997-108HLF"/>
-</part>
-<part name="J10" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device="" value="67997-108HLF">
-<attribute name="PARTNO" value="67997-108HLF"/>
-</part>
 <part name="C50" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.33UF-35V" device="" value="0.33uF">
 <attribute name="PARTNO" value="C1608X7R1V334M080AB"/>
 </part>
@@ -37234,7 +37235,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="U8" library="TinWhiskers" deviceset="CPL-MDR-2PHSTEPPER" device="" value="TMC2130-LA">
 <attribute name="PARTNO" value="TMC2130-LA"/>
 </part>
-<part name="GND2" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND4" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND7" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND8" library="TinWhiskers" deviceset="GND" device=""/>
@@ -37300,9 +37300,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="C59" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-22NF-50V" device="&quot;" value="22 nF">
 <attribute name="PARTNO" value="GRM188R71H223KA01D"/>
 </part>
-<part name="J14" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device="" value="67997-108HLF">
-<attribute name="PARTNO" value="67997-108HLF"/>
-</part>
 <part name="C60" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.33UF-35V" device="" value="0.33uF">
 <attribute name="PARTNO" value="C1608X7R1V334M080AB"/>
 </part>
@@ -37315,7 +37312,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="U7" library="TinWhiskers" deviceset="CPL-MDR-2PHSTEPPER" device="" value="TMC2130-LA">
 <attribute name="PARTNO" value="TMC2130-LA"/>
 </part>
-<part name="GND46" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND47" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND48" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="GND49" library="TinWhiskers" deviceset="GND" device=""/>
@@ -37381,12 +37377,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="C72" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-22NF-50V" device="&quot;" value="22 nF">
 <attribute name="PARTNO" value="GRM188R71H223KA01D"/>
 </part>
-<part name="J13" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device="" value="67997-108HLF">
-<attribute name="PARTNO" value="67997-108HLF"/>
-</part>
-<part name="J12" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device="" value="67997-108HLF">
-<attribute name="PARTNO" value="67997-108HLF"/>
-</part>
 <part name="C73" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.33UF-35V" device="" value="0.33uF">
 <attribute name="PARTNO" value="C1608X7R1V334M080AB"/>
 </part>
@@ -37419,9 +37409,6 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <part name="SUPPLY45" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY46" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY47" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J15" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-8P-M" device="" value="67997-108HLF">
-<attribute name="PARTNO" value="67997-108HLF"/>
-</part>
 <part name="+3V13" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" deviceset="+24V" device=""/>
 <part name="P+5" library="supply1" deviceset="+24V" device=""/>
@@ -37458,6 +37445,10 @@ Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Taiyo%20Yuden%20PDFs%20URL
 <attribute name="PARTNO" value="KA78L05AMTF"/>
 </part>
 <part name="C76" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.47UF-10V" device="" value="0.47uF"/>
+<part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
+<part name="J10" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-RA" device="" value="S4B-PH-SM4"/>
+<part name="J12" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-RA" device="" value="S4B-PH-SM4"/>
+<part name="J11" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-RA" device="" value="S4B-PH-SM4"/>
 </parts>
 <sheets>
 <sheet>
@@ -37680,6 +37671,9 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="118.11" y="95.758" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="121.92" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="+3V17" gate="G$1" x="137.16" y="142.24" smashed="yes" rot="R90">
+<attribute name="VALUE" x="139.7" y="142.24" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -37830,13 +37824,6 @@ for FirePick Delta</text>
 <pinref part="C27" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="124.46" x2="63.5" y2="127" width="0.1524" layer="91"/>
 <junction x="63.5" y="127"/>
-</segment>
-</net>
-<net name="VBAT" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="VBAT"/>
-<wire x1="149.86" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
-<label x="137.16" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
@@ -38085,6 +38072,11 @@ for FirePick Delta</text>
 <wire x1="22.86" y1="185.42" x2="22.86" y2="187.96" width="0.1524" layer="91"/>
 <junction x="22.86" y="187.96"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VBAT"/>
+<wire x1="149.86" y1="142.24" x2="139.7" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="+3V17" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -40013,8 +40005,6 @@ ACTIVE LOW</text>
 <wire x1="327.66" y1="147.32" x2="337.82" y2="147.32" width="0.1524" layer="97"/>
 <wire x1="337.82" y1="147.32" x2="337.82" y2="149.86" width="0.1524" layer="97"/>
 <wire x1="337.82" y1="149.86" x2="327.66" y2="149.86" width="0.1524" layer="97"/>
-<text x="327.66" y="139.7" size="1.778" layer="97">3-5.5v</text>
-<text x="327.66" y="154.94" size="1.778" layer="97">8-35VDC</text>
 <text x="193.04" y="71.12" size="1.778" layer="97" rot="R270">N/C</text>
 <text x="195.58" y="71.12" size="1.778" layer="97" rot="R270">N/C</text>
 <text x="167.64" y="101.6" size="1.778" layer="97" rot="R180">N/C</text>
@@ -40030,7 +40020,6 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="288.29" y1="28.575" x2="288.29" y2="3.81" width="0.3048" layer="94"/>
 <text x="159.385" y="8.89" size="5.08" layer="94">EMC02 Motion Controller
 for FirePick Delta</text>
-<text x="314.96" y="139.7" size="1.778" layer="97">VDD</text>
 </plain>
 <instances>
 <instance part="FRAME3" gate="G$1" x="0.000003125" y="0"/>
@@ -40067,7 +40056,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="186.69" y="158.75" size="1.27" layer="96"/>
 <attribute name="PARTNO" x="185.42" y="149.86" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND3" gate="GND" x="312.42" y="127"/>
 <instance part="GND6" gate="GND" x="180.34" y="66.04"/>
 <instance part="GND12" gate="GND" x="205.74" y="66.04"/>
 <instance part="GND15" gate="GND" x="187.96" y="66.04"/>
@@ -40167,16 +40155,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="234.696" y="134.747" size="1.778" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="226.06" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J11" gate="G$1" x="322.326" y="146.05" smashed="yes" rot="MR0">
-<attribute name="NAME" x="322.326" y="158.75" size="1.778" layer="104" ratio="12"/>
-<attribute name="VALUE" x="322.326" y="156.972" size="1.524" layer="96" ratio="10"/>
-<attribute name="PARTNO" x="322.326" y="146.05" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="J10" gate="G$1" x="134.62" y="110.49" smashed="yes">
-<attribute name="NAME" x="129.54" y="123.952" size="1.778" layer="104" ratio="12"/>
-<attribute name="VALUE" x="129.54" y="121.92" size="1.524" layer="96" ratio="10"/>
-<attribute name="PARTNO" x="134.62" y="110.49" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C50" gate="G$1" x="40.64" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.402" y="124.841" size="1.778" layer="95"/>
 <attribute name="VALUE" x="41.656" y="119.761" size="1.778" layer="96"/>
@@ -40209,6 +40187,10 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="48.26" y="132.08" size="1.778" layer="96" ratio="10"/>
 <attribute name="PARTNO" x="53.34" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="J10" gate="G$1" x="320.04" y="147.32" smashed="yes" rot="MR0">
+<attribute name="NAME" x="320.04" y="154.94" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="320.04" y="152.4" size="1.27" layer="96" font="vector" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -40223,16 +40205,6 @@ for FirePick Delta</text>
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
 <pinref part="GND37" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<wire x1="319.786" y1="152.4" x2="312.42" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="152.4" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="GND3" gate="GND" pin="GND"/>
-<pinref part="J11" gate="G$1" pin="2"/>
-<wire x1="312.42" y1="137.16" x2="312.42" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="J11" gate="G$1" pin="8"/>
-<wire x1="319.786" y1="137.16" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
-<junction x="312.42" y="137.16"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="GNDA"/>
@@ -40341,10 +40313,9 @@ for FirePick Delta</text>
 <pinref part="U5" gate="G$1" pin="Y"/>
 </segment>
 <segment>
-<wire x1="137.16" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
-<label x="139.7" y="119.38" size="1.778" layer="95"/>
+<wire x1="157.48" y1="119.38" x2="167.64" y2="119.38" width="0.1524" layer="91"/>
+<label x="157.48" y="119.38" size="1.778" layer="95"/>
 <pinref part="U6" gate="G$1" pin="DRV_ENN"/>
-<pinref part="J10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="ESTOP_OE" class="0">
@@ -40378,45 +40349,10 @@ for FirePick Delta</text>
 <label x="205.74" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MS1" class="0">
-<segment>
-<wire x1="149.86" y1="116.84" x2="137.16" y2="116.84" width="0.1524" layer="91"/>
-<label x="139.7" y="116.84" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="MS2" class="0">
-<segment>
-<wire x1="137.16" y1="114.3" x2="149.86" y2="114.3" width="0.1524" layer="91"/>
-<label x="139.7" y="114.3" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="MS3" class="0">
-<segment>
-<wire x1="137.16" y1="111.76" x2="149.86" y2="111.76" width="0.1524" layer="91"/>
-<label x="139.7" y="111.76" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="!RESET!" class="0">
-<segment>
-<wire x1="149.86" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
-<label x="139.7" y="109.22" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="!SLEEP!" class="0">
-<segment>
-<wire x1="137.16" y1="106.68" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<label x="139.7" y="106.68" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="6"/>
-</segment>
-</net>
 <net name="2B_1" class="0">
 <segment>
 <label x="304.8" y="149.86" size="1.778" layer="95"/>
-<wire x1="319.786" y1="149.86" x2="302.26" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="149.86" x2="302.26" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="149.86" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="OB2"/>
 <wire x1="226.06" y1="114.3" x2="218.44" y2="114.3" width="0.1524" layer="91"/>
@@ -40429,12 +40365,12 @@ for FirePick Delta</text>
 <wire x1="261.62" y1="114.3" x2="302.26" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="99.06" x2="261.62" y2="114.3" width="0.1524" layer="91"/>
 <junction x="261.62" y="114.3"/>
-<pinref part="J11" gate="G$1" pin="3"/>
+<pinref part="J10" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="2A_1" class="0">
 <segment>
-<wire x1="299.72" y1="147.32" x2="319.786" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="147.32" x2="317.5" y2="147.32" width="0.1524" layer="91"/>
 <label x="304.8" y="147.32" size="1.778" layer="95"/>
 <wire x1="299.72" y1="147.32" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="OB1"/>
@@ -40448,7 +40384,7 @@ for FirePick Delta</text>
 <wire x1="271.78" y1="116.84" x2="299.72" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="99.06" x2="271.78" y2="116.84" width="0.1524" layer="91"/>
 <junction x="271.78" y="116.84"/>
-<pinref part="J11" gate="G$1" pin="4"/>
+<pinref part="J10" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="1A_1" class="0">
@@ -40466,8 +40402,8 @@ for FirePick Delta</text>
 <junction x="281.94" y="121.92"/>
 <wire x1="297.18" y1="121.92" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
 <label x="304.8" y="144.78" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="5"/>
-<wire x1="319.786" y1="144.78" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="J10" gate="G$1" pin="3"/>
+<wire x1="317.5" y1="144.78" x2="297.18" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="1B_1" class="0">
@@ -40484,16 +40420,16 @@ for FirePick Delta</text>
 <wire x1="292.1" y1="99.06" x2="292.1" y2="124.46" width="0.1524" layer="91"/>
 <junction x="292.1" y="124.46"/>
 <wire x1="294.64" y1="124.46" x2="294.64" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="142.24" x2="319.786" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="142.24" x2="317.5" y2="142.24" width="0.1524" layer="91"/>
 <label x="304.8" y="142.24" size="1.778" layer="95"/>
-<pinref part="J11" gate="G$1" pin="6"/>
+<pinref part="J10" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="CLK"/>
-<wire x1="167.64" y1="114.3" x2="165.1" y2="114.3" width="0.1524" layer="91"/>
-<label x="162.56" y="114.3" size="1.778" layer="95"/>
+<wire x1="167.64" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
+<label x="157.48" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SPI_!CS1" class="0">
@@ -40687,24 +40623,16 @@ for FirePick Delta</text>
 </net>
 <net name="X_STEP" class="0">
 <segment>
-<wire x1="137.16" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
-<label x="139.7" y="104.14" size="1.778" layer="95"/>
-<wire x1="154.94" y1="104.14" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="124.46" x2="167.64" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="STEP"/>
-<wire x1="167.64" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
 <label x="157.48" y="124.46" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="X_DIR" class="0">
 <segment>
-<wire x1="137.16" y1="101.6" x2="157.48" y2="101.6" width="0.1524" layer="91"/>
-<label x="139.7" y="101.6" size="1.778" layer="95"/>
-<wire x1="157.48" y1="101.6" x2="157.48" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="U6" gate="G$1" pin="DIR"/>
 <wire x1="157.48" y1="121.92" x2="167.64" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="DIR"/>
 <label x="157.48" y="121.92" size="1.778" layer="95"/>
-<pinref part="J10" gate="G$1" pin="8"/>
 </segment>
 </net>
 </nets>
@@ -40717,8 +40645,6 @@ for FirePick Delta</text>
 <wire x1="312.42" y1="121.92" x2="322.58" y2="121.92" width="0.1524" layer="97"/>
 <wire x1="322.58" y1="121.92" x2="322.58" y2="124.46" width="0.1524" layer="97"/>
 <wire x1="322.58" y1="124.46" x2="312.42" y2="124.46" width="0.1524" layer="97"/>
-<text x="312.42" y="114.3" size="1.778" layer="97">3-5.5v</text>
-<text x="312.42" y="129.54" size="1.778" layer="97">8-35VDC</text>
 <text x="177.8" y="45.72" size="1.778" layer="97" rot="R270">N/C</text>
 <text x="180.34" y="45.72" size="1.778" layer="97" rot="R270">N/C</text>
 <text x="152.4" y="76.2" size="1.778" layer="97" rot="R180">N/C</text>
@@ -40733,8 +40659,6 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="312.42" y1="233.68" x2="322.58" y2="233.68" width="0.1524" layer="97"/>
 <wire x1="322.58" y1="233.68" x2="322.58" y2="236.22" width="0.1524" layer="97"/>
 <wire x1="322.58" y1="236.22" x2="312.42" y2="236.22" width="0.1524" layer="97"/>
-<text x="312.42" y="226.06" size="1.778" layer="97">3-5.5v</text>
-<text x="312.42" y="241.3" size="1.778" layer="97">8-35VDC</text>
 <text x="177.8" y="157.48" size="1.778" layer="97" rot="R270">N/C</text>
 <text x="180.34" y="157.48" size="1.778" layer="97" rot="R270">N/C</text>
 <text x="152.4" y="187.96" size="1.778" layer="97" rot="R180">N/C</text>
@@ -40750,18 +40674,6 @@ or MSS1P3 (VM limited to 30V)</text>
 <wire x1="288.29" y1="28.575" x2="288.29" y2="3.81" width="0.3048" layer="94"/>
 <text x="159.385" y="8.89" size="5.08" layer="94">EMC02 Motion Controller
 for FirePick Delta</text>
-<text x="127" y="91.44" size="1.778" layer="97">MS1</text>
-<text x="127" y="88.9" size="1.778" layer="97">MS2</text>
-<text x="127" y="86.36" size="1.778" layer="97">MS3</text>
-<text x="127" y="83.82" size="1.778" layer="97">!RESET</text>
-<text x="127" y="81.28" size="1.778" layer="97">!SLEEP</text>
-<text x="127" y="203.2" size="1.778" layer="97">MS1</text>
-<text x="127" y="200.66" size="1.778" layer="97">MS2</text>
-<text x="127" y="198.12" size="1.778" layer="97">MS3</text>
-<text x="127" y="195.58" size="1.778" layer="97">!RESET</text>
-<text x="127" y="193.04" size="1.778" layer="97">!SLEEP</text>
-<text x="299.72" y="226.06" size="1.778" layer="97">VDD</text>
-<text x="299.72" y="114.3" size="1.778" layer="97">VDD</text>
 </plain>
 <instances>
 <instance part="U8" gate="G$1" x="170.18" y="124.46" smashed="yes">
@@ -40769,7 +40681,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="171.45" y="133.35" size="1.27" layer="96"/>
 <attribute name="PARTNO" x="170.18" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND2" gate="GND" x="297.18" y="101.6"/>
 <instance part="GND4" gate="GND" x="165.1" y="40.64"/>
 <instance part="GND7" gate="GND" x="190.5" y="40.64"/>
 <instance part="GND8" gate="GND" x="172.72" y="40.64"/>
@@ -40869,11 +40780,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="219.456" y="109.347" size="1.778" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="210.82" y="111.76" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J14" gate="G$1" x="124.46" y="85.09" smashed="yes">
-<attribute name="NAME" x="119.38" y="99.06" size="1.778" layer="104" ratio="12"/>
-<attribute name="VALUE" x="119.38" y="96.52" size="1.524" layer="96" ratio="10"/>
-<attribute name="PARTNO" x="124.46" y="85.09" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C60" gate="G$1" x="76.2" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="76.962" y="114.681" size="1.778" layer="95"/>
 <attribute name="VALUE" x="77.216" y="109.601" size="1.778" layer="96"/>
@@ -40892,7 +40798,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="171.45" y="245.11" size="1.27" layer="96"/>
 <attribute name="PARTNO" x="170.18" y="236.22" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="GND46" gate="GND" x="297.18" y="213.36"/>
 <instance part="GND47" gate="GND" x="165.1" y="152.4"/>
 <instance part="GND48" gate="GND" x="190.5" y="152.4"/>
 <instance part="GND49" gate="GND" x="172.72" y="152.4"/>
@@ -40992,16 +40897,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="219.456" y="221.107" size="1.778" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="210.82" y="223.52" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J13" gate="G$1" x="307.086" y="232.41" smashed="yes" rot="MR0">
-<attribute name="NAME" x="307.086" y="246.126" size="1.778" layer="104" ratio="12"/>
-<attribute name="VALUE" x="307.086" y="243.586" size="1.524" layer="96" ratio="10"/>
-<attribute name="PARTNO" x="307.086" y="232.41" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="J12" gate="G$1" x="124.46" y="196.85" smashed="yes">
-<attribute name="NAME" x="119.38" y="210.82" size="1.778" layer="104" ratio="12"/>
-<attribute name="VALUE" x="119.38" y="208.28" size="1.524" layer="96" ratio="10"/>
-<attribute name="PARTNO" x="124.46" y="196.85" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="C73" gate="G$1" x="68.58" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="69.342" y="234.061" size="1.778" layer="95"/>
 <attribute name="VALUE" x="69.596" y="228.981" size="1.778" layer="96"/>
@@ -41016,11 +40911,6 @@ for FirePick Delta</text>
 <instance part="LOGO11" gate="G$1" x="85.09" y="8.89">
 <attribute name="BOM" x="85.09" y="8.89" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J15" gate="G$1" x="306.705" y="120.65" smashed="yes" rot="MR0">
-<attribute name="NAME" x="306.705" y="134.62" size="1.778" layer="104" ratio="12"/>
-<attribute name="VALUE" x="306.705" y="132.08" size="1.524" layer="96" ratio="10"/>
-<attribute name="PARTNO" x="306.705" y="120.65" size="1.778" layer="96" display="off"/>
-</instance>
 <instance part="P+8" gate="1" x="279.4" y="134.62" smashed="yes">
 <attribute name="VALUE" x="276.86" y="137.16" size="1.778" layer="96"/>
 </instance>
@@ -41033,21 +40923,19 @@ for FirePick Delta</text>
 <instance part="VR4" gate="G$1" x="81.28" y="238.76">
 <attribute name="PARTNO" x="81.28" y="238.76" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="J12" gate="G$1" x="304.8" y="121.92" smashed="yes" rot="MR0">
+<attribute name="NAME" x="304.8" y="129.54" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="304.8" y="127" size="1.27" layer="96" font="vector" ratio="10"/>
+</instance>
+<instance part="J11" gate="G$1" x="304.8" y="233.68" smashed="yes" rot="MR0">
+<attribute name="NAME" x="304.8" y="241.3" size="1.778" layer="95" font="vector" ratio="10"/>
+<attribute name="VALUE" x="304.8" y="238.76" size="1.27" layer="96" font="vector" ratio="10"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="1">
-<segment>
-<wire x1="297.18" y1="127" x2="297.18" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="GND" pin="GND"/>
-<pinref part="J15" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="111.76" x2="297.18" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="127" x2="304.165" y2="127" width="0.1524" layer="91"/>
-<pinref part="J15" gate="G$1" pin="8"/>
-<wire x1="297.18" y1="111.76" x2="304.165" y2="111.76" width="0.1524" layer="91"/>
-<junction x="297.18" y="111.76"/>
-</segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="GNDA"/>
 <pinref part="GND4" gate="GND" pin="GND"/>
@@ -41142,16 +41030,6 @@ for FirePick Delta</text>
 <pinref part="GND45" gate="GND" pin="GND"/>
 <pinref part="C61" gate="C1" pin="1"/>
 <pinref part="VR5" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<wire x1="304.546" y1="238.76" x2="297.18" y2="238.76" width="0.1524" layer="91"/>
-<wire x1="297.18" y1="238.76" x2="297.18" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="GND46" gate="GND" pin="GND"/>
-<pinref part="J13" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="223.52" x2="297.18" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="J13" gate="G$1" pin="8"/>
-<wire x1="304.546" y1="223.52" x2="297.18" y2="223.52" width="0.1524" layer="91"/>
-<junction x="297.18" y="223.52"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="GNDA"/>
@@ -41251,36 +41129,28 @@ for FirePick Delta</text>
 </net>
 <net name="Z_STEP" class="0">
 <segment>
-<wire x1="127" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<label x="127" y="78.74" size="1.778" layer="95"/>
-<wire x1="139.7" y1="78.74" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="STEP"/>
-<wire x1="152.4" y1="99.06" x2="139.7" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
 <label x="142.24" y="99.06" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="Z_DIR" class="0">
 <segment>
-<wire x1="127" y1="76.2" x2="142.24" y2="76.2" width="0.1524" layer="91"/>
-<label x="127" y="76.2" size="1.778" layer="95"/>
-<wire x1="142.24" y1="76.2" x2="142.24" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="U8" gate="G$1" pin="DIR"/>
 <wire x1="142.24" y1="96.52" x2="152.4" y2="96.52" width="0.1524" layer="91"/>
 <label x="142.24" y="96.52" size="1.778" layer="95"/>
-<pinref part="J14" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="CLK"/>
-<wire x1="152.4" y1="88.9" x2="147.32" y2="88.9" width="0.1524" layer="91"/>
-<label x="147.32" y="88.9" size="1.778" layer="95"/>
+<wire x1="152.4" y1="88.9" x2="142.24" y2="88.9" width="0.1524" layer="91"/>
+<label x="142.24" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U7" gate="G$1" pin="CLK"/>
-<wire x1="152.4" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91"/>
-<label x="147.32" y="200.66" size="1.778" layer="95"/>
+<wire x1="152.4" y1="200.66" x2="142.24" y2="200.66" width="0.1524" layer="91"/>
+<label x="142.24" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CPI1" class="0">
@@ -41465,9 +41335,9 @@ for FirePick Delta</text>
 <wire x1="276.86" y1="185.42" x2="276.86" y2="210.82" width="0.1524" layer="91"/>
 <junction x="276.86" y="210.82"/>
 <wire x1="279.4" y1="210.82" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="228.6" x2="304.546" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="228.6" x2="302.26" y2="228.6" width="0.1524" layer="91"/>
 <label x="289.56" y="228.6" size="1.778" layer="95"/>
-<pinref part="J13" gate="G$1" pin="6"/>
+<pinref part="J11" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="1A_2" class="0">
@@ -41485,13 +41355,13 @@ for FirePick Delta</text>
 <junction x="266.7" y="208.28"/>
 <wire x1="281.94" y1="208.28" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
 <label x="289.56" y="231.14" size="1.778" layer="95"/>
-<pinref part="J13" gate="G$1" pin="5"/>
-<wire x1="304.546" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
+<pinref part="J11" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="231.14" x2="281.94" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="2A_2" class="0">
 <segment>
-<wire x1="284.48" y1="233.68" x2="304.546" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="233.68" x2="302.26" y2="233.68" width="0.1524" layer="91"/>
 <label x="289.56" y="233.68" size="1.778" layer="95"/>
 <wire x1="284.48" y1="233.68" x2="284.48" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="OB1"/>
@@ -41505,13 +41375,13 @@ for FirePick Delta</text>
 <wire x1="256.54" y1="203.2" x2="284.48" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="185.42" x2="256.54" y2="203.2" width="0.1524" layer="91"/>
 <junction x="256.54" y="203.2"/>
-<pinref part="J13" gate="G$1" pin="4"/>
+<pinref part="J11" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="2B_2" class="0">
 <segment>
 <label x="289.56" y="236.22" size="1.778" layer="95"/>
-<wire x1="304.546" y1="236.22" x2="287.02" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="236.22" x2="287.02" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="236.22" x2="287.02" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="OB2"/>
 <wire x1="210.82" y1="200.66" x2="203.2" y2="200.66" width="0.1524" layer="91"/>
@@ -41524,7 +41394,7 @@ for FirePick Delta</text>
 <wire x1="246.38" y1="200.66" x2="287.02" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="185.42" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
 <junction x="246.38" y="200.66"/>
-<pinref part="J13" gate="G$1" pin="3"/>
+<pinref part="J11" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="1B_3" class="0">
@@ -41542,8 +41412,8 @@ for FirePick Delta</text>
 <junction x="276.86" y="99.06"/>
 <wire x1="279.4" y1="99.06" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
 <label x="289.56" y="116.84" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="6"/>
-<wire x1="279.4" y1="116.84" x2="304.165" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="116.84" x2="302.26" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="1A_3" class="0">
@@ -41561,8 +41431,8 @@ for FirePick Delta</text>
 <junction x="266.7" y="96.52"/>
 <wire x1="281.94" y1="96.52" x2="281.94" y2="119.38" width="0.1524" layer="91"/>
 <label x="289.56" y="119.38" size="1.778" layer="95"/>
-<pinref part="J15" gate="G$1" pin="5"/>
-<wire x1="281.94" y1="119.38" x2="304.165" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="119.38" x2="302.26" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="2A_3" class="0">
@@ -41580,8 +41450,8 @@ for FirePick Delta</text>
 <wire x1="256.54" y1="91.44" x2="284.48" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="256.54" y1="73.66" x2="256.54" y2="91.44" width="0.1524" layer="91"/>
 <junction x="256.54" y="91.44"/>
-<pinref part="J15" gate="G$1" pin="4"/>
-<wire x1="284.48" y1="121.92" x2="304.165" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="121.92" x2="302.26" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="2B_3" class="0">
@@ -41599,8 +41469,8 @@ for FirePick Delta</text>
 <wire x1="246.38" y1="88.9" x2="287.02" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="73.66" x2="246.38" y2="88.9" width="0.1524" layer="91"/>
 <junction x="246.38" y="88.9"/>
-<pinref part="J15" gate="G$1" pin="3"/>
-<wire x1="287.02" y1="124.46" x2="304.165" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="124.46" x2="302.26" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="J12" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -41757,38 +41627,28 @@ for FirePick Delta</text>
 </net>
 <net name="!ENABLE" class="0">
 <segment>
-<wire x1="127" y1="205.74" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
-<label x="127" y="205.74" size="1.778" layer="95"/>
+<wire x1="142.24" y1="205.74" x2="152.4" y2="205.74" width="0.1524" layer="91"/>
+<label x="142.24" y="205.74" size="1.778" layer="95"/>
 <pinref part="U7" gate="G$1" pin="DRV_ENN"/>
-<pinref part="J12" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="127" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
-<label x="127" y="93.98" size="1.778" layer="95"/>
+<wire x1="142.24" y1="93.98" x2="152.4" y2="93.98" width="0.1524" layer="91"/>
+<label x="142.24" y="93.98" size="1.778" layer="95"/>
 <pinref part="U8" gate="G$1" pin="DRV_ENN"/>
-<pinref part="J14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="Y_STEP" class="0">
 <segment>
-<wire x1="127" y1="190.5" x2="139.7" y2="190.5" width="0.1524" layer="91"/>
-<label x="127" y="190.5" size="1.778" layer="95"/>
-<wire x1="139.7" y1="190.5" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="U7" gate="G$1" pin="STEP"/>
-<wire x1="152.4" y1="210.82" x2="139.7" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="210.82" x2="142.24" y2="210.82" width="0.1524" layer="91"/>
 <label x="142.24" y="210.82" size="1.778" layer="95"/>
-<pinref part="J12" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="Y_DIR" class="0">
 <segment>
-<wire x1="127" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
-<label x="127" y="187.96" size="1.778" layer="95"/>
-<wire x1="142.24" y1="187.96" x2="142.24" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="U7" gate="G$1" pin="DIR"/>
 <wire x1="142.24" y1="208.28" x2="152.4" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="DIR"/>
 <label x="142.24" y="208.28" size="1.778" layer="95"/>
-<pinref part="J12" gate="G$1" pin="8"/>
 </segment>
 </net>
 </nets>
