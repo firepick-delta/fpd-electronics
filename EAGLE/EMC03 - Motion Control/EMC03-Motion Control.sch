@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -33441,8 +33441,6 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.1" layer="21"/>
 <text x="1.95" y="0.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="1.95" y="-0.45" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<dimension x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" x3="0" y3="-2.75" textsize="0.8" layer="51" width="0.05" extwidth="0.05" extlength="0.1" visible="yes"/>
-<dimension x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" x3="-1.8" y3="0" textsize="0.8" layer="51" width="0.05" extlength="0.1" visible="yes"/>
 </package>
 <package name="C0603">
 <description>Capacitor Package: 0603 (in.)</description>
@@ -34457,6 +34455,9 @@ Datasheet: http://www.cooperindustries.com/content/dam/public/bussmann/Electroni
 <wire x1="2.65" y1="3.14" x2="2.06" y2="3.14" width="0.1" layer="21"/>
 </package>
 <package name="MICRO-SMP">
+<description>Diode: Schottky, 60V, 1A, Fast Recovery;
+Package: MicroSMP;
+Datasheet: http://www.vishay.com/docs/89018/mss1p6.pdf</description>
 <wire x1="-1.1" y1="-0.65" x2="-1.1" y2="0.65" width="0.1" layer="51"/>
 <wire x1="-1.1" y1="0.65" x2="1.1" y2="0.65" width="0.1" layer="51"/>
 <wire x1="1.1" y1="0.65" x2="1.1" y2="-0.65" width="0.1" layer="51"/>
@@ -34473,8 +34474,8 @@ Datasheet: http://www.cooperindustries.com/content/dam/public/bussmann/Electroni
 <vertex x="0.6" y="0.325"/>
 <vertex x="0.6" y="-0.325"/>
 </polygon>
-<smd name="NEG" x="-1" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="POS" x="1.04" y="0" dx="1.2" dy="0.8" layer="1"/>
+<smd name="NEG" x="-0.9" y="0" dx="1.6" dy="1.1" layer="1"/>
+<smd name="POS" x="1.04" y="0" dx="1.05" dy="0.8" layer="1"/>
 <wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.2" layer="51"/>
 <text x="0.1" y="1" size="1.27" layer="25" ratio="12">&gt;Name</text>
 <text x="0.1" y="-2" size="1" layer="27" ratio="10">&gt;Value</text>
@@ -34790,23 +34791,6 @@ Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</descriptio
 <wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <text x="-1.905" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="R@1">
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="5.08" y="0" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
 </symbol>
 <symbol name="C">
 <rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R90"/>
@@ -35751,7 +35735,7 @@ Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/8720a.pdf</descriptio
 <description>Resistor, 22 Ohm, 0.1W, 10%;
 Package: 0603</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -35827,7 +35811,7 @@ Datasheet: http://download.siliconexpert.com/pdfs/2011/4/6/10/1/57/701/samelm_/m
 Package: 0603;
 Datasheet: http://www.samsungsem.com/global/support/library/product-catalog/__icsFiles/afieldfile/2015/01/12/CHIP_RESISTOR_150112_1.pdf</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -35846,7 +35830,7 @@ Datasheet: http://www.samsungsem.com/global/support/library/product-catalog/__ic
 Package: 0603;
 Datasheet: http://www.samsungsem.com/global/support/library/product-catalog/__icsFiles/afieldfile/2015/01/12/CHIP_RESISTOR_150112_1.pdf</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -35887,7 +35871,7 @@ Datasheet: http://www.mouser.com/ds/2/115/74LVC1G04-72218.pdf</description>
 Package: 0603;
 Datasheet: http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -35960,7 +35944,7 @@ Datasheet: http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</descrip
 Package: 0603;
 Datasheet: http://www.mouser.com/ds/2/219/RN73H-12200.pdf</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -36028,7 +36012,7 @@ Datasheet: http://www.kosmodrom.com.ua/pdf/HR911105A.pdf</description>
 Package: 0603;
 Datasheet: http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -36200,7 +36184,7 @@ Datasheet: http://www.samsungsem.com/global/support/library/product-catalog/__ic
 </deviceset>
 <deviceset name="CPL-RES-0603-1K-0.1W" prefix="R">
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -36218,7 +36202,7 @@ Datasheet: http://www.samsungsem.com/global/support/library/product-catalog/__ic
 <description>Resistor: 100 Ohm, 0.1W, 1%;
 Package: 0603;</description>
 <gates>
-<gate name="G$1" symbol="R@1" x="0" y="0"/>
+<gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R0603">
@@ -36952,8 +36936,8 @@ Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</descriptio
 <part name="GND35" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND36" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J9" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2P-M" device="" value="68000-102HLF">
-<attribute name="PARTNO" value="68000-102HLF"/>
+<part name="J9" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2P-M" device="" value="S2B-PH-SM4">
+<attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="R29" library="TinWhiskers" deviceset="CPL-RES-0603-4.7K-0.1W" device="" value="4.7K">
 <attribute name="PARTNO" value="RC0603FR-074K7L"/>
@@ -37576,7 +37560,7 @@ Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</descriptio
 </part>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
-<part name="Q1" library="TinWhiskers" deviceset="CPL-OSC-CRY-12MHZ-18PF" device="" value="TBD">
+<part name="Q1" library="TinWhiskers" deviceset="CPL-OSC-CRY-12MHZ-18PF" device="" value="12MHz">
 <attribute name="PARTNO" value="HCM4912000000ABJT"/>
 </part>
 <part name="C1" library="TinWhiskers" deviceset="CPL-CAP-C0G-0603-12PF-50V" device="" value="12pF">

@@ -9158,8 +9158,6 @@
 <wire x1="1.5" y1="-0.75" x2="-1.5" y2="-0.75" width="0.1" layer="21"/>
 <text x="1.95" y="0.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="1.95" y="-0.45" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<dimension x1="-0.8" y1="-0.4" x2="0.8" y2="-0.4" x3="0" y3="-2.75" textsize="0.8" layer="51" width="0.05" extwidth="0.05" extlength="0.1" visible="yes"/>
-<dimension x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" x3="-1.8" y3="0" textsize="0.8" layer="51" width="0.05" extlength="0.1" visible="yes"/>
 </package>
 <package name="R1206">
 <description>Resistor Package 1206</description>
@@ -9257,6 +9255,9 @@
 <wire x1="0.8" y1="-0.2" x2="1.2" y2="-0.2" width="0.1" layer="51"/>
 </package>
 <package name="MICRO-SMP">
+<description>Diode: Schottky, 60V, 1A, Fast Recovery;
+Package: MicroSMP;
+Datasheet: http://www.vishay.com/docs/89018/mss1p6.pdf</description>
 <wire x1="-1.1" y1="-0.65" x2="-1.1" y2="0.65" width="0.1" layer="51"/>
 <wire x1="-1.1" y1="0.65" x2="1.1" y2="0.65" width="0.1" layer="51"/>
 <wire x1="1.1" y1="0.65" x2="1.1" y2="-0.65" width="0.1" layer="51"/>
@@ -9273,8 +9274,8 @@
 <vertex x="0.6" y="0.325"/>
 <vertex x="0.6" y="-0.325"/>
 </polygon>
-<smd name="NEG" x="-1" y="0" dx="2" dy="1.1" layer="1"/>
-<smd name="POS" x="1.04" y="0" dx="1.2" dy="0.8" layer="1"/>
+<smd name="NEG" x="-0.9" y="0" dx="1.6" dy="1.1" layer="1"/>
+<smd name="POS" x="1.04" y="0" dx="1.05" dy="0.8" layer="1"/>
 <wire x1="-0.7" y1="0.7" x2="-0.7" y2="-0.7" width="0.2" layer="51"/>
 <text x="0.1" y="1" size="1.27" layer="25" ratio="12">&gt;Name</text>
 <text x="0.1" y="-2" size="1" layer="27" ratio="10">&gt;Value</text>
