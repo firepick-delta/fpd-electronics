@@ -6665,13 +6665,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </library>
 <library name="FirePick">
 <packages>
-<package name="CON-TESTPOINT">
-<pad name="1" x="0" y="0" drill="1.016" rot="R90"/>
-<text x="-1.27" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<circle x="0" y="0" radius="1.27" width="0.127" layer="21"/>
-<text x="-1.27" y="-3.429" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 <package name="LOGO-FIREPICK">
 <rectangle x1="5.44195" y1="1.70815" x2="5.68325" y2="1.72085" layer="21"/>
 <rectangle x1="10.82675" y1="1.70815" x2="11.09345" y2="1.72085" layer="21"/>
@@ -18256,16 +18249,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="CONN-1PIN">
-<wire x1="-1.27" y1="-2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.4064" layer="94"/>
-<wire x1="-6.35" y1="2.54" x2="-1.27" y2="2.54" width="0.4064" layer="94"/>
-<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-6.35" y="3.302" size="1.778" layer="95">&gt;NAME</text>
-<pin name="2" x="2.54" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="LOGO-FIREPICK">
 <rectangle x1="21.2598" y1="0.1778" x2="22.225" y2="0.2286" layer="94"/>
 <rectangle x1="42.799" y1="0.1778" x2="43.8658" y2="0.2286" layer="94"/>
@@ -22334,21 +22317,6 @@ Source: http://products.nichicon.co.jp/en/pdf/XJA043/e-ud.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN-TESTPOINT" prefix="TP">
-<gates>
-<gate name="G$1" symbol="CONN-1PIN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CON-TESTPOINT">
-<connects>
-<connect gate="G$1" pin="2" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="LOGO-FIREPICK" prefix="LOGO">
 <gates>
 <gate name="G$1" symbol="LOGO-FIREPICK" x="0" y="0" swaplevel="1"/>
@@ -34783,6 +34751,10 @@ Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</descriptio
 <text x="10.5" y="3.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="10.5" y="2.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
+<package name="TESTPAD">
+<description>Testpad: 1.0 mm X 1.0 mm</description>
+<smd name="PAD" x="0" y="0" dx="1" dy="1" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="GND">
@@ -35370,6 +35342,16 @@ Specs: http://www.trinamic.com/products/integrated-circuits/stepper-power-driver
 <wire x1="-5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
 <text x="-5.08" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-5.08" y="7.62" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CONN-1PIN">
+<wire x1="-1.27" y1="-2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="-2.54" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="2.54" x2="-1.27" y2="2.54" width="0.4064" layer="94"/>
+<text x="-6.35" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.35" y="3.302" size="1.778" layer="95">&gt;NAME</text>
+<pin name="2" x="2.54" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -36778,6 +36760,22 @@ Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</descriptio
 </device>
 </devices>
 </deviceset>
+<deviceset name="TPAD" prefix="TP">
+<description>Testpad (1mm x 1mm)</description>
+<gates>
+<gate name="G$1" symbol="CONN-1PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TESTPAD">
+<connects>
+<connect gate="G$1" pin="2" pad="PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="smd-special">
@@ -36869,20 +36867,20 @@ Datasheet: http://katalog.we-online.de/em/datasheet/6941xx106102.pdf</descriptio
 <part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-3P-M-RA" device="" value="S3B-PH-SM4">
 <attribute name="PARTNO" value="S3B-PH-SM4-TB(LF)(SN)"/>
 </part>
-<part name="TP3" library="FirePick" deviceset="CONN-TESTPOINT" device="" value="+24V">
+<part name="TP3" library="TinWhiskers" deviceset="TPAD" device="" value="+24V">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="N/A"/>
 </part>
-<part name="TP4" library="FirePick" deviceset="CONN-TESTPOINT" device="" value="GND">
+<part name="TP4" library="TinWhiskers" deviceset="TPAD" device="" value="GND">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="N/A"/>
 </part>
-<part name="TP2" library="FirePick" deviceset="CONN-TESTPOINT" device="" value="+5V">
+<part name="TP2" library="TinWhiskers" deviceset="TPAD" device="" value="+5V">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="N/A"/>
 </part>
 <part name="+5V" library="supply1" deviceset="+5V" device=""/>
-<part name="TP1" library="FirePick" deviceset="CONN-TESTPOINT" device="" value="+3.3V">
+<part name="TP1" library="TinWhiskers" deviceset="TPAD" device="" value="+3.3V">
 <attribute name="DNP" value="T"/>
 <attribute name="PARTNO" value="N/A"/>
 </part>
