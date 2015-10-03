@@ -10353,12 +10353,13 @@ Datasheet: http://cdn.sparkfun.com/datasheets/Components/General/15882.pdf</desc
 <smd name="6" x="-3.44" y="10.9" dx="0.8" dy="1.5" layer="1"/>
 <smd name="7" x="-2.34" y="10.7" dx="0.8" dy="1.5" layer="1"/>
 <smd name="8" x="-1.24" y="10.7" dx="0.8" dy="1.5" layer="1"/>
-<smd name="CD1" x="-7.75" y="0.4" dx="1.8" dy="1.4" layer="1"/>
-<smd name="CD2" x="-2.05" y="0.4" dx="1.8" dy="1.4" layer="1"/>
-<smd name="GND1" x="-13.6" y="14.55" dx="1.4" dy="1.9" layer="1"/>
-<smd name="GND2" x="-0.45" y="13.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="GND" x="-7.75" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="GND2" x="-2.05" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="CD" x="-13.6" y="14.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="NC" x="-0.45" y="13.55" dx="1.4" dy="1.9" layer="1"/>
 <text x="-8.89" y="6.35" size="0.8128" layer="25">&gt;Name</text>
 <text x="-8.89" y="5.08" size="0.8128" layer="27">&gt;Value</text>
+<text x="-13.97" y="7.62" size="1.27" layer="21">FIX GND PADS!!</text>
 </package>
 <package name="FTSH-105-01-XXX-DV-K">
 <description>Connector: TERMINAL STRIP, .050 inch(1.27mm) PITCH, 10 PINS, KEYED;
@@ -12173,6 +12174,113 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="15" y1="-1.7" x2="15" y2="2.8" width="0.127" layer="21"/>
 <text x="-14.4" y="5.1" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-14.4" y="3.8" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="MICRO-SD-SOCKET-AMPH">
+<description>Connector: MicroSD, Card Detect;
+Package: SMT;
+Datasheet: https://www.amphenolcanada.com/ProductSearch/drawings/AC/1010058159.pdf</description>
+<wire x1="-7.65" y1="-6.35" x2="-7.65" y2="6.85" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="5.75" x2="6.35" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="-5.35" y1="8.95" x2="-6.15" y2="8.95" width="0.2032" layer="21"/>
+<wire x1="-4.65" y1="9.65" x2="6.35" y2="9.65" width="0.2032" layer="51"/>
+<wire x1="-3.65" y1="7.25" x2="4.75" y2="7.25" width="0.2032" layer="21"/>
+<wire x1="-7.65" y1="-6.35" x2="-2.75" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="2.95" y1="-6.35" x2="-0.05" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-6.35" x2="5.65" y2="-6.35" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="11.25" x2="-4.65" y2="11.25" width="0.2032" layer="51"/>
+<wire x1="6.35" y1="14.35" x2="-4.65" y2="14.35" width="0.2032" layer="51"/>
+<wire x1="-4.65" y1="8.25" x2="-5.35" y2="8.95" width="0.2032" layer="21" curve="98.797411"/>
+<wire x1="-4.65" y1="8.25" x2="-3.65" y2="7.25" width="0.2032" layer="21" curve="87.205638"/>
+<smd name="1" x="-2.59" y="4.35" dx="0.8" dy="1.5" layer="1"/>
+<smd name="2" x="-1.49" y="3.95" dx="0.8" dy="1.5" layer="1"/>
+<smd name="3" x="-0.39" y="4.35" dx="0.8" dy="1.5" layer="1"/>
+<smd name="4" x="0.71" y="4.55" dx="0.8" dy="1.5" layer="1"/>
+<smd name="5" x="1.81" y="4.35" dx="0.8" dy="1.5" layer="1"/>
+<smd name="6" x="2.91" y="4.55" dx="0.8" dy="1.5" layer="1"/>
+<smd name="7" x="4.01" y="4.35" dx="0.8" dy="1.5" layer="1"/>
+<smd name="8" x="5.11" y="4.35" dx="0.8" dy="1.5" layer="1"/>
+<smd name="GND" x="-1.4" y="-5.95" dx="1.8" dy="1.4" layer="1"/>
+<smd name="GND2" x="4.3" y="-5.95" dx="1.8" dy="1.4" layer="1"/>
+<smd name="CD" x="-7.25" y="8.2" dx="1.4" dy="1.9" layer="1"/>
+<smd name="NC" x="5.9" y="7.2" dx="1.4" dy="1.9" layer="1"/>
+<text x="-2.54" y="0" size="0.8128" layer="25">&gt;Name</text>
+<text x="-2.54" y="-1.27" size="0.8128" layer="27">&gt;Value</text>
+</package>
+<package name="8-SMD">
+<description>8-SMD;
+Source: Freescale Semiconductor (http://www.freescale.com/files/sensors/doc/data_sheet/MPX5050.pdf)</description>
+<smd name="1" x="-8.3675" y="3.81" dx="1.8" dy="1.115" layer="1"/>
+<smd name="2" x="-8.3675" y="1.27" dx="1.8" dy="1.115" layer="1"/>
+<smd name="3" x="-8.3675" y="-1.27" dx="1.8" dy="1.115" layer="1"/>
+<smd name="4" x="-8.3675" y="-3.81" dx="1.8" dy="1.115" layer="1"/>
+<smd name="8" x="8.3675" y="3.81" dx="1.8" dy="1.115" layer="1"/>
+<smd name="7" x="8.3675" y="1.27" dx="1.8" dy="1.115" layer="1"/>
+<smd name="6" x="8.3675" y="-1.27" dx="1.8" dy="1.115" layer="1"/>
+<smd name="5" x="8.3675" y="-3.81" dx="1.8" dy="1.115" layer="1"/>
+<rectangle x1="-9.205" y1="3.3025" x2="-7.53" y2="4.3175" layer="51"/>
+<rectangle x1="7.53" y1="3.3025" x2="9.205" y2="4.3175" layer="51"/>
+<rectangle x1="-9.205" y1="0.7625" x2="-7.53" y2="1.7775" layer="51"/>
+<rectangle x1="-9.205" y1="-1.7775" x2="-7.53" y2="-0.7625" layer="51"/>
+<rectangle x1="-9.205" y1="-4.3175" x2="-7.53" y2="-3.3025" layer="51"/>
+<rectangle x1="7.53" y1="0.7625" x2="9.205" y2="1.7775" layer="51"/>
+<rectangle x1="7.53" y1="-1.7775" x2="9.205" y2="-0.7625" layer="51"/>
+<rectangle x1="7.53" y1="-4.3175" x2="9.205" y2="-3.3025" layer="51"/>
+<text x="5" y="8.5" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="5" y="7.23" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-6.1595" y1="-6.1595" x2="-6.1595" y2="6.1595" width="0.127" layer="51"/>
+<wire x1="-6.1595" y1="6.1595" x2="6.1595" y2="6.1595" width="0.127" layer="51"/>
+<wire x1="6.1595" y1="6.1595" x2="6.1595" y2="-6.1595" width="0.127" layer="51"/>
+<wire x1="6.1595" y1="-6.1595" x2="-6.1595" y2="-6.1595" width="0.127" layer="51"/>
+<wire x1="-6.1595" y1="-6.1595" x2="-6.1595" y2="6.1595" width="0.127" layer="21"/>
+<wire x1="-6.1595" y1="6.1595" x2="6.1595" y2="6.1595" width="0.127" layer="21"/>
+<wire x1="6.1595" y1="6.1595" x2="6.1595" y2="-6.1595" width="0.127" layer="21"/>
+<wire x1="6.1595" y1="-6.1595" x2="-6.1595" y2="-6.1595" width="0.127" layer="21"/>
+<rectangle x1="-3.936" y1="6.1595" x2="3.936" y2="12.7635" layer="39"/>
+</package>
+<package name="WS2812B">
+<description>LED: Neopixel;
+Package: (4-Pin)SMT;
+Dataasheet: http://www.adafruit.com/datasheets/WS2812B.pdf</description>
+<smd name="1" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.9" x2="-2.5" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.3" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="0.9" width="0.127" layer="21"/>
+<text x="-2.2" y="5.3" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.2" y="3.7" size="1" layer="27" ratio="10">&gt;Value</text>
+</package>
+<package name="LEDTEST">
+<description>LED: Neopixel;
+Datasheet:</description>
+<smd name="1" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="2" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="4" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1"/>
+<smd name="3" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.9" x2="-2.5" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.3" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-0.9" x2="2.5" y2="0.9" width="0.127" layer="21"/>
+<text x="-2.2" y="5.3" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.2" y="3.7" size="1" layer="27" ratio="10">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -18689,7 +18797,7 @@ Datasheet: http://www.kosmodrom.com.ua/pdf/HR911105A.pdf</description>
 <wire x1="15.24" y1="-81.28" x2="-17.78" y2="-81.28" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="-81.28" x2="-17.78" y2="68.58" width="0.254" layer="94"/>
 </symbol>
-<symbol name="CON-MICROSD(MOLEX)">
+<symbol name="CON-MICROSD(CD)-SD">
 <description>Connector: MicroSD
 Package: SMT
 Source: Molex</description>
@@ -18701,10 +18809,10 @@ Source: Molex</description>
 <pin name="VSS" x="10.16" y="12.7" length="short" rot="R180"/>
 <pin name="DAT0" x="10.16" y="15.24" length="short" rot="R180"/>
 <pin name="DAT1" x="10.16" y="17.78" length="short" rot="R180"/>
-<pin name="GND1" x="10.16" y="-5.08" length="short" rot="R180"/>
-<pin name="GND2" x="10.16" y="-7.62" length="short" rot="R180"/>
-<pin name="GND3" x="10.16" y="-10.16" length="short" rot="R180"/>
-<pin name="GND4" x="10.16" y="-12.7" length="short" rot="R180"/>
+<pin name="CD" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="GND2" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="NC" x="10.16" y="-12.7" length="short" rot="R180"/>
 <wire x1="7.62" y1="20.32" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-15.24" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
@@ -19466,6 +19574,107 @@ Datasheet: http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pd
 <text x="-2.54" y="20.32" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-2.54" y="18.288" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="CON-MICROSD(CD)-SPI">
+<description>Connector: MicroSD
+Package: SMT
+Source: Molex</description>
+<pin name="NC@1" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="CS" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="DI" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="VDD" x="10.16" y="7.62" length="short" rot="R180"/>
+<pin name="SCLK" x="10.16" y="10.16" length="short" rot="R180"/>
+<pin name="VSS" x="10.16" y="12.7" length="short" rot="R180"/>
+<pin name="DO" x="10.16" y="15.24" length="short" rot="R180"/>
+<pin name="NC@8" x="10.16" y="17.78" length="short" rot="R180"/>
+<pin name="CD" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-7.62" length="short" rot="R180"/>
+<pin name="GND2" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="NC" x="10.16" y="-12.7" length="short" rot="R180"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-15.24" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<text x="-2.54" y="25.4" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.54" y="22.86" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="MXXX5004GP">
+<description>Pressure Sensor: 0.57 PSI (3.92 kPa), 1V-4.9V (out), 4.75V-5.25V (in);
+Package: 8-SMD;
+Datasheet: http://www.freescale.com/files/sensors/doc/data_sheet/MPXV5004G.pdf</description>
+<pin name="DNC@1" x="-12.7" y="5.08" length="short"/>
+<pin name="VS" x="-12.7" y="2.54" length="short"/>
+<pin name="GND" x="-12.7" y="0" length="short"/>
+<pin name="VOUT" x="-12.7" y="-2.54" length="short"/>
+<pin name="DNC@5" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="DNC@6" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="DNC@7" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="DNC@8" x="12.7" y="5.08" length="short" rot="R180"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-10.16" y="8.128" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="WS2812B">
+<description>LED: Neopixel;
+Datasheet: http://www.adafruit.com/datasheets/WS2812B.pdf</description>
+<pin name="VDD" x="-5.08" y="5.08" length="short"/>
+<pin name="DOUT" x="-5.08" y="2.54" length="short"/>
+<pin name="VSS" x="-5.08" y="0" length="short"/>
+<pin name="DIN" x="-5.08" y="-2.54" length="short"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-2.54" y="10.16" size="1.778" layer="95" ratio="12">&gt;Name</text>
+<text x="-2.54" y="8.128" size="1.27" layer="96" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="GATE-74LVC">
+<description>Logic Gate: 74LVC</description>
+<pin name="A" x="-12.7" y="2.54" length="short"/>
+<pin name="B" x="-12.7" y="0" length="short"/>
+<pin name="GND" x="-12.7" y="-2.54" length="short"/>
+<pin name="VCC" x="5.08" y="2.54" length="short" rot="R180"/>
+<pin name="Y" x="5.08" y="-2.54" length="short" rot="R180"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-10.16" y="5.588" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="NTR4003N">
+<description>MOSFET: N-Channel;
+Package: SOT-23;
+Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description>
+<pin name="GATE" x="-10.16" y="2.54" length="short"/>
+<pin name="SOURCE" x="-10.16" y="-2.54" length="short"/>
+<pin name="DRAIN" x="10.16" y="0" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" ratio="12">&gt;Name</text>
+<text x="-7.62" y="5.588" size="1.27" layer="95" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="AP3032">
+<description>LED Driver: White, Step-Up, AP3032 (Diodes, Inc.);
+Package: SOT23-6;
+Datasheet: http://www.diodes.com/_files/datasheets/AP3032.pdf</description>
+<pin name="SW" x="12.7" y="2.54" length="short" rot="R180"/>
+<pin name="GND" x="0" y="-7.62" length="short" rot="R90"/>
+<pin name="FB" x="12.7" y="-2.54" length="short" rot="R180"/>
+<pin name="VIN" x="-12.7" y="2.54" length="short"/>
+<pin name="OV" x="12.7" y="0" length="short" rot="R180"/>
+<pin name="CTRL" x="-12.7" y="-2.54" length="short"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.16" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-10.16" y="5.588" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -20112,6 +20321,9 @@ Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-RES-0603-1K-0.1W" prefix="R">
+<description>Resistor: 1 kOhm, 0.1W, 1%;
+Package: 0603;
+Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -21151,21 +21363,21 @@ Datasheet: http://www.nxp.com/documents/data_sheet/LPC1769_68_67_66_65_64_63.pdf
 Mfr: Molex (47219-2001)
 Datasheet: http://www.molex.com/pdm_docs/sd/472192001_sd.pdf</description>
 <gates>
-<gate name="G$1" symbol="CON-MICROSD(MOLEX)" x="-2.54" y="0"/>
+<gate name="G$1" symbol="CON-MICROSD(CD)-SD" x="-2.54" y="0"/>
 </gates>
 <devices>
 <device name="MOLEX(47219XXXX)" package="SD(MICRO)-CONN-47219(MOLEX)">
 <connects>
+<connect gate="G$1" pin="CD" pad="G1"/>
 <connect gate="G$1" pin="CD/DAT3" pad="2"/>
 <connect gate="G$1" pin="CLK" pad="5"/>
 <connect gate="G$1" pin="CMD" pad="3"/>
 <connect gate="G$1" pin="DAT0" pad="7"/>
 <connect gate="G$1" pin="DAT1" pad="8"/>
 <connect gate="G$1" pin="DAT2" pad="1"/>
-<connect gate="G$1" pin="GND1" pad="G1"/>
-<connect gate="G$1" pin="GND2" pad="G2"/>
-<connect gate="G$1" pin="GND3" pad="G3"/>
-<connect gate="G$1" pin="GND4" pad="G4"/>
+<connect gate="G$1" pin="GND" pad="G2"/>
+<connect gate="G$1" pin="GND2" pad="G3"/>
+<connect gate="G$1" pin="NC" pad="G4"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 <connect gate="G$1" pin="VSS" pad="6"/>
 </connects>
@@ -21184,8 +21396,8 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <devices>
 <device name="SMD" package="MICRO-SD-SOCKET-PP">
 <connects>
-<connect gate="G$1" pin="CD1" pad="CD1"/>
-<connect gate="G$1" pin="CD2" pad="CD2"/>
+<connect gate="G$1" pin="CD1" pad="GND"/>
+<connect gate="G$1" pin="CD2" pad="GND2"/>
 <connect gate="G$1" pin="CS" pad="2"/>
 <connect gate="G$1" pin="DI" pad="3"/>
 <connect gate="G$1" pin="DO" pad="7"/>
@@ -21193,8 +21405,8 @@ Push-push type uSD socket. Schematic element and footprint production proven. Sp
 <connect gate="G$1" pin="NC" pad="1"/>
 <connect gate="G$1" pin="RSV" pad="8"/>
 <connect gate="G$1" pin="SCK" pad="5"/>
-<connect gate="G$1" pin="SHIELD1" pad="GND1"/>
-<connect gate="G$1" pin="SHIELD2" pad="GND2"/>
+<connect gate="G$1" pin="SHIELD1" pad="CD"/>
+<connect gate="G$1" pin="SHIELD2" pad="NC"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
@@ -22595,21 +22807,21 @@ Datasheet: http://www.yageo.com/documents/recent/PYu-RL_521_RoHS_L_5.pdf</descri
 Package: MicroSD;
 Datasheet: http://www.molex.com/molex/products/datasheet.jsp?part=active/0473340001_MEMORY_CARD_SOCKET.xml</description>
 <gates>
-<gate name="G$1" symbol="CON-MICROSD(MOLEX)" x="0" y="0"/>
+<gate name="G$1" symbol="CON-MICROSD(CD)-SD" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="MICRO-SD-SOCKET-PP">
 <connects>
+<connect gate="G$1" pin="CD" pad="GND"/>
 <connect gate="G$1" pin="CD/DAT3" pad="2"/>
 <connect gate="G$1" pin="CLK" pad="5"/>
 <connect gate="G$1" pin="CMD" pad="3"/>
 <connect gate="G$1" pin="DAT0" pad="7"/>
 <connect gate="G$1" pin="DAT1" pad="8"/>
 <connect gate="G$1" pin="DAT2" pad="1"/>
-<connect gate="G$1" pin="GND1" pad="CD1"/>
-<connect gate="G$1" pin="GND2" pad="CD2"/>
-<connect gate="G$1" pin="GND3" pad="GND1"/>
-<connect gate="G$1" pin="GND4" pad="GND2"/>
+<connect gate="G$1" pin="GND" pad="GND2"/>
+<connect gate="G$1" pin="GND2" pad="CD"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
 <connect gate="G$1" pin="VDD" pad="4"/>
 <connect gate="G$1" pin="VSS" pad="6"/>
 </connects>
@@ -22873,6 +23085,231 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-MICSROSD(SD)-CD" prefix="J">
+<description>Connector: MicroSD, Amphenol(10100-Series), Card Detect, Push-Push;
+Package: SMT(R/A);
+Datasheet: https://www.amphenolcanada.com/ProductSearch/drawings/AC/1010058159.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-MICROSD(CD)-SD" x="-2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="MICRO-SD-SOCKET-AMPH">
+<connects>
+<connect gate="G$1" pin="CD" pad="CD"/>
+<connect gate="G$1" pin="CD/DAT3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DAT0" pad="7"/>
+<connect gate="G$1" pin="DAT1" pad="8"/>
+<connect gate="G$1" pin="DAT2" pad="1"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND2"/>
+<connect gate="G$1" pin="NC" pad="NC"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-SEN-PRS-MPXV5004-SMT" prefix="X">
+<description>Pressure Sensor: MPXV5004 Series, 8-Lead, Analog (Voltage), Barbed Tube;
+Package: 8-SMD;
+Datasheet: http://www.freescale.com/files/sensors/doc/data_sheet/MPXV5004G.pdf</description>
+<gates>
+<gate name="G$1" symbol="MXXX5004GP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8-SMD">
+<connects>
+<connect gate="G$1" pin="DNC@1" pad="1"/>
+<connect gate="G$1" pin="DNC@5" pad="5"/>
+<connect gate="G$1" pin="DNC@6" pad="6"/>
+<connect gate="G$1" pin="DNC@7" pad="7"/>
+<connect gate="G$1" pin="DNC@8" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+<connect gate="G$1" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-LED-NEOPIXEL-WS2812B" prefix="LED">
+<description>LED: Neopixel;
+Package: (4-Pin)SMT;
+Datasheet: http://www.adafruit.com/datasheets/WS2812B.pdf</description>
+<gates>
+<gate name="G$1" symbol="WS2812B" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="LED" package="LEDTEST">
+<connects>
+<connect gate="G$1" pin="DIN" pad="4"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="WS2812B">
+<connects>
+<connect gate="G$1" pin="DIN" pad="4"/>
+<connect gate="G$1" pin="DOUT" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-TEST-TEST-TEST">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-IC-LOGIC-OR-1CH-74LVC" prefix="U">
+<description>Logic Gate: OR, 1-Channel;
+Package: SOT23-5;
+Datasheet: http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf</description>
+<gates>
+<gate name="G$1" symbol="GATE-74LVC" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="5"/>
+<connect gate="G$1" pin="Y" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-MOSFET-NCH-SOT23" prefix="U">
+<description>MOSFET: N-Channel, Switching;
+Package: SOT23;
+Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description>
+<gates>
+<gate name="G$1" symbol="NTR4003N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="3"/>
+<connect gate="G$1" pin="GATE" pad="1"/>
+<connect gate="G$1" pin="SOURCE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-LED-DRIVER-WHT-AP3032" prefix="U">
+<description>LED Driver: White, Step-Up, AP3032 (Diodes, Inc.);
+Package: SOT23-6;
+Datasheet: http://www.diodes.com/_files/datasheets/AP3032.pdf</description>
+<gates>
+<gate name="G$1" symbol="AP3032" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="CTRL" pad="4"/>
+<connect gate="G$1" pin="FB" pad="3"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="OV" pad="5"/>
+<connect gate="G$1" pin="SW" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-IND-6.8UH-250MA" prefix="L">
+<description>Inductor: 6.8uH, 20%, 250mA;
+Packages: 0603;
+Datasheet: http://ds.yuden.co.jp/TYCOMPAS/ut/detail.do?productNo=BRL1608T6R8M&amp;fileName=BRL1608T6R8M_SS&amp;mode=specSheetDownload</description>
+<gates>
+<gate name="G$1" symbol="L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X5R-0603-10UF-25V" prefix="C">
+<description>Capacitor: 10uF, 20%, X5R;
+Package: 0603;
+Datasheet: http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</description>
+<gates>
+<gate name="G$1" symbol="C" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-SEN-PRS-MPXV5100DP" prefix="X">
+<description>Pressure Sensor: MPXV5100DP, Temp-Calibrated, Silicon, 5V;
+Package: SMD-6;
+Datasheet: http://www.freescale.com/files/sensors/doc/data_sheet/MPX5100.pdf</description>
+<gates>
+<gate name="G$1" symbol="MXXX5004GP" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="8-SMD">
+<connects>
+<connect gate="G$1" pin="DNC@1" pad="1"/>
+<connect gate="G$1" pin="DNC@5" pad="5"/>
+<connect gate="G$1" pin="DNC@6" pad="6"/>
+<connect gate="G$1" pin="DNC@7" pad="7"/>
+<connect gate="G$1" pin="DNC@8" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+<connect gate="G$1" pin="VS" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
