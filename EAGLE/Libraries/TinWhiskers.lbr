@@ -19675,6 +19675,42 @@ Datasheet: http://www.diodes.com/_files/datasheets/AP3032.pdf</description>
 <text x="-10.16" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-10.16" y="5.588" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="MCP4725">
+<description>Digital-Analog Converter: 12-Bit, EEPROM;
+Package: SOT23-6;
+Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</description>
+<pin name="VOUT" x="-10.16" y="2.54" length="short"/>
+<pin name="VSS" x="-10.16" y="0" length="short"/>
+<pin name="VDD" x="-10.16" y="-2.54" length="short"/>
+<pin name="A0" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="SCL" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="SDA" x="10.16" y="-2.54" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="5.588" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="MAX31855">
+<description>Thermocouple: Digital, 14-Bit, Cold-Junction;
+Package: SOIC-8;
+Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description>
+<pin name="VCC" x="-10.16" y="2.54" length="short"/>
+<pin name="T-" x="-10.16" y="0" length="short"/>
+<pin name="T+" x="-10.16" y="-2.54" length="short"/>
+<pin name="GND" x="-10.16" y="-5.08" length="short"/>
+<pin name="SCK" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="!CS" x="10.16" y="-2.54" length="short" rot="R180"/>
+<pin name="SO" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="DNC" x="10.16" y="2.54" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="5.588" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -20247,6 +20283,9 @@ Datasheet: http://www.mouser.com/ds/2/427/rcwe-244377.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-CON-HEADER-0.1IN-3P-M" prefix="J">
+<description>Connector: 0.1" Pitch, 0.025" Pins, 3-Pin;
+Package: Thru-Hole;
+Datasheet:</description>
 <gates>
 <gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
 </gates>
@@ -23310,6 +23349,73 @@ Datasheet: http://www.freescale.com/files/sensors/doc/data_sheet/MPX5100.pdf</de
 <connect gate="G$1" pin="GND" pad="3"/>
 <connect gate="G$1" pin="VOUT" pad="4"/>
 <connect gate="G$1" pin="VS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DAC-12BIT-SOT23" prefix="U">
+<description>Digital-Analog Converter: 12-Bit, MPC4725;
+Package: SOT23-6;
+Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</description>
+<gates>
+<gate name="G$1" symbol="MCP4725" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-6">
+<connects>
+<connect gate="G$1" pin="A0" pad="6"/>
+<connect gate="G$1" pin="SCL" pad="5"/>
+<connect gate="G$1" pin="SDA" pad="4"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+<connect gate="G$1" pin="VOUT" pad="1"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-RES-0603-5K-0.1W" prefix="R">
+<description>Resistor: 5.0 kOhm, 0.15W, 0.1%;
+Package: 0603;
+Datasheet: http://www.vishay.com/docs/60057/pnm.pdf</description>
+<gates>
+<gate name="G$1" symbol="R" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-THRM-MAX31855" prefix="U">
+<description>Thermocouple: Digital, 14-Bit, 8-Pin;
+Package: SOIC-8 (Narrow);
+Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description>
+<gates>
+<gate name="G$1" symbol="MAX31855" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOICN-8">
+<connects>
+<connect gate="G$1" pin="!CS" pad="6"/>
+<connect gate="G$1" pin="DNC" pad="8"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="SCK" pad="5"/>
+<connect gate="G$1" pin="SO" pad="7"/>
+<connect gate="G$1" pin="T+" pad="3"/>
+<connect gate="G$1" pin="T-" pad="2"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>

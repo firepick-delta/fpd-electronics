@@ -15582,6 +15582,8 @@ Package: 0603</description>
 <part name="LOGO1" library="FirePick" deviceset="LOGO-CC-BY-SA" device="LARGE"/>
 <part name="LOGO2" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE"/>
 <part name="SUPPLY17" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="R13" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K"/>
+<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15819,6 +15821,10 @@ for Firepick Delta</text>
 <instance part="LOGO1" gate="G$1" x="3.81" y="3.81"/>
 <instance part="LOGO2" gate="G$1" x="81.28" y="10.16"/>
 <instance part="SUPPLY17" gate="GND" x="350.52" y="45.72"/>
+<instance part="R13" gate="G$1" x="294.64" y="193.04"/>
+<instance part="P+13" gate="1" x="287.02" y="198.12" smashed="yes">
+<attribute name="VALUE" x="284.48" y="198.12" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16055,6 +16061,12 @@ for Firepick Delta</text>
 <wire x1="48.26" y1="154.94" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="P+13" gate="1" pin="+5V"/>
+<wire x1="287.02" y1="195.58" x2="287.02" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="287.02" y1="193.04" x2="289.56" y2="193.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="!ENBL" class="0">
 <segment>
@@ -16176,6 +16188,11 @@ for Firepick Delta</text>
 <junction x="81.28" y="81.28"/>
 <label x="73.66" y="81.28" size="1.778" layer="95" ratio="12"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="PD4"/>
+<wire x1="335.28" y1="187.96" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
+<label x="337.82" y="187.96" size="1.778" layer="95" ratio="12"/>
+</segment>
 </net>
 <net name="STEP" class="0">
 <segment>
@@ -16195,11 +16212,6 @@ for Firepick Delta</text>
 <wire x1="340.36" y1="73.66" x2="347.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="342.9" y="73.66" size="1.778" layer="95" ratio="12"/>
 </segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="PD4"/>
-<wire x1="335.28" y1="187.96" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
-<label x="337.82" y="187.96" size="1.778" layer="95" ratio="12"/>
-</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -16208,9 +16220,9 @@ for Firepick Delta</text>
 <label x="124.46" y="157.48" size="1.778" layer="95" ratio="12"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PB3"/>
-<wire x1="312.42" y1="190.5" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
-<label x="302.26" y="190.5" size="1.778" layer="95" ratio="12"/>
+<pinref part="U3" gate="G$1" pin="PB4"/>
+<wire x1="312.42" y1="187.96" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
+<label x="302.26" y="187.96" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -16232,9 +16244,9 @@ for Firepick Delta</text>
 <label x="124.46" y="149.86" size="1.778" layer="95" ratio="12"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="PB4"/>
-<wire x1="312.42" y1="187.96" x2="302.26" y2="187.96" width="0.1524" layer="91"/>
-<label x="302.26" y="187.96" size="1.778" layer="95" ratio="12"/>
+<pinref part="U3" gate="G$1" pin="PB3"/>
+<wire x1="312.42" y1="190.5" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
+<label x="302.26" y="190.5" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -16259,8 +16271,9 @@ for Firepick Delta</text>
 <net name="SS" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="PB2"/>
-<wire x1="312.42" y1="193.04" x2="302.26" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="193.04" x2="299.72" y2="193.04" width="0.1524" layer="91"/>
 <label x="302.26" y="193.04" size="1.778" layer="95" ratio="12"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="BOUT1" class="0">
