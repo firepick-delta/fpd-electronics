@@ -34768,7 +34768,7 @@ Datasheet: http://www.mouser.com/ds/2/185/ed_DF40_20140305-337786.pdf</descripti
 <wire x1="1.1" y1="-0.675" x2="1.1" y2="0.675" width="0.127" layer="51"/>
 <wire x1="1.1" y1="0.675" x2="-1.1" y2="0.675" width="0.127" layer="51"/>
 <wire x1="-1.1" y1="0.675" x2="-1.1" y2="-0.675" width="0.127" layer="51"/>
-<circle x="-1.5" y="-0.6" radius="0.1" width="0.4" layer="21"/>
+<circle x="-0.8" y="-0.2" radius="0.1" width="0.2" layer="21"/>
 <text x="-1.1" y="3" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-1.1" y="1.9" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
@@ -38641,7 +38641,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf</description>
 <text x="30.48" y="228.6" size="1.778" layer="97" font="vector">VDD</text>
 <text x="289.56" y="20.32" size="1.778" layer="94" ratio="15">Drawn by: DANIEL SMITH</text>
 <text x="289.56" y="16.51" size="1.778" layer="94" ratio="15">Checked  by: NEIL JANSEN</text>
-<text x="290.83" y="7.62" size="2.54" layer="94" ratio="10">Revision B</text>
+<text x="290.83" y="7.62" size="2.54" layer="94" ratio="10">Revision C</text>
 <wire x1="5.715" y1="28.575" x2="288.29" y2="28.575" width="0.3048" layer="94"/>
 <wire x1="288.29" y1="28.575" x2="288.29" y2="3.81" width="0.3048" layer="94"/>
 <text x="159.385" y="8.89" size="5.08" layer="94">EMC03 Motion Controller
@@ -40512,6 +40512,11 @@ for FirePick Delta</text>
 <wire x1="269.24" y1="121.92" x2="261.62" y2="121.92" width="0.1524" layer="91"/>
 <label x="256.54" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J20" gate="G$1" pin="GP15"/>
+<wire x1="327.66" y1="157.48" x2="320.04" y2="157.48" width="0.1524" layer="91"/>
+<label x="314.96" y="157.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EEENO" class="0">
 <segment>
@@ -40525,6 +40530,11 @@ for FirePick Delta</text>
 <pinref part="U22" gate="G$1" pin="3"/>
 <wire x1="220.98" y1="121.92" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
 <label x="210.82" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J20" gate="G$1" pin="GP14"/>
+<wire x1="327.66" y1="154.94" x2="320.04" y2="154.94" width="0.1524" layer="91"/>
+<label x="314.96" y="154.94" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -16068,18 +16068,6 @@ for Firepick Delta</text>
 <wire x1="287.02" y1="193.04" x2="289.56" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="!ENBL" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="!ENBL"/>
-<wire x1="340.36" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
-<label x="342.9" y="68.58" size="1.778" layer="95" ratio="12"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="PD5"/>
-<wire x1="335.28" y1="185.42" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
-<label x="337.82" y="185.42" size="1.778" layer="95" ratio="12"/>
-</segment>
-</net>
 <net name="A" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
@@ -16474,6 +16462,16 @@ for Firepick Delta</text>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="86.36" x2="129.54" y2="86.36" width="0.1524" layer="91"/>
 <label x="125.984" y="86.36" size="1.778" layer="95" ratio="12"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="PD5"/>
+<wire x1="335.28" y1="185.42" x2="342.9" y2="185.42" width="0.1524" layer="91"/>
+<label x="337.82" y="185.42" size="1.778" layer="95" ratio="12"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="!ENBL"/>
+<wire x1="340.36" y1="68.58" x2="347.98" y2="68.58" width="0.1524" layer="91"/>
+<label x="342.9" y="68.58" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 </nets>
