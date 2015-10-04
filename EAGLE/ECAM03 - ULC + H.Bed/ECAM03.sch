@@ -588,6 +588,23 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="4.064" y1="-1.524" x2="-4.064" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="-1.524" x2="-4.064" y2="1.524" width="0.127" layer="21"/>
 </package>
+<package name="TBLOCK-2-5MM">
+<description>Terminal Block: 2-Terminal, 5.0mm Pitch, R/A;
+Package: 2-TBLOCK-5.0MM;
+Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%20PT2,5.pdf</description>
+<pad name="1" x="-2.54" y="0" drill="1"/>
+<pad name="2" x="2.54" y="0" drill="1"/>
+<wire x1="-5" y1="-2.25" x2="-5" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.25" x2="5" y2="2.25" width="0.127" layer="21"/>
+<wire x1="5" y1="2.25" x2="5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="5" y1="-2.25" x2="-5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-5" y1="-2.25" x2="-5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-5" y1="2.25" x2="5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="5" y1="2.25" x2="5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="5" y1="-2.25" x2="-5" y2="-2.25" width="0.127" layer="51"/>
+<text x="-5" y="4.2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-5" y="2.8" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -872,6 +889,17 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="T-BLOCK-2">
+<description>Terminal Block: 2-Contact</description>
+<pin name="1" x="-5.08" y="0" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" length="short"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.54" y="3.048" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1353,6 +1381,25 @@ Datasheet:</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-TBLK-SCR-2CKT-5.0MM" prefix="TB">
+<description>Terminal Block: 5mm Pitch, R/A, 2-Circuit (1935776);
+Package: Thru-Hole;
+Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%20PT2,5.pdf</description>
+<gates>
+<gate name="G$1" symbol="T-BLOCK-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TBLOCK-2-5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15388,6 +15435,7 @@ Datasheet:</description>
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
+<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-2CKT-5.0MM" device="" value="T-BLOCK"/>
 </parts>
 <sheets>
 <sheet>
@@ -15404,9 +15452,9 @@ Datasheet:</description>
 <text x="121.92" y="241.3" size="6.35" layer="94" ratio="10">RINGLIGHT</text>
 <text x="15.24" y="241.3" size="6.35" layer="94" ratio="10">USB PASS-THRU</text>
 <text x="20.32" y="198.12" size="1.27" layer="94" ratio="12">* ONLY POPULATE RESISTORS NECESSARY TO SELECT CORRECT ROUTING</text>
-<text x="30.48" y="160.02" size="6.35" layer="94" ratio="10">USB PWR</text>
-<text x="114.3" y="160.02" size="6.35" layer="94" ratio="10">DAC</text>
-<text x="167.64" y="160.02" size="6.35" layer="94" ratio="10">THERM</text>
+<text x="30.48" y="162.56" size="6.35" layer="94" ratio="10">USB PWR</text>
+<text x="114.3" y="162.56" size="6.35" layer="94" ratio="10">DAC</text>
+<text x="167.64" y="162.56" size="6.35" layer="94" ratio="10">THERM</text>
 <text x="226.06" y="162.56" size="6.35" layer="94" ratio="10">FAN CONNEX</text>
 <text x="22.86" y="116.84" size="6.35" layer="94" ratio="10">FAN SWITCH</text>
 </plain>
@@ -15574,6 +15622,10 @@ Datasheet:</description>
 </instance>
 <instance part="P+11" gate="1" x="276.86" y="157.48" smashed="yes">
 <attribute name="VALUE" x="273.558" y="158.496" size="1.778" layer="96"/>
+</instance>
+<instance part="TB1" gate="G$1" x="160.02" y="149.86" smashed="yes" rot="MR0">
+<attribute name="NAME" x="157.48" y="154.94" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="157.48" y="152.908" size="1.27" layer="96" font="vector" ratio="10"/>
 </instance>
 </instances>
 <busses>
@@ -15853,13 +15905,6 @@ Datasheet:</description>
 <junction x="299.72" y="210.82"/>
 <wire x1="299.72" y1="200.66" x2="299.72" y2="210.82" width="0.1524" layer="91"/>
 <junction x="299.72" y="200.66"/>
-</segment>
-</net>
-<net name="O_OUT" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PD2"/>
-<wire x1="345.44" y1="226.06" x2="353.06" y2="226.06" width="0.1524" layer="91"/>
-<label x="347.98" y="226.06" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 <net name="VOUT" class="0">
@@ -16161,6 +16206,7 @@ Datasheet:</description>
 <pinref part="U4" gate="G$1" pin="T-"/>
 <wire x1="172.72" y1="149.86" x2="165.1" y2="149.86" width="0.1524" layer="91"/>
 <label x="165.1" y="149.86" size="1.778" layer="95"/>
+<pinref part="TB1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="T+" class="0">
@@ -16168,6 +16214,7 @@ Datasheet:</description>
 <pinref part="U4" gate="G$1" pin="T+"/>
 <wire x1="172.72" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <label x="165.1" y="147.32" size="1.778" layer="95"/>
+<pinref part="TB1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="FPWR" class="0">

@@ -12282,6 +12282,23 @@ Datasheet:</description>
 <text x="-2.2" y="5.3" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-2.2" y="3.7" size="1" layer="27" ratio="10">&gt;Value</text>
 </package>
+<package name="TBLOCK-2-5MM">
+<description>Terminal Block: 2-Terminal, 5.0mm Pitch, R/A;
+Package: 2-TBLOCK-5.0MM;
+Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%20PT2,5.pdf</description>
+<pad name="1" x="-2.54" y="0" drill="1"/>
+<pad name="2" x="2.54" y="0" drill="1"/>
+<wire x1="-5" y1="-2.25" x2="-5" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-5" y1="2.25" x2="5" y2="2.25" width="0.127" layer="21"/>
+<wire x1="5" y1="2.25" x2="5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="5" y1="-2.25" x2="-5" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-5" y1="-2.25" x2="-5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-5" y1="2.25" x2="5" y2="2.25" width="0.127" layer="51"/>
+<wire x1="5" y1="2.25" x2="5" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="5" y1="-2.25" x2="-5" y2="-2.25" width="0.127" layer="51"/>
+<text x="-5" y="4.2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-5" y="2.8" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -19711,6 +19728,17 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-7.62" y="5.588" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="T-BLOCK-2">
+<description>Terminal Block: 2-Contact</description>
+<pin name="1" x="-5.08" y="0" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" length="short"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.54" y="3.048" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -23416,6 +23444,25 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <connect gate="G$1" pin="T+" pad="3"/>
 <connect gate="G$1" pin="T-" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-TBLK-SCR-2CKT-5.0MM" prefix="TB">
+<description>Terminal Block: 5mm Pitch, R/A, 2-Circuit (1935776);
+Package: Thru-Hole;
+Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%20PT2,5.pdf</description>
+<gates>
+<gate name="G$1" symbol="T-BLOCK-2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TBLOCK-2-5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

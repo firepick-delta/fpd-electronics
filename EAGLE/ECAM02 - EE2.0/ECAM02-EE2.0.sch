@@ -16820,13 +16820,6 @@ TRANSDUCER</text>
 <junction x="294.64" y="195.58"/>
 </segment>
 </net>
-<net name="O_OUT" class="0">
-<segment>
-<pinref part="U2" gate="G$1" pin="PD2"/>
-<wire x1="340.36" y1="220.98" x2="347.98" y2="220.98" width="0.1524" layer="91"/>
-<label x="342.9" y="220.98" size="1.778" layer="95" ratio="12"/>
-</segment>
-</net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="6"/>
