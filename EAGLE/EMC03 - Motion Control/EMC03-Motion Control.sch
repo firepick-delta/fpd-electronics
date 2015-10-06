@@ -13861,6 +13861,12 @@ for FirePick Delta</text>
 <text x="350.52" y="241.3" size="5.08" layer="94">IC PWR</text>
 <text x="25.4" y="124.46" size="5.08" layer="94">OPTICAL ENCODERS</text>
 <text x="157.48" y="167.64" size="5.08" layer="94">VOLTAGE REG</text>
+<text x="185.42" y="127" size="1.778" layer="91">*CHECK POLARITY</text>
+<text x="177.8" y="121.92" size="1.778" layer="91">*CHECK POLARITY</text>
+<text x="198.12" y="116.84" size="1.778" layer="91">*CHECK POLARITY</text>
+<text x="205.74" y="121.92" size="1.778" layer="91">*CHECK POLARITY</text>
+<text x="160.02" y="124.46" size="1.778" layer="91">*CHECK POLARITY</text>
+<text x="210.82" y="127" size="1.778" layer="91">*CHECK POLARITY</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0.000003125" y="0"/>
@@ -14145,8 +14151,6 @@ for FirePick Delta</text>
 <wire x1="177.8" y1="147.32" x2="177.8" y2="149.606" width="0.1524" layer="91"/>
 <junction x="177.8" y="147.32"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
-<wire x1="177.8" y1="149.606" x2="177.8" y2="149.86" width="0.1524" layer="91"/>
-<junction x="177.8" y="149.606"/>
 </segment>
 </net>
 <net name="X_STOP" class="0">
