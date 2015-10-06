@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -145,10 +145,20 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="160" y2="0" width="0" layer="20"/>
-<wire x1="160" y1="0" x2="160" y2="100" width="0" layer="20"/>
-<wire x1="160" y1="100" x2="0" y2="100" width="0" layer="20"/>
-<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="57.5" x2="0" y2="2.5" width="0.01" layer="20"/>
+<wire x1="0" y1="2.5" x2="2.5" y2="0" width="0.01" layer="20" curve="90"/>
+<wire x1="2.5" y1="0" x2="157.5" y2="0" width="0.01" layer="20"/>
+<wire x1="157.5" y1="0" x2="160" y2="2.5" width="0.01" layer="20" curve="90"/>
+<wire x1="160" y1="2.5" x2="160" y2="57.5" width="0.01" layer="20"/>
+<wire x1="160" y1="57.5" x2="157.5" y2="60" width="0.01" layer="20" curve="90"/>
+<wire x1="157.5" y1="60" x2="2.5" y2="60" width="0.01" layer="20"/>
+<wire x1="2.5" y1="60" x2="0" y2="57.5" width="0.01" layer="20" curve="90"/>
+<polygon width="0.01" layer="39">
+<vertex x="62.5" y="12.5"/>
+<vertex x="97.5" y="12.5"/>
+<vertex x="97.5" y="47.5"/>
+<vertex x="62.5" y="47.5"/>
+</polygon>
 </plain>
 <libraries>
 <library name="TinWhiskers">

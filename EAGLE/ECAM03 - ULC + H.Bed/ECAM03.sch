@@ -588,22 +588,28 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="4.064" y1="-1.524" x2="-4.064" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="-4.064" y1="-1.524" x2="-4.064" y2="1.524" width="0.127" layer="21"/>
 </package>
-<package name="TBLOCK-2-5MM">
-<description>Terminal Block: 2-Terminal, 5.0mm Pitch, R/A;
-Package: 2-TBLOCK-5.0MM;
-Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%20PT2,5.pdf</description>
-<pad name="1" x="-2.54" y="0" drill="1"/>
-<pad name="2" x="2.54" y="0" drill="1"/>
-<wire x1="-5" y1="-2.25" x2="-5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="-5" y1="2.25" x2="5" y2="2.25" width="0.127" layer="21"/>
-<wire x1="5" y1="2.25" x2="5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="5" y1="-2.25" x2="-5" y2="-2.25" width="0.127" layer="21"/>
-<wire x1="-5" y1="-2.25" x2="-5" y2="2.25" width="0.127" layer="51"/>
-<wire x1="-5" y1="2.25" x2="5" y2="2.25" width="0.127" layer="51"/>
-<wire x1="5" y1="2.25" x2="5" y2="-2.25" width="0.127" layer="51"/>
-<wire x1="5" y1="-2.25" x2="-5" y2="-2.25" width="0.127" layer="51"/>
-<text x="-5" y="4.2" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="-5" y="2.8" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<package name="TBLOCK-2-5MM-OSTTH020160">
+<description>Terminal Block: 2-Pin, Screw, Green, 300V, 15A;
+Package: Thru-Hole, R/A;
+Datasheet: http://www.on-shore.com/sites/default/files/manuals/ostthxx0160.pdf</description>
+<pad name="1" x="-2.5" y="0" drill="1.4"/>
+<pad name="2" x="2.5" y="0" drill="1.4"/>
+<wire x1="-5" y1="-4.8" x2="-5" y2="6.2" width="0.127" layer="21"/>
+<wire x1="-5" y1="6.2" x2="5" y2="6.2" width="0.127" layer="21"/>
+<wire x1="5" y1="6.2" x2="5" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="5" y1="-4.8" x2="-5" y2="-4.8" width="0.127" layer="21"/>
+<wire x1="-5" y1="-4.8" x2="-5" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-5" y1="1.7" x2="-5" y2="6.2" width="0.127" layer="51"/>
+<wire x1="-5" y1="6.2" x2="5" y2="6.2" width="0.127" layer="51"/>
+<wire x1="5" y1="6.2" x2="5" y2="1.7" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.7" x2="5" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="5" y1="-4.8" x2="-5" y2="-4.8" width="0.127" layer="51"/>
+<wire x1="-5" y1="-1.7" x2="5" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="5" y1="-1.7" x2="5" y2="1.7" width="0.127" layer="51"/>
+<wire x1="5" y1="1.7" x2="-5" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-5" y1="1.7" x2="-5" y2="-1.7" width="0.127" layer="51"/>
+<text x="-5" y="7.6" size="0.635" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-5" y="6.7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="SOT-23-5">
 <description>SOT-23-5
@@ -927,17 +933,6 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
-<symbol name="T-BLOCK-2">
-<description>Terminal Block: 2-Contact</description>
-<pin name="1" x="-5.08" y="0" length="short"/>
-<pin name="2" x="-5.08" y="-2.54" length="short"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<text x="-2.54" y="5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
-<text x="-2.54" y="3.048" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
-</symbol>
 <symbol name="GATE-74LVC">
 <description>Logic Gate: 74LVC</description>
 <pin name="A" x="-12.7" y="2.54" length="short"/>
@@ -951,6 +946,20 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <wire x1="2.54" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
 <text x="-10.16" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-10.16" y="5.588" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="SOT-23">
+<description>SOT-23-5</description>
+<pin name="4" x="2.54" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="-10.16" y="0" length="short" direction="pas"/>
+<pin name="2" x="-10.16" y="2.54" length="short" direction="pas"/>
+<pin name="5" x="2.54" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="-10.16" y="5.08" length="short" direction="pas"/>
+<wire x1="0" y1="7.62" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-2.54" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="10.16" y="5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="10.16" y="2.54" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1113,9 +1122,10 @@ Datasheet: http://www.exar.com/common/content/document.ashx?id=639</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-RES-0603-100-0.1W" prefix="R">
-<description>Resistor: 100 Ohm, 0.1W, 1%;
-Package: 0603;</description>
+<deviceset name="CPL-RES-0603-120-0.1W" prefix="R">
+<description>Resistor: 120 Ohm, 0.1W, 1%;
+Package: 0603 (SMT);
+Datasheet:</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -1439,15 +1449,15 @@ Datasheet:</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-TBLK-SCR-2CKT-5.0MM" prefix="TB">
-<description>Terminal Block: 5mm Pitch, R/A, 2-Circuit (1935776);
-Package: Thru-Hole;
-Datasheet: http://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/COMBICON%20Compact%20PT2,5.pdf</description>
+<deviceset name="CPL-TBLK-SCR-2CKT-5.0MM-OST" prefix="J">
+<description>Terminal Block: 2-Circuit, Green, 5.0MM Pitch, Green;
+Package: Thru-Hole, R/A;
+Datasheet: http://www.on-shore.com/sites/default/files/manuals/ostthxx0160.pdf</description>
 <gates>
-<gate name="G$1" symbol="T-BLOCK-2" x="0" y="0"/>
+<gate name="G$1" symbol="CON-HDR-2P" x="2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="TBLOCK-2-5MM">
+<device name="" package="TBLOCK-2-5MM-OSTTH020160">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1525,6 +1535,47 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 </gates>
 <devices>
 <device name="" package="R0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-REG-LIN-3.3V-0.1A" prefix="U">
+<description>Voltage Regulator: Linear, Vmax=6, Vout=3.3V, Io=0.1mA;
+Package: SOT-23-5
+Datasheet: http://www.mouser.com/ds/2/268/21335b-29125.pdf</description>
+<gates>
+<gate name="G$1" symbol="SOT-23" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT-23-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X5R-0603-1UF-50V" prefix="C">
+<description>Capacitor: 1uF, 50V, 10%;
+Package: 0603;
+Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -15502,7 +15553,7 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <part name="SUPPLY1" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-100-0.1W" device="" value="100R">
+<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-120-0.1W" device="" value="120R">
 <attribute name="PARTNO" value="RC0603FR-07100RL"/>
 </part>
 <part name="R3" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K">
@@ -15562,7 +15613,7 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
-<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-2CKT-5.0MM" device="" value="T-BLOCK"/>
+<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-2CKT-5.0MM-OST" device="" value="T-BLOCK"/>
 <part name="SUPPLY8" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="U6" library="TinWhiskers" deviceset="CPL-IC-LOGIC-NOR-1CH-74LVC" device="" value="NOR(74LVC)"/>
@@ -15573,6 +15624,19 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K"/>
 <part name="SUPPLY16" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
+<part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713">
+<attribute name="PARTNO" value="TC1015-3.3VCT713"/>
+</part>
+<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF">
+<attribute name="PARTNO" value="UMK107AB7105KA-T"/>
+</part>
+<part name="C8" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF">
+<attribute name="PARTNO" value="UMK107AB7105KA-T"/>
+</part>
+<part name="SUPPLY22" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="SUPPLY23" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+4" library="supply1" deviceset="+5V" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15594,6 +15658,7 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <text x="210.82" y="68.58" size="6.35" layer="94" ratio="10">FAN CONNEX</text>
 <text x="17.78" y="68.58" size="6.35" layer="94" ratio="10">FAN SWITCH</text>
 <text x="281.94" y="68.58" size="6.35" layer="94" ratio="10">SSR ENABLE</text>
+<text x="297.18" y="149.86" size="6.35" layer="94" ratio="10">V-REG (5V-3.3V)</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15753,9 +15818,9 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <instance part="P+11" gate="1" x="266.7" y="63.5" smashed="yes">
 <attribute name="VALUE" x="263.398" y="64.516" size="1.778" layer="96"/>
 </instance>
-<instance part="TB1" gate="G$1" x="144.78" y="55.88" smashed="yes" rot="MR0">
-<attribute name="NAME" x="142.24" y="60.96" size="1.778" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="142.24" y="58.928" size="1.27" layer="96" font="vector" ratio="10"/>
+<instance part="TB1" gate="G$1" x="147.32" y="53.34" smashed="yes">
+<attribute name="NAME" x="142.24" y="63.5" size="1.778" layer="95" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="142.24" y="60.452" size="1.27" layer="96" font="vector" ratio="10" rot="MR180"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="297.18" y="48.26"/>
 <instance part="+3V1" gate="G$1" x="320.04" y="63.5" smashed="yes">
@@ -15780,6 +15845,29 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 </instance>
 <instance part="P+12" gate="1" x="58.42" y="137.16" smashed="yes">
 <attribute name="VALUE" x="55.88" y="137.16" size="1.778" layer="96"/>
+</instance>
+<instance part="VR1" gate="G$1" x="332.74" y="132.08" smashed="yes">
+<attribute name="NAME" x="325.12" y="141.732" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="325.12" y="139.7" size="1.27" layer="95" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="332.74" y="132.08" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="320.04" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="314.706" y="127.127" size="1.778" layer="95"/>
+<attribute name="VALUE" x="314.96" y="122.809" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="320.04" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="340.36" y="127" smashed="yes" rot="R90">
+<attribute name="NAME" x="335.28" y="126.873" size="1.778" layer="95"/>
+<attribute name="VALUE" x="335.28" y="122.809" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="340.36" y="127" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="SUPPLY22" gate="GND" x="320.04" y="116.84"/>
+<instance part="SUPPLY23" gate="GND" x="340.36" y="116.84"/>
+<instance part="P+4" gate="1" x="314.96" y="144.78" smashed="yes">
+<attribute name="VALUE" x="312.42" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="345.44" y="144.78" smashed="yes">
+<attribute name="VALUE" x="342.9" y="144.78" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15898,6 +15986,16 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="101.6" x2="175.26" y2="104.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="1"/>
+<pinref part="SUPPLY22" gate="GND" pin="GND"/>
+<wire x1="320.04" y1="119.38" x2="320.04" y2="121.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C8" gate="G$1" pin="1"/>
+<pinref part="SUPPLY23" gate="GND" pin="GND"/>
+<wire x1="340.36" y1="121.92" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -15957,6 +16055,21 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <wire x1="63.5" y1="121.92" x2="58.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="121.92" x2="58.42" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="VR1" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="137.16" x2="322.58" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="137.16" x2="314.96" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="VR1" gate="G$1" pin="3"/>
+<wire x1="314.96" y1="132.08" x2="320.04" y2="132.08" width="0.1524" layer="91"/>
+<label x="315.214" y="137.16" size="1.778" layer="95"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
+<wire x1="320.04" y1="132.08" x2="322.58" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="142.24" x2="314.96" y2="137.16" width="0.1524" layer="91"/>
+<junction x="314.96" y="137.16"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="132.08" x2="320.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="320.04" y="132.08"/>
 </segment>
 </net>
 <net name="RO" class="0">
@@ -16152,6 +16265,16 @@ Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PY
 <wire x1="320.04" y1="58.42" x2="320.04" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="U6" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="VR1" gate="G$1" pin="5"/>
+<pinref part="C8" gate="G$1" pin="2"/>
+<wire x1="335.28" y1="137.16" x2="340.36" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="137.16" x2="340.36" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="340.36" y1="137.16" x2="345.44" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="137.16" x2="345.44" y2="142.24" width="0.1524" layer="91"/>
+<junction x="340.36" y="137.16"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="DTR1" class="0">
