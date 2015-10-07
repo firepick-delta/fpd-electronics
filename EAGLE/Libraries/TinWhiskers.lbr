@@ -9433,7 +9433,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <pad name="23" x="11.47" y="-1.27" drill="1.25"/>
 <pad name="24" x="14.01" y="-1.27" drill="1.25"/>
 </package>
-<package name="CONN-FPC24">
+<package name="CON-FPC24">
 <smd name="1" x="-5.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
 <smd name="2" x="-5.25" y="0.4" dx="0.3" dy="0.8" layer="1"/>
 <smd name="3" x="-4.75" y="0.4" dx="0.3" dy="0.8" layer="1"/>
@@ -10852,7 +10852,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74ahct1g126-q1.pdf</description>
 <text x="2.2" y="1.4" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.2" y="-0.1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-4P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -10874,7 +10874,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="6.3" y1="-0.7" x2="6.3" y2="3.8" width="0.127" layer="21"/>
 <wire x1="6.3" y1="-0.7" x2="3.8" y2="-0.7" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-2P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-2P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 2-POS, Pin, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -10894,7 +10894,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="4.3" y1="-0.7" x2="4.3" y2="3.8" width="0.127" layer="21"/>
 <wire x1="4.3" y1="-0.7" x2="1.9" y2="-0.7" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-3P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-3P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 3-POS, Pin, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -10915,7 +10915,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="5.3" y1="-0.7" x2="5.3" y2="3.7" width="0.127" layer="21"/>
 <wire x1="5.3" y1="-0.7" x2="2.9" y2="-0.7" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-6P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-6P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 6-POS, Pins, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -10939,7 +10939,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="-6.3" y1="7.6" x2="6.3" y2="7.6" width="0.127" layer="21"/>
 <wire x1="8.3" y1="-0.7" x2="8.3" y2="3.7" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-8P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-8P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 8-POS, Pin, Shrouded;
 Package: HR-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -10965,7 +10965,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="10.3" y1="-0.7" x2="10.3" y2="3.7" width="0.127" layer="21"/>
 <wire x1="10.3" y1="-0.7" x2="7.9" y2="-0.7" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-5P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-5P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 5-POS, Pin, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -11795,6 +11795,12 @@ Datasheet: http://www.mouser.com/ds/2/185/ed_DF40_20140305-337786.pdf</descripti
 <wire x1="8.3" y1="-1.47" x2="7.1" y2="-1.47" width="0.127" layer="21"/>
 <text x="-5.2" y="3.7" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-5.2" y="2.6" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<hole x="10.39" y="-0.37" drill="2"/>
+<hole x="-18.3" y="20.23" drill="2"/>
+<wire x1="12.37" y1="-3.3" x2="12.37" y2="21.7" width="0.127" layer="51"/>
+<wire x1="12.37" y1="21.7" x2="-23.13" y2="21.7" width="0.127" layer="51"/>
+<wire x1="-23.13" y1="21.7" x2="-23.13" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-23.13" y1="-3.3" x2="12.37" y2="-3.3" width="0.127" layer="51"/>
 </package>
 <package name="28-SSOP">
 <description>28-SSOP;
@@ -11836,71 +11842,71 @@ Source: FTDI</description>
 </package>
 <package name="64-QFN">
 <description>64-QFN</description>
-<smd name="8" x="-4.31" y="0.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="7" x="-4.31" y="0.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="6" x="-4.31" y="1.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="5" x="-4.31" y="1.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="4" x="-4.31" y="2.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="3" x="-4.31" y="2.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="2" x="-4.31" y="3.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="1" x="-4.31" y="3.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="9" x="-4.31" y="-0.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="10" x="-4.31" y="-0.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="11" x="-4.31" y="-1.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="12" x="-4.31" y="-1.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="13" x="-4.31" y="-2.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="14" x="-4.31" y="-2.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="15" x="-4.31" y="-3.25" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="16" x="-4.31" y="-3.75" dx="0.28" dy="0.69" layer="1" rot="R90"/>
-<smd name="17" x="-3.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="18" x="-3.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="19" x="-2.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="20" x="-2.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="21" x="-1.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="22" x="-1.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="23" x="-0.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="24" x="-0.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="25" x="0.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="26" x="0.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="27" x="1.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="28" x="1.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="29" x="2.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="30" x="2.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="31" x="3.25" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="32" x="3.75" y="-4.31" dx="0.28" dy="0.69" layer="1" rot="R180"/>
-<smd name="33" x="4.31" y="-3.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="34" x="4.31" y="-3.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="35" x="4.31" y="-2.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="36" x="4.31" y="-2.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="37" x="4.31" y="-1.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="38" x="4.31" y="-1.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="39" x="4.31" y="-0.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="40" x="4.31" y="-0.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="41" x="4.31" y="0.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="42" x="4.31" y="0.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="43" x="4.31" y="1.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="44" x="4.31" y="1.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="45" x="4.31" y="2.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="46" x="4.31" y="2.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="47" x="4.31" y="3.25" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="48" x="4.31" y="3.75" dx="0.28" dy="0.69" layer="1" rot="R270"/>
-<smd name="49" x="3.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="50" x="3.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="51" x="2.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="52" x="2.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="53" x="1.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="54" x="1.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="55" x="0.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="56" x="0.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="57" x="-0.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="58" x="-0.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="59" x="-1.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="60" x="-1.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="61" x="-2.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="62" x="-2.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="63" x="-3.25" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="64" x="-3.75" y="4.31" dx="0.28" dy="0.69" layer="1"/>
-<smd name="PAD" x="0" y="0" dx="7.3" dy="7.4" layer="1"/>
+<smd name="8" x="-4.31" y="0.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="7" x="-4.31" y="0.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="6" x="-4.31" y="1.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="5" x="-4.31" y="1.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="4" x="-4.31" y="2.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="3" x="-4.31" y="2.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="2" x="-4.31" y="3.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="1" x="-4.31" y="3.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="9" x="-4.31" y="-0.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="10" x="-4.31" y="-0.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="11" x="-4.31" y="-1.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="12" x="-4.31" y="-1.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="13" x="-4.31" y="-2.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="14" x="-4.31" y="-2.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="15" x="-4.31" y="-3.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="16" x="-4.31" y="-3.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R90"/>
+<smd name="17" x="-3.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="18" x="-3.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="19" x="-2.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="20" x="-2.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="21" x="-1.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="22" x="-1.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="23" x="-0.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="24" x="-0.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="25" x="0.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="26" x="0.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="27" x="1.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="28" x="1.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="29" x="2.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="30" x="2.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="31" x="3.25" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="32" x="3.75" y="-4.31" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R180"/>
+<smd name="33" x="4.31" y="-3.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="34" x="4.31" y="-3.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="35" x="4.31" y="-2.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="36" x="4.31" y="-2.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="37" x="4.31" y="-1.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="38" x="4.31" y="-1.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="39" x="4.31" y="-0.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="40" x="4.31" y="-0.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="41" x="4.31" y="0.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="42" x="4.31" y="0.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="43" x="4.31" y="1.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="44" x="4.31" y="1.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="45" x="4.31" y="2.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="46" x="4.31" y="2.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="47" x="4.31" y="3.25" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="48" x="4.31" y="3.75" dx="0.25" dy="0.7" layer="1" roundness="100" rot="R270"/>
+<smd name="49" x="3.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="50" x="3.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="51" x="2.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="52" x="2.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="53" x="1.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="54" x="1.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="55" x="0.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="56" x="0.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="57" x="-0.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="58" x="-0.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="59" x="-1.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="60" x="-1.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="61" x="-2.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="62" x="-2.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="63" x="-3.25" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="64" x="-3.75" y="4.31" dx="0.25" dy="0.7" layer="1" roundness="100"/>
+<smd name="PAD" x="0" y="0" dx="7.3" dy="7.3" layer="1"/>
 <wire x1="-4.25" y1="4.5" x2="4.25" y2="4.5" width="0.127" layer="51"/>
 <wire x1="4.25" y1="4.5" x2="4.5" y2="4.25" width="0.127" layer="51"/>
 <wire x1="4.5" y1="4.25" x2="4.5" y2="-4.25" width="0.127" layer="51"/>
@@ -12101,56 +12107,64 @@ Datasheet: http://www.ti.com/lit/ds/symlink/txs0206-29.pdf</description>
 <wire x1="1.9558" y1="-4.3307" x2="1.9558" y2="-3.5687" width="0.127" layer="21"/>
 <circle x="-1.27" y="3.81" radius="0.131184375" width="0.254" layer="21"/>
 </package>
-<package name="CON-HDR-34POS(2R)-MALE">
+<package name="LCD-34P-3.2IN">
 <description>Connector: Header, 0.1" Pitch,  34-Position (2-Row);
 Package: Thru-Hole;
 Datasheet: http://suddendocs.samtec.com/prints/tx-1xx-x-x-mkt1.pdf</description>
-<pad name="18" x="0" y="-1.27" drill="1.25"/>
-<pad name="17" x="0" y="1.27" drill="1.25"/>
-<pad name="15" x="-2.54" y="1.27" drill="1.25"/>
-<pad name="16" x="-2.54" y="-1.27" drill="1.25"/>
-<pad name="14" x="-5.08" y="-1.27" drill="1.25"/>
-<pad name="13" x="-5.08" y="1.27" drill="1.25"/>
-<pad name="11" x="-7.62" y="1.27" drill="1.25"/>
-<pad name="12" x="-7.62" y="-1.27" drill="1.25"/>
-<pad name="10" x="-10.16" y="-1.27" drill="1.25"/>
-<pad name="9" x="-10.16" y="1.27" drill="1.25"/>
-<pad name="8" x="-12.7" y="-1.27" drill="1.25"/>
-<pad name="7" x="-12.7" y="1.27" drill="1.25"/>
-<pad name="5" x="-15.24" y="1.27" drill="1.25"/>
-<pad name="6" x="-15.24" y="-1.27" drill="1.25"/>
-<pad name="3" x="-17.78" y="1.27" drill="1.25"/>
-<pad name="4" x="-17.78" y="-1.27" drill="1.25"/>
-<pad name="1" x="-20.32" y="1.27" drill="1.25" shape="square"/>
-<pad name="2" x="-20.32" y="-1.27" drill="1.25"/>
-<pad name="19" x="2.54" y="1.27" drill="1.25"/>
-<pad name="20" x="2.54" y="-1.27" drill="1.25"/>
-<pad name="21" x="5.08" y="1.27" drill="1.25"/>
-<pad name="22" x="5.08" y="-1.27" drill="1.25"/>
-<pad name="23" x="7.62" y="1.27" drill="1.25"/>
-<pad name="24" x="7.62" y="-1.27" drill="1.25"/>
-<pad name="25" x="10.16" y="1.27" drill="1.25"/>
-<pad name="26" x="10.16" y="-1.27" drill="1.25"/>
-<pad name="27" x="12.7" y="1.27" drill="1.25"/>
-<pad name="28" x="12.7" y="-1.27" drill="1.25"/>
-<pad name="29" x="15.24" y="1.27" drill="1.25"/>
-<pad name="30" x="15.24" y="-1.27" drill="1.25"/>
-<pad name="31" x="17.78" y="1.27" drill="1.25"/>
-<pad name="32" x="17.78" y="-1.27" drill="1.25"/>
-<pad name="33" x="20.32" y="1.27" drill="1.25"/>
-<pad name="34" x="20.32" y="-1.27" drill="1.25"/>
-<wire x1="-21.59" y1="-2.54" x2="-21.59" y2="2.54" width="0.127" layer="21"/>
-<wire x1="-21.59" y1="2.54" x2="21.59" y2="2.54" width="0.127" layer="21"/>
-<wire x1="21.59" y1="2.54" x2="21.59" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="21.59" y1="-2.54" x2="-21.59" y2="-2.54" width="0.127" layer="21"/>
-<text x="-21.59" y="6.35" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="-21.59" y="5.08" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<text x="-21.59" y="3.175" size="1.27" layer="21" font="vector" ratio="10">1</text>
-<text x="-21.59" y="-4.445" size="1.27" layer="21" font="vector" ratio="10">2</text>
-<text x="20.32" y="3.175" size="1.27" layer="21" font="vector" ratio="10">33</text>
-<text x="20.32" y="-4.445" size="1.27" layer="21" font="vector" ratio="10">34</text>
+<pad name="18" x="-43.965" y="0" drill="1.25" rot="R90"/>
+<pad name="17" x="-41.425" y="0" drill="1.25" rot="R90"/>
+<pad name="15" x="-41.425" y="-2.54" drill="1.25" rot="R90"/>
+<pad name="16" x="-43.965" y="-2.54" drill="1.25" rot="R90"/>
+<pad name="14" x="-43.965" y="-5.08" drill="1.25" rot="R90"/>
+<pad name="13" x="-41.425" y="-5.08" drill="1.25" rot="R90"/>
+<pad name="11" x="-41.425" y="-7.62" drill="1.25" rot="R90"/>
+<pad name="12" x="-43.965" y="-7.62" drill="1.25" rot="R90"/>
+<pad name="10" x="-43.965" y="-10.16" drill="1.25" rot="R90"/>
+<pad name="9" x="-41.425" y="-10.16" drill="1.25" rot="R90"/>
+<pad name="8" x="-43.965" y="-12.7" drill="1.25" rot="R90"/>
+<pad name="7" x="-41.425" y="-12.7" drill="1.25" rot="R90"/>
+<pad name="5" x="-41.425" y="-15.24" drill="1.25" rot="R90"/>
+<pad name="6" x="-43.965" y="-15.24" drill="1.25" rot="R90"/>
+<pad name="3" x="-41.425" y="-17.78" drill="1.25" rot="R90"/>
+<pad name="4" x="-43.965" y="-17.78" drill="1.25" rot="R90"/>
+<pad name="1" x="-41.425" y="-20.32" drill="1.25" shape="square" rot="R90"/>
+<pad name="2" x="-43.965" y="-20.32" drill="1.25" rot="R90"/>
+<pad name="19" x="-41.425" y="2.54" drill="1.25" rot="R90"/>
+<pad name="20" x="-43.965" y="2.54" drill="1.25" rot="R90"/>
+<pad name="21" x="-41.425" y="5.08" drill="1.25" rot="R90"/>
+<pad name="22" x="-43.965" y="5.08" drill="1.25" rot="R90"/>
+<pad name="23" x="-41.425" y="7.62" drill="1.25" rot="R90"/>
+<pad name="24" x="-43.965" y="7.62" drill="1.25" rot="R90"/>
+<pad name="25" x="-41.425" y="10.16" drill="1.25" rot="R90"/>
+<pad name="26" x="-43.965" y="10.16" drill="1.25" rot="R90"/>
+<pad name="27" x="-41.425" y="12.7" drill="1.25" rot="R90"/>
+<pad name="28" x="-43.965" y="12.7" drill="1.25" rot="R90"/>
+<pad name="29" x="-41.425" y="15.24" drill="1.25" rot="R90"/>
+<pad name="30" x="-43.965" y="15.24" drill="1.25" rot="R90"/>
+<pad name="31" x="-41.425" y="17.78" drill="1.25" rot="R90"/>
+<pad name="32" x="-43.965" y="17.78" drill="1.25" rot="R90"/>
+<pad name="33" x="-41.425" y="20.32" drill="1.25" rot="R90"/>
+<pad name="34" x="-43.965" y="20.32" drill="1.25" rot="R90"/>
+<wire x1="-40.155" y1="-21.59" x2="-45.235" y2="-21.59" width="0.127" layer="21"/>
+<wire x1="-45.235" y1="-21.59" x2="-45.235" y2="21.59" width="0.127" layer="21"/>
+<wire x1="-45.235" y1="21.59" x2="-40.155" y2="21.59" width="0.127" layer="21"/>
+<wire x1="-40.155" y1="21.59" x2="-40.155" y2="-21.59" width="0.127" layer="21"/>
+<text x="-44.45" y="30.48" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-44.45" y="29.21" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<text x="-38.25" y="-21.59" size="1.27" layer="21" font="vector" ratio="10" rot="R90">1</text>
+<text x="-45.87" y="-21.59" size="1.27" layer="21" font="vector" ratio="10" rot="R90">2</text>
+<text x="-38.25" y="20.32" size="1.27" layer="21" font="vector" ratio="10" rot="R90">33</text>
+<text x="-45.87" y="20.32" size="1.27" layer="21" font="vector" ratio="10" rot="R90">34</text>
+<hole x="-42.325" y="25.39" drill="1.7"/>
+<hole x="-42.325" y="-25.39" drill="1.7"/>
+<hole x="42.325" y="25.39" drill="1.7"/>
+<hole x="42.325" y="-25.39" drill="1.7"/>
+<wire x1="-45.365" y1="28.8" x2="-45.365" y2="-28.8" width="0.127" layer="21"/>
+<wire x1="-45.365" y1="-28.8" x2="45.365" y2="-28.8" width="0.127" layer="21"/>
+<wire x1="45.365" y1="-28.8" x2="45.365" y2="28.8" width="0.127" layer="21"/>
+<wire x1="45.365" y1="28.8" x2="-45.365" y2="28.8" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-14P-VRT">
+<package name="CON-JST-PH-2.0MM-14P-VRT">
 <description>Connector: 2.0MM Pitch, Vertical, 14-Pin;
 Package: Thru-Hole;
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -12511,6 +12525,112 @@ Datasheet: http://www.digikey.com/product-detail/en/1734085-1/A114935-ND/2286634
 <wire x1="3.25" y1="-1.78" x2="-3.25" y2="-1.78" width="0.127" layer="51"/>
 <text x="3.7" y="2.4" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
 <text x="3.7" y="1.5" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.0MM-2P-SMT-VRT">
+<description>Connector: 2.0mm Pitch, 2-Pin, JST:(B2B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-2.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="2.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="-3" y1="6.5" x2="3" y2="6.5" width="0.127" layer="51"/>
+<wire x1="3" y1="6.5" x2="3" y2="1" width="0.127" layer="51"/>
+<wire x1="3" y1="1" x2="-3" y2="1" width="0.127" layer="51"/>
+<wire x1="-3" y1="1" x2="-3" y2="6.5" width="0.127" layer="51"/>
+<text x="-2.5" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-2.5" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.0MM-3P-SMT-VRT">
+<description>Connnector: 2.0MM Pitch, 3-Pin, JST: B3B-PH-SM4-TB(LF)(SN);
+Package: SMT, Vertical:
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="NC1" x="-3.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="3.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="1" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="2" y="0" dx="1.1" dy="2" layer="1"/>
+<wire x1="-3.5" y1="6.5" x2="4" y2="6.5" width="0.127" layer="51"/>
+<wire x1="4" y1="6.5" x2="4" y2="1" width="0.127" layer="51"/>
+<wire x1="4" y1="1" x2="-3.5" y2="1" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="1" x2="-3.5" y2="6.5" width="0.127" layer="51"/>
+<text x="-3" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-3" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.0MM-4P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 4-Pin, (JST: B4B-PH-SM4-TB(LF)(SN);
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-4.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="4.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="-5" y1="6.5" x2="5" y2="6.5" width="0.127" layer="51"/>
+<wire x1="5" y1="6.5" x2="5" y2="1" width="0.127" layer="51"/>
+<wire x1="5" y1="1" x2="-5" y2="1" width="0.127" layer="51"/>
+<wire x1="-5" y1="1" x2="-5" y2="6.5" width="0.127" layer="51"/>
+<text x="-5" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-5" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
+<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
+<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.00MM-6P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 6-Pin, (JST: B6B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-5" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="-1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="6" x="5" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-6.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="6.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="-7" y1="6.5" x2="7" y2="6.5" width="0.127" layer="51"/>
+<wire x1="7" y1="6.5" x2="7" y2="1" width="0.127" layer="51"/>
+<wire x1="7" y1="1" x2="-7" y2="1" width="0.127" layer="51"/>
+<wire x1="-7" y1="1" x2="-7" y2="6.5" width="0.127" layer="51"/>
+<text x="-7" y="7.5" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-7" y="6.5" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.0MM-8P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 8-Pin, (JST: B8B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-7" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-5" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="-3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="-1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="6" x="3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="7" x="5" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="8" x="7" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-8.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="8.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="-9" y1="6.5" x2="9" y2="6.5" width="0.127" layer="51"/>
+<wire x1="9" y1="6.5" x2="9" y2="1" width="0.127" layer="51"/>
+<wire x1="9" y1="1" x2="-9" y2="1" width="0.127" layer="51"/>
+<wire x1="-9" y1="1" x2="-9" y2="6.5" width="0.127" layer="51"/>
+<text x="-9" y="7.5" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-9" y="6.5" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -22364,7 +22484,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-2P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-2P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-2P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22383,7 +22503,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-3P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-3P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22403,7 +22523,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-4P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22424,7 +22544,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-5P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-5P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22446,7 +22566,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-6P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-6P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-6P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -22469,7 +22589,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-8P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-8P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-8P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -23383,7 +23503,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-14P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-14P-VRT">
+<device name="" package="CON-JST-PH-2.0MM-14P-VRT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -23907,7 +24027,7 @@ Datasheet: http://www.on-shore.com/sites/default/files/manuals/ostthxx0160.pdf</
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CON-HEADER-0.1IN-17P2-M" prefix="J">
+<deviceset name="CPL-CON-LCD-HDR-0.1IN-17P2-F" prefix="J">
 <description>Connector: Header, 0.1" Pitch, 17x2P,
 Package: Thru-Hole, Vertical;
 Datasheet:</description>
@@ -23915,7 +24035,7 @@ Datasheet:</description>
 <gate name="G$1" symbol="CON-HDR-34P(2R)" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON-HDR-34POS(2R)-MALE">
+<device name="" package="LCD-34P-3.2IN">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -24119,6 +24239,136 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <connects>
 <connect gate="G$1" pin="NEG" pad="NEG"/>
 <connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-2P-M-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-2P" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-2P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-3P-M-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-3P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-4P-M-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-4P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-5P-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-6P-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.00MM-6P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-8P-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-8P" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-8P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
 </connects>
 <technologies>
 <technology name=""/>
