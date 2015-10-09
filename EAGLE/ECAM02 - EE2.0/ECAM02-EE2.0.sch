@@ -695,13 +695,14 @@ Datasheet: http://www.mouser.com/ds/2/115/ds30891-89887.pdf</description>
 <wire x1="-0.8" y1="0" x2="-0.8" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-0.8" x2="0.7" y2="0" width="0.127" layer="21"/>
 <wire x1="0.7" y1="0" x2="-0.8" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.7" y1="0" x2="1.1" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="0" x2="-1.2" y2="0" width="0.127" layer="21"/>
-<wire x1="0.7" y1="-0.8" x2="0.7" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.7" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0" x2="-1" y2="0" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.8" x2="0.7" y2="0" width="0.127" layer="21"/>
 <smd name="POS" x="-2.5" y="0" dx="2.505" dy="1.7" layer="1"/>
 <smd name="NEG" x="2.5" y="0" dx="2.505" dy="1.7" layer="1"/>
 <text x="-2.2" y="1.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-2.2" y="-2.7" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="0.7" y1="0" x2="0.7" y2="0.8" width="0.127" layer="21"/>
 </package>
 <package name="0603">
 <description>0603</description>

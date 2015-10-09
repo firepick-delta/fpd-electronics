@@ -10034,6 +10034,8 @@ DIN A3, landscape with location and doc. field</description>
 <text x="-2.54" y="1.905" size="1.27" layer="27" ratio="10">&gt;Value</text>
 </package>
 <package name="LED0603">
+<description>Diode: LED
+Package: 0603</description>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
@@ -10042,16 +10044,16 @@ DIN A3, landscape with location and doc. field</description>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <smd name="A" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="C" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="51"/>
-<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="0.3" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="0" x2="-0.3" y2="0" width="0.05" layer="51"/>
-<text x="1.6" y="-0.6" size="1.27" layer="21" font="vector" ratio="10">-</text>
-<text x="-2.5" y="-0.6" size="1.27" layer="21" font="vector" ratio="10">+</text>
+<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.17" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.165" y2="0" width="0.05" layer="21"/>
+<text x="1.6" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">-</text>
+<text x="-2.5" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">+</text>
 </package>
 <package name="0603">
 <description>0603</description>
@@ -10703,16 +10705,18 @@ Package: SMD;</description>
 <wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="51"/>
 <wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.4" width="0.127" layer="21"/>
 <wire x1="-3.3" y1="2.4" x2="-2.4" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="21"/>
 <wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.127" layer="21"/>
 <wire x1="3.3" y1="2.4" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="21"/>
 <text x="-2.8" y="5" size="0.635" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-2.8" y="4.2" size="0.635" layer="27" font="vector" ratio="12">&gt;Value</text>
 <circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
 <wire x1="-2.6" y1="2.5" x2="-1.4" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="2.9" x2="-2" y2="2" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.4" x2="-1.3" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="3.3" x2="-0.8" y2="3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-0.7" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
 </package>
 <package name="CONN-JST-PH-2.0MM-8P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 8-POS, Pin, Shrouded;
@@ -12603,9 +12607,6 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="C72" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-22NF-50V" device="&quot;" value="22 nF">
 <attribute name="PARTNO" value="GRM188R71H223KA01D"/>
 </part>
-<part name="LOGO10" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE">
-<attribute name="BOM" value="EXCLUDE"/>
-</part>
 <part name="LOGO12" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE">
 <attribute name="BOM" value="EXCLUDE"/>
 </part>
@@ -12716,6 +12717,11 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY7" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="TP2" library="TinWhiskers" deviceset="TPAD" device="" value="+3.3V">
+<attribute name="DNP" value="T"/>
+<attribute name="PARTNO" value="N/A"/>
+</part>
+<part name="P+16" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12741,6 +12747,7 @@ for FirePick Delta</text>
 <text x="194.31" y="101.6" size="1.778" layer="97" font="vector">* RS-485 Transceiver</text>
 <text x="186.69" y="143.51" size="5.08" layer="94">RS-485 TRANSCEIVER</text>
 <text x="300.99" y="91.44" size="5.08" layer="94">SWD INTERFACE</text>
+<text x="350.52" y="137.16" size="5.08" layer="94">F PANEL</text>
 </plain>
 <instances>
 <instance part="FRAME4" gate="G$1" x="0.000003125" y="0"/>
@@ -14013,6 +14020,13 @@ for FirePick Delta</text>
 <instance part="+3V2" gate="G$1" x="213.36" y="152.4" smashed="yes">
 <attribute name="VALUE" x="210.82" y="153.035" size="1.778" layer="96"/>
 </instance>
+<instance part="TP2" gate="G$1" x="292.1" y="223.52" rot="R90">
+<attribute name="DNP" x="292.1" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="292.1" y="223.52" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+16" gate="1" x="292.1" y="233.426" smashed="yes">
+<attribute name="VALUE" x="289.814" y="233.934" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14151,6 +14165,11 @@ for FirePick Delta</text>
 <wire x1="177.8" y1="147.32" x2="177.8" y2="149.606" width="0.1524" layer="91"/>
 <junction x="177.8" y="147.32"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="TP2" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="226.06" x2="292.1" y2="230.886" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="X_STOP" class="0">
@@ -14454,9 +14473,6 @@ for FirePick Delta</text>
 <attribute name="NAME" x="100.584" y="222.885" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="105.156" y="218.567" size="1.778" layer="96" rot="R180"/>
 <attribute name="PARTNO" x="96.52" y="220.98" size="1.778" layer="96" display="off"/>
-</instance>
-<instance part="LOGO10" gate="G$1" x="85.09" y="8.89">
-<attribute name="BOM" x="85.09" y="8.89" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="1" x="144.78" y="243.84" smashed="yes">
 <attribute name="VALUE" x="142.24" y="246.38" size="1.778" layer="96"/>

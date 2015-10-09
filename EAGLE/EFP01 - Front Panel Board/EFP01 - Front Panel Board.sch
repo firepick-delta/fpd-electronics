@@ -340,6 +340,8 @@ DIN A3, landscape with location and doc. field</description>
 <text x="1.9" y="-0.7" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="LED0603">
+<description>Diode: LED
+Package: 0603</description>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
@@ -348,16 +350,16 @@ DIN A3, landscape with location and doc. field</description>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <smd name="A" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="C" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="51"/>
-<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="0.3" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="0" x2="-0.3" y2="0" width="0.05" layer="51"/>
-<text x="1.6" y="-0.6" size="1.27" layer="21" font="vector" ratio="10">-</text>
-<text x="-2.5" y="-0.6" size="1.27" layer="21" font="vector" ratio="10">+</text>
+<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.17" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.165" y2="0" width="0.05" layer="21"/>
+<text x="1.6" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">-</text>
+<text x="-2.5" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">+</text>
 </package>
 <package name="0603">
 <description>0603</description>
@@ -994,7 +996,7 @@ Datasheet: http://www.on-shore.com/sites/default/files/manuals/ostthxx0160.pdf</
 <text x="-7.5" y="7.1" size="0.635" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-7.5" y="6.4" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-4P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -1016,7 +1018,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="6.3" y1="-0.7" x2="6.3" y2="3.8" width="0.127" layer="21"/>
 <wire x1="6.3" y1="-0.7" x2="3.8" y2="-0.7" width="0.127" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-2P-SMT-RA">
+<package name="CON-JST-PH-2.0MM-2P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 2-POS, Pin, Shrouded;
 Package: PH-Series (SMT, R/A);
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
@@ -1161,16 +1163,18 @@ Package: SMD;</description>
 <wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="51"/>
 <wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.4" width="0.127" layer="21"/>
 <wire x1="-3.3" y1="2.4" x2="-2.4" y2="3.3" width="0.127" layer="21"/>
-<wire x1="-2.4" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="21"/>
 <wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.127" layer="21"/>
 <wire x1="3.3" y1="2.4" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
-<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="21"/>
 <text x="-2.8" y="5" size="0.635" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-2.8" y="4.2" size="0.635" layer="27" font="vector" ratio="12">&gt;Value</text>
 <circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
 <wire x1="-2.6" y1="2.5" x2="-1.4" y2="2.5" width="0.127" layer="21"/>
 <wire x1="-2" y1="2.9" x2="-2" y2="2" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.4" x2="-1.3" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="3.3" x2="-0.8" y2="3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-0.7" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2662,7 +2666,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-4P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2683,7 +2687,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gate name="G$1" symbol="CON-HDR-2P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-2P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-2P-SMT-RA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -3290,6 +3294,11 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V32" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY45" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="TP3" library="TinWhiskers" deviceset="TPAD" device="" value="+5V">
+<attribute name="DNP" value="T"/>
+<attribute name="PARTNO" value="N/A"/>
+</part>
+<part name="P+8" library="supply1" deviceset="+24V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3520,9 +3529,9 @@ USB "B" VERT. MOUNT</text>
 <instance part="SUPPLY74" gate="GND" x="266.7" y="116.84"/>
 <instance part="SUPPLY82" gate="GND" x="243.84" y="116.84"/>
 <instance part="SUPPLY83" gate="GND" x="218.44" y="116.84"/>
-<instance part="TP4" gate="G$1" x="40.64" y="232.41" rot="R270">
-<attribute name="DNP" x="40.64" y="232.41" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="PARTNO" x="40.64" y="232.41" size="1.778" layer="96" display="off"/>
+<instance part="TP4" gate="G$1" x="48.26" y="232.41" rot="R270">
+<attribute name="DNP" x="48.26" y="232.41" size="1.778" layer="96" rot="R270" display="off"/>
+<attribute name="PARTNO" x="48.26" y="232.41" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="TP2" gate="G$1" x="27.94" y="226.06" rot="R90">
 <attribute name="DNP" x="27.94" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
@@ -3547,7 +3556,7 @@ USB "B" VERT. MOUNT</text>
 <instance part="+3V13" gate="G$1" x="15.24" y="236.22" smashed="yes">
 <attribute name="VALUE" x="12.7" y="236.855" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY49" gate="GND" x="40.64" y="220.98"/>
+<instance part="SUPPLY49" gate="GND" x="48.26" y="220.98"/>
 <instance part="R1" gate="G$1" x="81.28" y="172.72" rot="R90"/>
 <instance part="SUPPLY3" gate="GND" x="81.28" y="162.56"/>
 <instance part="J16" gate="G$1" x="198.12" y="217.17" smashed="yes">
@@ -3650,6 +3659,13 @@ USB "B" VERT. MOUNT</text>
 </instance>
 <instance part="+3V32" gate="G$1" x="114.3" y="81.28" smashed="yes">
 <attribute name="VALUE" x="111.76" y="81.915" size="1.778" layer="96"/>
+</instance>
+<instance part="TP3" gate="G$1" x="40.64" y="226.06" rot="R90">
+<attribute name="DNP" x="40.64" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="PARTNO" x="40.64" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="P+8" gate="1" x="40.64" y="237.49" smashed="yes">
+<attribute name="VALUE" x="36.83" y="238.76" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -3825,7 +3841,7 @@ USB "B" VERT. MOUNT</text>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="229.87" x2="40.64" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="229.87" x2="48.26" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="SUPPLY49" gate="GND" pin="GND"/>
 </segment>
 <segment>
@@ -4572,6 +4588,11 @@ USB "B" VERT. MOUNT</text>
 <wire x1="144.78" y1="231.14" x2="165.1" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="231.14" x2="165.1" y2="234.95" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+24V"/>
+</segment>
+<segment>
+<pinref part="TP3" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="228.6" x2="40.64" y2="234.95" width="0.1524" layer="91"/>
+<pinref part="P+8" gate="1" pin="+24V"/>
 </segment>
 </net>
 <net name="EE_D+" class="0">
