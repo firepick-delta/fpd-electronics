@@ -12963,6 +12963,8 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY103" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY104" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY105" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="+3V64" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V65" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15356,6 +15358,12 @@ for FirePick Delta</text>
 <instance part="SUPPLY34" gate="GND" x="363.22" y="58.42"/>
 <instance part="SUPPLY45" gate="GND" x="287.02" y="162.56"/>
 <instance part="LOGO2" gate="G$1" x="86.36" y="10.16"/>
+<instance part="+3V64" gate="G$1" x="317.5" y="109.22" smashed="yes">
+<attribute name="VALUE" x="314.96" y="110.49" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V65" gate="G$1" x="378.46" y="111.76" smashed="yes">
+<attribute name="VALUE" x="375.92" y="113.03" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15944,6 +15952,20 @@ for FirePick Delta</text>
 <wire x1="340.36" y1="68.58" x2="337.82" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="337.82" y1="68.58" x2="337.82" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="+3V33" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="24"/>
+<label x="360.68" y="104.14" size="1.524" layer="95"/>
+<pinref part="+3V65" gate="G$1" pin="+3V3"/>
+<wire x1="358.14" y1="104.14" x2="378.46" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="104.14" x2="378.46" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J5" gate="G$1" pin="25"/>
+<wire x1="337.82" y1="101.6" x2="317.5" y2="101.6" width="0.1524" layer="91"/>
+<label x="325.12" y="101.6" size="1.524" layer="95"/>
+<pinref part="+3V64" gate="G$1" pin="+3V3"/>
+<wire x1="317.5" y1="101.6" x2="317.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -16744,18 +16766,6 @@ for FirePick Delta</text>
 <pinref part="J5" gate="G$1" pin="23"/>
 <wire x1="325.12" y1="104.14" x2="337.82" y2="104.14" width="0.1524" layer="91"/>
 <label x="325.12" y="104.14" size="1.524" layer="95"/>
-</segment>
-</net>
-<net name="VDD" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="25"/>
-<wire x1="337.82" y1="101.6" x2="325.12" y2="101.6" width="0.1524" layer="91"/>
-<label x="325.12" y="101.6" size="1.524" layer="95"/>
-</segment>
-<segment>
-<pinref part="J5" gate="G$1" pin="24"/>
-<wire x1="365.76" y1="104.14" x2="358.14" y2="104.14" width="0.1524" layer="91"/>
-<label x="360.68" y="104.14" size="1.524" layer="95"/>
 </segment>
 </net>
 <net name="LCD_MISO" class="0">

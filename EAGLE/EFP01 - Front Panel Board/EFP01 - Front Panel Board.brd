@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
@@ -51,14 +51,14 @@
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -5378,6 +5378,13 @@ design rules under a new name.
 <wire x1="41.8084" y1="22.0472" x2="41.0464" y2="22.8092" width="0.3048" layer="16"/>
 <wire x1="41.0464" y1="22.8092" x2="33.934" y2="22.8092" width="0.3048" layer="16"/>
 <wire x1="33.934" y1="22.8092" x2="32.512" y2="21.3872" width="0.3048" layer="16"/>
+<contactref element="J5" pad="24"/>
+<contactref element="J5" pad="25"/>
+<wire x1="56.543" y1="40.12" x2="59.083" y2="42.66" width="0.2032" layer="16"/>
+<wire x1="59.083" y1="42.66" x2="60.2876" y2="42.66" width="0.2032" layer="16"/>
+<wire x1="60.2876" y1="42.66" x2="66.802" y2="49.1744" width="0.2032" layer="16"/>
+<wire x1="66.802" y1="49.1744" x2="66.802" y2="50.4952" width="0.2032" layer="16"/>
+<wire x1="66.802" y1="50.4952" x2="66.8528" y2="50.546" width="0.2032" layer="16"/>
 </signal>
 <signal name="TD+">
 <contactref element="R22" pad="1"/>
@@ -7961,11 +7968,6 @@ design rules under a new name.
 </signal>
 <signal name="LCD_BL">
 <contactref element="J5" pad="23"/>
-</signal>
-<signal name="VDD">
-<contactref element="J5" pad="25"/>
-<contactref element="J5" pad="24"/>
-<wire x1="56.543" y1="40.12" x2="59.083" y2="42.66" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LCD_MISO">
 <contactref element="J5" pad="29"/>
