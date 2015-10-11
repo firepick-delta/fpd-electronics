@@ -148,6 +148,20 @@
 <library name="TinWhiskers">
 <description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
 <packages>
+<package name="CON-HDR-6POS-MALE">
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="51"/>
+<pad name="1" x="-6.35" y="0" drill="1.25" shape="square"/>
+<pad name="2" x="-3.8" y="0" drill="1.25"/>
+<pad name="3" x="-1.26" y="0" drill="1.25"/>
+<pad name="4" x="1.28" y="0" drill="1.25"/>
+<pad name="5" x="3.85" y="0" drill="1.25"/>
+<pad name="6" x="6.39" y="0" drill="1.25"/>
+<text x="-2.54" y="3.81" size="1.778" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.54" y="1.905" size="1.27" layer="27" ratio="10">&gt;Value</text>
+</package>
 <package name="CONN-JST-PH-2.0MM-6P-SMT-RA">
 <description>Connector: 2.0mm Pitch, 6-POS, Pins, Shrouded;
 Package: PH-Series (SMT, R/A);
@@ -271,10 +285,9 @@ Datasheet: http://www.farnell.com/datasheets/1809822.pdf</description>
 <text x="3.3" y="2.9" size="1.27" layer="25" font="vector" ratio="10">&gt;Name</text>
 <text x="3.3" y="1.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="32-TQFN">
+<package name="32-TQF(ATMEGA)">
 <description>TQFN (32-Pin), 7mm;
 Source: Micrel (http://www.micrel.com/_PDF/other/unofficial-pcb-footprints/TQFPEP7X7-32LD-PL-1-A.pdf)</description>
-<smd name="PAD" x="0" y="0" dx="4.5" dy="4.5" layer="1"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="3.5" x2="-2.75" y2="3.5" width="0.127" layer="51"/>
@@ -625,6 +638,8 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <text x="8" y="-0.1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="LED0603">
+<description>Diode: LED
+Package: 0603</description>
 <wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
@@ -633,16 +648,16 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <smd name="A" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="C" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="51"/>
-<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="51"/>
-<wire x1="0.1" y1="0" x2="0.3" y2="0" width="0.05" layer="51"/>
-<wire x1="-0.1" y1="0" x2="-0.3" y2="0" width="0.05" layer="51"/>
-<text x="1.6" y="-0.6" size="1.27" layer="21" font="vector" ratio="10">-</text>
-<text x="-2.5" y="-0.6" size="1.27" layer="21" font="vector" ratio="10">+</text>
+<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.17" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.165" y2="0" width="0.05" layer="21"/>
+<text x="1.6" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">-</text>
+<text x="-2.5" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">+</text>
 </package>
 <package name="CON-HDR-2X3P">
 <description>Connector: Header, 2x3P, Male;
@@ -781,7 +796,6 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <wire x1="7.62" y1="-40.64" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <text x="-7.62" y="17.78" size="1.27" layer="95" font="vector" ratio="10">&gt;Name</text>
 <text x="-7.62" y="15.24" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
-<pin name="TAB" x="-12.7" y="-38.1" length="short"/>
 </symbol>
 <symbol name="DRV8825">
 <description>Motor Driver: DRV8825;
@@ -1020,6 +1034,27 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="CPL-CON-HEADER-0.1IN-6P-M" prefix="J">
+<description>Connector: Header, 0.1"-Pitch, 6-Pos, Pins (Male)</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-HDR-6POS-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="CPL-CON-JST-2.0MM-6P-M-RA" prefix="J">
 <description>Connector: 2.0mm Pitch, 6-POS, Pins, Shrouded;
 Package: PH-Series (SMT, R/A);
@@ -1097,7 +1132,7 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <gate name="G$1" symbol="AT328" x="2.54" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="32-TQFN">
+<device name="" package="32-TQF(ATMEGA)">
 <connects>
 <connect gate="G$1" pin="ADC6" pad="19"/>
 <connect gate="G$1" pin="ADC7" pad="22"/>
@@ -1129,7 +1164,6 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <connect gate="G$1" pin="PD5" pad="9"/>
 <connect gate="G$1" pin="PD6" pad="10"/>
 <connect gate="G$1" pin="PD7" pad="11"/>
-<connect gate="G$1" pin="TAB" pad="PAD"/>
 <connect gate="G$1" pin="VCC@4" pad="4"/>
 <connect gate="G$1" pin="VCC@6" pad="6"/>
 </connects>
@@ -11328,7 +11362,6 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY9" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+9" library="supply1" deviceset="+5V" device=""/>
@@ -11351,7 +11384,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K">
 <attribute name="PARTNO" value="RC0603FR-0710KL"/>
 </part>
-<part name="J4" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-6P-M-RA" device="" value="FTDI">
+<part name="J4" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-6P-M" device="" value="FTDI">
 <attribute name="PARTNO" value="S6B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY16" library="TinWhiskers" deviceset="GND" device=""/>
@@ -11539,7 +11572,6 @@ for Firepick Delta</text>
 <instance part="P+7" gate="1" x="347.98" y="203.2" smashed="yes">
 <attribute name="VALUE" x="345.44" y="203.2" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="309.88" y="142.24"/>
 <instance part="SUPPLY12" gate="GND" x="337.82" y="142.24"/>
 <instance part="P+8" gate="1" x="195.58" y="83.82" smashed="yes">
 <attribute name="VALUE" x="193.04" y="83.82" size="1.778" layer="96"/>
@@ -11701,12 +11733,6 @@ for Firepick Delta</text>
 <wire x1="335.28" y1="152.4" x2="337.82" y2="152.4" width="0.1524" layer="91"/>
 <junction x="337.82" y="152.4"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U3" gate="G$1" pin="TAB"/>
-<wire x1="312.42" y1="147.32" x2="309.88" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="147.32" x2="309.88" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="NPN_E"/>

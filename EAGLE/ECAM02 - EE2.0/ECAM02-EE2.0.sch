@@ -148,24 +148,19 @@
 <library name="TinWhiskers">
 <description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
 <packages>
-<package name="CON-JST-PH-2.00MM-6P-SMT-VRT">
-<description>Connector: 2.0MM Pitch, 6-Pin, (JST: B6B-PH-SM4-TB(LF)(SN));
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<smd name="1" x="-5" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="2" x="-3" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="3" x="-1" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="4" x="1" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="5" x="3" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="6" x="5" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="NC1" x="-6.6" y="4" dx="1.6" dy="3" layer="1"/>
-<smd name="NC2" x="6.6" y="4" dx="1.6" dy="3" layer="1"/>
-<wire x1="-7" y1="6.5" x2="7" y2="6.5" width="0.127" layer="51"/>
-<wire x1="7" y1="6.5" x2="7" y2="1" width="0.127" layer="51"/>
-<wire x1="7" y1="1" x2="-7" y2="1" width="0.127" layer="51"/>
-<wire x1="-7" y1="1" x2="-7" y2="6.5" width="0.127" layer="51"/>
-<text x="-7" y="7.5" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
-<text x="-7" y="6.5" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+<package name="CON-HDR-6POS-MALE">
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="51"/>
+<pad name="1" x="-6.35" y="0" drill="1.25" shape="square"/>
+<pad name="2" x="-3.8" y="0" drill="1.25"/>
+<pad name="3" x="-1.26" y="0" drill="1.25"/>
+<pad name="4" x="1.28" y="0" drill="1.25"/>
+<pad name="5" x="3.85" y="0" drill="1.25"/>
+<pad name="6" x="6.39" y="0" drill="1.25"/>
+<text x="-2.54" y="3.81" size="1.778" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.54" y="1.905" size="1.27" layer="27" ratio="10">&gt;Value</text>
 </package>
 <package name="SOICN-8">
 <description>SOIC-8 (Narrow)</description>
@@ -265,10 +260,9 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <text x="1.95" y="0.8" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="1.95" y="-0.45" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="32-TQFN">
+<package name="32-TQF(ATMEGA)">
 <description>TQFN (32-Pin), 7mm;
 Source: Micrel (http://www.micrel.com/_PDF/other/unofficial-pcb-footprints/TQFPEP7X7-32LD-PL-1-A.pdf)</description>
-<smd name="PAD" x="0" y="0" dx="4.5" dy="4.5" layer="1"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="3.5" x2="-2.75" y2="3.5" width="0.127" layer="51"/>
@@ -517,21 +511,24 @@ Datasheet: http://www.mouser.com/ds/2/54/TC33-75480.pdf</description>
 <text x="2.6" y="0.7" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="2.6" y="-0.5" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
-<package name="CON-HDR-4POS-MALE">
-<pad name="1" x="-3.81" y="0" drill="1.25" shape="square"/>
-<pad name="2" x="-1.26" y="0" drill="1.25"/>
-<pad name="3" x="1.28" y="0" drill="1.25"/>
-<pad name="4" x="3.82" y="0" drill="1.25"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-5.08" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="51"/>
-<wire x1="5.08" y1="1.27" x2="5.08" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="5.08" y1="-1.27" x2="-5.08" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-5.334" y1="-1.524" x2="-5.334" y2="1.524" width="0.127" layer="21"/>
-<wire x1="-5.334" y1="1.524" x2="5.334" y2="1.524" width="0.127" layer="21"/>
-<wire x1="5.334" y1="1.524" x2="5.334" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="5.334" y1="-1.524" x2="-5.334" y2="-1.524" width="0.127" layer="21"/>
-<text x="0" y="1.8" size="1.27" layer="21" ratio="12">&gt;Name</text>
-<text x="0.1" y="-2.9" size="1" layer="21" ratio="10">&gt;Value</text>
+<package name="CON-JST-PH-2.0MM-4P-THRU-VRT">
+<description>Connector: 4-Pin, (JST: B4B-PH-K-S(LF)(SN);
+Package: Thru-Hole, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<pad name="2" x="-1" y="0" drill="0.7"/>
+<pad name="1" x="-3" y="0" drill="0.7" shape="square"/>
+<pad name="3" x="1" y="0" drill="0.7"/>
+<pad name="4" x="3" y="0" drill="0.7"/>
+<wire x1="-4.9" y1="-2.8" x2="-4.9" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="1.7" x2="4.9" y2="1.7" width="0.127" layer="51"/>
+<wire x1="4.9" y1="1.7" x2="4.9" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="4.9" y1="-2.8" x2="-4.9" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="-4.9" y1="-2.8" x2="-4.9" y2="1.7" width="0.127" layer="21"/>
+<wire x1="-4.9" y1="1.7" x2="4.9" y2="1.7" width="0.127" layer="21"/>
+<wire x1="4.9" y1="1.7" x2="4.9" y2="-2.8" width="0.127" layer="21"/>
+<wire x1="4.9" y1="-2.8" x2="-4.9" y2="-2.8" width="0.127" layer="21"/>
+<text x="-5" y="3" size="1" layer="25" ratio="12">&gt;Name</text>
+<text x="-5" y="1.75" size="1" layer="27" ratio="10">&gt;Value</text>
 </package>
 <package name="CON-JST-PH-2.0MM-4P-SMT-VRT">
 <description>Connector: 2.0MM Pitch, 4-Pin, (JST: B4B-PH-SM4-TB(LF)(SN);
@@ -601,6 +598,10 @@ Source: Freescale Semiconductor (http://www.freescale.com/files/sensors/doc/data
 <wire x1="6.1595" y1="6.1595" x2="6.1595" y2="-6.1595" width="0.127" layer="21"/>
 <wire x1="6.1595" y1="-6.1595" x2="-6.1595" y2="-6.1595" width="0.127" layer="21"/>
 <rectangle x1="-3.936" y1="6.1595" x2="3.936" y2="12.7635" layer="39"/>
+<wire x1="-0.508" y1="6.1595" x2="-2.4892" y2="6.1595" width="0.127" layer="20"/>
+<wire x1="-2.4892" y1="6.1595" x2="-2.4892" y2="12.7635" width="0.127" layer="20"/>
+<wire x1="-2.4892" y1="12.7635" x2="-0.508" y2="12.7635" width="0.127" layer="20"/>
+<wire x1="-0.508" y1="12.7635" x2="-0.508" y2="6.1595" width="0.127" layer="20"/>
 </package>
 <package name="SOT-23-3">
 <wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.1" layer="51"/>
@@ -653,24 +654,6 @@ Source: Freescale Semiconductor (http://www.freescale.com/files/sensors/doc/data
 <wire x1="0" y1="0.3" x2="0" y2="0.5" width="0.1" layer="51"/>
 <wire x1="-1.2" y1="0.1" x2="-0.8" y2="0.1" width="0.1" layer="51"/>
 <wire x1="0.8" y1="-0.2" x2="1.2" y2="-0.2" width="0.1" layer="51"/>
-</package>
-<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
-<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
-<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
-<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
-<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
-<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
-<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
-<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
-<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="DIO-SMA">
 <description>Package: SMA(DIODE-SMT);
@@ -772,6 +755,52 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <wire x1="4" y1="-2.7" x2="-4" y2="-2.7" width="0.1" layer="21"/>
 <text x="-1.5" y="-4.4" size="1.27" layer="21" ratio="12">&gt;Name</text>
 <text x="-1.5" y="-5.8" size="1" layer="27" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-JST-PH-2.0MM-7P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 7-Pin, (B7B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="2" x="-4" y="0.1" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="-2" y="0.1" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="0" y="0.1" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="2" y="0.1" dx="1.1" dy="2" layer="1"/>
+<smd name="6" x="4" y="0.1" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-7.6" y="4.1" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="7.6" y="4.1" dx="1.6" dy="3" layer="1"/>
+<wire x1="8" y1="1.1" x2="-8" y2="1.1" width="0.127" layer="51"/>
+<wire x1="-8" y1="1.1" x2="-8" y2="6.6" width="0.127" layer="51"/>
+<wire x1="-8" y1="6.6" x2="8" y2="6.6" width="0.127" layer="51"/>
+<wire x1="8" y1="6.6" x2="8" y2="1.1" width="0.127" layer="51"/>
+<text x="-6" y="8.1" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-6" y="7.1" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+<smd name="1" x="-6" y="0.1" dx="1.1" dy="2" layer="1"/>
+<smd name="7" x="6" y="0.1" dx="1.1" dy="2" layer="1"/>
+</package>
+<package name="C-SMD-6.3MM">
+<description>Capacitor: 6.3MM Barrel Diameter;
+Package: SMD;</description>
+<smd name="POS" x="0" y="2.275" dx="0.9" dy="2.8" layer="1"/>
+<smd name="NEG" x="0" y="-2.275" dx="0.9" dy="2.8" layer="1"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.4" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="2.4" x2="-2.4" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="51"/>
+<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.127" layer="51"/>
+<wire x1="3.3" y1="2.4" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="2.4" x2="-2.4" y2="3.3" width="0.127" layer="21"/>
+<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="3.3" y1="2.4" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+<text x="-2.8" y="5" size="0.635" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.8" y="4.2" size="0.635" layer="27" font="vector" ratio="12">&gt;Value</text>
+<circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="2.5" x2="-1.4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="2.9" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.4" x2="-1.3" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="3.3" x2="-0.8" y2="3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-0.7" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -899,7 +928,6 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <wire x1="7.62" y1="-40.64" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <text x="-7.62" y="17.78" size="1.27" layer="95" font="vector" ratio="10">&gt;Name</text>
 <text x="-7.62" y="15.24" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
-<pin name="TAB" x="-12.7" y="-38.1" length="short"/>
 </symbol>
 <symbol name="Q">
 <description>Crystal</description>
@@ -1070,20 +1098,6 @@ Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description
 <text x="-7.62" y="7.62" size="1.778" layer="95" ratio="12">&gt;Name</text>
 <text x="-7.62" y="5.588" size="1.27" layer="95" ratio="10">&gt;Value</text>
 </symbol>
-<symbol name="CON-HDR-5P">
-<description>Connector: 5-Pin, Header</description>
-<pin name="1" x="2.54" y="5.08" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="2.54" length="short" rot="R180"/>
-<pin name="3" x="2.54" y="0" length="short" rot="R180"/>
-<pin name="4" x="2.54" y="-2.54" length="short" rot="R180"/>
-<pin name="5" x="2.54" y="-5.08" length="short" rot="R180"/>
-<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
-<text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
-</symbol>
 <symbol name="DIODE_SCHOTTKY-DIODE-1">
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
@@ -1181,6 +1195,42 @@ Datasheet: http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf</descripti
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <text x="-7.62" y="-5.08" size="1.778" layer="125" ratio="12">&gt;Name</text>
 </symbol>
+<symbol name="CON-HDR-7P">
+<description>Connector: 7-Pin</description>
+<pin name="1" x="-5.08" y="7.62" length="short"/>
+<pin name="2" x="-5.08" y="5.08" length="short"/>
+<pin name="3" x="-5.08" y="2.54" length="short"/>
+<pin name="4" x="-5.08" y="0" length="short"/>
+<pin name="5" x="-5.08" y="-2.54" length="short"/>
+<pin name="6" x="-5.08" y="-5.08" length="short"/>
+<pin name="7" x="-5.08" y="-7.62" length="short"/>
+<wire x1="-2.54" y1="10.16" x2="-2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="12.7" size="1.27" layer="95" ratio="12">&gt;Name</text>
+<text x="-2.54" y="10.668" size="1.27" layer="96" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CPOLAR">
+<description>Polar Capacitor</description>
+<rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<pin name="POS" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="NEG" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-4.826" y="-4.699" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0.254" y1="-2.032" x2="0.254" y2="2.032" width="0.127" layer="94"/>
+<wire x1="0.254" y1="2.032" x2="1.016" y2="2.032" width="0.127" layer="94"/>
+<wire x1="1.016" y1="2.032" x2="1.016" y2="0" width="0.127" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-2.032" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="0.254" y2="-2.032" width="0.127" layer="94"/>
+<wire x1="-1.27" y1="1.524" x2="-1.778" y2="1.524" width="0.127" layer="94"/>
+<wire x1="2.13" y1="1.624" x2="1.622" y2="1.624" width="0.127" layer="94"/>
+<wire x1="-1.524" y1="1.78" x2="-1.524" y2="1.272" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
@@ -1197,15 +1247,13 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CON-JST-2.0MM-6P-SMT-VRT" prefix="J">
-<description>Connector: 2.0MM Pitch, 2-Pin;
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<deviceset name="CPL-CON-HEADER-0.1IN-6P-M" prefix="J">
+<description>Connector: Header, 0.1"-Pitch, 6-Pos, Pins (Male)</description>
 <gates>
 <gate name="G$1" symbol="CON-HDR-6P" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON-JST-PH-2.00MM-6P-SMT-VRT">
+<device name="" package="CON-HDR-6POS-MALE">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1303,7 +1351,7 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <gate name="G$1" symbol="AT328" x="2.54" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="32-TQFN">
+<device name="" package="32-TQF(ATMEGA)">
 <connects>
 <connect gate="G$1" pin="ADC6" pad="19"/>
 <connect gate="G$1" pin="ADC7" pad="22"/>
@@ -1335,7 +1383,6 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <connect gate="G$1" pin="PD5" pad="9"/>
 <connect gate="G$1" pin="PD6" pad="10"/>
 <connect gate="G$1" pin="PD7" pad="11"/>
-<connect gate="G$1" pin="TAB" pad="PAD"/>
 <connect gate="G$1" pin="VCC@4" pad="4"/>
 <connect gate="G$1" pin="VCC@6" pad="6"/>
 </connects>
@@ -1583,12 +1630,15 @@ Package: 0603;</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CON-HEADER-0.1IN-4P-M" prefix="J">
+<deviceset name="CPL-CON-JST-2.0MM-4P-M-THRU-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 4-Pin (JST: B4B-PH-K-S(LF)(SN));
+Package: Thru-Hole, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gates>
-<gate name="G$1" symbol="CON-HDR-4P" x="0" y="2.54"/>
+<gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON-HDR-4POS-MALE">
+<device name="" package="CON-JST-PH-2.0MM-4P-THRU-VRT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1722,28 +1772,6 @@ Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description
 <connect gate="G$1" pin="DRAIN" pad="3"/>
 <connect gate="G$1" pin="GATE" pad="1"/>
 <connect gate="G$1" pin="SOURCE" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CPL-CON-JST-2.0MM-5P-SMT-VRT" prefix="J">
-<description>Connector: 2.0MM Pitch, 2-Pin;
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<gates>
-<gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="CON-JST-PH-2.0MM-5P-SMT-VRT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1986,6 +2014,87 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-7P-M-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 7-Pin, (JST: B7B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical'
+Datasheet: http://www.jst-mfg.com/product/detail_e.php?series=199</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-7P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-7P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X7R-0603-0.1UF-35V" prefix="C">
+<description>Capacitor: 0.1uF, 35V, 10%, X7R;
+Package: 0603;
+Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-ALU-SMD-100UF-50V" prefix="C">
+<description>Capacitor: Al-Electrolytic, 100uF, 20%, 50V, 2000hrs@105C;
+Package: 6.3MM Diameter (Can);
+Datasheet: http://industrial.panasonic.com/lecs/www-data/pdf/ABA0000/ABA0000CE135.pdf</description>
+<gates>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-SMD-6.3MM">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-ALU-6.4MM-10UF-10V" prefix="C">
+<description>Capacitor: Al-Electrolytic, 10uF, 10V 20$;
+Package: 6.3MM SMT (Can);
+Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
+<gates>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-SMD-6.3MM">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11699,7 +11808,6 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY9" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713">
 <attribute name="PARTNO" value="TC1015-3.3VCT713"/>
@@ -11714,7 +11822,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY23" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="J4" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-6P-SMT-VRT" device="" value="FTDI">
+<part name="J4" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-6P-M" device="" value="FTDI">
 <attribute name="PARTNO" value="S6B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY16" library="TinWhiskers" deviceset="GND" device=""/>
@@ -11752,7 +11860,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <attribute name="PARTNO" value="RC0603FR-0722KL"/>
 </part>
 <part name="SUPPLY8" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J3" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-4P-M" device="" value="MOT">
+<part name="J3" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-THRU-VRT" device="" value="MOT">
 <attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY13" library="TinWhiskers" deviceset="GND" device=""/>
@@ -11801,7 +11909,6 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-5P-SMT-VRT" device="" value="S5B-PH-SM"/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="D1" library="TinWhiskers" deviceset="CPL-DIO-B340-13-F-SMA" device="" value="B340"/>
 <part name="L1" library="TinWhiskers" deviceset="CPL-IND-6.8UH-250MA" device="" value="6.8uH"/>
@@ -11832,6 +11939,25 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-7P-M-SMT-VRT" device="" value="SOL+PUMP"/>
+<part name="U11" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
+<part name="SUPPLY32" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+14" library="supply1" deviceset="+24V" device=""/>
+<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C14" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="C15" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="P+16" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY33" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C16" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY34" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C17" library="TinWhiskers" deviceset="CPL-CAP-ALU-SMD-100UF-50V" device="" value="100uF"/>
+<part name="SUPPLY35" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C18" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF"/>
+<part name="P+17" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY36" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -11919,7 +12045,6 @@ TRANSDUCER</text>
 <instance part="P+7" gate="1" x="353.06" y="231.14" smashed="yes">
 <attribute name="VALUE" x="350.52" y="231.14" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="314.96" y="170.18"/>
 <instance part="SUPPLY12" gate="GND" x="342.9" y="170.18"/>
 <instance part="VR1" gate="G$1" x="246.38" y="83.82" smashed="yes">
 <attribute name="NAME" x="238.76" y="93.472" size="1.778" layer="95" font="vector" ratio="12"/>
@@ -12093,12 +12218,8 @@ TRANSDUCER</text>
 <instance part="SUPPLY25" gate="GND" x="15.24" y="220.98" smashed="yes">
 <attribute name="VALUE" x="13.335" y="217.805" size="1.778" layer="96"/>
 </instance>
-<instance part="J6" gate="G$1" x="63.5" y="203.2" smashed="yes" rot="MR0">
-<attribute name="NAME" x="63.5" y="213.36" size="1.778" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="63.5" y="211.328" size="1.27" layer="96" font="vector" ratio="10"/>
-</instance>
-<instance part="P+13" gate="1" x="58.42" y="213.36" smashed="yes">
-<attribute name="VALUE" x="55.88" y="213.36" size="1.778" layer="96"/>
+<instance part="P+13" gate="1" x="55.88" y="213.36" smashed="yes">
+<attribute name="VALUE" x="53.34" y="213.36" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="157.48" y="233.68" smashed="yes">
 <attribute name="NAME" x="155.194" y="235.077" size="1.778" layer="95"/>
@@ -12173,6 +12294,63 @@ TRANSDUCER</text>
 <instance part="SUPPLY4" gate="GND" x="248.92" y="127" smashed="yes">
 <attribute name="VALUE" x="247.015" y="123.825" size="1.778" layer="96"/>
 </instance>
+<instance part="J6" gate="G$1" x="66.04" y="203.2" smashed="yes">
+<attribute name="NAME" x="63.5" y="215.9" size="1.27" layer="95" ratio="12"/>
+<attribute name="VALUE" x="63.5" y="213.868" size="1.27" layer="96" ratio="10"/>
+</instance>
+<instance part="U11" gate="G$1" x="73.66" y="180.34" smashed="yes" rot="MR0">
+<attribute name="NAME" x="66.04" y="187.96" size="1.778" layer="95" ratio="12"/>
+<attribute name="VALUE" x="66.04" y="185.928" size="1.27" layer="95" ratio="10"/>
+</instance>
+<instance part="SUPPLY32" gate="GND" x="86.36" y="172.72" smashed="yes">
+<attribute name="VALUE" x="84.455" y="169.545" size="1.778" layer="96"/>
+</instance>
+<instance part="P+14" gate="1" x="58.42" y="218.44" smashed="yes">
+<attribute name="VALUE" x="55.88" y="219.71" size="1.778" layer="96"/>
+</instance>
+<instance part="C13" gate="G$1" x="358.14" y="195.58" smashed="yes" rot="R90">
+<attribute name="NAME" x="357.759" y="188.722" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="360.299" y="186.182" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C14" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="9.779" y="67.056" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="12.065" y="64.262" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY11" gate="GND" x="10.16" y="63.5"/>
+<instance part="+3V5" gate="G$1" x="10.16" y="81.28" smashed="yes">
+<attribute name="VALUE" x="7.62" y="81.28" size="1.778" layer="96"/>
+</instance>
+<instance part="C15" gate="G$1" x="119.38" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="118.999" y="132.842" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="121.539" y="130.556" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+16" gate="1" x="119.38" y="147.32" smashed="yes">
+<attribute name="VALUE" x="116.84" y="147.32" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY33" gate="GND" x="119.38" y="129.54" smashed="yes">
+<attribute name="VALUE" x="117.475" y="126.365" size="1.778" layer="96"/>
+</instance>
+<instance part="C16" gate="G$1" x="210.82" y="228.6" smashed="yes" rot="R90">
+<attribute name="NAME" x="210.439" y="221.742" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="212.979" y="219.202" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V6" gate="G$1" x="210.82" y="236.22" smashed="yes">
+<attribute name="VALUE" x="208.28" y="237.49" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY34" gate="GND" x="210.82" y="218.44"/>
+<instance part="C17" gate="G$1" x="281.94" y="139.7" smashed="yes" rot="R90">
+<attribute name="NAME" x="281.559" y="133.096" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="284.099" y="130.81" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY35" gate="GND" x="281.94" y="132.08"/>
+<instance part="C18" gate="G$1" x="256.54" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="256.159" y="183.896" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="258.699" y="183.134" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+17" gate="1" x="256.54" y="198.12" smashed="yes">
+<attribute name="VALUE" x="254" y="198.12" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY36" gate="GND" x="256.54" y="180.34"/>
 </instances>
 <busses>
 </busses>
@@ -12212,7 +12390,8 @@ TRANSDUCER</text>
 <pinref part="U2" gate="G$1" pin="GND@5"/>
 <wire x1="342.9" y1="193.04" x2="342.9" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="190.5" x2="342.9" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="180.34" x2="342.9" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="180.34" x2="342.9" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="342.9" y1="177.8" x2="342.9" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="193.04" x2="342.9" y2="193.04" width="0.1524" layer="91"/>
 <junction x="342.9" y="193.04"/>
 <pinref part="U2" gate="G$1" pin="GND@21"/>
@@ -12222,12 +12401,10 @@ TRANSDUCER</text>
 <wire x1="340.36" y1="180.34" x2="342.9" y2="180.34" width="0.1524" layer="91"/>
 <junction x="342.9" y="180.34"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="TAB"/>
-<wire x1="317.5" y1="175.26" x2="314.96" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="175.26" x2="314.96" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="358.14" y1="190.5" x2="358.14" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="177.8" x2="342.9" y2="177.8" width="0.1524" layer="91"/>
+<junction x="342.9" y="177.8"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -12379,6 +12556,37 @@ TRANSDUCER</text>
 <wire x1="248.92" y1="132.08" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U11" gate="G$1" pin="SOURCE"/>
+<wire x1="83.82" y1="177.8" x2="86.36" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="177.8" x2="86.36" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="SUPPLY32" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="68.58" x2="10.16" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<pinref part="SUPPLY33" gate="GND" pin="GND"/>
+<wire x1="119.38" y1="134.62" x2="119.38" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="1"/>
+<pinref part="SUPPLY34" gate="GND" pin="GND"/>
+<wire x1="210.82" y1="223.52" x2="210.82" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="POS"/>
+<pinref part="SUPPLY35" gate="GND" pin="GND"/>
+<wire x1="281.94" y1="137.16" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="POS"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+<wire x1="256.54" y1="187.96" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+24V" class="0">
 <segment>
@@ -12397,16 +12605,28 @@ TRANSDUCER</text>
 <wire x1="292.1" y1="127" x2="314.96" y2="127" width="0.1524" layer="91"/>
 <pinref part="C2" gate="C1" pin="1"/>
 <wire x1="294.64" y1="132.08" x2="292.1" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="132.08" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="132.08" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
 <junction x="292.1" y="132.08"/>
 <pinref part="P+5" gate="1" pin="+24V"/>
+<pinref part="C17" gate="G$1" pin="NEG"/>
+<wire x1="292.1" y1="144.78" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="144.78" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
+<junction x="292.1" y="144.78"/>
+</segment>
+<segment>
+<pinref part="J6" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="210.82" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="210.82" x2="58.42" y2="215.9" width="0.1524" layer="91"/>
+<pinref part="P+14" gate="1" pin="+24V"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC@4"/>
 <wire x1="340.36" y1="203.2" x2="353.06" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="353.06" y1="203.2" x2="353.06" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="203.2" x2="353.06" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="210.82" x2="353.06" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="203.2" x2="353.06" y2="200.66" width="0.1524" layer="91"/>
 <junction x="353.06" y="203.2"/>
 <pinref part="U2" gate="G$1" pin="VCC@6"/>
@@ -12416,6 +12636,10 @@ TRANSDUCER</text>
 <wire x1="340.36" y1="182.88" x2="353.06" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="353.06" y1="182.88" x2="353.06" y2="200.66" width="0.1524" layer="91"/>
 <junction x="353.06" y="200.66"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="353.06" y1="210.82" x2="358.14" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="358.14" y1="210.82" x2="358.14" y2="198.12" width="0.1524" layer="91"/>
+<junction x="353.06" y="210.82"/>
 </segment>
 <segment>
 <pinref part="VR1" gate="G$1" pin="1"/>
@@ -12476,10 +12700,10 @@ TRANSDUCER</text>
 <junction x="314.96" y="50.8"/>
 </segment>
 <segment>
-<pinref part="J6" gate="G$1" pin="1"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
-<wire x1="60.96" y1="208.28" x2="58.42" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="208.28" x2="58.42" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="208.28" x2="55.88" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="208.28" x2="55.88" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="VIN"/>
@@ -12510,6 +12734,16 @@ TRANSDUCER</text>
 <wire x1="246.38" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="137.16" x2="248.92" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="P+16" gate="1" pin="+5V"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="119.38" y1="144.78" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+17" gate="1" pin="+5V"/>
+<pinref part="C18" gate="G$1" pin="NEG"/>
+<wire x1="256.54" y1="195.58" x2="256.54" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -12579,6 +12813,16 @@ TRANSDUCER</text>
 <wire x1="246.38" y1="231.14" x2="248.92" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="231.14" x2="248.92" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<wire x1="10.16" y1="76.2" x2="10.16" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<pinref part="C16" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="233.68" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RO" class="0">
@@ -12961,10 +13205,10 @@ TRANSDUCER</text>
 <segment>
 <pinref part="U4" gate="G$1" pin="DRAIN"/>
 <label x="40.64" y="228.6" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="205.74" x2="53.34" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="205.74" x2="53.34" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="228.6" x2="38.1" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="SOL2" class="0">
@@ -12972,9 +13216,9 @@ TRANSDUCER</text>
 <pinref part="U5" gate="G$1" pin="DRAIN"/>
 <wire x1="38.1" y1="210.82" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
 <label x="40.64" y="210.82" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="203.2" x2="50.8" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="203.2" x2="50.8" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="SOL3" class="0">
@@ -12982,19 +13226,19 @@ TRANSDUCER</text>
 <pinref part="U6" gate="G$1" pin="DRAIN"/>
 <wire x1="38.1" y1="193.04" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
 <label x="40.64" y="193.04" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="200.66" x2="50.8" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="SOL4" class="0">
 <segment>
 <pinref part="U7" gate="G$1" pin="DRAIN"/>
 <label x="40.64" y="175.26" size="1.778" layer="95"/>
-<pinref part="J6" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="198.12" x2="53.34" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="198.12" x2="53.34" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="J6" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="GATE4" class="0">
@@ -13188,6 +13432,27 @@ TRANSDUCER</text>
 <pinref part="R19" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="200.66" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
 <label x="144.78" y="195.58" size="1.778" layer="95" ratio="10" rot="R90"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="60.96" y1="195.58" x2="55.88" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="195.58" x2="55.88" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="U11" gate="G$1" pin="DRAIN"/>
+<wire x1="55.88" y1="180.34" x2="63.5" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="PUMP" class="0">
+<segment>
+<pinref part="U11" gate="G$1" pin="GATE"/>
+<wire x1="83.82" y1="182.88" x2="91.44" y2="182.88" width="0.1524" layer="91"/>
+<label x="86.36" y="182.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="PD2"/>
+<wire x1="340.36" y1="220.98" x2="347.98" y2="220.98" width="0.1524" layer="91"/>
+<label x="342.9" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

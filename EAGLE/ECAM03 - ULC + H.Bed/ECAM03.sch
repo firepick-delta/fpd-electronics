@@ -436,13 +436,14 @@ Datasheet: http://www.mouser.com/ds/2/115/ds30891-89887.pdf</description>
 <wire x1="-0.8" y1="0" x2="-0.8" y2="-0.8" width="0.127" layer="21"/>
 <wire x1="-0.8" y1="-0.8" x2="0.7" y2="0" width="0.127" layer="21"/>
 <wire x1="0.7" y1="0" x2="-0.8" y2="0.8" width="0.127" layer="21"/>
-<wire x1="0.7" y1="0" x2="1.1" y2="0" width="0.127" layer="21"/>
-<wire x1="-0.8" y1="0" x2="-1.2" y2="0" width="0.127" layer="21"/>
-<wire x1="0.7" y1="-0.8" x2="0.7" y2="0.8" width="0.127" layer="21"/>
+<wire x1="0.7" y1="0" x2="1" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.8" y1="0" x2="-1" y2="0" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-0.8" x2="0.7" y2="0" width="0.127" layer="21"/>
 <smd name="POS" x="-2.5" y="0" dx="2.505" dy="1.7" layer="1"/>
 <smd name="NEG" x="2.5" y="0" dx="2.505" dy="1.7" layer="1"/>
 <text x="-2.2" y="1.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
 <text x="-2.2" y="-2.7" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+<wire x1="0.7" y1="0" x2="0.7" y2="0.8" width="0.127" layer="21"/>
 </package>
 <package name="0603">
 <description>0603</description>
@@ -478,47 +479,22 @@ Datasheet: http://www.mouser.com/ds/2/115/ds30891-89887.pdf</description>
 <text x="2" y="-0.9" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
 <circle x="1.2" y="0.4" radius="0.1" width="0.25" layer="21"/>
 </package>
-<package name="CONN-JST-PH-2.0MM-2P-SMT-RA">
-<description>Connector: 2.0mm Pitch, 2-POS, Pin, Shrouded;
-Package: PH-Series (SMT, R/A);
+<package name="CON-JST-PH-2.0MM-4P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 4-Pin, (JST: B4B-PH-SM4-TB(LF)(SN);
+Package: SMT, Vertical;
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<smd name="1" x="1" y="0" dx="1.2" dy="4" layer="1"/>
-<smd name="2" x="-1" y="0" dx="1.2" dy="4" layer="1"/>
-<smd name="NC1" x="-3.35" y="5.85" dx="1.7" dy="3.6" layer="1" rot="R180"/>
-<smd name="NC2" x="3.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
-<text x="6.63" y="4.24" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="6.63" y="2.67" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<wire x1="-3.95" y1="-0.35" x2="-3.95" y2="7.25" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="7.25" x2="3.95" y2="7.25" width="0.127" layer="51"/>
-<wire x1="3.95" y1="7.25" x2="3.95" y2="-0.35" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-0.35" x2="-3.95" y2="-0.35" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="-0.7" x2="-1.9" y2="-0.7" width="0.127" layer="21"/>
-<wire x1="-4.3" y1="-0.7" x2="-4.3" y2="3.8" width="0.127" layer="21"/>
-<wire x1="-2.3" y1="7.6" x2="2.3" y2="7.6" width="0.127" layer="21"/>
-<wire x1="4.3" y1="-0.7" x2="4.3" y2="3.8" width="0.127" layer="21"/>
-<wire x1="4.3" y1="-0.7" x2="1.9" y2="-0.7" width="0.127" layer="21"/>
-</package>
-<package name="CONN-JST-PH-2.0MM-4P-SMT-RA">
-<description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
-Package: PH-Series (SMT, R/A);
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<smd name="1" x="3" y="0" dx="1" dy="4" layer="1"/>
-<smd name="2" x="1" y="0" dx="1" dy="4" layer="1"/>
-<text x="8.23" y="3.54" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="8.23" y="2.27" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<smd name="3" x="-1" y="0" dx="1" dy="4" layer="1"/>
-<smd name="4" x="-3" y="0" dx="1" dy="4" layer="1"/>
-<smd name="NC2" x="-5.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
-<smd name="NC1" x="5.35" y="5.85" dx="1.7" dy="3.6" layer="1"/>
-<wire x1="-5.95" y1="-0.35" x2="-5.95" y2="7.25" width="0.127" layer="51"/>
-<wire x1="-5.95" y1="7.25" x2="5.95" y2="7.25" width="0.127" layer="51"/>
-<wire x1="5.95" y1="7.25" x2="5.95" y2="-0.35" width="0.127" layer="51"/>
-<wire x1="5.95" y1="-0.35" x2="-5.95" y2="-0.35" width="0.127" layer="51"/>
-<wire x1="-6.2" y1="-0.6" x2="-3.8" y2="-0.6" width="0.127" layer="21"/>
-<wire x1="-6.2" y1="-0.6" x2="-6.2" y2="3.8" width="0.127" layer="21"/>
-<wire x1="-4.3" y1="7.6" x2="4.3" y2="7.6" width="0.127" layer="21"/>
-<wire x1="6.3" y1="-0.7" x2="6.3" y2="3.8" width="0.127" layer="21"/>
-<wire x1="6.3" y1="-0.7" x2="3.8" y2="-0.7" width="0.127" layer="21"/>
+<smd name="1" x="-3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="1" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="3" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-4.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="4.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="-5" y1="6.5" x2="5" y2="6.5" width="0.127" layer="51"/>
+<wire x1="5" y1="6.5" x2="5" y2="1" width="0.127" layer="51"/>
+<wire x1="5" y1="1" x2="-5" y2="1" width="0.127" layer="51"/>
+<wire x1="-5" y1="1" x2="-5" y2="6.5" width="0.127" layer="51"/>
+<text x="-5" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-5" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="SOT-23-3">
 <wire x1="-1.46" y1="-0.65" x2="-1.46" y2="0.65" width="0.1" layer="51"/>
@@ -571,22 +547,6 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="0" y1="0.3" x2="0" y2="0.5" width="0.1" layer="51"/>
 <wire x1="-1.2" y1="0.1" x2="-0.8" y2="0.1" width="0.1" layer="51"/>
 <wire x1="0.8" y1="-0.2" x2="1.2" y2="-0.2" width="0.1" layer="51"/>
-</package>
-<package name="CON-HDR-3POS-MALE">
-<description>Header, male, 0.1" pitch, 3-pos</description>
-<pad name="1" x="-2.54" y="0" drill="0.9" shape="square"/>
-<pad name="2" x="0" y="0" drill="0.9"/>
-<pad name="3" x="2.54" y="0" drill="0.9"/>
-<text x="4.35" y="0.05" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="4.35" y="-1.2" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
-<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
-<wire x1="-3.81" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="51"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-4.064" y1="1.524" x2="4.064" y2="1.524" width="0.127" layer="21"/>
-<wire x1="4.064" y1="1.524" x2="4.064" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="4.064" y1="-1.524" x2="-4.064" y2="-1.524" width="0.127" layer="21"/>
-<wire x1="-4.064" y1="-1.524" x2="-4.064" y2="1.524" width="0.127" layer="21"/>
 </package>
 <package name="TBLOCK-2-5MM-OSTTH020160">
 <description>Terminal Block: 2-Pin, Screw, Green, 300V, 15A;
@@ -647,6 +607,24 @@ Datasheet: http://www.on-shore.com/sites/default/files/manuals/ostthxx0160.pdf</
 <wire x1="-2.794" y1="-1.524" x2="-2.794" y2="1.524" width="0.127" layer="21"/>
 <wire x1="2.794" y1="1.524" x2="2.794" y2="-1.524" width="0.127" layer="21"/>
 <wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.127" layer="51"/>
+</package>
+<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
+<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
+<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -921,18 +899,6 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <text x="-7.62" y="7.62" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-7.62" y="5.588" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
 </symbol>
-<symbol name="CON-HDR-3P">
-<description>Connector: 0.1" Pitch, 3Pins</description>
-<pin name="1" x="2.54" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="2" x="2.54" y="0" length="short" direction="pas" rot="R180"/>
-<pin name="3" x="2.54" y="-2.54" length="short" direction="pas" rot="R180"/>
-<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
-<text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
-</symbol>
 <symbol name="GATE-74LVC">
 <description>Logic Gate: 74LVC</description>
 <pin name="A" x="-12.7" y="2.54" length="short"/>
@@ -960,6 +926,20 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
 <text x="10.16" y="5.08" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="10.16" y="2.54" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CON-HDR-5P">
+<description>Connector: 5-Pin, Header</description>
+<pin name="1" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="2" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="4" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="5" x="2.54" y="-5.08" length="short" rot="R180"/>
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1302,34 +1282,15 @@ Datasheet: http://www.murata.com/~/media/webrenewal/support/library/catalog/prod
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CON-JST-2.0MM-2P-M-SMT-RA" prefix="J">
-<description>Connector: 2.0mm Pitch, 2-POS, Pin, Shrouded;
-Package: PH-Series (SMT, R/A);
+<deviceset name="CPL-CON-JST-2.0MM-4P-M-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
 Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <gates>
-<gate name="G$1" symbol="CON-HDR-2P" x="2.54" y="0"/>
+<gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CONN-JST-PH-2.0MM-2P-SMT-RA">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CPL-CON-JST-2.0MM-4P-M-SMT-RA" prefix="J">
-<description>Connector: 2.0mm Pitch, 4-POS, Pin, Shrouded;
-Package: PH-Series (SMT, R/A);
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<gates>
-<gate name="G$1" symbol="CON-HDR-4P" x="2.54" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="CONN-JST-PH-2.0MM-4P-SMT-RA">
+<device name="" package="CON-JST-PH-2.0MM-4P-SMT-VRT">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1404,7 +1365,7 @@ Datasheet: http://www.vishay.com/docs/60057/pnm.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-THRM-MAX31855">
+<deviceset name="CPL-THRM-MAX31855" prefix="U">
 <description>Thermocouple: Digital, 14-Bit, 8-Pin;
 Package: SOIC-8 (Narrow);
 Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description>
@@ -1422,26 +1383,6 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <connect gate="G$1" pin="T+" pad="3"/>
 <connect gate="G$1" pin="T-" pad="2"/>
 <connect gate="G$1" pin="VCC" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CPL-CON-HEADER-0.1IN-3P-M" prefix="J">
-<description>Connector: 0.1" Pitch, 0.025" Pins, 3-Pin;
-Package: Thru-Hole;
-Datasheet:</description>
-<gates>
-<gate name="G$1" symbol="CON-HDR-3P" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="CON-HDR-3POS-MALE">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1579,6 +1520,28 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-JST-2.0MM-5P-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -11925,6 +11888,52 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <rectangle x1="11.7706125" y1="2.456434375" x2="12.06016875" y2="2.466084375" layer="21"/>
 <rectangle x1="12.2628625" y1="2.456434375" x2="12.552425" y2="2.466084375" layer="21"/>
 </package>
+<package name="CONN-MOLEX-KK-3PIN">
+<wire x1="-3.81" y1="3.048" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="3.81" y1="3.048" x2="-3.81" y2="3.048" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-3.81" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="0.127" drill="1.016" diameter="1.8796" shape="square"/>
+<pad name="2" x="0" y="-0.127" drill="1.016" diameter="1.8796"/>
+<pad name="3" x="2.54" y="0.127" drill="1.016" diameter="1.8796"/>
+<rectangle x1="-2.8321" y1="-0.2921" x2="-2.2479" y2="0.2921" layer="51"/>
+<rectangle x1="-0.2921" y1="-0.2921" x2="0.2921" y2="0.2921" layer="51"/>
+<rectangle x1="2.2479" y1="-0.2921" x2="2.8321" y2="0.2921" layer="51"/>
+<text x="-3.81" y="3.81" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="CONN-JST_PH-2.0MM-3PIN-SMT-RA">
+<wire x1="-4.99" y1="0.47" x2="-4.99" y2="-3.03" width="0.2032" layer="21"/>
+<wire x1="-4.99" y1="-3.03" x2="-4.19" y2="-3.03" width="0.2032" layer="21"/>
+<wire x1="-4.19" y1="-3.03" x2="-4.19" y2="-0.53" width="0.2032" layer="21"/>
+<wire x1="-4.19" y1="-0.53" x2="-2.99" y2="-0.53" width="0.2032" layer="21"/>
+<wire x1="3.01" y1="-0.53" x2="4.21" y2="-0.53" width="0.2032" layer="21"/>
+<wire x1="4.21" y1="-0.53" x2="4.21" y2="-3.03" width="0.2032" layer="21"/>
+<wire x1="4.21" y1="-3.03" x2="5.01" y2="-3.03" width="0.2032" layer="21"/>
+<wire x1="5.01" y1="-3.03" x2="5.01" y2="0.47" width="0.2032" layer="21"/>
+<wire x1="3.01" y1="4.47" x2="-2.99" y2="4.47" width="0.2032" layer="21"/>
+<smd name="1" x="2.01" y="-2.23" dx="1" dy="4.6" layer="1"/>
+<smd name="3" x="-1.99" y="-2.23" dx="1" dy="4.6" layer="1"/>
+<smd name="NC1" x="-4.39" y="2.97" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="NC2" x="4.41" y="2.97" dx="3.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="0.01" y="-2.23" dx="1" dy="4.6" layer="1"/>
+<text x="-2.26" y="2.74" size="0.4064" layer="25">&gt;Name</text>
+<text x="-2.26" y="1.47" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="CONN-OSTTH030160">
+<pad name="1" x="-5" y="-3.81" drill="1.6" shape="square"/>
+<pad name="2" x="0" y="-3.81" drill="1.6"/>
+<pad name="3" x="5" y="-3.81" drill="1.6"/>
+<wire x1="-7.5" y1="-8.01" x2="7.5" y2="-8.01" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="5.59" x2="7.5" y2="5.59" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="-8.01" x2="-7.5" y2="5.59" width="0.127" layer="21"/>
+<wire x1="7.5" y1="-8.01" x2="7.5" y2="5.59" width="0.127" layer="21"/>
+<text x="-7" y="7.19" size="1.27" layer="25">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LOGO-CC-BY-SA">
@@ -15372,6 +15381,20 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <rectangle x1="62.2554" y1="13.2334" x2="63.7794" y2="13.2842" layer="94"/>
 <rectangle x1="64.8462" y1="13.2334" x2="66.3702" y2="13.2842" layer="94"/>
 </symbol>
+<symbol name="CONN-3PIN">
+<wire x1="-1.27" y1="-5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="-2.54" y2="2.54" width="0.6096" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-2.54" y2="0" width="0.6096" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-1.27" y2="5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-6.35" y="5.842" size="1.778" layer="95">&gt;NAME</text>
+<pin name="1" x="2.54" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="2.54" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-2.54" width="0.6096" layer="94"/>
+<pin name="3" x="2.54" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="LOGO-CC-BY-SA" prefix="LOGO">
@@ -15432,6 +15455,43 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="DNP" value="T"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CONN-RECT-3PIN" prefix="J">
+<gates>
+<gate name="G$1" symbol="CONN-3PIN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="JST_PH_2MM" package="CONN-JST_PH-2.0MM-3PIN-SMT-RA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="MOLEX-KK" package="CONN-MOLEX-KK-3PIN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OSTTH030160" package="CONN-OSTTH030160">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -15580,8 +15640,7 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R"/>
 <part name="R16" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="DNP"/>
 <part name="SUPPLY26" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-2P-M-SMT-RA" device="" value="RINGLIGHT"/>
-<part name="J5" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-RA" device="" value="S4B-PH-SM4">
+<part name="J5" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-VRT" device="" value="S4B-PH-SM4">
 <attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY14" library="TinWhiskers" deviceset="GND" device=""/>
@@ -15605,9 +15664,9 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <part name="U4" library="TinWhiskers" deviceset="CPL-THRM-MAX31855" device="" value="MAX31855"/>
 <part name="SUPPLY6" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device="" value="FAN1"/>
-<part name="J3" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device="" value="FAN2"/>
-<part name="J4" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-3P-M" device="" value="FAN3"/>
+<part name="J2" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN1"/>
+<part name="J3" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN2"/>
+<part name="J4" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN3"/>
 <part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
 <part name="SUPPLY7" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
@@ -15637,6 +15696,9 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <part name="SUPPLY23" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-5P-SMT-VRT" device="" value="RINGLIGHT"/>
+<part name="SUPPLY15" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+13" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15753,10 +15815,6 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <instance part="SUPPLY26" gate="GND" x="160.02" y="99.06" smashed="yes">
 <attribute name="VALUE" x="158.115" y="95.885" size="1.778" layer="96"/>
 </instance>
-<instance part="J7" gate="G$1" x="175.26" y="132.08" smashed="yes" rot="MR0">
-<attribute name="NAME" x="175.26" y="139.7" size="1.778" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="175.26" y="137.668" size="1.27" layer="96" font="vector" ratio="10"/>
-</instance>
 <instance part="J5" gate="G$1" x="66.04" y="127" smashed="yes" rot="MR0">
 <attribute name="NAME" x="66.04" y="134.62" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="66.04" y="132.588" size="1.27" layer="96" font="vector" ratio="10"/>
@@ -15868,6 +15926,13 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 </instance>
 <instance part="+3V4" gate="G$1" x="345.44" y="144.78" smashed="yes">
 <attribute name="VALUE" x="342.9" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="J7" gate="G$1" x="185.42" y="129.54" rot="MR0"/>
+<instance part="SUPPLY15" gate="GND" x="180.34" y="116.84" smashed="yes">
+<attribute name="VALUE" x="178.435" y="113.665" size="1.778" layer="96"/>
+</instance>
+<instance part="P+13" gate="1" x="177.8" y="142.24" smashed="yes">
+<attribute name="VALUE" x="175.26" y="142.24" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15996,6 +16061,12 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <pinref part="SUPPLY23" gate="GND" pin="GND"/>
 <wire x1="340.36" y1="121.92" x2="340.36" y2="119.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="182.88" y1="129.54" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+<wire x1="180.34" y1="129.54" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -16070,6 +16141,12 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="320.04" y1="132.08" x2="320.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="320.04" y="132.08"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="5"/>
+<wire x1="182.88" y1="124.46" x2="177.8" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="124.46" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="RO" class="0">
@@ -16418,7 +16495,7 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="167.64" y1="137.16" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="137.16" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="134.62" x2="172.72" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="134.62" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -16584,20 +16661,6 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <label x="25.4" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="J7" gate="G$1" pin="2"/>
-<wire x1="172.72" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="132.08" x2="170.18" y2="127" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="127" x2="175.26" y2="127" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="127" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="119.38" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
-<junction x="175.26" y="119.38"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
@@ -16609,6 +16672,20 @@ Datasheet: http://www.mouser.com/ds/2/396/mlcc_all_e-541559.pdf</description>
 <wire x1="154.94" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <junction x="154.94" y="119.38"/>
 <pinref part="R6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="119.38" x2="175.26" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="119.38" x2="175.26" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="119.38" x2="175.26" y2="121.92" width="0.1524" layer="91"/>
+<junction x="175.26" y="119.38"/>
+<wire x1="175.26" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="J7" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="121.92" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
