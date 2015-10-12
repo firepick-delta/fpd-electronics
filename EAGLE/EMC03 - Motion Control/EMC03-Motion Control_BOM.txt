@@ -1,0 +1,41 @@
+Part No.	Description	Part References	Qty-1	Mfg Name	Distr.	Price(USD):	Status:	Notes:
+EMC03	Motion Controller PCB	EMC03	-	Tin Whiskers Technology	N/A	-	-	-
+-	Bare PCB, FR-4, 0.062”, 4-Layer		1	HQPCB	N/A			
+GMK107BJ104KAHT	Capacitor: 0.1uF, 35V, 10%, X5R	C2, C5, C7, C9, C28, C29	6	Taiyo Yuden	ANY			Change on SCH
+RL1206FR-7W0R22L	Resistor: 0.22 Ohm, 0.5W, 1%	R1, R2, R44, R45, R46, R47	6	Yageo	ANY			
+RC0603FR-071KL	Resistor: 1 kOhm, 0.1W, 1%	R38, R39	2	Yageo	ANY			
+RC0603FR-071ML	Resistor: 1 Mohm, 0.1W, 5%	R3	1	Yageo	ANY			
+RC0603FR-072R2L	Resistor: 2.2 Ohm, 0.1W, 1%	R10, R11, R12	3	Yageo	ANY			
+GRM188C81E475KE11D	Capacitor: 4.7 uF, 25V, 10%, X6S	C11, C12, C13, C14, C18, C19	6	Murata	ANY			
+RC0603FR-0710KL	Resistor: 10 kOhm, 0.1W, 1%	R24, R25, R26, R4, R5, R18	6	Yageo	ANY			
+GRM188R71H103KA01D	Capacitor: 10nF, 50V, 10%, X7R	C6, C8, C10, C27	4	Murata	ANY			
+EMVH350ADA100MF60G	Capacitor, AL-Electrolytic, 10uF, 35V, 20%	C3, C4	2	United Chemi-Con	ANY			
+HCM4912000000ABJT	Crystal Oscillator: 12MHz, 18pF, 30PPM	Q1	1	Citizen FM	ANY			
+GRM1885C1H120FA01J	Capacitor: 12pF, 50V, 1%, C0G	C1, C75	2	Murata	ANY			
+RC0603FR-0722KL	Resistor: 20 kOhm, 0.1W, 5%	R19, R20, R21	3	Yageo	ANY			
+GRM188R71H223KA01D	Capacitor: 22nF, 50V, 10%	C49, C59, C72	3	United Chemi-Con	ANY			
+SN74LVC1G32DBVR	Logic Gate: OR, 1-CH, SOT23-5	U3	1	Texas Instruments	ANY			
+UMK107B7104KA-T	Capacitor: 0.1uF, 50V, 10%, X7R	C15, C39, C62, C47, C48, C57, C58, C70, C71, C17, C41, C42, C52, C64, C65	15	Taiyo Yuden	ANY			Check Voltage Ratings
+EEE-FTH101XAP	Capacitor: 100 uF, Al-Elec., 20%, 50V, SMT	C20, C21, C22	3	Panasonic	ANY			
+BLM18AG121SN1D	Ferrite Bead, Filter	FB2	1	Murata	ANY			
+RC0805FR-07120RL	RES SMD 120 OHM 1% 1/8W 0805	R40	1	Yageo	ANY			
+RC0603FR-07470RL	Resistor: 470 Ohm, 0.1W, 1%	R6, R7, R8, R9, R41	5	Yageo	ANY			
+UMK107B7474KA-TR	Capacitor, 470nF, 50V, 10%, X7R	C16, C40, C63	3	Taiyo Yuden	ANY			
+GRM188R72A471KA01D	Capacitor: 470pF, 100V, 10%, X7R	C43, C44, C45, C46, C53, C54, C55, C56, C66, C67, C68, C69	12	Murata	ANY			
+147873-2	Switch: Push-button, Mom. NO	S2, S3	2	Alcoswitch	ANY			
+CHS-01TA	SMD Dip Switch 1 pol.	S1	1	Copal Electronics	ANY			
+OSTTH030160	TERM BLOCK PLUG 3POS 90DEG 5MM	TB1	1	On Shore Technology Inc	ANY			
+FTSH-105-01-L-DV	Connector: Header, 0.05ﾔ, 10-Pin, Male, SMT	J2	1	Samtec	ANY			
+SML-D12M8WT86	LED: YW/GN, Diffused, 2.2V, 20mA	LED1, LED2, LED3, LED4	4	Rohm	ANY			
+LMS8117AMP-3.3/NOPB	Voltage Reg(LDO): Vi=15V, Vo=3.3V, I=1A	VR1	1	Texas Instruments	ANY			
+LPC1768	Microprocessor: ARM Cortex-M3	U1	1	NXP	ANY			
+MSS1P6	Diode: Rectifier, 1A, 60V	D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14	12	Vishay	ANY			
+SML-D12U8WT86	LED: RD, Diffused, 2.2v 20mA	LED5	1	Rohm	ANY			
+S3B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 3-POS(M)	J5, J6, J7	3	JST	ANY			
+S4B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 4-POS(M)	J10, J11, J12	3	JST	ANY			
+S5B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 5-POS(M)	J13, J14, J15	3	JST	ANY			
+S6B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 6-POS(M)	J19	1	JST	ANY			
+S8B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 8-POS(M)	J17	1	JST	ANY			
+SP3485	Transceiver: RS-485 Chip	U2	1	EXAR	ANY			
+TMC2130-LA	Stepper Driver (Trinamic TMC2130-LA)	U6, U7, U8	3	Trinamic	ANY			
+67996-206HLF	Connector: Header, 0.1”, 6-Pin, Male, Thru-Hole	J1	1	FCI	ANY			
