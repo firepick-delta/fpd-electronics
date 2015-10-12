@@ -9807,7 +9807,253 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="!tin-whiskers">
+<library name="TinWhiskers">
+<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
+<packages>
+<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
+<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
+<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="C0603">
+<description>Capacitor Package: 0603 (in.)</description>
+<wire x1="-0.75" y1="-0.4" x2="-0.75" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="0.4" x2="0.75" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.75" y1="0.4" x2="0.75" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.4" x2="-0.75" y2="-0.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-0.8" y="-0.4"/>
+<vertex x="-0.8" y="0.4"/>
+<vertex x="-0.45" y="0.4"/>
+<vertex x="-0.45" y="-0.4"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="0.45" y="-0.4"/>
+<vertex x="0.45" y="0.4"/>
+<vertex x="0.8" y="0.4"/>
+<vertex x="0.8" y="-0.4"/>
+</polygon>
+<smd name="1" x="-0.725" y="0" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="0.725" y="0" dx="0.8" dy="1" layer="1"/>
+<text x="-1.5" y="0.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-1.5" y="-1.9" size="1" layer="25" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-1.3" y1="0.7" x2="1.3" y2="0.7" width="0.1" layer="21"/>
+<wire x1="1.3" y1="0.7" x2="1.3" y2="-0.7" width="0.1" layer="21"/>
+<wire x1="1.3" y1="-0.7" x2="-1.3" y2="-0.7" width="0.1" layer="21"/>
+<wire x1="-1.3" y1="-0.7" x2="-1.3" y2="0.7" width="0.1" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CON-HDR-5P">
+<description>Connector: 5-Pin, Header</description>
+<pin name="1" x="2.54" y="5.08" length="short" rot="R180"/>
+<pin name="2" x="2.54" y="2.54" length="short" rot="R180"/>
+<pin name="3" x="2.54" y="0" length="short" rot="R180"/>
+<pin name="4" x="2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="5" x="2.54" y="-5.08" length="short" rot="R180"/>
+<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="C">
+<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R90"/>
+<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-6.096" y="-4.699" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.096" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
+<text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
+<rectangle x1="-2.794" y1="-0.254" x2="1.27" y2="0.254" layer="94" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CPL-CON-JST-2.0MM-5P-SMT-VRT" prefix="J">
+<description>Connector: 2.0MM Pitch, 2-Pin;
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X5R-0603-0.1UF-35V" prefix="C">
+<description>Capacitor: 0.1uF, 35V, 10%, X5R;
+Package: 0603;
+Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="GinWhiskers - temp stuff">
+<packages>
+<package name="WS2812B">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<wire x1="-2.5" y1="0.6" x2="-2.1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.6" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.6" x2="-2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.6" x2="-2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.3" width="0.127" layer="21"/>
+</package>
+<package name="DIODE-1210">
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<smd name="A" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="K" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="WS2812B">
+<pin name="DIN" x="-5.08" y="0" visible="off" length="short" direction="in"/>
+<pin name="DOUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
+<pin name="VDD" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="0.254" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-2.032" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="1.778" y1="0.254" x2="2.032" y2="0" width="0.254" layer="94"/>
+<wire x1="2.032" y1="0" x2="1.778" y2="-0.254" width="0.254" layer="94"/>
+<wire x1="0" y1="1.778" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0.508" x2="0" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.762" x2="0" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-1.27" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="3.048" size="1.27" layer="95">&gt;NAME</text>
+</symbol>
+<symbol name="LED">
+<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
+<text x="3.556" y="-2.032" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-2.032" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="0.381"/>
+<vertex x="-3.048" y="1.27"/>
+<vertex x="-2.54" y="0.762"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-0.762"/>
+<vertex x="-2.921" y="0.127"/>
+<vertex x="-2.413" y="-0.381"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WS2812B" prefix="LED">
+<gates>
+<gate name="G$1" symbol="WS2812B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="WS2812B">
+<connects>
+<connect gate="G$1" pin="DIN" pad="4-DIN"/>
+<connect gate="G$1" pin="DOUT" pad="2-DOUT"/>
+<connect gate="G$1" pin="GND" pad="3-GND"/>
+<connect gate="G$1" pin="VDD" pad="1-VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED" prefix="LED">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1210" package="DIODE-1210">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="!tin-whiskers-logo">
 <packages>
 <package name="TIN-WHISKERS-MEDIUM">
 <rectangle x1="4.7371" y1="0.4953" x2="4.8641" y2="0.5207" layer="21"/>
@@ -20333,252 +20579,6 @@ DIN A3, landscape with location and doc. field</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="TinWhiskers">
-<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
-<packages>
-<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
-<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
-<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
-<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
-<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
-<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
-<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
-<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
-<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
-</package>
-<package name="C0603">
-<description>Capacitor Package: 0603 (in.)</description>
-<wire x1="-0.75" y1="-0.4" x2="-0.75" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-0.75" y1="0.4" x2="0.75" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.75" y1="0.4" x2="0.75" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.75" y1="-0.4" x2="-0.75" y2="-0.4" width="0.1" layer="51"/>
-<polygon width="0.1" layer="51">
-<vertex x="-0.8" y="-0.4"/>
-<vertex x="-0.8" y="0.4"/>
-<vertex x="-0.45" y="0.4"/>
-<vertex x="-0.45" y="-0.4"/>
-</polygon>
-<polygon width="0.1" layer="51">
-<vertex x="0.45" y="-0.4"/>
-<vertex x="0.45" y="0.4"/>
-<vertex x="0.8" y="0.4"/>
-<vertex x="0.8" y="-0.4"/>
-</polygon>
-<smd name="1" x="-0.725" y="0" dx="0.8" dy="1" layer="1"/>
-<smd name="2" x="0.725" y="0" dx="0.8" dy="1" layer="1"/>
-<text x="-1.5" y="0.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="-1.5" y="-1.9" size="1" layer="25" font="vector" ratio="10">&gt;Value</text>
-<wire x1="-1.3" y1="0.7" x2="1.3" y2="0.7" width="0.1" layer="21"/>
-<wire x1="1.3" y1="0.7" x2="1.3" y2="-0.7" width="0.1" layer="21"/>
-<wire x1="1.3" y1="-0.7" x2="-1.3" y2="-0.7" width="0.1" layer="21"/>
-<wire x1="-1.3" y1="-0.7" x2="-1.3" y2="0.7" width="0.1" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="CON-HDR-5P">
-<description>Connector: 5-Pin, Header</description>
-<pin name="1" x="2.54" y="5.08" length="short" rot="R180"/>
-<pin name="2" x="2.54" y="2.54" length="short" rot="R180"/>
-<pin name="3" x="2.54" y="0" length="short" rot="R180"/>
-<pin name="4" x="2.54" y="-2.54" length="short" rot="R180"/>
-<pin name="5" x="2.54" y="-5.08" length="short" rot="R180"/>
-<wire x1="0" y1="7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
-<text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
-<text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
-</symbol>
-<symbol name="C">
-<rectangle x1="-3.81" y1="-0.254" x2="0.254" y2="0.254" layer="94" rot="R90"/>
-<wire x1="-2.54" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-6.096" y="-4.699" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.096" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
-<text x="0" y="2.54" size="0.4064" layer="99" align="center">SpiceOrder 1</text>
-<text x="0" y="-5.08" size="0.4064" layer="99" align="center">SpiceOrder 2</text>
-<rectangle x1="-2.794" y1="-0.254" x2="1.27" y2="0.254" layer="94" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CPL-CON-JST-2.0MM-5P-SMT-VRT" prefix="J">
-<description>Connector: 2.0MM Pitch, 2-Pin;
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<gates>
-<gate name="G$1" symbol="CON-HDR-5P" x="2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="CON-JST-PH-2.0MM-5P-SMT-VRT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CPL-CAP-X5R-0603-0.1UF-35V" prefix="C">
-<description>Capacitor: 0.1uF, 35V, 10%, X5R;
-Package: 0603;
-Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</description>
-<gates>
-<gate name="G$1" symbol="C" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="GinWhiskers - temp stuff">
-<packages>
-<package name="WS2812B">
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
-<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
-<wire x1="-2.5" y1="0.6" x2="-2.1" y2="1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.6" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.6" x2="-2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.6" x2="-2.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.3" width="0.127" layer="21"/>
-</package>
-<package name="DIODE-1210">
-<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
-<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
-<smd name="A" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<smd name="K" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
-<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
-<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="WS2812B">
-<pin name="DIN" x="-5.08" y="0" visible="off" length="short" direction="in"/>
-<pin name="DOUT" x="5.08" y="0" visible="off" length="short" direction="out" rot="R180"/>
-<pin name="VDD" x="0" y="5.08" visible="off" length="short" rot="R270"/>
-<pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="0.254" x2="-1.778" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-2.032" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="1.778" y1="0.254" x2="2.032" y2="0" width="0.254" layer="94"/>
-<wire x1="2.032" y1="0" x2="1.778" y2="-0.254" width="0.254" layer="94"/>
-<wire x1="0" y1="1.778" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="0.508" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.762" x2="0.762" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.762" x2="0" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-0.762" y1="-0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-1.27" x2="1.016" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
-<text x="2.54" y="3.048" size="1.27" layer="95">&gt;NAME</text>
-</symbol>
-<symbol name="LED">
-<wire x1="1.27" y1="2.54" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.032" y1="1.778" x2="-3.429" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="0.635" x2="-3.302" y2="-0.762" width="0.1524" layer="94"/>
-<text x="3.556" y="-2.032" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="-2.032" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="C" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="A" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.429" y="0.381"/>
-<vertex x="-3.048" y="1.27"/>
-<vertex x="-2.54" y="0.762"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="-3.302" y="-0.762"/>
-<vertex x="-2.921" y="0.127"/>
-<vertex x="-2.413" y="-0.381"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="WS2812B" prefix="LED">
-<gates>
-<gate name="G$1" symbol="WS2812B" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="WS2812B">
-<connects>
-<connect gate="G$1" pin="DIN" pad="4-DIN"/>
-<connect gate="G$1" pin="DOUT" pad="2-DOUT"/>
-<connect gate="G$1" pin="GND" pad="3-GND"/>
-<connect gate="G$1" pin="VDD" pad="1-VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="LED" prefix="LED">
-<gates>
-<gate name="G$1" symbol="LED" x="0" y="0"/>
-</gates>
-<devices>
-<device name="1210" package="DIODE-1210">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="C" pad="K"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20651,7 +20651,6 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <part name="LED16" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="WHITE">
 <attribute name="PARTNO" value="LTST-C150CKT"/>
 </part>
-<part name="U$1" library="!tin-whiskers" deviceset="TIN-WHISKERS" device="SMALL"/>
 <part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-5P-SMT-VRT" device="" value="RINGLIGHT"/>
 <part name="LED17" library="GinWhiskers - temp stuff" deviceset="WS2812B" device=""/>
 <part name="LED18" library="GinWhiskers - temp stuff" deviceset="WS2812B" device=""/>
@@ -20669,6 +20668,7 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
 <part name="C8" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
 <part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="U$3" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL"/>
 </parts>
 <sheets>
 <sheet>
@@ -20771,7 +20771,6 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="198.628" y="127.635" size="1.778" layer="96" rot="MR180"/>
 <attribute name="PARTNO" x="193.04" y="129.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="317.5" y="27.94"/>
 <instance part="J7" gate="G$1" x="86.36" y="134.62"/>
 <instance part="LED17" gate="G$1" x="121.92" y="99.06" smashed="yes">
 <attribute name="NAME" x="119.38" y="102.108" size="1.27" layer="95"/>
@@ -20805,6 +20804,7 @@ for FirePick Delta</text>
 <instance part="C7" gate="G$1" x="185.42" y="78.74" rot="R270"/>
 <instance part="C8" gate="G$1" x="198.12" y="78.74" rot="R270"/>
 <instance part="C9" gate="G$1" x="210.82" y="78.74" rot="R270"/>
+<instance part="U$3" gate="G$1" x="340.36" y="25.4"/>
 </instances>
 <busses>
 </busses>

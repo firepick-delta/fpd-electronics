@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -163,6 +163,7 @@
 <text x="-4.25" y="-1.125" size="1" layer="21" ratio="11">MILL THIS 
 AREA AWAY!</text>
 <circle x="0" y="21.5" radius="1.4142125" width="0.3048" layer="51"/>
+<text x="-12.25" y="27.5" size="1" layer="22" font="vector" ratio="11" rot="MR0">ELED04 Rev --</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2566,7 +2567,96 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
-<library name="!tin-whiskers">
+<library name="TinWhiskers">
+<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
+<packages>
+<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
+<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
+Package: SMT, Vertical;
+Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
+<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
+<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
+<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
+<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
+<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
+<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="C0603">
+<description>Capacitor Package: 0603 (in.)</description>
+<wire x1="-0.75" y1="-0.4" x2="-0.75" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.75" y1="0.4" x2="0.75" y2="0.4" width="0.1" layer="51"/>
+<wire x1="0.75" y1="0.4" x2="0.75" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0.75" y1="-0.4" x2="-0.75" y2="-0.4" width="0.1" layer="51"/>
+<polygon width="0.1" layer="51">
+<vertex x="-0.8" y="-0.4"/>
+<vertex x="-0.8" y="0.4"/>
+<vertex x="-0.45" y="0.4"/>
+<vertex x="-0.45" y="-0.4"/>
+</polygon>
+<polygon width="0.1" layer="51">
+<vertex x="0.45" y="-0.4"/>
+<vertex x="0.45" y="0.4"/>
+<vertex x="0.8" y="0.4"/>
+<vertex x="0.8" y="-0.4"/>
+</polygon>
+<smd name="1" x="-0.725" y="0" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="0.725" y="0" dx="0.8" dy="1" layer="1"/>
+<text x="-1.5" y="0.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-1.5" y="-1.9" size="1" layer="25" font="vector" ratio="10">&gt;Value</text>
+<wire x1="-1.3" y1="0.7" x2="1.3" y2="0.7" width="0.1" layer="21"/>
+<wire x1="1.3" y1="0.7" x2="1.3" y2="-0.7" width="0.1" layer="21"/>
+<wire x1="1.3" y1="-0.7" x2="-1.3" y2="-0.7" width="0.1" layer="21"/>
+<wire x1="-1.3" y1="-0.7" x2="-1.3" y2="0.7" width="0.1" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="GinWhiskers - temp stuff">
+<packages>
+<package name="WS2812B">
+<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
+<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
+<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
+<wire x1="-2.5" y1="0.6" x2="-2.1" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.5" y1="1.6" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.6" x2="-2.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="0.6" x2="-2.5" y2="-1" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.3" width="0.127" layer="21"/>
+</package>
+<package name="DIODE-1210">
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<smd name="A" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="K" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="!tin-whiskers-logo">
 <packages>
 <package name="TIN-WHISKERS-SMALL">
 <rectangle x1="2.36855" y1="0.24765" x2="2.43205" y2="0.26035" layer="21"/>
@@ -5194,95 +5284,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 </package>
 </packages>
 </library>
-<library name="TinWhiskers">
-<description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
-<packages>
-<package name="CON-JST-PH-2.0MM-5P-SMT-VRT">
-<description>Connector: 2.0MM Pitch, 5-Pin, (JST: B5B-PH-SM4-TB(LF)(SN));
-Package: SMT, Vertical;
-Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
-<smd name="1" x="-4" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="2" x="-2" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="3" x="0" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="4" x="2" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="5" x="4" y="0" dx="1.1" dy="2" layer="1"/>
-<smd name="NC1" x="-5.6" y="4" dx="1.6" dy="3" layer="1"/>
-<smd name="NC2" x="5.6" y="4" dx="1.6" dy="3" layer="1"/>
-<wire x1="6" y1="1" x2="-6" y2="1" width="0.127" layer="51"/>
-<wire x1="-6" y1="1" x2="-6" y2="6.5" width="0.127" layer="51"/>
-<wire x1="-6" y1="6.5" x2="6" y2="6.5" width="0.127" layer="51"/>
-<wire x1="6" y1="6.5" x2="6" y2="1" width="0.127" layer="51"/>
-<text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
-<text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
-</package>
-<package name="C0603">
-<description>Capacitor Package: 0603 (in.)</description>
-<wire x1="-0.75" y1="-0.4" x2="-0.75" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-0.75" y1="0.4" x2="0.75" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.75" y1="0.4" x2="0.75" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.75" y1="-0.4" x2="-0.75" y2="-0.4" width="0.1" layer="51"/>
-<polygon width="0.1" layer="51">
-<vertex x="-0.8" y="-0.4"/>
-<vertex x="-0.8" y="0.4"/>
-<vertex x="-0.45" y="0.4"/>
-<vertex x="-0.45" y="-0.4"/>
-</polygon>
-<polygon width="0.1" layer="51">
-<vertex x="0.45" y="-0.4"/>
-<vertex x="0.45" y="0.4"/>
-<vertex x="0.8" y="0.4"/>
-<vertex x="0.8" y="-0.4"/>
-</polygon>
-<smd name="1" x="-0.725" y="0" dx="0.8" dy="1" layer="1"/>
-<smd name="2" x="0.725" y="0" dx="0.8" dy="1" layer="1"/>
-<text x="-1.5" y="0.9" size="1.27" layer="25" font="vector" ratio="12">&gt;Name</text>
-<text x="-1.5" y="-1.9" size="1" layer="25" font="vector" ratio="10">&gt;Value</text>
-<wire x1="-1.3" y1="0.7" x2="1.3" y2="0.7" width="0.1" layer="21"/>
-<wire x1="1.3" y1="0.7" x2="1.3" y2="-0.7" width="0.1" layer="21"/>
-<wire x1="1.3" y1="-0.7" x2="-1.3" y2="-0.7" width="0.1" layer="21"/>
-<wire x1="-1.3" y1="-0.7" x2="-1.3" y2="0.7" width="0.1" layer="21"/>
-</package>
-</packages>
-</library>
-<library name="GinWhiskers - temp stuff">
-<packages>
-<package name="WS2812B">
-<wire x1="2.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-0.6" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
-<smd name="1-VDD" x="2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="2-DOUT" x="2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="4-DIN" x="-2.45" y="-1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<smd name="3-GND" x="-2.45" y="1.65" dx="1.5" dy="0.9" layer="1" rot="R180"/>
-<circle x="0" y="0" radius="1.7204625" width="0.127" layer="21"/>
-<text x="3.4925" y="1.5875" size="0.8128" layer="25" ratio="10" rot="R270">&gt;NAME</text>
-<wire x1="-2.5" y1="0.6" x2="-2.1" y2="1" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.6" x2="-0.6" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.6" x2="-2.5" y2="1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="2.5" x2="-2.5" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.5" y1="2.5" x2="2.5" y2="2.3" width="0.127" layer="21"/>
-<wire x1="2.5" y1="1" x2="2.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="2.5" y1="-2.5" x2="2.5" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="0.6" x2="-2.5" y2="-1" width="0.127" layer="21"/>
-<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.3" width="0.127" layer="21"/>
-</package>
-<package name="DIODE-1210">
-<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
-<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
-<smd name="A" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<smd name="K" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
-<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
-<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5543,9 +5544,9 @@ design rules under a new name.</description>
 <element name="FID2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="23.5" y="-23.5" smashed="yes"/>
 <element name="FID3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="-23.5" y="-23.5" smashed="yes"/>
 <element name="FID4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="23.5" y="23.5" smashed="yes"/>
-<element name="LOGO4" library="FirePick" package="LOGO-FIREPICK-MEDIUM" value="LOGO-FIREPICKMEDIUM" x="-23.5" y="-29.5" smashed="yes">
-<attribute name="DNP" value="T" x="-23.5" y="-29.5" size="1.778" layer="27" display="off"/>
-<attribute name="BOM" value="EXCLUDE" x="-23.5" y="-29.5" size="1.778" layer="27" display="off"/>
+<element name="LOGO4" library="FirePick" package="LOGO-FIREPICK-MEDIUM" value="LOGO-FIREPICKMEDIUM" x="-24" y="-28.75" smashed="yes">
+<attribute name="DNP" value="T" x="-24" y="-28.75" size="1.778" layer="27" display="off"/>
+<attribute name="BOM" value="EXCLUDE" x="-24" y="-28.75" size="1.778" layer="27" display="off"/>
 </element>
 <element name="LED13" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-26" y="0" smashed="yes" rot="R90">
 <attribute name="NAME" x="-27.897" y="-2.139" size="1" layer="25" ratio="11" rot="R90"/>
@@ -5567,7 +5568,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-10.20825" y="21.989534375" size="1" layer="27" ratio="11" rot="R22.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-9.95" y="24.021" size="1.778" layer="27" rot="R22.5" display="off"/>
 </element>
-<element name="U$1" library="!tin-whiskers" package="TIN-WHISKERS-SMALL" value="TIN-WHISKERSSMALL" x="-8.5" y="14" smashed="yes" rot="MR0"/>
 <element name="J7" library="TinWhiskers" package="CON-JST-PH-2.0MM-5P-SMT-VRT" value="RINGLIGHT" x="0" y="18" smashed="yes" rot="MR0">
 <attribute name="NAME" x="6" y="26" size="1" layer="26" font="vector" ratio="11" rot="MR0"/>
 <attribute name="VALUE" x="6" y="25" size="1" layer="28" font="vector" ratio="11" rot="MR0"/>
@@ -5620,6 +5620,7 @@ design rules under a new name.</description>
 <element name="C9" library="TinWhiskers" package="C0603" value="0.1uF" x="-6.888" y="16.634" smashed="yes" rot="R22.5">
 <attribute name="NAME" x="-6.618234375" y="14.391465625" size="1" layer="25" font="vector" ratio="11" rot="R22.5"/>
 </element>
+<element name="U$3" library="!tin-whiskers-logo" package="TIN-WHISKERS-SMALL" value="TIN-WHISKERSSMALL" x="13.25" y="-29.5"/>
 </elements>
 <signals>
 <signal name="GND" class="1">
