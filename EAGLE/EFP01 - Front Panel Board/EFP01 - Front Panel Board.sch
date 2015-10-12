@@ -2052,24 +2052,6 @@ Datasheet:</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CAP-X7R-0603-100NF-50V">
-<description>Capacitor: 100nF, 50V, 10%;
-Package: 0603</description>
-<gates>
-<gate name="C1" symbol="C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C0603">
-<connects>
-<connect gate="C1" pin="1" pad="1"/>
-<connect gate="C1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TPAD" prefix="TP">
 <description>Testpad (1mm x 1mm)</description>
 <gates>
@@ -2566,7 +2548,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-RES-0603-4.7K-0.1W" prefix="R">
-<description>Resistor: 10kOhm, 0.1W, 1%;
+<description>Resistor: 4.7 kOhm, 0.1W, 1%;
 Package: 0603;
 Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
 <gates>
@@ -12433,9 +12415,6 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <attribute name="PARTNO" value="N/A"/>
 </part>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="C2" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="0.1uF">
-<attribute name="PARTNO" value="UMK107B7104KA-T"/>
-</part>
 <part name="GND35" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+3V3" device=""/>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
@@ -12742,15 +12721,23 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="U10" library="TinWhiskers" deviceset="CPL-USB-FT2321XS" device="" value="FT231XS-R">
-<attribute name="PARTNO" value="*"/>
+<attribute name="PARTNO" value="FT231XS-R"/>
 </part>
 <part name="R36" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R">
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
-<part name="U17" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR"/>
-<part name="U20" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR"/>
-<part name="U21" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45"/>
-<part name="U22" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45"/>
+<part name="U17" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR">
+<attribute name="PARTNO" value="SN74LVC1G32DBVR"/>
+</part>
+<part name="U20" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR">
+<attribute name="PARTNO" value="SN74LVC1G32DBVR"/>
+</part>
+<part name="U21" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
+<attribute name="PARTNO" value="74LVC1T45GW,125"/>
+</part>
+<part name="U22" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
+<attribute name="PARTNO" value="74LVC1T45GW,125"/>
+</part>
 <part name="+3V30" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V31" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY73" library="TinWhiskers" deviceset="GND" device=""/>
@@ -12761,16 +12748,18 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="P+16" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY84" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY85" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="R1" library="TinWhiskers" deviceset="CPL-RES-0603-4.7K-0.1W" device="" value="4.7K"/>
+<part name="R1" library="TinWhiskers" deviceset="CPL-RES-0603-4.7K-0.1W" device="" value="4.7K">
+<attribute name="PARTNO" value="RC0603FR-074K7L"/>
+</part>
 <part name="SUPPLY3" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J16" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-8P-SMT-VRT" device="" value="S8B-PH-SM4">
-<attribute name="PARTNO" value="S8B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="J17" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-8P-SMT-VRT" device="" value="S8B-PH-SM4">
-<attribute name="PARTNO" value="S8B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="J18" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-6P-SMT-VRT" device="" value="S6B-PH-SM4">
-<attribute name="PARTNO" value="S6B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PARTNO" value="B6B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY39" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY53" library="TinWhiskers" deviceset="GND" device=""/>
@@ -12779,18 +12768,30 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
 <part name="P+10" library="supply1" deviceset="+24V" device=""/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
-<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-3CKT-5.0MM-OST" device="" value="DCIN"/>
+<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-3CKT-5.0MM-OST" device="" value="DCIN">
+<attribute name="PARTNO" value="OSTTH030160"/>
+</part>
 <part name="SUPPLY25" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" deviceset="+24V" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K"/>
+<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K">
+<attribute name="PARTNO" value="RC0603FR-0710KL"/>
+</part>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="R3" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="ORNG"/>
+<part name="R3" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="ORNG">
+<attribute name="PARTNO" value="RC0603JR-070RL"/>
+</part>
 <part name="P+4" library="supply1" deviceset="+24V" device=""/>
-<part name="J1" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-RA" device="" value="PWRBTN"/>
-<part name="J2" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-2P-M-SMT-RA" device="" value="ESTOP"/>
-<part name="J5" library="TinWhiskers" deviceset="CPL-CON-LCD-HDR-0.1IN-17P2-F" device="" value="LCD"/>
+<part name="J1" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-RA" device="" value="PWRBTN">
+<attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)"/>
+</part>
+<part name="J2" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-2P-M-SMT-RA" device="" value="ESTOP">
+<attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)"/>
+</part>
+<part name="J5" library="TinWhiskers" deviceset="CPL-CON-LCD-HDR-0.1IN-17P2-F" device="" value="LCD">
+<attribute name="PARTNO" value="TSW-117-07-T-D"/>
+</part>
 <part name="U1" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
 <attribute name="PARTNO" value="74LVC1T45GW,125"/>
 </part>
@@ -12801,8 +12802,12 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY27" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY29" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="U5" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45"/>
-<part name="U6" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45"/>
+<part name="U5" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
+<attribute name="PARTNO" value="74LVC1T45GW,125"/>
+</part>
+<part name="U6" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
+<attribute name="PARTNO" value="74LVC1T45GW,125"/>
+</part>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY31" library="TinWhiskers" deviceset="GND" device=""/>
@@ -12817,8 +12822,12 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY35" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="U23" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45"/>
-<part name="U24" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45"/>
+<part name="U23" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
+<attribute name="PARTNO" value="74LVC1T45GW,125"/>
+</part>
+<part name="U24" library="TinWhiskers" deviceset="CPL-TRS-74LVC1T45" device="" value="74LVC1T45">
+<attribute name="PARTNO" value="74LVC1T45GW,125"/>
+</part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY40" library="TinWhiskers" deviceset="GND" device=""/>
@@ -12850,16 +12859,26 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="+3V33" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY34" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-8P-SMT-VRT" device="" value="S8B-PH-SM4">
-<attribute name="PARTNO" value="S8B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY38" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+24V" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
-<part name="J7" library="TinWhiskers" deviceset="CPL-CON-USB-B-SMT-VERT" device="" value="USB-B"/>
-<part name="J3" library="TinWhiskers" deviceset="CPL-CON-USB-A-THRU-VERT-2.0" device="" value="USB-A(2.0)"/>
-<part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-1A" device="" value="LMS8117AMP-3.3/NOPB"/>
-<part name="C3" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF"/>
-<part name="C4" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF"/>
+<part name="J7" library="TinWhiskers" deviceset="CPL-CON-USB-B-SMT-VERT" device="" value="USB-B">
+<attribute name="PARTNO" value="1734517-1"/>
+</part>
+<part name="J3" library="TinWhiskers" deviceset="CPL-CON-USB-A-THRU-VERT-2.0" device="" value="USB-A(2.0)">
+<attribute name="PARTNO" value="1734085-1"/>
+</part>
+<part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-1A" device="" value="LMS8117AMP-3.3/NOPB">
+<attribute name="PARTNO" value="LMS8117AMP-3.3/NOPB"/>
+</part>
+<part name="C3" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF">
+<attribute name="PARTNO" value="EMVH350ADA100MF60G"/>
+</part>
+<part name="C4" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF">
+<attribute name="PARTNO" value="EMVH350ADA100MF60G"/>
+</part>
 <part name="SUPPLY23" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY41" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY44" library="TinWhiskers" deviceset="GND" device=""/>
@@ -12873,36 +12892,96 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
 <part name="LOGO1" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE"/>
 <part name="LOGO2" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE"/>
-<part name="C1" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C5" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C8" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C15" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C16" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C17" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C27" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C28" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C29" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C33" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C34" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C35" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C36" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C37" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C38" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C39" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C40" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C41" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C42" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C43" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C44" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C45" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C46" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C47" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C48" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C49" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C1" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C5" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C7" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C8" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C15" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C16" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C17" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C27" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C28" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C29" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C33" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C34" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C35" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C36" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C37" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C38" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C39" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C40" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C41" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C42" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C43" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C44" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C45" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C46" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C47" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C48" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C49" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
 <part name="+3V34" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V35" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V36" library="supply1" deviceset="+3V3" device=""/>
@@ -12965,6 +13044,9 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY105" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V64" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V65" library="supply1" deviceset="+3V3" device=""/>
+<part name="C2" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -13175,10 +13257,12 @@ for FirePick Delta</text>
 <instance part="U21" gate="G$1" x="279.4" y="124.46" smashed="yes">
 <attribute name="NAME" x="271.78" y="132.08" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="271.78" y="129.54" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="279.4" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U22" gate="G$1" x="231.14" y="124.46" smashed="yes">
 <attribute name="NAME" x="223.52" y="132.08" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="223.52" y="129.54" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="231.14" y="124.46" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+3V30" gate="G$1" x="292.1" y="132.08" smashed="yes">
 <attribute name="VALUE" x="289.56" y="133.35" size="1.778" layer="96"/>
@@ -13205,11 +13289,6 @@ for FirePick Delta</text>
 <attribute name="DNP" x="15.24" y="226.06" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="PARTNO" x="15.24" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="C1" x="66.04" y="228.6" smashed="yes" rot="R270">
-<attribute name="PARTNO" x="66.04" y="228.6" size="1.778" layer="96" rot="R270" display="off"/>
-<attribute name="NAME" x="67.564" y="231.521" size="1.778" layer="95"/>
-<attribute name="VALUE" x="67.564" y="226.441" size="1.778" layer="96"/>
-</instance>
 <instance part="GND35" gate="GND" x="66.04" y="218.44"/>
 <instance part="P+7" gate="G$1" x="66.04" y="238.76" smashed="yes">
 <attribute name="VALUE" x="63.5" y="238.76" size="1.778" layer="96"/>
@@ -13218,7 +13297,9 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="12.7" y="236.855" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY49" gate="GND" x="48.26" y="220.98"/>
-<instance part="R1" gate="G$1" x="81.28" y="172.72" rot="R90"/>
+<instance part="R1" gate="G$1" x="81.28" y="172.72" rot="R90">
+<attribute name="PARTNO" x="81.28" y="172.72" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="SUPPLY3" gate="GND" x="81.28" y="162.56"/>
 <instance part="J16" gate="G$1" x="198.12" y="217.17" smashed="yes">
 <attribute name="NAME" x="193.04" y="229.87" size="1.778" layer="104" ratio="12"/>
@@ -13253,6 +13334,7 @@ for FirePick Delta</text>
 <instance part="TB1" gate="G$1" x="99.06" y="223.52" smashed="yes">
 <attribute name="NAME" x="91.44" y="231.14" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="91.44" y="229.235" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="99.06" y="223.52" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY25" gate="GND" x="104.14" y="215.9"/>
 <instance part="P+2" gate="1" x="104.14" y="231.14" smashed="yes">
@@ -13261,22 +13343,28 @@ for FirePick Delta</text>
 <instance part="P+3" gate="1" x="109.22" y="232.41" smashed="yes">
 <attribute name="VALUE" x="107.315" y="232.41" size="1.778" layer="96"/>
 </instance>
-<instance part="R2" gate="G$1" x="88.9" y="190.5" rot="R90"/>
+<instance part="R2" gate="G$1" x="88.9" y="190.5" rot="R90">
+<attribute name="PARTNO" x="88.9" y="190.5" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="+3V5" gate="G$1" x="88.9" y="200.66" smashed="yes">
 <attribute name="VALUE" x="86.36" y="201.93" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="116.84" y="157.48"/>
-<instance part="R3" gate="R$1" x="137.16" y="180.34" rot="R90"/>
+<instance part="R3" gate="R$1" x="137.16" y="180.34" rot="R90">
+<attribute name="PARTNO" x="137.16" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="P+4" gate="1" x="137.16" y="190.5" smashed="yes">
 <attribute name="VALUE" x="133.35" y="191.77" size="1.778" layer="96"/>
 </instance>
 <instance part="J1" gate="G$1" x="111.76" y="170.18" smashed="yes">
 <attribute name="NAME" x="104.14" y="177.8" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="104.14" y="175.768" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="111.76" y="170.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J2" gate="G$1" x="71.12" y="180.34" smashed="yes">
 <attribute name="NAME" x="66.04" y="187.96" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="66.04" y="185.42" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="71.12" y="180.34" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY21" gate="GND" x="35.56" y="175.26"/>
 <instance part="J6" gate="G$1" x="142.24" y="222.25" smashed="yes">
@@ -13294,22 +13382,27 @@ for FirePick Delta</text>
 <instance part="J7" gate="G$1" x="162.56" y="76.2" smashed="yes">
 <attribute name="NAME" x="154.94" y="83.82" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="154.94" y="81.788" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="162.56" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="27.94" y="185.42" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="22.86" y="191.008" size="1.27" layer="96" font="vector" ratio="10"/>
 <attribute name="NAME" x="22.86" y="193.04" size="1.778" layer="95" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="27.94" y="185.42" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="VR1" gate="G$1" x="96.52" y="63.5" smashed="yes">
 <attribute name="NAME" x="88.9" y="71.12" size="1.778" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="88.9" y="69.088" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="96.52" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="78.74" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.359" y="56.642" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="80.899" y="53.594" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="78.74" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="114.3" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.919" y="56.896" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="116.459" y="53.594" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="114.3" y="60.96" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="78.74" y="53.34"/>
 <instance part="SUPPLY41" gate="GND" x="83.82" y="53.34"/>
@@ -13328,36 +13421,96 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="36.83" y="238.76" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="81.28" y="10.16"/>
-<instance part="C1" gate="G$1" x="10.16" y="139.7" rot="R90"/>
-<instance part="C5" gate="G$1" x="20.32" y="139.7" rot="R90"/>
-<instance part="C6" gate="G$1" x="30.48" y="139.7" rot="R90"/>
-<instance part="C7" gate="G$1" x="40.64" y="139.7" rot="R90"/>
-<instance part="C8" gate="G$1" x="50.8" y="139.7" rot="R90"/>
-<instance part="C9" gate="G$1" x="60.96" y="139.7" rot="R90"/>
-<instance part="C10" gate="G$1" x="71.12" y="139.7" rot="R90"/>
-<instance part="C15" gate="G$1" x="81.28" y="139.7" rot="R90"/>
-<instance part="C16" gate="G$1" x="91.44" y="139.7" rot="R90"/>
-<instance part="C17" gate="G$1" x="101.6" y="139.7" rot="R90"/>
-<instance part="C27" gate="G$1" x="111.76" y="139.7" rot="R90"/>
-<instance part="C28" gate="G$1" x="121.92" y="139.7" rot="R90"/>
-<instance part="C29" gate="G$1" x="132.08" y="139.7" rot="R90"/>
-<instance part="C33" gate="G$1" x="142.24" y="139.7" rot="R90"/>
-<instance part="C34" gate="G$1" x="152.4" y="139.7" rot="R90"/>
-<instance part="C35" gate="G$1" x="121.92" y="111.76" rot="R90"/>
-<instance part="C36" gate="G$1" x="132.08" y="111.76" rot="R90"/>
-<instance part="C37" gate="G$1" x="142.24" y="111.76" rot="R90"/>
-<instance part="C38" gate="G$1" x="152.4" y="111.76" rot="R90"/>
-<instance part="C39" gate="G$1" x="111.76" y="111.76" rot="R90"/>
-<instance part="C40" gate="G$1" x="10.16" y="111.76" rot="R90"/>
-<instance part="C41" gate="G$1" x="20.32" y="111.76" rot="R90"/>
-<instance part="C42" gate="G$1" x="30.48" y="111.76" rot="R90"/>
-<instance part="C43" gate="G$1" x="40.64" y="111.76" rot="R90"/>
-<instance part="C44" gate="G$1" x="50.8" y="111.76" rot="R90"/>
-<instance part="C45" gate="G$1" x="60.96" y="111.76" rot="R90"/>
-<instance part="C46" gate="G$1" x="71.12" y="111.76" rot="R90"/>
-<instance part="C47" gate="G$1" x="81.28" y="111.76" rot="R90"/>
-<instance part="C48" gate="G$1" x="91.44" y="111.76" rot="R90"/>
-<instance part="C49" gate="G$1" x="101.6" y="111.76" rot="R90"/>
+<instance part="C1" gate="G$1" x="10.16" y="139.7" rot="R90">
+<attribute name="PARTNO" x="10.16" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="20.32" y="139.7" rot="R90">
+<attribute name="PARTNO" x="20.32" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="30.48" y="139.7" rot="R90">
+<attribute name="PARTNO" x="30.48" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="40.64" y="139.7" rot="R90">
+<attribute name="PARTNO" x="40.64" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C8" gate="G$1" x="50.8" y="139.7" rot="R90">
+<attribute name="PARTNO" x="50.8" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="60.96" y="139.7" rot="R90">
+<attribute name="PARTNO" x="60.96" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="71.12" y="139.7" rot="R90">
+<attribute name="PARTNO" x="71.12" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C15" gate="G$1" x="81.28" y="139.7" rot="R90">
+<attribute name="PARTNO" x="81.28" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="91.44" y="139.7" rot="R90">
+<attribute name="PARTNO" x="91.44" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C17" gate="G$1" x="101.6" y="139.7" rot="R90">
+<attribute name="PARTNO" x="101.6" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C27" gate="G$1" x="111.76" y="139.7" rot="R90">
+<attribute name="PARTNO" x="111.76" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C28" gate="G$1" x="121.92" y="139.7" rot="R90">
+<attribute name="PARTNO" x="121.92" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C29" gate="G$1" x="132.08" y="139.7" rot="R90">
+<attribute name="PARTNO" x="132.08" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C33" gate="G$1" x="142.24" y="139.7" rot="R90">
+<attribute name="PARTNO" x="142.24" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C34" gate="G$1" x="152.4" y="139.7" rot="R90">
+<attribute name="PARTNO" x="152.4" y="139.7" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C35" gate="G$1" x="121.92" y="111.76" rot="R90">
+<attribute name="PARTNO" x="121.92" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C36" gate="G$1" x="132.08" y="111.76" rot="R90">
+<attribute name="PARTNO" x="132.08" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C37" gate="G$1" x="142.24" y="111.76" rot="R90">
+<attribute name="PARTNO" x="142.24" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C38" gate="G$1" x="152.4" y="111.76" rot="R90">
+<attribute name="PARTNO" x="152.4" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C39" gate="G$1" x="111.76" y="111.76" rot="R90">
+<attribute name="PARTNO" x="111.76" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C40" gate="G$1" x="10.16" y="111.76" rot="R90">
+<attribute name="PARTNO" x="10.16" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C41" gate="G$1" x="20.32" y="111.76" rot="R90">
+<attribute name="PARTNO" x="20.32" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C42" gate="G$1" x="30.48" y="111.76" rot="R90">
+<attribute name="PARTNO" x="30.48" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C43" gate="G$1" x="40.64" y="111.76" rot="R90">
+<attribute name="PARTNO" x="40.64" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C44" gate="G$1" x="50.8" y="111.76" rot="R90">
+<attribute name="PARTNO" x="50.8" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C45" gate="G$1" x="60.96" y="111.76" rot="R90">
+<attribute name="PARTNO" x="60.96" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C46" gate="G$1" x="71.12" y="111.76" rot="R90">
+<attribute name="PARTNO" x="71.12" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C47" gate="G$1" x="81.28" y="111.76" rot="R90">
+<attribute name="PARTNO" x="81.28" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C48" gate="G$1" x="91.44" y="111.76" rot="R90">
+<attribute name="PARTNO" x="91.44" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="C49" gate="G$1" x="101.6" y="111.76" rot="R90">
+<attribute name="PARTNO" x="101.6" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="+3V34" gate="G$1" x="10.16" y="147.32" smashed="yes">
 <attribute name="VALUE" x="7.62" y="148.59" size="1.778" layer="96"/>
 </instance>
@@ -13478,6 +13631,11 @@ for FirePick Delta</text>
 <instance part="SUPPLY103" gate="GND" x="30.48" y="101.6"/>
 <instance part="SUPPLY104" gate="GND" x="20.32" y="101.6"/>
 <instance part="SUPPLY105" gate="GND" x="10.16" y="101.6"/>
+<instance part="C2" gate="G$1" x="66.04" y="231.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="65.659" y="225.044" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="68.199" y="219.964" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="66.04" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -13644,11 +13802,6 @@ for FirePick Delta</text>
 <wire x1="220.98" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="124.46" x2="218.44" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="SUPPLY83" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="C2" gate="C1" pin="2"/>
-<pinref part="GND35" gate="GND" pin="GND"/>
-<wire x1="66.04" y1="226.06" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="2"/>
@@ -13872,6 +14025,11 @@ for FirePick Delta</text>
 <pinref part="SUPPLY105" gate="GND" pin="GND"/>
 <wire x1="10.16" y1="106.68" x2="10.16" y2="104.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="GND35" gate="GND" pin="GND"/>
+<wire x1="66.04" y1="226.06" x2="66.04" y2="220.98" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="0">
 <segment>
@@ -13977,11 +14135,6 @@ for FirePick Delta</text>
 <pinref part="TP1" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="228.6" x2="15.24" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="P+7" gate="G$1" pin="+3V3"/>
-<wire x1="66.04" y1="236.22" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
-<pinref part="C2" gate="C1" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
@@ -14148,6 +14301,11 @@ for FirePick Delta</text>
 <pinref part="+3V50" gate="G$1" pin="+3V3"/>
 <pinref part="C41" gate="G$1" pin="2"/>
 <wire x1="20.32" y1="116.84" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+7" gate="G$1" pin="+3V3"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="66.04" y1="236.22" x2="66.04" y2="233.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -15223,10 +15381,12 @@ for FirePick Delta</text>
 <instance part="U17" gate="G$1" x="129.54" y="213.36" smashed="yes">
 <attribute name="NAME" x="119.38" y="220.98" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="119.38" y="218.948" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="129.54" y="213.36" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U20" gate="G$1" x="129.54" y="198.12" smashed="yes">
 <attribute name="NAME" x="119.38" y="205.74" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="119.38" y="203.708" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="129.54" y="198.12" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="P+15" gate="G$1" x="137.16" y="220.98" smashed="yes">
 <attribute name="VALUE" x="134.62" y="220.98" size="1.778" layer="96"/>
@@ -15236,7 +15396,9 @@ for FirePick Delta</text>
 </instance>
 <instance part="SUPPLY84" gate="GND" x="114.3" y="205.74"/>
 <instance part="SUPPLY85" gate="GND" x="114.3" y="190.5"/>
-<instance part="J5" gate="G$1" x="347.98" y="111.76"/>
+<instance part="J5" gate="G$1" x="347.98" y="111.76">
+<attribute name="PARTNO" x="347.98" y="111.76" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="U1" gate="G$1" x="177.8" y="43.18" smashed="yes">
 <attribute name="NAME" x="170.18" y="50.8" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="170.18" y="48.895" size="1.27" layer="96" font="vector" ratio="10"/>
@@ -15258,10 +15420,12 @@ for FirePick Delta</text>
 <instance part="U5" gate="G$1" x="134.62" y="43.18" smashed="yes">
 <attribute name="NAME" x="127" y="50.8" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="127" y="48.26" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="134.62" y="43.18" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U6" gate="G$1" x="91.44" y="40.64" smashed="yes">
 <attribute name="NAME" x="83.82" y="48.26" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="83.82" y="45.72" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="91.44" y="40.64" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+3V7" gate="G$1" x="147.32" y="50.8" smashed="yes">
 <attribute name="VALUE" x="144.78" y="52.07" size="1.778" layer="96"/>
@@ -15292,10 +15456,12 @@ for FirePick Delta</text>
 <instance part="U23" gate="G$1" x="134.62" y="66.04" smashed="yes">
 <attribute name="NAME" x="127" y="73.66" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="127" y="71.12" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="134.62" y="66.04" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="U24" gate="G$1" x="91.44" y="63.5" smashed="yes">
 <attribute name="NAME" x="83.82" y="71.12" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="83.82" y="68.58" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="91.44" y="63.5" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="147.32" y="73.66" smashed="yes">
 <attribute name="VALUE" x="144.78" y="74.93" size="1.778" layer="96"/>

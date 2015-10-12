@@ -20933,7 +20933,7 @@ Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-RES-0603-4.7K-0.1W" prefix="R">
-<description>Resistor: 10kOhm, 0.1W, 1%;
+<description>Resistor: 4.7 kOhm, 0.1W, 1%;
 Package: 0603;
 Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
 <gates>
