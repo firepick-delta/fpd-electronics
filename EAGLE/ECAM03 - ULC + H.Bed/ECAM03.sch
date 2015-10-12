@@ -16379,40 +16379,6 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="J6" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="EE_D+" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="7"/>
-<wire x1="261.62" y1="109.22" x2="250.19" y2="109.22" width="0.1524" layer="91"/>
-<label x="250.19" y="109.22" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
-<label x="30.48" y="137.16" size="1.778" layer="95" ratio="12"/>
-<pinref part="R9" gate="R$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="R11" gate="R$1" pin="1"/>
-<wire x1="38.1" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
-<label x="30.48" y="121.92" size="1.778" layer="95" ratio="12"/>
-</segment>
-</net>
-<net name="EE_D-" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="8"/>
-<wire x1="261.62" y1="106.68" x2="250.19" y2="106.68" width="0.1524" layer="91"/>
-<label x="250.19" y="106.68" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="38.1" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
-<label x="30.48" y="114.3" size="1.778" layer="95" ratio="12"/>
-<pinref part="R13" gate="R$1" pin="1"/>
-</segment>
-<segment>
-<pinref part="R10" gate="R$1" pin="1"/>
-<wire x1="38.1" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
-<label x="30.48" y="129.54" size="1.778" layer="95" ratio="12"/>
-</segment>
-</net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PB4"/>
@@ -16499,7 +16465,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="USB_D+" class="0">
+<net name="USB_P" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="127" x2="53.34" y2="127" width="0.1524" layer="91"/>
@@ -16515,7 +16481,7 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="R9" gate="R$1" pin="2"/>
 </segment>
 </net>
-<net name="USB_D-" class="0">
+<net name="USB_N" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
 <wire x1="63.5" y1="124.46" x2="53.34" y2="124.46" width="0.1524" layer="91"/>
@@ -16686,6 +16652,40 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="182.88" y1="132.08" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="170.18" y1="121.92" x2="170.18" y2="132.08" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="ULC_P" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="7"/>
+<wire x1="261.62" y1="109.22" x2="250.19" y2="109.22" width="0.1524" layer="91"/>
+<label x="250.19" y="109.22" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="137.16" x2="30.48" y2="137.16" width="0.1524" layer="91"/>
+<label x="30.48" y="137.16" size="1.778" layer="95" ratio="12"/>
+<pinref part="R9" gate="R$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R11" gate="R$1" pin="1"/>
+<wire x1="38.1" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<label x="30.48" y="121.92" size="1.778" layer="95" ratio="12"/>
+</segment>
+</net>
+<net name="ULC_N" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="8"/>
+<wire x1="261.62" y1="106.68" x2="250.19" y2="106.68" width="0.1524" layer="91"/>
+<label x="250.19" y="106.68" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R10" gate="R$1" pin="1"/>
+<wire x1="38.1" y1="129.54" x2="30.48" y2="129.54" width="0.1524" layer="91"/>
+<label x="30.48" y="129.54" size="1.778" layer="95" ratio="12"/>
+</segment>
+<segment>
+<wire x1="38.1" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
+<label x="30.48" y="114.3" size="1.778" layer="95" ratio="12"/>
+<pinref part="R13" gate="R$1" pin="1"/>
 </segment>
 </net>
 </nets>
