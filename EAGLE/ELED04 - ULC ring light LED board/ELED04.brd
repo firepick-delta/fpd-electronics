@@ -165,26 +165,6 @@ AREA AWAY!</text>
 <circle x="0" y="21.5" radius="1.4142125" width="0.3048" layer="51"/>
 </plain>
 <libraries>
-<library name="SparkFun-LED">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find discrete LEDs for illumination or indication, but no displays.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="LED-1206-NO_SILK">
-<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
-<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
-<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
-<smd name="A" x="-1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<smd name="C" x="1.5" y="0" dx="1.2" dy="1.4" layer="1"/>
-<text x="-0.889" y="1.397" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.016" y="-1.778" size="0.4064" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="SparkFun-Aesthetics">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
@@ -5286,6 +5266,21 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="-2.5" y1="0.6" x2="-2.5" y2="-1" width="0.127" layer="21"/>
 <wire x1="-2.5" y1="-2.5" x2="-2.5" y2="-2.3" width="0.127" layer="21"/>
 </package>
+<package name="DIODE-1210">
+<wire x1="-0.9652" y1="1.2446" x2="0.9652" y2="1.2446" width="0.1016" layer="51"/>
+<wire x1="-0.9652" y1="-1.2446" x2="0.9652" y2="-1.2446" width="0.1016" layer="51"/>
+<smd name="A" x="-1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<smd name="K" x="1.4" y="0" dx="1.6" dy="2.7" layer="1"/>
+<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-1.2954" x2="-0.9517" y2="1.3045" layer="51"/>
+<rectangle x1="0.9517" y1="-1.3045" x2="1.7018" y2="1.2954" layer="51"/>
+<wire x1="0.3" y1="0.7" x2="0.3" y2="0" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.7" width="0.2032" layer="21"/>
+<wire x1="0.3" y1="0" x2="-0.3" y2="0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="0.6" x2="-0.3" y2="-0.6" width="0.2032" layer="21"/>
+<wire x1="-0.3" y1="-0.6" x2="0.3" y2="0" width="0.2032" layer="21"/>
+</package>
 </packages>
 </library>
 </libraries>
@@ -5484,63 +5479,63 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="LED1" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="0" y="26" smashed="yes">
-<attribute name="NAME" x="-1.389" y="27.397" size="1" layer="25" ratio="11"/>
+<element name="LED1" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="0" y="26" smashed="yes">
+<attribute name="NAME" x="-1.639" y="27.647" size="1" layer="25" ratio="11"/>
 <attribute name="VALUE" x="-1.016" y="24.222" size="1" layer="27" ratio="11"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="0" y="26" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED2" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="9.95" y="24.021" smashed="yes" rot="R337.5">
-<attribute name="NAME" x="8.663278125" y="26.1518625" size="1" layer="25" ratio="11" rot="R337.5"/>
+<element name="LED2" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="9.95" y="24.021" smashed="yes" rot="R337.5">
+<attribute name="NAME" x="9.163278125" y="26.4018625" size="1" layer="25" ratio="11" rot="R337.5"/>
 <attribute name="VALUE" x="8.330925" y="22.767146875" size="1" layer="27" ratio="11" rot="R337.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="9.95" y="24.021" size="1.778" layer="27" rot="R337.5" display="off"/>
 </element>
-<element name="LED3" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="18.385" y="18.385" smashed="yes" rot="R315">
-<attribute name="NAME" x="17.744209375" y="21.00144375" size="1" layer="25" ratio="11" rot="R315"/>
+<element name="LED3" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="18.385" y="18.385" smashed="yes" rot="R315">
+<attribute name="NAME" x="18.494209375" y="21.00144375" size="1" layer="25" ratio="11" rot="R315"/>
 <attribute name="VALUE" x="16.409340625" y="17.846184375" size="1" layer="27" ratio="11" rot="R315"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="18.385" y="18.385" size="1.778" layer="27" rot="R315" display="off"/>
 </element>
-<element name="LED4" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="24.021" y="9.95" smashed="yes" rot="R292.5">
-<attribute name="NAME" x="24.471453125" y="12.3059375" size="1" layer="25" ratio="11" rot="R292.5"/>
+<element name="LED4" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="24.021" y="9.95" smashed="yes" rot="R292.5">
+<attribute name="NAME" x="25.221453125" y="12.3059375" size="1" layer="25" ratio="11" rot="R292.5"/>
 <attribute name="VALUE" x="21.989534375" y="10.20825" size="1" layer="27" ratio="11" rot="R292.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="24.021" y="9.95" size="1.778" layer="27" rot="R292.5" display="off"/>
 </element>
-<element name="LED5" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="26" y="0" smashed="yes" rot="R270">
+<element name="LED5" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="26" y="0" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.897" y="1.889" size="1" layer="25" ratio="11" rot="R270"/>
 <attribute name="VALUE" x="24.222" y="1.016" size="1" layer="27" ratio="11" rot="R270"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="26" y="0" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="LED6" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="24.021" y="-9.95" smashed="yes" rot="R247.5">
-<attribute name="NAME" x="26.1518625" y="-9.163278125" size="1" layer="25" ratio="11" rot="R247.5"/>
+<element name="LED6" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="24.021" y="-9.95" smashed="yes" rot="R247.5">
+<attribute name="NAME" x="26.4018625" y="-8.913278125" size="1" layer="25" ratio="11" rot="R247.5"/>
 <attribute name="VALUE" x="22.767146875" y="-8.330925" size="1" layer="27" ratio="11" rot="R247.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="24.021" y="-9.95" size="1.778" layer="27" rot="R247.5" display="off"/>
 </element>
-<element name="LED7" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="18.385" y="-18.385" smashed="yes" rot="R225">
+<element name="LED7" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="18.385" y="-18.385" smashed="yes" rot="R225">
 <attribute name="NAME" x="21.00144375" y="-18.244209375" size="1" layer="25" ratio="11" rot="R225"/>
 <attribute name="VALUE" x="17.846184375" y="-16.409340625" size="1" layer="27" ratio="11" rot="R225"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="18.385" y="-18.385" size="1.778" layer="27" rot="R225" display="off"/>
 </element>
-<element name="LED8" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="9.95" y="-24.021" smashed="yes" rot="R202.5">
-<attribute name="NAME" x="11.8059375" y="-24.471453125" size="1" layer="25" ratio="11" rot="R202.5"/>
+<element name="LED8" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="9.95" y="-24.021" smashed="yes" rot="R202.5">
+<attribute name="NAME" x="12.5559375" y="-24.971453125" size="1" layer="25" ratio="11" rot="R202.5"/>
 <attribute name="VALUE" x="10.20825" y="-21.989534375" size="1" layer="27" ratio="11" rot="R202.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="9.95" y="-24.021" size="1.778" layer="27" rot="R202.5" display="off"/>
 </element>
-<element name="LED9" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="0" y="-26" smashed="yes" rot="R180">
-<attribute name="NAME" x="-1.889" y="-28.103" size="1" layer="25" ratio="11"/>
+<element name="LED9" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="0" y="-26" smashed="yes" rot="R180">
+<attribute name="NAME" x="-1.889" y="-28.603" size="1" layer="25" ratio="11"/>
 <attribute name="VALUE" x="1.016" y="-24.222" size="1" layer="27" ratio="11" rot="R180"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="0" y="-26" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="LED10" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-9.95" y="-24.021" smashed="yes" rot="R157.5">
-<attribute name="NAME" x="-9.663278125" y="-25.6518625" size="1" layer="25" ratio="11" rot="R157.5"/>
+<element name="LED10" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-9.95" y="-24.021" smashed="yes" rot="R157.5">
+<attribute name="NAME" x="-8.663278125" y="-26.6518625" size="1" layer="25" ratio="11" rot="R157.5"/>
 <attribute name="VALUE" x="-8.330925" y="-22.767146875" size="1" layer="27" ratio="11" rot="R157.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-9.95" y="-24.021" size="1.778" layer="27" rot="R157.5" display="off"/>
 </element>
-<element name="LED11" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-18.385" y="-18.385" smashed="yes" rot="R135">
-<attribute name="NAME" x="-18.744209375" y="-20.00144375" size="1" layer="25" ratio="11" rot="R135"/>
+<element name="LED11" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-18.385" y="-18.385" smashed="yes" rot="R135">
+<attribute name="NAME" x="-17.994209375" y="-21.50144375" size="1" layer="25" ratio="11" rot="R135"/>
 <attribute name="VALUE" x="-16.409340625" y="-17.846184375" size="1" layer="27" ratio="11" rot="R135"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-18.385" y="-18.385" size="1.778" layer="27" rot="R135" display="off"/>
 </element>
-<element name="LED12" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-24.021" y="-9.95" smashed="yes" rot="R112.5">
-<attribute name="NAME" x="-24.971453125" y="-12.3059375" size="1" layer="25" ratio="11" rot="R112.5"/>
+<element name="LED12" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-24.021" y="-9.95" smashed="yes" rot="R112.5">
+<attribute name="NAME" x="-24.971453125" y="-13.0559375" size="1" layer="25" ratio="11" rot="R112.5"/>
 <attribute name="VALUE" x="-21.989534375" y="-10.20825" size="1" layer="27" ratio="11" rot="R112.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-24.021" y="-9.95" size="1.778" layer="27" rot="R112.5" display="off"/>
 </element>
@@ -5552,23 +5547,23 @@ design rules under a new name.</description>
 <attribute name="DNP" value="T" x="-23.5" y="-29.5" size="1.778" layer="27" display="off"/>
 <attribute name="BOM" value="EXCLUDE" x="-23.5" y="-29.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LED13" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-26" y="0" smashed="yes" rot="R90">
-<attribute name="NAME" x="-27.397" y="-1.889" size="1" layer="25" ratio="11" rot="R90"/>
+<element name="LED13" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-26" y="0" smashed="yes" rot="R90">
+<attribute name="NAME" x="-27.897" y="-2.139" size="1" layer="25" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="-24.222" y="-1.016" size="1" layer="27" ratio="11" rot="R90"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-26" y="0" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED14" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-24.021" y="9.95" smashed="yes" rot="R67.5">
-<attribute name="NAME" x="-26.1518625" y="8.663278125" size="1" layer="25" font="vector" ratio="11" rot="R67.5"/>
+<element name="LED14" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-24.021" y="9.95" smashed="yes" rot="R67.5">
+<attribute name="NAME" x="-26.4018625" y="8.663278125" size="1" layer="25" font="vector" ratio="11" rot="R67.5"/>
 <attribute name="VALUE" x="-22.767146875" y="8.330925" size="1" layer="27" ratio="11" rot="R67.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-24.021" y="9.95" size="1.778" layer="27" rot="R67.5" display="off"/>
 </element>
-<element name="LED15" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-18.385" y="18.385" smashed="yes" rot="R45">
+<element name="LED15" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-18.385" y="18.385" smashed="yes" rot="R45">
 <attribute name="NAME" x="-21.00144375" y="18.244209375" size="1" layer="25" font="vector" ratio="11" rot="R45"/>
 <attribute name="VALUE" x="-17.846184375" y="16.409340625" size="1" layer="27" ratio="11" rot="R45"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-18.385" y="18.385" size="1.778" layer="27" rot="R45" display="off"/>
 </element>
-<element name="LED16" library="SparkFun-LED" package="LED-1206-NO_SILK" value="WHITE" x="-9.95" y="24.021" smashed="yes" rot="R22.5">
-<attribute name="NAME" x="-12.8059375" y="24.471453125" size="1" layer="25" ratio="11" rot="R22.5"/>
+<element name="LED16" library="GinWhiskers - temp stuff" package="DIODE-1210" value="WHITE" x="-9.95" y="24.021" smashed="yes" rot="R22.5">
+<attribute name="NAME" x="-12.8059375" y="24.971453125" size="1" layer="25" ratio="11" rot="R22.5"/>
 <attribute name="VALUE" x="-10.20825" y="21.989534375" size="1" layer="27" ratio="11" rot="R22.5"/>
 <attribute name="PARTNO" value="LTST-C150CKT" x="-9.95" y="24.021" size="1.778" layer="27" rot="R22.5" display="off"/>
 </element>
@@ -5701,64 +5696,64 @@ design rules under a new name.</description>
 <wire x1="-6.75" y1="18.25" x2="-7.5" y2="18.5" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$1">
-<contactref element="LED1" pad="C"/>
+<contactref element="LED1" pad="K"/>
 <contactref element="LED2" pad="A"/>
-<wire x1="1.5" y1="26" x2="8.564178125" y2="24.595025" width="1" layer="1"/>
+<wire x1="1.4" y1="26" x2="8.656565625" y2="24.55675625" width="1" layer="1"/>
 </signal>
 <signal name="N$13">
-<contactref element="LED5" pad="C"/>
+<contactref element="LED5" pad="K"/>
 <contactref element="LED6" pad="A"/>
-<wire x1="24.595025" y1="-8.564178125" x2="26" y2="-1.5" width="1" layer="1"/>
+<wire x1="24.55675625" y1="-8.656565625" x2="26" y2="-1.4" width="1" layer="1"/>
 </signal>
 <signal name="N$3">
-<contactref element="LED3" pad="C"/>
+<contactref element="LED3" pad="K"/>
 <contactref element="LED4" pad="A"/>
-<wire x1="19.445659375" y1="17.3243375" x2="23.446971875" y2="11.33581875" width="1" layer="1"/>
+<wire x1="19.374946875" y1="17.39505" x2="23.485240625" y2="11.24343125" width="1" layer="1"/>
 </signal>
 <signal name="N$4">
-<contactref element="LED7" pad="C"/>
+<contactref element="LED7" pad="K"/>
 <contactref element="LED8" pad="A"/>
-<wire x1="11.33581875" y1="-23.446971875" x2="17.3243375" y2="-19.445659375" width="1" layer="1"/>
+<wire x1="11.24343125" y1="-23.485240625" x2="17.39505" y2="-19.374946875" width="1" layer="1"/>
 </signal>
 <signal name="N$12">
-<contactref element="LED9" pad="C"/>
+<contactref element="LED9" pad="K"/>
 <contactref element="LED10" pad="A"/>
-<wire x1="-8.564178125" y1="-24.595025" x2="-1.5" y2="-26" width="1" layer="1"/>
+<wire x1="-8.656565625" y1="-24.55675625" x2="-1.4" y2="-26" width="1" layer="1"/>
 </signal>
 <signal name="N$14">
-<contactref element="LED11" pad="C"/>
+<contactref element="LED11" pad="K"/>
 <contactref element="LED12" pad="A"/>
-<wire x1="-23.446971875" y1="-11.33581875" x2="-19.445659375" y2="-17.3243375" width="1" layer="1"/>
+<wire x1="-23.485240625" y1="-11.24343125" x2="-19.374946875" y2="-17.39505" width="1" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="LED13" pad="C"/>
+<contactref element="LED13" pad="K"/>
 <contactref element="LED14" pad="A"/>
-<wire x1="-26" y1="1.5" x2="-24.595025" y2="8.564178125" width="1" layer="1"/>
+<wire x1="-26" y1="1.4" x2="-24.55675625" y2="8.656565625" width="1" layer="1"/>
 </signal>
 <signal name="N$19">
-<contactref element="LED15" pad="C"/>
+<contactref element="LED15" pad="K"/>
 <contactref element="LED16" pad="A"/>
-<wire x1="-17.3243375" y1="19.445659375" x2="-11.33581875" y2="23.446971875" width="1" layer="1"/>
+<wire x1="-17.39505" y1="19.374946875" x2="-11.24343125" y2="23.485240625" width="1" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="LED3" pad="A"/>
-<contactref element="LED2" pad="C"/>
-<wire x1="11.33581875" y1="23.446971875" x2="17.3243375" y2="19.445659375" width="1" layer="1"/>
+<contactref element="LED2" pad="K"/>
+<wire x1="11.24343125" y1="23.485240625" x2="17.39505" y2="19.374946875" width="1" layer="1"/>
 </signal>
 <signal name="N$7">
-<contactref element="LED6" pad="C"/>
+<contactref element="LED6" pad="K"/>
 <contactref element="LED7" pad="A"/>
-<wire x1="19.445659375" y1="-17.3243375" x2="23.446971875" y2="-11.33581875" width="1" layer="1"/>
+<wire x1="19.374946875" y1="-17.39505" x2="23.485240625" y2="-11.24343125" width="1" layer="1"/>
 </signal>
 <signal name="N$8">
-<contactref element="LED10" pad="C"/>
+<contactref element="LED10" pad="K"/>
 <contactref element="LED11" pad="A"/>
-<wire x1="-17.3243375" y1="-19.445659375" x2="-11.33581875" y2="-23.446971875" width="1" layer="1"/>
+<wire x1="-17.39505" y1="-19.374946875" x2="-11.24343125" y2="-23.485240625" width="1" layer="1"/>
 </signal>
 <signal name="N$9">
-<contactref element="LED14" pad="C"/>
+<contactref element="LED14" pad="K"/>
 <contactref element="LED15" pad="A"/>
-<wire x1="-19.445659375" y1="17.3243375" x2="-23.446971875" y2="11.33581875" width="1" layer="1"/>
+<wire x1="-19.374946875" y1="17.39505" x2="-23.485240625" y2="11.24343125" width="1" layer="1"/>
 </signal>
 <signal name="LED+">
 <contactref element="J7" pad="1"/>
@@ -5769,64 +5764,76 @@ design rules under a new name.</description>
 <wire x1="10" y1="-24" x2="18.25" y2="-18.5" width="1" layer="16"/>
 <wire x1="18.25" y1="-18.5" x2="24" y2="-10" width="1" layer="16"/>
 <wire x1="24" y1="-10" x2="26" y2="0" width="1" layer="16"/>
-<wire x1="26" y1="0" x2="24" y2="10" width="0.5" layer="16"/>
+<wire x1="26" y1="0" x2="25.30769375" y2="3.4615375" width="1" layer="16"/>
+<wire x1="25.30769375" y1="3.4615375" x2="24" y2="10" width="1" layer="16"/>
 <wire x1="24" y1="10" x2="18.25" y2="18.5" width="1" layer="16"/>
 <wire x1="18.25" y1="18.5" x2="10" y2="24" width="1" layer="16"/>
 <wire x1="10" y1="24" x2="4.0865375" y2="25.18269375" width="1" layer="16"/>
 <wire x1="4.0865375" y1="25.18269375" x2="0" y2="26" width="1" layer="16"/>
-<wire x1="0" y1="26" x2="-10" y2="24" width="1" layer="16"/>
+<wire x1="0" y1="26" x2="-2.69230625" y2="25.4615375" width="1" layer="16"/>
+<wire x1="-2.69230625" y1="25.4615375" x2="-10" y2="24" width="1" layer="16"/>
 <wire x1="-10" y1="24" x2="-18.25" y2="18.5" width="1" layer="16"/>
 <wire x1="-18.25" y1="18.5" x2="-24" y2="10" width="1" layer="16"/>
 <wire x1="-24" y1="10" x2="-26" y2="0" width="1" layer="16"/>
-<wire x1="-26" y1="0" x2="-24" y2="-10" width="1" layer="16"/>
+<wire x1="-26" y1="0" x2="-25.30769375" y2="-3.4615375" width="1" layer="16"/>
+<wire x1="-25.30769375" y1="-3.4615375" x2="-24" y2="-10" width="1" layer="16"/>
 <wire x1="-24" y1="-10" x2="-18.25" y2="-18.5" width="1" layer="16"/>
 <wire x1="-18.25" y1="-18.5" x2="-10" y2="-24" width="1" layer="16"/>
 <wire x1="-10" y1="-24" x2="0" y2="-26" width="1" layer="16"/>
-<wire x1="0" y1="-26" x2="10" y2="-24" width="1" layer="16"/>
-<wire x1="1.5" y1="-26" x2="0" y2="-26" width="1" layer="1"/>
-<via x="0" y="-26" extent="1-16" drill="0.5"/>
-<wire x1="-1.5" y1="26" x2="0" y2="26" width="1" layer="1"/>
-<via x="0" y="26" extent="1-16" drill="0.5"/>
-<wire x1="-26" y1="-1.5" x2="-26" y2="0" width="1" layer="1"/>
-<via x="-26" y="0" extent="1-16" drill="0.5"/>
-<wire x1="26" y1="1.5" x2="26" y2="0" width="1" layer="1"/>
-<via x="26" y="0" extent="1-16" drill="0.5"/>
+<wire x1="0" y1="-26" x2="3.4134625" y2="-25.31730625" width="1" layer="16"/>
+<wire x1="3.4134625" y1="-25.31730625" x2="10" y2="-24" width="1" layer="16"/>
 <wire x1="4" y1="18" x2="4" y2="25.09615625" width="1" layer="16"/>
 <wire x1="4" y1="25.09615625" x2="4.0865375" y2="25.18269375" width="0.5" layer="16"/>
+<wire x1="-26" y1="-1.4" x2="-26" y2="-3.25" width="0.75" layer="1"/>
+<via x="-26" y="-3.25" extent="1-16" drill="0.5"/>
+<wire x1="-26" y1="-3.25" x2="-25.51923125" y2="-3.25" width="0.75" layer="16"/>
+<wire x1="-25.51923125" y1="-3.25" x2="-25.30769375" y2="-3.4615375" width="0.75" layer="16"/>
+<wire x1="1.4" y1="-26" x2="3.5" y2="-26" width="0.75" layer="1"/>
+<via x="3.5" y="-26" extent="1-16" drill="0.5"/>
+<wire x1="3.5" y1="-26" x2="3.5" y2="-25.40384375" width="0.75" layer="16"/>
+<wire x1="3.5" y1="-25.40384375" x2="3.4134625" y2="-25.31730625" width="0.75" layer="16"/>
+<wire x1="26" y1="1.4" x2="26" y2="3.25" width="0.75" layer="1"/>
+<via x="26" y="3.25" extent="1-16" drill="0.5"/>
+<wire x1="26" y1="3.25" x2="25.51923125" y2="3.25" width="0.75" layer="16"/>
+<wire x1="25.51923125" y1="3.25" x2="25.30769375" y2="3.4615375" width="0.75" layer="16"/>
+<wire x1="-1.4" y1="26" x2="-3" y2="26" width="0.75" layer="1"/>
+<via x="-3" y="26" extent="1-16" drill="0.5"/>
+<wire x1="-3" y1="26" x2="-3" y2="25.76923125" width="0.75" layer="16"/>
+<wire x1="-3" y1="25.76923125" x2="-2.69230625" y2="25.4615375" width="0.75" layer="16"/>
 </signal>
 <signal name="LED-">
 <contactref element="J7" pad="2"/>
-<contactref element="LED4" pad="C"/>
-<contactref element="LED8" pad="C"/>
-<contactref element="LED16" pad="C"/>
-<contactref element="LED12" pad="C"/>
-<wire x1="17" y1="-17" x2="22.25" y2="-9.25" width="1" layer="1"/>
-<wire x1="22.25" y1="-9.25" x2="23.75" y2="0" width="1" layer="1"/>
-<wire x1="23.75" y1="0" x2="22.25" y2="9.5" width="1" layer="1"/>
-<wire x1="22.25" y1="9.5" x2="17.25" y2="17" width="1" layer="1"/>
-<wire x1="17.25" y1="17" x2="9" y2="22.25" width="1" layer="1"/>
-<wire x1="9" y1="22.25" x2="0" y2="24.25" width="1" layer="1"/>
-<wire x1="0" y1="24.25" x2="-9.25" y2="22.25" width="1" layer="1"/>
-<wire x1="-9.25" y1="22.25" x2="-17" y2="17.25" width="1" layer="1"/>
-<wire x1="-17" y1="17.25" x2="-22.25" y2="9.5" width="1" layer="1"/>
-<wire x1="-22.25" y1="9.5" x2="-24.25" y2="0" width="1" layer="1"/>
-<wire x1="-24.25" y1="0" x2="-22.5" y2="-9.25" width="1" layer="1"/>
-<wire x1="-22.5" y1="-9.25" x2="-17" y2="-17.25" width="1" layer="1"/>
-<wire x1="-17" y1="-17.25" x2="-9.25" y2="-22.5" width="1" layer="1"/>
-<wire x1="-9.25" y1="-22.5" x2="0" y2="-24.25" width="1" layer="1"/>
-<wire x1="0" y1="-24.25" x2="9.25" y2="-22.25" width="1" layer="1"/>
-<wire x1="9.25" y1="-22.25" x2="17" y2="-17" width="1" layer="1"/>
-<wire x1="8.564178125" y1="-24.595025" x2="8.25" y2="-22.5" width="1" layer="1"/>
-<wire x1="8.25" y1="-22.5" x2="9.25" y2="-22.25" width="1" layer="1"/>
-<wire x1="-24.595025" y1="-8.564178125" x2="-22.75" y2="-8" width="1" layer="1"/>
-<wire x1="-22.75" y1="-8" x2="-22.5" y2="-9.25" width="1" layer="1"/>
-<wire x1="-8.564178125" y1="24.595025" x2="-8" y2="22.5" width="1" layer="1"/>
-<wire x1="-8" y1="22.5" x2="-9.25" y2="22.25" width="1" layer="1"/>
-<wire x1="24.595025" y1="8.564178125" x2="22.5" y2="8" width="1" layer="1"/>
-<wire x1="22.5" y1="8" x2="22.25" y2="9.5" width="1" layer="1"/>
-<via x="0" y="24.25" extent="1-16" drill="0.5"/>
+<contactref element="LED4" pad="K"/>
+<contactref element="LED8" pad="K"/>
+<contactref element="LED16" pad="K"/>
+<contactref element="LED12" pad="K"/>
+<wire x1="16.5" y1="-16.75" x2="21.75" y2="-9" width="1" layer="1"/>
+<wire x1="21.75" y1="-9" x2="23.75" y2="0" width="1" layer="1"/>
+<wire x1="23.75" y1="0" x2="22" y2="9" width="1" layer="1"/>
+<wire x1="22" y1="9" x2="16.75" y2="16.75" width="1" layer="1"/>
+<wire x1="16.75" y1="16.75" x2="9" y2="22" width="1" layer="1"/>
+<wire x1="9" y1="22" x2="0" y2="23.75" width="1" layer="1"/>
+<wire x1="0" y1="23.75" x2="-9" y2="22" width="1" layer="1"/>
+<wire x1="-9" y1="22" x2="-16.75" y2="17" width="1" layer="1"/>
+<wire x1="-16.75" y1="17" x2="-22" y2="9" width="1" layer="1"/>
+<wire x1="-22" y1="9" x2="-23.75" y2="0" width="1" layer="1"/>
+<wire x1="-23.75" y1="0" x2="-22" y2="-9" width="1" layer="1"/>
+<wire x1="-22" y1="-9" x2="-16.75" y2="-17" width="1" layer="1"/>
+<wire x1="-16.75" y1="-17" x2="-9" y2="-22" width="1" layer="1"/>
+<wire x1="-9" y1="-22" x2="0" y2="-23.75" width="1" layer="1"/>
+<wire x1="0" y1="-23.75" x2="9" y2="-21.75" width="1" layer="1"/>
+<wire x1="9" y1="-21.75" x2="16.5" y2="-16.75" width="1" layer="1"/>
+<wire x1="8.656565625" y1="-24.55675625" x2="8.25" y2="-22" width="1" layer="1"/>
+<wire x1="8.25" y1="-22" x2="9" y2="-21.75" width="1" layer="1"/>
+<wire x1="-24.55675625" y1="-8.656565625" x2="-22.25" y2="-7.75" width="1" layer="1"/>
+<wire x1="-22.25" y1="-7.75" x2="-22" y2="-9" width="1" layer="1"/>
+<wire x1="-8.656565625" y1="24.55675625" x2="-8" y2="22.25" width="1" layer="1"/>
+<wire x1="-8" y1="22.25" x2="-9" y2="22" width="1" layer="1"/>
+<wire x1="24.55675625" y1="8.656565625" x2="22.25" y2="8" width="1" layer="1"/>
+<wire x1="22.25" y1="8" x2="22" y2="9" width="1" layer="1"/>
+<via x="0" y="23.75" extent="1-16" drill="0.5"/>
 <wire x1="2" y1="18" x2="2" y2="22.25" width="1" layer="16"/>
-<wire x1="2" y1="22.25" x2="0" y2="24.25" width="1" layer="16"/>
+<wire x1="2" y1="22.25" x2="0" y2="23.75" width="1" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="LED17" pad="2-DOUT"/>
