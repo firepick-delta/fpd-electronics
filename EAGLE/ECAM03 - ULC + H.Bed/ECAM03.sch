@@ -626,6 +626,40 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <text x="-6" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
 <text x="-6" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
+<package name="CON-HDR-6POS-MALE">
+<wire x1="-7.62" y1="-1.27" x2="-7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-7.62" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="7.62" y1="-1.27" x2="-7.62" y2="-1.27" width="0.127" layer="51"/>
+<pad name="1" x="-6.35" y="0" drill="1.25" shape="square"/>
+<pad name="2" x="-3.8" y="0" drill="1.25"/>
+<pad name="3" x="-1.26" y="0" drill="1.25"/>
+<pad name="4" x="1.28" y="0" drill="1.25"/>
+<pad name="5" x="3.85" y="0" drill="1.25"/>
+<pad name="6" x="6.39" y="0" drill="1.25"/>
+<text x="-2.54" y="3.81" size="1.778" layer="25" ratio="12">&gt;Name</text>
+<text x="-2.54" y="1.905" size="1.27" layer="27" ratio="10">&gt;Value</text>
+</package>
+<package name="CON-HDR-2X3P">
+<description>Connector: Header, 2x3P, Male;
+Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf</description>
+<wire x1="-3.81" y1="-2.5" x2="-3.81" y2="2.5" width="0.1" layer="51"/>
+<wire x1="-3.81" y1="2.5" x2="3.81" y2="2.5" width="0.1" layer="51"/>
+<wire x1="3.81" y1="2.5" x2="3.81" y2="-2.5" width="0.1" layer="51"/>
+<wire x1="3.81" y1="-2.5" x2="-3.81" y2="-2.5" width="0.1" layer="51"/>
+<pad name="1" x="-2.54" y="1.27" drill="1.25" shape="square"/>
+<pad name="2" x="-2.54" y="-1.27" drill="1.25"/>
+<pad name="3" x="0" y="1.27" drill="1.25"/>
+<pad name="4" x="0" y="-1.27" drill="1.25"/>
+<pad name="5" x="2.54" y="1.27" drill="1.25"/>
+<pad name="6" x="2.54" y="-1.27" drill="1.25"/>
+<wire x1="-4" y1="-2.7" x2="-4" y2="2.7" width="0.1" layer="21"/>
+<wire x1="-4" y1="2.7" x2="4" y2="2.7" width="0.1" layer="21"/>
+<wire x1="4" y1="2.7" x2="4" y2="-2.7" width="0.1" layer="21"/>
+<wire x1="4" y1="-2.7" x2="-4" y2="-2.7" width="0.1" layer="21"/>
+<text x="-1.5" y="-4.4" size="1.27" layer="21" ratio="12">&gt;Name</text>
+<text x="-1.5" y="-5.8" size="1" layer="27" ratio="10">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -940,6 +974,35 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <wire x1="-7.62" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
 <text x="-7.62" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="-7.62" y="7.62" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CON-HDR-6P">
+<description>Connector: 0.1"-Pitch Header, 6-Pos.</description>
+<pin name="1" x="5.08" y="5.08" length="short" rot="R180"/>
+<pin name="2" x="5.08" y="2.54" length="short" rot="R180"/>
+<pin name="3" x="5.08" y="0" length="short" rot="R180"/>
+<pin name="4" x="5.08" y="-2.54" length="short" rot="R180"/>
+<pin name="5" x="5.08" y="-5.08" length="short" rot="R180"/>
+<pin name="6" x="5.08" y="-7.62" length="short" rot="R180"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="10.16" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
+<text x="-5.08" y="8.382" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="CON-HDR-3PX2">
+<description>Connector: 3PX2 Male Header</description>
+<pin name="1" x="5.08" y="0" length="short" direction="pas" rot="R180"/>
+<pin name="2" x="-12.7" y="0" length="short" direction="pas"/>
+<pin name="3" x="5.08" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="4" x="-12.7" y="2.54" length="short" direction="pas"/>
+<pin name="5" x="5.08" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="6" x="-12.7" y="5.08" length="short" direction="pas"/>
+<wire x1="2.54" y1="-2.54" x2="-10.16" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-2.54" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<text x="-7.62" y="-5.08" size="1.778" layer="125" ratio="12">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1542,6 +1605,67 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <connect gate="G$1" pin="3" pad="3"/>
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-HEADER-0.1IN-6P-M" prefix="J">
+<description>Connector: Header, 0.1"-Pitch, 6-Pos, Pins (Male)</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-6P" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CON-HDR-6POS-MALE">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X7R-0603-100NF-50V">
+<description>Capacitor: 100nF, 50V, 10%;
+Package: 0603</description>
+<gates>
+<gate name="C1" symbol="C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="C1" pin="1" pad="1"/>
+<connect gate="C1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CON-HEADER-0.1IN-2X3P-M" prefix="J">
+<description>Connector: 0.1" Pitch, 2x3P
+Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf</description>
+<gates>
+<gate name="G$1" symbol="CON-HDR-3PX2" x="5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="CON-HDR-2X3P">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -15699,6 +15823,21 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-5P-SMT-VRT" device="" value="RINGLIGHT"/>
 <part name="SUPPLY15" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
+<part name="J8" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-6P-M" device="" value="FTDI">
+<attribute name="PARTNO" value="S6B-PH-SM4-TB(LF)(SN)"/>
+</part>
+<part name="SUPPLY17" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+14" library="supply1" deviceset="+5V" device=""/>
+<part name="C6" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-100NF-50V" device="" value="0.1uF">
+<attribute name="PARTNO" value="UMK107B7104KA-T"/>
+</part>
+<part name="R14" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K">
+<attribute name="PARTNO" value="RC0603FR-0710KL"/>
+</part>
+<part name="J9" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI"/>
+<part name="P+15" library="supply1" deviceset="+5V" device=""/>
+<part name="P+16" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY18" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15721,6 +15860,9 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <text x="17.78" y="68.58" size="6.35" layer="94" ratio="10">FAN SWITCH</text>
 <text x="281.94" y="68.58" size="6.35" layer="94" ratio="10">SSR ENABLE</text>
 <text x="297.18" y="149.86" size="6.35" layer="94" ratio="10">V-REG (5V-3.3V)</text>
+<text x="12.7" y="218.44" size="6.35" layer="94" ratio="10">FTDI INTERFACE</text>
+<text x="99.06" y="218.44" size="6.35" layer="94" ratio="10">SPI INTERFACE</text>
+<text x="132.08" y="203.454" size="1.27" layer="96" ratio="10">SPI</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -15934,6 +16076,39 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <instance part="P+13" gate="1" x="177.8" y="142.24" smashed="yes">
 <attribute name="VALUE" x="175.26" y="142.24" size="1.778" layer="96"/>
 </instance>
+<instance part="J8" gate="G$1" x="38.1" y="203.2" smashed="yes">
+<attribute name="NAME" x="33.02" y="213.36" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="33.02" y="211.582" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="38.1" y="203.2" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="SUPPLY17" gate="GND" x="45.72" y="187.96" smashed="yes">
+<attribute name="VALUE" x="43.815" y="184.785" size="1.778" layer="96"/>
+</instance>
+<instance part="P+14" gate="1" x="48.26" y="213.36" smashed="yes">
+<attribute name="VALUE" x="45.72" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="C1" x="55.88" y="195.58" smashed="yes">
+<attribute name="NAME" x="49.784" y="195.961" size="1.778" layer="95"/>
+<attribute name="VALUE" x="47.244" y="193.421" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="55.88" y="195.58" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="116.84" y="203.2" smashed="yes" rot="R90">
+<attribute name="NAME" x="115.3414" y="199.39" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="120.142" y="199.39" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="116.84" y="203.2" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="J9" gate="G$1" x="134.62" y="200.66" smashed="yes" rot="R180">
+<attribute name="NAME" x="132.08" y="205.74" size="1.778" layer="125" ratio="12"/>
+</instance>
+<instance part="P+15" gate="1" x="116.84" y="213.36" smashed="yes">
+<attribute name="VALUE" x="114.3" y="213.36" size="1.778" layer="96"/>
+</instance>
+<instance part="P+16" gate="1" x="149.86" y="205.74" smashed="yes">
+<attribute name="VALUE" x="147.32" y="205.74" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY18" gate="GND" x="149.86" y="190.5" smashed="yes">
+<attribute name="VALUE" x="147.955" y="187.325" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -16067,6 +16242,22 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="SUPPLY15" gate="GND" pin="GND"/>
 <wire x1="180.34" y1="129.54" x2="180.34" y2="119.38" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="208.28" x2="45.72" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="208.28" x2="45.72" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="J8" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="205.74" x2="45.72" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="205.74" x2="45.72" y2="205.74" width="0.1524" layer="91"/>
+<junction x="45.72" y="205.74"/>
+<pinref part="SUPPLY17" gate="GND" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="6"/>
+<wire x1="147.32" y1="195.58" x2="149.86" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="195.58" x2="149.86" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="SUPPLY18" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -16148,6 +16339,23 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="177.8" y1="124.46" x2="177.8" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="3"/>
+<wire x1="43.18" y1="203.2" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="203.2" x2="48.26" y2="210.82" width="0.1524" layer="91"/>
+<pinref part="P+14" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="P+15" gate="1" pin="+5V"/>
+<wire x1="116.84" y1="208.28" x2="116.84" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="2"/>
+<wire x1="147.32" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="200.66" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
+</segment>
 </net>
 <net name="RO" class="0">
 <segment>
@@ -16160,6 +16368,11 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="205.74" y1="121.92" x2="200.66" y2="121.92" width="0.1524" layer="91"/>
 <label x="200.66" y="121.92" size="1.778" layer="95" ratio="12"/>
 </segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="4"/>
+<wire x1="43.18" y1="200.66" x2="50.8" y2="200.66" width="0.1524" layer="91"/>
+<label x="48.26" y="200.66" size="1.778" layer="95" ratio="12"/>
+</segment>
 </net>
 <net name="DI" class="0">
 <segment>
@@ -16171,6 +16384,11 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="U1" gate="G$1" pin="4"/>
 <wire x1="205.74" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
 <label x="200.66" y="114.3" size="1.778" layer="95" ratio="12"/>
+</segment>
+<segment>
+<pinref part="J8" gate="G$1" pin="5"/>
+<wire x1="43.18" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
+<label x="48.26" y="198.12" size="1.778" layer="95" ratio="12"/>
 </segment>
 </net>
 <net name="SSR" class="0">
@@ -16191,6 +16409,11 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="177.8" y1="50.8" x2="185.42" y2="50.8" width="0.1524" layer="91"/>
 <label x="180.34" y="50.8" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="3"/>
+<wire x1="129.54" y1="198.12" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
+<label x="121.92" y="198.12" size="1.778" layer="95" ratio="10"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -16198,12 +16421,29 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="322.58" y1="223.52" x2="312.42" y2="223.52" width="0.1524" layer="91"/>
 <label x="312.42" y="223.52" size="1.778" layer="95" ratio="12"/>
 </segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="4"/>
+<wire x1="147.32" y1="198.12" x2="154.94" y2="198.12" width="0.1524" layer="91"/>
+<label x="147.32" y="198.12" size="1.778" layer="95" ratio="10"/>
+</segment>
 </net>
 <net name="RESET" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="PC6"/>
 <wire x1="322.58" y1="193.04" x2="312.42" y2="193.04" width="0.1524" layer="91"/>
 <label x="312.42" y="193.04" size="1.778" layer="95" ratio="12"/>
+</segment>
+<segment>
+<pinref part="C6" gate="C1" pin="2"/>
+<wire x1="58.42" y1="195.58" x2="60.96" y2="195.58" width="0.1524" layer="91"/>
+<label x="58.42" y="195.58" size="1.778" layer="95" ratio="12"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="5"/>
+<wire x1="129.54" y1="195.58" x2="116.84" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="195.58" x2="116.84" y2="198.12" width="0.1524" layer="91"/>
+<label x="121.92" y="195.58" size="1.778" layer="95" ratio="10"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -16389,6 +16629,11 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pinref part="U4" gate="G$1" pin="SO"/>
 <wire x1="177.8" y1="55.88" x2="185.42" y2="55.88" width="0.1524" layer="91"/>
 <label x="180.34" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J9" gate="G$1" pin="1"/>
+<wire x1="129.54" y1="200.66" x2="121.92" y2="200.66" width="0.1524" layer="91"/>
+<label x="121.92" y="200.66" size="1.778" layer="95" ratio="10"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -16686,6 +16931,13 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="38.1" y1="114.3" x2="30.48" y2="114.3" width="0.1524" layer="91"/>
 <label x="30.48" y="114.3" size="1.778" layer="95" ratio="12"/>
 <pinref part="R13" gate="R$1" pin="1"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="J8" gate="G$1" pin="6"/>
+<wire x1="43.18" y1="195.58" x2="50.8" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="C1" pin="1"/>
 </segment>
 </net>
 </nets>
