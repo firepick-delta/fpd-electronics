@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -20933,7 +20933,7 @@ Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-RES-0603-4.7K-0.1W" prefix="R">
-<description>Resistor: 10kOhm, 0.1W, 1%;
+<description>Resistor: 4.7 kOhm, 0.1W, 1%;
 Package: 0603;
 Datasheet: http://www.mouser.com/ds/2/315/AOA0000CE2-37512.pdf</description>
 <gates>

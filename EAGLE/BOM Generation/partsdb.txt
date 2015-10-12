@@ -147,7 +147,7 @@ FT232RL-REEL	FTDI, Future Technology Devices International Ltd	DK	768-1007-1-ND	
 74LVC1T45GW,125	NXP	DK	568-5461-2-ND	Logic Shifter, Bidirectional, 3-State	SOT-363
 TXS0206-29YFPR	Texas Instruments	DK	296-25577-1-ND	Logic Shifter, SD, Bidirectional	20-XFBGA
 MIC2026-1YM	Micrel Inc	DK	576-1059-1-ND	Power Distribution Switch, 2-Channel	8-SOIC
-DF40HC(3.0)-70DS-0.4V(51)	Hirose	DK	DF40HC(3.0)-70DS-0.4V(51)-ND	Connector: 0.4mm, 70-pin, Receptacle, SMT	CONN-0.4MM-70P
+DF40HC(3.0)-70DS-0.4V(51)	Hirose	DK	H124603CT-ND	Connector: 0.4mm, 70-pin, Receptacle, SMT	CONN-0.4MM-70P
 RC0603JR-070RL	Yageo	DK	311-0.0GRCT-ND	Resistor: 0.0 Ohm, 0.1W, 0%	603
 SI-8033JD	Sanken	DK	SI-8033JD-TLCT-ND	Voltage Reg(SWI): 3.3V, 1.5A	TO-263-5
 101-00581-59	Amphenol Canada	DK	101-00581-59-2-ND	Connector: MicroSD, R/A, PSH-PSH, Detect	MicroSD
@@ -166,3 +166,7 @@ RC0603FR-072R2L	Yageo	DK	311-2.2HRCT-ND	Resistor: 2.2 Ohm, 0.1W, 1%	603
 EEE-FTH101XAP	Panasonic	DK	PCE5024CT-ND	Capacitor: 100 uF, Al-Elec., 20%, 50V, SMT	6.3mm
 LMS8117AMP-3.3/NOPB	Texas Instruments	DK	LMS8117AMP-3.3/NOPBCT-ND	Voltage Reg(LDO): Vi=15V, Vo=3.3V, I=1A	SOT-223
 RC0603FR-0720KL	Yageo	DK	311-20.0KHRCT-ND	Resistor: 20 kOhm, 0.1W, 1%	603
+B8B-PH-SM4-TB(LF)(SN)	JST	DK	455-1740-1-ND	Connector: 2.0mm (JST), SMT, VRT, 8-POS(M)	CONN-2MM-8P-SMT-VRT
+B6B-PH-SM4-TB(LF)(SN)	JST	DK	455-1738-1-ND	Connector: 2.0mm (JST), SMT, VRT, 6-POS(M)	CONN-2MM-6P-SMT-VRT
+1734085-1	TE Connectivity	DK	A114935-ND	Connector: USB, A-Type, Thru-Hole, VRT, 2.0	CONN-USB-A-2.0-VRT
+1734517-1	TE Connectivity	DK	A111053CT-ND	Connector: USB, B-Type, SMT, VRT, 2.0	CONN-USB-B-2.0-VRT
