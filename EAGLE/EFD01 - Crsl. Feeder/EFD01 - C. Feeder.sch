@@ -415,6 +415,8 @@ Source: Texas Instruments</description>
 <text x="-3.7" y="-5.1" size="0.6" layer="21" font="vector">14</text>
 <text x="2.7" y="-5.1" size="0.6" layer="21" font="vector">15</text>
 <text x="2.7" y="4.5" size="0.6" layer="21" font="vector">28</text>
+<text x="-2.54" y="6.35" size="1.016" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-2.54" y="5.08" size="1.016" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="TC33X-2">
 <description>Trimming Potentiometer: 10 kOhm, 3-lead;
