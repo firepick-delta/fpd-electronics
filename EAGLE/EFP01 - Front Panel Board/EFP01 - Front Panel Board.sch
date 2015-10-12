@@ -12986,13 +12986,8 @@ for FirePick Delta</text>
 <text x="320.04" y="248.92" size="5.08" layer="94">INTEL EDISON</text>
 <text x="208.28" y="99.06" size="5.08" layer="94">USB CHIP (S CONS)</text>
 <text x="58.42" y="195.58" size="5.08" layer="94">E-STOP</text>
-<text x="154.94" y="48.26" size="1.778" layer="91">TODO: CHANGE J22 TO 
-USB "B" VERT. MOUNT</text>
 <text x="8.89" y="241.3" size="5.08" layer="94">TEST PADS</text>
 <text x="55.88" y="241.3" size="5.08" layer="94">IC PWR</text>
-<text x="187.96" y="193.04" size="2.54" layer="91">TODO: ADD INCOMING +6VDC POWER CONNECTOR</text>
-<text x="187.96" y="187.96" size="2.54" layer="91">TODO: ADD CONNECTOR FOR USBs TO EMC03</text>
-<text x="187.96" y="182.88" size="2.54" layer="91">(10-PIN JST PH SERIES)</text>
 <text x="195.58" y="243.84" size="5.08" layer="94">END</text>
 <text x="184.15" y="237.49" size="5.08" layer="94">EFFECTOR</text>
 <text x="271.78" y="245.11" size="5.08" layer="94">MOD.</text>
@@ -14394,14 +14389,14 @@ USB "B" VERT. MOUNT</text>
 <label x="342.9" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBDP0" class="0">
+<net name="USB0_P" class="0">
 <segment>
 <pinref part="J20" gate="G$1" pin="USB_DP"/>
 <wire x1="327.66" y1="198.12" x2="317.5" y2="198.12" width="0.1524" layer="91"/>
 <label x="314.96" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBDM0" class="0">
+<net name="USB0_N" class="0">
 <segment>
 <pinref part="J20" gate="G$1" pin="USB_DN"/>
 <wire x1="327.66" y1="195.58" x2="317.5" y2="195.58" width="0.1524" layer="91"/>
@@ -14707,34 +14702,6 @@ USB "B" VERT. MOUNT</text>
 <pinref part="P+8" gate="1" pin="+24V"/>
 </segment>
 </net>
-<net name="EE_D+" class="0">
-<segment>
-<pinref part="J16" gate="G$1" pin="7"/>
-<wire x1="200.66" y1="210.82" x2="207.01" y2="210.82" width="0.1524" layer="91"/>
-<label x="201.93" y="210.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="EE_D-" class="0">
-<segment>
-<pinref part="J16" gate="G$1" pin="8"/>
-<wire x1="200.66" y1="208.28" x2="207.01" y2="208.28" width="0.1524" layer="91"/>
-<label x="201.93" y="208.28" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULC_D+" class="0">
-<segment>
-<pinref part="J17" gate="G$1" pin="7"/>
-<wire x1="241.3" y1="210.82" x2="247.65" y2="210.82" width="0.1524" layer="91"/>
-<label x="242.57" y="210.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="ULC_D-" class="0">
-<segment>
-<pinref part="J17" gate="G$1" pin="8"/>
-<wire x1="241.3" y1="208.28" x2="247.65" y2="208.28" width="0.1524" layer="91"/>
-<label x="242.57" y="208.28" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="PWR2" class="0">
 <segment>
 <pinref part="J17" gate="G$1" pin="6"/>
@@ -14757,20 +14724,6 @@ USB "B" VERT. MOUNT</text>
 <wire x1="137.16" y1="167.64" x2="137.16" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R3" gate="R$1" pin="1"/>
 <pinref part="J1" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="USBA_D-" class="0">
-<segment>
-<wire x1="33.02" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
-<label x="35.56" y="185.42" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="D-"/>
-</segment>
-</net>
-<net name="USBA_D+" class="0">
-<segment>
-<wire x1="33.02" y1="182.88" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
-<label x="35.56" y="182.88" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="PWR3" class="0">
@@ -14872,20 +14825,6 @@ USB "B" VERT. MOUNT</text>
 <label x="314.96" y="172.72" size="1.524" layer="95"/>
 </segment>
 </net>
-<net name="USBMCU+" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="7"/>
-<wire x1="144.78" y1="215.9" x2="151.13" y2="215.9" width="0.1524" layer="91"/>
-<label x="146.05" y="215.9" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBMCU-" class="0">
-<segment>
-<pinref part="J6" gate="G$1" pin="8"/>
-<wire x1="144.78" y1="213.36" x2="151.13" y2="213.36" width="0.1524" layer="91"/>
-<label x="146.05" y="213.36" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="!ENBL_MOD" class="0">
 <segment>
 <pinref part="J6" gate="G$1" pin="2"/>
@@ -14906,6 +14845,62 @@ USB "B" VERT. MOUNT</text>
 <pinref part="J18" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="220.98" x2="285.75" y2="220.98" width="0.1524" layer="91"/>
 <label x="280.67" y="220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBMCU_P" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="7"/>
+<wire x1="144.78" y1="215.9" x2="151.13" y2="215.9" width="0.1524" layer="91"/>
+<label x="146.05" y="215.9" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBMCU_N" class="0">
+<segment>
+<pinref part="J6" gate="G$1" pin="8"/>
+<wire x1="144.78" y1="213.36" x2="151.13" y2="213.36" width="0.1524" layer="91"/>
+<label x="146.05" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EE_P" class="0">
+<segment>
+<pinref part="J16" gate="G$1" pin="7"/>
+<wire x1="200.66" y1="210.82" x2="207.01" y2="210.82" width="0.1524" layer="91"/>
+<label x="201.93" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="EE_N" class="0">
+<segment>
+<pinref part="J16" gate="G$1" pin="8"/>
+<wire x1="200.66" y1="208.28" x2="207.01" y2="208.28" width="0.1524" layer="91"/>
+<label x="201.93" y="208.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ULC_P" class="0">
+<segment>
+<pinref part="J17" gate="G$1" pin="7"/>
+<wire x1="241.3" y1="210.82" x2="247.65" y2="210.82" width="0.1524" layer="91"/>
+<label x="242.57" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="ULC_N" class="0">
+<segment>
+<pinref part="J17" gate="G$1" pin="8"/>
+<wire x1="241.3" y1="208.28" x2="247.65" y2="208.28" width="0.1524" layer="91"/>
+<label x="242.57" y="208.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USBA_P" class="0">
+<segment>
+<wire x1="33.02" y1="182.88" x2="55.88" y2="182.88" width="0.1524" layer="91"/>
+<label x="35.56" y="182.88" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="D+"/>
+</segment>
+</net>
+<net name="USBA_N" class="0">
+<segment>
+<wire x1="33.02" y1="185.42" x2="55.88" y2="185.42" width="0.1524" layer="91"/>
+<label x="35.56" y="185.42" size="1.778" layer="95"/>
+<pinref part="J3" gate="G$1" pin="D-"/>
 </segment>
 </net>
 </nets>
@@ -15673,86 +15668,6 @@ for FirePick Delta</text>
 <pinref part="SUPPLY45" gate="GND" pin="GND"/>
 </segment>
 </net>
-<net name="TD+" class="0">
-<segment>
-<label x="215.9" y="200.66" size="1.778" layer="95"/>
-<wire x1="215.9" y1="200.66" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="200.66" x2="271.78" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="226.06" y1="223.52" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
-<junction x="226.06" y="200.66"/>
-<wire x1="226.06" y1="200.66" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C26" gate="G$1" pin="2"/>
-<wire x1="271.78" y1="200.66" x2="284.48" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="RJ1" gate="G$1" pin="TD+"/>
-<wire x1="284.48" y1="187.96" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TXP"/>
-<wire x1="76.2" y1="213.36" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
-<label x="81.28" y="213.36" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="TD-" class="0">
-<segment>
-<label x="215.9" y="195.58" size="1.778" layer="95"/>
-<wire x1="215.9" y1="195.58" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="195.58" x2="274.32" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="R30" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="223.52" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
-<junction x="236.22" y="195.58"/>
-<wire x1="236.22" y1="195.58" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C30" gate="G$1" pin="2"/>
-<wire x1="274.32" y1="195.58" x2="276.86" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="RJ1" gate="G$1" pin="TD-"/>
-<wire x1="276.86" y1="193.04" x2="297.18" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="TXN"/>
-<wire x1="76.2" y1="210.82" x2="86.36" y2="210.82" width="0.1524" layer="91"/>
-<label x="81.28" y="210.82" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RD+" class="0">
-<segment>
-<label x="215.9" y="187.96" size="1.778" layer="95"/>
-<wire x1="215.9" y1="187.96" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="R31" gate="G$1" pin="1"/>
-<wire x1="256.54" y1="223.52" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
-<junction x="256.54" y="187.96"/>
-<wire x1="256.54" y1="187.96" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C31" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="187.96" x2="289.56" y2="195.58" width="0.1524" layer="91"/>
-<pinref part="RJ1" gate="G$1" pin="RD+"/>
-<wire x1="289.56" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RXP"/>
-<wire x1="76.2" y1="220.98" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
-<label x="81.28" y="220.98" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="RD-" class="0">
-<segment>
-<label x="215.9" y="182.88" size="1.778" layer="95"/>
-<wire x1="215.9" y1="182.88" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="223.52" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
-<junction x="266.7" y="182.88"/>
-<wire x1="266.7" y1="182.88" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="C32" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="182.88" x2="274.32" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="182.88" x2="292.1" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="RJ1" gate="G$1" pin="RD-"/>
-<wire x1="292.1" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="RXN"/>
-<wire x1="76.2" y1="218.44" x2="86.36" y2="218.44" width="0.1524" layer="91"/>
-<label x="81.28" y="218.44" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="+3V3" class="0">
 <segment>
 <wire x1="294.64" y1="190.5" x2="294.64" y2="198.12" width="0.1524" layer="91"/>
@@ -15984,28 +15899,28 @@ for FirePick Delta</text>
 <pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="EE_D+" class="0">
+<net name="EE_P" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDP3"/>
 <wire x1="38.1" y1="220.98" x2="27.94" y2="220.98" width="0.1524" layer="91"/>
 <label x="25.4" y="220.98" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="EE_D-" class="0">
+<net name="EE_N" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDM3"/>
 <wire x1="38.1" y1="223.52" x2="27.94" y2="223.52" width="0.1524" layer="91"/>
 <label x="25.4" y="223.52" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ULC_D+" class="0">
+<net name="ULC_P" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDP2"/>
 <wire x1="38.1" y1="226.06" x2="27.94" y2="226.06" width="0.1524" layer="91"/>
 <label x="25.4" y="226.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="ULC_D-" class="0">
+<net name="ULC_N" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDM2"/>
 <wire x1="38.1" y1="228.6" x2="27.94" y2="228.6" width="0.1524" layer="91"/>
@@ -16167,42 +16082,28 @@ for FirePick Delta</text>
 <label x="81.28" y="182.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBDM0" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="USBDM0"/>
-<wire x1="38.1" y1="233.68" x2="27.94" y2="233.68" width="0.1524" layer="91"/>
-<label x="25.4" y="233.68" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBDP0" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="USBDP0"/>
-<wire x1="38.1" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
-<label x="25.4" y="231.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USBMCU-" class="0">
+<net name="USBMCU_N" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDM5"/>
 <wire x1="38.1" y1="213.36" x2="27.94" y2="213.36" width="0.1524" layer="91"/>
 <label x="25.4" y="213.36" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBMCU+" class="0">
+<net name="USBMCU_P" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDP5"/>
 <wire x1="38.1" y1="210.82" x2="27.94" y2="210.82" width="0.1524" layer="91"/>
 <label x="25.4" y="210.82" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBA_D-" class="0">
+<net name="USBA_N" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDM4"/>
 <wire x1="38.1" y1="218.44" x2="27.94" y2="218.44" width="0.1524" layer="91"/>
 <label x="25.4" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="USBA_D+" class="0">
+<net name="USBA_P" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="USBDP4"/>
 <wire x1="38.1" y1="215.9" x2="27.94" y2="215.9" width="0.1524" layer="91"/>
@@ -17008,6 +16909,100 @@ for FirePick Delta</text>
 <pinref part="U6" gate="G$1" pin="5"/>
 <wire x1="101.6" y1="40.64" x2="106.68" y2="40.64" width="0.1524" layer="91"/>
 <label x="101.6" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_N" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="USBDM0"/>
+<wire x1="38.1" y1="233.68" x2="27.94" y2="233.68" width="0.1524" layer="91"/>
+<label x="25.4" y="233.68" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB0_P" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="USBDP0"/>
+<wire x1="38.1" y1="231.14" x2="27.94" y2="231.14" width="0.1524" layer="91"/>
+<label x="25.4" y="231.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RD_P" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="RXP"/>
+<wire x1="76.2" y1="220.98" x2="86.36" y2="220.98" width="0.1524" layer="91"/>
+<label x="81.28" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="215.9" y="187.96" size="1.778" layer="95"/>
+<wire x1="215.9" y1="187.96" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="187.96" x2="281.94" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="R31" gate="G$1" pin="1"/>
+<wire x1="256.54" y1="223.52" x2="256.54" y2="187.96" width="0.1524" layer="91"/>
+<junction x="256.54" y="187.96"/>
+<wire x1="256.54" y1="187.96" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C31" gate="G$1" pin="2"/>
+<wire x1="281.94" y1="187.96" x2="289.56" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="RJ1" gate="G$1" pin="RD+"/>
+<wire x1="289.56" y1="195.58" x2="297.18" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="RD_N" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="RXN"/>
+<wire x1="76.2" y1="218.44" x2="86.36" y2="218.44" width="0.1524" layer="91"/>
+<label x="81.28" y="218.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="215.9" y="182.88" size="1.778" layer="95"/>
+<wire x1="215.9" y1="182.88" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="266.7" y1="223.52" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
+<junction x="266.7" y="182.88"/>
+<wire x1="266.7" y1="182.88" x2="266.7" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C32" gate="G$1" pin="2"/>
+<wire x1="266.7" y1="182.88" x2="274.32" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="182.88" x2="292.1" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="RJ1" gate="G$1" pin="RD-"/>
+<wire x1="292.1" y1="200.66" x2="297.18" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TD_P" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="TXP"/>
+<wire x1="76.2" y1="213.36" x2="86.36" y2="213.36" width="0.1524" layer="91"/>
+<label x="81.28" y="213.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="215.9" y="200.66" size="1.778" layer="95"/>
+<wire x1="215.9" y1="200.66" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="200.66" x2="271.78" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<wire x1="226.06" y1="223.52" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
+<junction x="226.06" y="200.66"/>
+<wire x1="226.06" y1="200.66" x2="226.06" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="271.78" y1="200.66" x2="284.48" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="RJ1" gate="G$1" pin="TD+"/>
+<wire x1="284.48" y1="187.96" x2="297.18" y2="187.96" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="TD_N" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="TXN"/>
+<wire x1="76.2" y1="210.82" x2="86.36" y2="210.82" width="0.1524" layer="91"/>
+<label x="81.28" y="210.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="215.9" y="195.58" size="1.778" layer="95"/>
+<wire x1="215.9" y1="195.58" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="195.58" x2="274.32" y2="195.58" width="0.1524" layer="91"/>
+<pinref part="R30" gate="G$1" pin="1"/>
+<wire x1="236.22" y1="223.52" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
+<junction x="236.22" y="195.58"/>
+<wire x1="236.22" y1="195.58" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
+<pinref part="C30" gate="G$1" pin="2"/>
+<wire x1="274.32" y1="195.58" x2="276.86" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="RJ1" gate="G$1" pin="TD-"/>
+<wire x1="276.86" y1="193.04" x2="297.18" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
