@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1900,15 +1900,12 @@ Datasheet: http://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-RES-0603-10.0-0.1W" prefix="R">
-<description>Resistor: 10 Ohm, 0.1W, 1%;
-Package: 0603;
-Datasheet: http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf</description>
+<deviceset name="CPL-RES-1206-10-0.25W" prefix="R">
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="R0603">
+<device name="1206" package="R1206">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -11923,7 +11920,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="U9" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR(74LVC)"/>
 <part name="SUPPLY28" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="R17" library="TinWhiskers" deviceset="CPL-RES-0603-10.0-0.1W" device="" value="10R"/>
+<part name="R17" library="TinWhiskers" deviceset="CPL-RES-1206-10-0.25W" device="1206" value="10R 1/4W"/>
 <part name="R18" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K"/>
 <part name="R19" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K"/>
 <part name="SUPPLY29" library="TinWhiskers" deviceset="GND" device=""/>
@@ -11958,6 +11955,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="C18" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF"/>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY36" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="SUPPLY37" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12351,6 +12349,9 @@ TRANSDUCER</text>
 <attribute name="VALUE" x="254" y="198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY36" gate="GND" x="256.54" y="180.34"/>
+<instance part="SUPPLY37" gate="GND" x="172.72" y="124.46" smashed="yes">
+<attribute name="VALUE" x="170.815" y="121.285" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -12586,6 +12587,12 @@ TRANSDUCER</text>
 <pinref part="C18" gate="G$1" pin="POS"/>
 <pinref part="SUPPLY36" gate="GND" pin="GND"/>
 <wire x1="256.54" y1="187.96" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U10" gate="G$1" pin="A0"/>
+<pinref part="SUPPLY37" gate="GND" pin="GND"/>
+<wire x1="160.02" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="142.24" x2="172.72" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -13255,7 +13262,7 @@ TRANSDUCER</text>
 <label x="342.9" y="218.44" size="1.778" layer="95" ratio="10"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="LED_SW" class="0">
 <segment>
 <pinref part="L1" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="231.14" x2="147.32" y2="231.14" width="0.1524" layer="91"/>
@@ -13284,7 +13291,7 @@ TRANSDUCER</text>
 <label x="342.9" y="208.28" size="1.778" layer="95" ratio="10"/>
 </segment>
 </net>
-<net name="OV" class="0">
+<net name="LED_OV" class="0">
 <segment>
 <pinref part="R16" gate="R$1" pin="2"/>
 <pinref part="R15" gate="R$1" pin="1"/>
@@ -13296,7 +13303,7 @@ TRANSDUCER</text>
 <label x="147.32" y="218.44" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="LED_ANODE" class="0">
 <segment>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="160.02" y1="233.68" x2="162.56" y2="233.68" width="0.1524" layer="91"/>
@@ -13329,7 +13336,7 @@ TRANSDUCER</text>
 <label x="302.26" y="195.58" size="1.778" layer="95" ratio="10"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="LED_CATHODE" class="0">
 <segment>
 <pinref part="J7" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="228.6" x2="162.56" y2="228.6" width="0.1524" layer="91"/>
@@ -13343,7 +13350,7 @@ TRANSDUCER</text>
 <junction x="167.64" y="215.9"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="LED_FB" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="FB"/>
 <pinref part="R18" gate="G$1" pin="1"/>
@@ -13386,18 +13393,11 @@ TRANSDUCER</text>
 <wire x1="139.7" y1="142.24" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="2"/>
 <wire x1="129.54" y1="139.7" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="A0" class="0">
-<segment>
-<pinref part="U10" gate="G$1" pin="A0"/>
-<wire x1="160.02" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-<label x="160.02" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="R19" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="200.66" x2="144.78" y2="195.58" width="0.1524" layer="91"/>
-<label x="144.78" y="195.58" size="1.778" layer="95" ratio="10" rot="R90"/>
+<wire x1="144.78" y1="200.66" x2="144.78" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="175.26" x2="129.54" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="175.26" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
+<junction x="129.54" y="142.24"/>
 </segment>
 </net>
 <net name="N$12" class="0">
