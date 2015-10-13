@@ -1,0 +1,45 @@
+Mfg Part Num	Description	Qty-1	Part References	Price(USD):	Mfr:	Distr:	Digi-Key P/N:	Notes
+ECAM02	End Effector & Downward Camera Board	-	ECAM02	-	Tin Whiskers Tech	-	-	
+-	Bare PCB, FR-4, 0.062” Thickness	1	-		HQPCB	-	-	
+GMK107BJ104KAHT	Capacitor: 0.1uF, 35V, 10%, X5R	4	C13, C14, C15, C16		Taiyo Yuden	ANY	587-3357-2-ND 	
+UMK107B7104KA-T	Capacitor: 0.1uF, 50V, 10%, X7R	1	C6		Taiyo Yuden	ANY	587-1243-1-ND	
+RC0603JR-070RL	Resistor: 0.0 Ohm, 0.1W, 0%	5	R9, R10, R11, R13, R15		Yageo	ANY	311-0.0GRCT-ND	
+RL1206FR-7W0R22L	Resistor: 0.22 Ohm, 0.5W, 1%	2	R5, R6		Yageo	ANY	311-.22LYCT-ND	
+RC0603FR-071KL	Resistor: 1 kOhm, 0.1W, 1%	2	R3, R4		Yageo	ANY	311-1.00KHRCT-ND	
+RC0603FR-071ML	Resistor: 1 Mohm, 0.1W, 5%	1	R8		Yageo	ANY	311-1.00MHRCT-ND	
+UMK107AB7105KA-T	Capacitor, 1uF, 50V, 10%	4	C3, C7, C8, C9		Taiyo Yuden	ANY	587-3247-1-ND	
+PNM0603E5001BST5	Resistor: 5.0 kOhm, 0.1%, 0.15W	2	R18, R20		Vishay	ANY	PNM0603-5.0KBCT	
+BRL1608T6R8M	Inductor: 6.8uH, 20%, SMT	1	L1		Taiyo Yuden	ANY	587-2902-1-ND	
+RC0603FR-0710KL	Resistor: 10 kOhm, 0.1W, 1%	1	R12		Yageo	ANY	311-10.0KHRCT-ND	
+TC33X-2-103E	Potentiometer: Trim, 10 kOhm, 0.1W, 25%	1	R1		Bourns Inc.	ANY	TC33X-103EDKR-ND	
+RC1206FR-0710RL	Resistor: 10 Ohm, 0.25W, 1%	1	R17		Yageo	ANY	311-10.0FRCT-ND	
+GRM188R71H103KA01D	Capacitor: 10nF, 50V, 10%, X7R	2	C1, C10		Murata	ANY	490-1512-1-ND	
+EMVH350ADA100MF60G	Capacitor, AL-Electrolytic, 10uF, 35V, 20%	1	C18		United Chemi-Con	ANY	565-2310-2-ND	
+GRM188R61C106MA73D	Capacitor: 10uF, 16V, 20%	1	C12		Murata	ANY	490-7201-1-ND	
+GRM1885C1H120FA01J	Capacitor: 12pF, 50V, 1%, C0G	2	C4, C5		Murata	ANY	490-10705-1-ND	
+HCM4916000000ABJT	Crystal Oscillator: 16MHz, 18pF, SMD	1	Q2		Citizen FM	ANY	300-6134-1-ND	
+RC0603FR-0722KL	Resistor: 22 kOhm, 0.1W, 5%	1	R7		Yageo	ANY	311-22.0KHRCT-ND	
+RC0603FR-0790K9L	Resistor: 90.9 kOhm, 0.1W, 1%	1	R19		Yageo	ANY	311-90.9KHRCT-ND	
+RC0603FR-07100RL	Resistor: 100 Ohm, 0.1W, 1%	1	R2		Yageo	ANY	311-100HRCT-ND	
+UMK107B7104KA-T	Capacitor: 0.1uF, 50V, 10%, X7R	1	C2		Taiyo Yuden	ANY	587-1243-1-ND	
+EMVA500ADA101MHA0G	Capacitor, Al-Electrolytic, 100uF, 50V, 20%	1	C17		United Chemi-Con	ANY	565-2133-2-ND	
+GRM188R72A471KA01D	Capacitor: 470pF, 100V, 10%, X7R	1	C11		Murata	ANY	490-1467-2-ND	
+AP3032KTR-G1	Driver: LED, Regulator/Dimmer	1	U8		Diodes Incorporated	ANY	AP3032KTR-G1DICT-ND	
+ATMEGA328-AUR	Microprocessor: AVR, 20MHz, 8-Bit Core	1	U2		Atmel	ANY	ATMEGA328-AURCT-ND	
+B340A-13-F	Diode: Rectifier (Schottky), 3A, 40V	1	D1		Diodes Incorporated	ANY	FB340A-FDICT-ND	
+RC0603JR-070RL	Resistor: 0.0 Ohm, 0.1W, 0%	1	R16		Yageo	ANY	311-0.0GRCT-ND	
+DRV8825PWPR	Motor Driver: Bipolar, Stp/Dir, 1/32, 2.5A	1	U3		Texas Instruments	ANY	296-29503-1-ND	
+S6B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 6-POS(M)	1	J4		JST	ANY	455-1753-1-ND	
+MCP4725A0T-E/CH	DAC: 12BIT, I2C	1	U10		Microchip Tech.	ANY	MCP4725A0T-E/CHCT-ND	
+B8B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, VRT, 8-POS(M)	1	J1		JST	ANY	455-1740-1-ND	
+S4B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 4-POS(M)	1	J3		JST	ANY	455-1751-1-ND	
+MPXV5004GP	Sensor: Pressure, 0.57PSI, 5V	1	X1		Freescale Semi	ANY	MPXV5004GP-ND	
+NTR4003NT3G	MOSFET: N-Ch, 30V, 500mA	5	U4, U5, U6, U7, U11		ON Semiconductor	ANY	NTR4003NT3GOSCT-ND	
+SN74LVC1G32DBVR	Logic Gate: OR, 1-CH, SOT23-5	1	U9		Texas Instruments	ANY	296-9847-1-ND	
+B2B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, VRT, 2-POS(M)	1	J7		JST	ANY	455-1734-1-ND	
+S4B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 4-POS(M)	1	J5		JST	ANY	455-1751-1-ND	
+B7B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, VRT, 7-POS(M)	1	J6		JST	ANY	455-1739-1-ND	
+SP3485	Transceiver: RS-485 Chip	1	U1		EXAR	ANY	1016-1817-1-ND	
+67996-206HLF	Connector: Header, 0.1ﾔ, 6-Pin, Male, Thru-Hole	1	J2		FCI	ANY	609-3210-ND	
+TC1015-3.3VCT713	Voltage Reg(LDO): Vi=6V, Vo=3.3V, Io=0.1A	1	VR1		Microchip Tech.	ANY	TC1015-3.3VCT713CT-ND	
+			TOTAL:					

@@ -1,0 +1,35 @@
+Mfg Part Num	Description	QTY:	REFDES	Price (USD):	Mfr:	Distr:	Vendor Part Num	Notes:
+ECAM03	Up-Looking Camera & Heated Bed PCB	1	ECAM03	-	Tin Whiskers Tech	-	-	
+-	PCB, Bare, FR-4 0.062” Thickness	1	-		HQPCB	-	-	
+UMK107B7104KA-T	Capacitor: 0.1uF, 50V, 10%, X7R	1	C6		Taiyo Yuden	ANY	587-1243-1-ND	
+RC0603JR-070RL	Resistor: 0.0 Ohm, 0.1W, 0%	5	R9, R10, R11, R13, R15		Yageo	ANY	311-0.0GRCT-ND	
+RC0603FR-071KL	Resistor: 1 kOhm, 0.1W, 1%	2	R3, R4		Yageo	ANY	311-1.00KHRCT-ND	
+RC0603FR-071ML	Resistor: 1 Mohm, 0.1W, 5%	1	R8		Yageo	ANY	311-1.00MHRCT-ND	
+UMK107AB7105KA-T	Capacitor, 1uF, 50V, 10%	2	C7, C8		Taiyo Yuden	ANY	587-3247-1-ND	
+RC0603FR-074K99L	Resistor: 4.99 kOhm, 0.1W, 1%	1	R6		Yageo	ANY	311-4.99KHRCT-ND	
+BRL1608T6R8M	Inductor: 6.8uH, 20%, SMT	1	L1		Taiyo Yuden	ANY	587-2902-1-ND	
+RC0603FR-0710KL	Resistor: 10 kOhm, 0.1W, 1%	2	R1, R14		Yageo	ANY	311-10.0KHRCT-ND	
+RC1206FR-0710RL	Resistor: 10 Ohm, 0.25W, 1%	1	R7		Yageo	ANY	311-10.0FRCT-ND	
+GRM188R61C106MA73D	Capacitor: 10uF, 16V, 20%	1	C12		Murata	ANY	490-7201-1-ND	
+GRM1885C1H120FA01J	Capacitor: 12pF, 50V, 1%, C0G	2	C4, C5		Murata	ANY	490-10705-1-ND	
+HCM4916000000ABJT	Crystal Oscillator: 16MHz, 18pF, SMD	1	Q2		Citizen FM	ANY	300-6134-1-ND	
+RC0603FR-0790K9L	Resistor: 90.9 kOhm, 0.1W, 1%	1	R12		Yageo	ANY	311-90.9KHRCT-ND	
+RC0603FR-07100RL	Resistor: 100 Ohm, 0.1W, 1%	1	R2		Yageo	ANY	311-100HRCT-ND	
+AP3032KTR-G1	Driver: LED, Regulator/Dimmer	1	U8		Diodes Incorporated	ANY	AP3032KTR-G1DICT-ND	
+ATMEGA328-AUR	Microprocessor: AVR, 20MHz, 8-Bit Core	1	U2		Atmel	ANY	ATMEGA328-AURCT-ND	
+B4B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, VRT, 4-POS(M)	1	J5		JST	ANY	455-1736-1-ND	
+B340A-13-F	Diode: Rectifier (Schottky), 3A, 40V	1	D1		Diodes Incorporated	ANY	FB340A-FDICT-ND	
+RC0603JR-070RL	Resistor: 0.0 Ohm, 0.1W, 0%	1	R16		Yageo	ANY	311-0.0GRCT-ND	
+22232031	CONN HEADER 3POS .100 VERT TIN	3	J2, J3, J4		Molex Inc	ANY	WM4201-ND	
+S6B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 6-POS(M)	1	J8		JST	ANY	455-1753-1-ND	
+MAX31855KASA+	Converter: Thermocouple-Digital, SPI	1	U4		Maxim Integrated	ANY	MAX31855KASA+-ND	
+MCP4725A0T-E/CH	DAC: 12BIT, I2C	1	U3		Microchip Tech.	ANY	MCP4725A0T-E/CHCT-ND	
+S8B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, R/A, 8-POS(M)	1	J1		JST	ANY	455-1755-1-ND	
+SN74LVC1G02DBVR	Logic Gate: NOR, 1-CH, 2-Input, 	1	U6		Texas Instruments	ANY	296-11597-1-ND	
+NTR4003NT3G	MOSFET: N-Ch, 30V, 500mA	1	U5		ON Semiconductor	ANY	NTR4003NT3GOSCT-ND	
+B5B-PH-SM4-TB(LF)(SN)	Connector: 2.0mm (JST), SMT, VRT, 5-POS(M)	1	J7		JST	ANY	455-1737-1-ND	
+SP3485	Transceiver: RS-485 Chip	1	U1		EXAR	ANY	1016-1817-1-ND	
+67996-206HLF	Connector: Header, 0.1ﾔ, 6-Pin, Male, Thru-Hole	1	J9		FCI	ANY	609-3210-ND	
+68000-102HLF	Connector: Header, 0.1ﾔ, 2-Pin, Male, Thru-Hole	1	J6		FCI	ANY	609-3500-ND	
+OSTTH020160	Terminal Block: 2-POS, 5MM Pitch, R/A, 14-22AWG	1	TB1		On Shore Technology Inc	ANY	ED2655-ND	
+TC1015-3.3VCT713	Voltage Reg(LDO): Vi=6V, Vo=3.3V, Io=0.1A	1	VR1		Microchip Tech.	ANY	TC1015-3.3VCT713CT-ND	

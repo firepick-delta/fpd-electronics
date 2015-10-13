@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -7007,6 +7007,7 @@ design rules under a new name.
 <elements>
 <element name="C12" library="TinWhiskers" package="C0603" value="10uF" x="113.1618" y="21.6044" smashed="yes" rot="R90">
 <attribute name="NAME" x="112.211" y="20.333" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="PARTNO" value="GRM188R61C106MA73D" x="113.1618" y="21.6044" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="TinWhiskers" package="C0603" value="12pF" x="15.6464" y="25.4508" smashed="yes">
 <attribute name="PARTNO" value="GRM1885C1H120FA01J" x="15.6464" y="25.4508" size="1.778" layer="27" display="off"/>
@@ -7019,6 +7020,7 @@ design rules under a new name.
 <element name="D1" library="TinWhiskers" package="DIO-SMA" value="B340" x="107.7214" y="16.8402" smashed="yes" rot="R270">
 <attribute name="NAME" x="106.2024" y="14.5767" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="105.0214" y="19.0402" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="B340A-13-F" x="107.7214" y="16.8402" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J1" library="TinWhiskers" package="CONN-JST-PH-2.0MM-8P-SMT-RA" value="MODULAR TOOL" x="14.0462" y="43.5356" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="S8B-PH-SM4-TB(LF)(SN)" x="14.0462" y="43.5356" size="1.778" layer="27" rot="R90" display="off"/>
@@ -7028,22 +7030,26 @@ design rules under a new name.
 <element name="J2" library="FirePick" package="CONN-MOLEX-KK-3PIN" value="FAN1" x="33.5026" y="10.3632" smashed="yes" rot="R270">
 <attribute name="NAME" x="32.8684" y="14.6243" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="32.3026" y="6.0132" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="22232031" x="33.5026" y="10.3632" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J3" library="FirePick" package="CONN-MOLEX-KK-3PIN" value="FAN2" x="39.7002" y="10.3632" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.1676" y="14.6243" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="38.5002" y="6.0132" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="22232031" x="39.7002" y="10.3632" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J4" library="FirePick" package="CONN-MOLEX-KK-3PIN" value="FAN3" x="45.9232" y="10.4648" smashed="yes" rot="R270">
 <attribute name="NAME" x="45.2509" y="14.7767" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="44.7232" y="6.1148" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="22232031" x="45.9232" y="10.4648" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J5" library="TinWhiskers" package="CON-JST-PH-2.0MM-4P-SMT-VRT" value="S4B-PH-SM4" x="54.8132" y="7.8867" smashed="yes">
-<attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)" x="54.8132" y="7.8867" size="1.778" layer="27" display="off"/>
+<element name="J5" library="TinWhiskers" package="CON-JST-PH-2.0MM-4P-SMT-VRT" value="B4B-PH-SM4" x="54.8132" y="7.8867" smashed="yes">
+<attribute name="PARTNO" value="B4B-PH-SM4-TB(LF)(SN)" x="54.8132" y="7.8867" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="49.9241" y="14.6779" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="63.0432" y="10.1567" size="1" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="L1" library="TinWhiskers" package="0603" value="6.8uH" x="111.0182" y="20.621" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.0968" y="19.994" size="1.016" layer="25" rot="R90"/>
+<attribute name="PARTNO" value="BRL1608T6R8M" x="111.0182" y="20.621" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="LOGO1" library="FirePick" package="LOGO-CC-BY-SA" value="LOGO-CC-BY-SALARGE" x="157.099" y="0.127" smashed="yes" rot="MR0">
 <attribute name="DNP" value="T" x="157.099" y="0.127" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -7060,6 +7066,7 @@ design rules under a new name.
 <element name="R1" library="TinWhiskers" package="R0603" value="10K" x="26.289" y="35.179" smashed="yes">
 <attribute name="NAME" x="24.7465" y="36.0425" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="VALUE" x="28.239" y="34.729" size="1" layer="27" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="RC0603FR-0710KL" x="26.289" y="35.179" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="TinWhiskers" package="R0603" value="0R" x="55.3212" y="19.7104" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="55.3212" y="19.7104" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7079,10 +7086,12 @@ design rules under a new name.
 <element name="R15" library="TinWhiskers" package="R0603" value="0R" x="120.7632" y="20.1056" smashed="yes">
 <attribute name="NAME" x="122.2422" y="19.1786" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="122.7132" y="19.6556" size="1" layer="27" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="RC0603JR-070RL" x="120.7632" y="20.1056" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R16" library="TinWhiskers" package="R0603" value="DNP" x="120.8326" y="22.4118" smashed="yes" rot="R180">
 <attribute name="NAME" x="122.0068" y="21.4848" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="118.8826" y="22.8618" size="1" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="RC0603JR-070RL" x="120.8326" y="22.4118" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="TinWhiskers" package="R0603" value="120R" x="21.59" y="48.514" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603FR-07100RL" x="21.59" y="48.514" size="1.778" layer="27" rot="R270" display="off"/>
@@ -7111,6 +7120,7 @@ design rules under a new name.
 </element>
 <element name="TB1" library="TinWhiskers" package="TBLOCK-2-5MM-OSTTH020160" value="T-BLOCK" x="12.3571" y="11.3157" smashed="yes">
 <attribute name="NAME" x="7.3952" y="17.789" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="PARTNO" value="OSTTH020160" x="12.3571" y="11.3157" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="TinWhiskers" package="SOICN-8" value="SP3485" x="29.718" y="48.641" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="SP3485" x="29.718" y="48.641" size="1.778" layer="27" rot="R180" display="off"/>
@@ -7124,34 +7134,43 @@ design rules under a new name.
 </element>
 <element name="U3" library="TinWhiskers" package="SOT-23-6" value="MCP4725" x="114.7318" y="26.5684" smashed="yes">
 <attribute name="NAME" x="113.1758" y="28.3384" size="1.016" layer="51" font="vector" ratio="12"/>
+<attribute name="PARTNO" value="MCP4725A0T-E/CH" x="114.7318" y="26.5684" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="TinWhiskers" package="SOICN-8" value="MAX31855" x="24.6634" y="10.5664" smashed="yes">
 <attribute name="NAME" x="22.4244" y="14.1444" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="29.6634" y="11.0664" size="1" layer="27" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="MAX31855KASA+" x="24.6634" y="10.5664" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U5" library="TinWhiskers" package="SOT-23-3" value="NTR4003NT3G" x="24.892" y="19.304" smashed="yes">
 <attribute name="NAME" x="23.1267" y="18.5544" size="1.016" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="27.292" y="18.004" size="1" layer="27" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="NTR4003NT3G" x="24.892" y="19.304" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U8" library="TinWhiskers" package="SOT-23-6" value="AP3032" x="116.1586" y="21.4764" smashed="yes" rot="R180">
 <attribute name="NAME" x="111.1824" y="22.9844" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="PARTNO" value="AP3032KTR-G1" x="116.1586" y="21.4764" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U6" library="TinWhiskers" package="SOT-23-5" value="NOR(74LVC)" x="48.133" y="47.625" smashed="yes" rot="R90">
 <attribute name="NAME" x="47.077" y="49.822" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="48.533" y="50.125" size="1" layer="27" font="vector" ratio="10" rot="R90"/>
+<attribute name="PARTNO" value="SN74LVC1G02DBVR" x="48.133" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J6" library="TinWhiskers" package="CON-HDR-2POS-MALE" value="SSR" x="41.5417" y="51.0286" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.5384" y="48.2719" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="37.9537" y="51.9746" size="1" layer="27" font="vector" ratio="10" rot="R180"/>
+<attribute name="PARTNO" value="68000-102HLF" x="41.5417" y="51.0286" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="TinWhiskers" package="R0603" value="5K" x="119.674" y="17.6122" smashed="yes" rot="R180">
 <attribute name="NAME" x="121.0768" y="16.5836" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
+<attribute name="PARTNO" value="RC0603FR-074K99L" x="119.674" y="17.6122" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="TinWhiskers" package="R1206" value="10R" x="115.6208" y="17.9846" smashed="yes">
 <attribute name="NAME" x="112.9572" y="17.0724" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="PARTNO" value="RC1206FR-0710RL" x="115.6208" y="17.9846" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R12" library="TinWhiskers" package="R0603" value="90K" x="117.6274" y="26.6954" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.7004" y="25.2164" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="PARTNO" value="RC0603FR-0790K9L" x="117.6274" y="26.6954" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="VR1" library="TinWhiskers" package="SOT-23-5" value="TC1015-3.3VCT713" x="9.1694" y="25.781" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="TC1015-3.3VCT713" x="9.1694" y="20.701" size="0.635" layer="27" rot="R180" display="off"/>
@@ -7169,6 +7188,7 @@ design rules under a new name.
 <element name="J7" library="TinWhiskers" package="CON-JST-PH-2.0MM-5P-SMT-VRT" value="RINGLIGHT" x="116.2304" y="8.8392" smashed="yes">
 <attribute name="NAME" x="110.2812" y="15.5184" size="1.016" layer="25" font="vector" ratio="10"/>
 <attribute name="VALUE" x="110.2304" y="15.8392" size="0.635" layer="27" font="vector" ratio="10"/>
+<attribute name="PARTNO" value="B5B-PH-SM4-TB(LF)(SN)" x="116.2304" y="8.8392" size="1.778" layer="27" display="off"/>
 </element>
 <element name="J8" library="TinWhiskers" package="CON-HDR-6POS-MALE" value="FTDI" x="110.5408" y="43.8912" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="S6B-PH-SM4-TB(LF)(SN)" x="110.5408" y="43.8912" size="1.016" layer="27" font="vector" ratio="10" rot="R90" display="off"/>
@@ -7188,8 +7208,11 @@ design rules under a new name.
 <element name="J9" library="TinWhiskers" package="CON-HDR-2X3P" value="SPI" x="118.618" y="40.7924" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.102" y="45.0792" size="1.27" layer="21" ratio="12"/>
 <attribute name="VALUE" x="112.818" y="42.2924" size="1" layer="27" ratio="10" rot="R270"/>
+<attribute name="PARTNO" value="67996-206HLF" x="118.618" y="40.7924" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="136.2964" y="35.7632"/>
+<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="136.2964" y="35.7632">
+<attribute name="PARTNO" value="*" x="136.2964" y="35.7632" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

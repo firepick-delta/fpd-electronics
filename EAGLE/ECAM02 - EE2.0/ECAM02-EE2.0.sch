@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -469,6 +469,8 @@ Source: Texas Instruments</description>
 <text x="-3.7" y="-5.1" size="0.6" layer="21" font="vector">14</text>
 <text x="2.7" y="-5.1" size="0.6" layer="21" font="vector">15</text>
 <text x="2.7" y="4.5" size="0.6" layer="21" font="vector">28</text>
+<text x="-2.54" y="6.35" size="1.016" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-2.54" y="5.08" size="1.016" layer="27" font="vector" ratio="10">&gt;Value</text>
 </package>
 <package name="TC33X-2">
 <description>Trimming Potentiometer: 10 kOhm, 3-lead;
@@ -1841,7 +1843,7 @@ Datasheet: http://www.diodes.com/_files/datasheets/AP3032.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-CAP-X5R-0603-10UF-25V" prefix="C">
-<description>Capacitor: 10uF, 20%, X5R;
+<description>Capacitor: 10uF, 16V, 20%, X5R;
 Package: 0603;
 Datasheet: http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</description>
 <gates>
@@ -11862,7 +11864,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 </part>
 <part name="SUPPLY13" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J1" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-8P-SMT-VRT" device="" value="MODULAR TOOL">
-<attribute name="PARTNO" value="S8B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="J5" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-VRT" device="" value="S4B-PH-SM4">
 <attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)"/>
@@ -11898,61 +11900,113 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY17" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U4" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
-<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
-<part name="U6" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
-<part name="U7" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
+<part name="U4" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<attribute name="PARTNO" value="NTR4003NT3G"/>
+</part>
+<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<attribute name="PARTNO" value="NTR4003NT3G"/>
+</part>
+<part name="U6" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<attribute name="PARTNO" value="NTR4003NT3G"/>
+</part>
+<part name="U7" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<attribute name="PARTNO" value="NTR4003NT3G"/>
+</part>
 <part name="SUPPLY20" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
-<part name="D1" library="TinWhiskers" deviceset="CPL-DIO-B340-13-F-SMA" device="" value="B340"/>
-<part name="L1" library="TinWhiskers" deviceset="CPL-IND-6.8UH-250MA" device="" value="6.8uH"/>
-<part name="U8" library="TinWhiskers" deviceset="CPL-LED-DRIVER-WHT-AP3032" device="" value="AP3032"/>
+<part name="D1" library="TinWhiskers" deviceset="CPL-DIO-B340-13-F-SMA" device="" value="B340">
+<attribute name="PARTNO" value="B340A-13-F"/>
+</part>
+<part name="L1" library="TinWhiskers" deviceset="CPL-IND-6.8UH-250MA" device="" value="6.8uH">
+<attribute name="PARTNO" value="BRL1608T6R8M"/>
+</part>
+<part name="U8" library="TinWhiskers" deviceset="CPL-LED-DRIVER-WHT-AP3032" device="" value="AP3032">
+<attribute name="PARTNO" value="AP3032KTR-G1"/>
+</part>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY27" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-10UF-25V" device="" value="10uF"/>
-<part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R"/>
-<part name="R16" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="DNP"/>
+<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-10UF-25V" device="" value="10uF">
+<attribute name="PARTNO" value="GRM188R61C106MA73D"/>
+</part>
+<part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R">
+<attribute name="PARTNO" value="RC0603JR-070RL"/>
+</part>
+<part name="R16" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="DNP">
+<attribute name="PARTNO" value="RC0603JR-070RL"/>
+</part>
 <part name="SUPPLY26" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-2P-M-SMT-VRT" device="" value="RINGLIGHT"/>
-<part name="U9" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR(74LVC)"/>
+<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-2P-M-SMT-VRT" device="" value="RINGLIGHT">
+<attribute name="PARTNO" value="B2B-PH-SM4-TB(LF)(SN)"/>
+</part>
+<part name="U9" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="OR(74LVC)">
+<attribute name="PARTNO" value="SN74LVC1G32DBVR"/>
+</part>
 <part name="SUPPLY28" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="R17" library="TinWhiskers" deviceset="CPL-RES-1206-10-0.25W" device="1206" value="10R 1/4W"/>
-<part name="R18" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K"/>
-<part name="R19" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K"/>
+<part name="R17" library="TinWhiskers" deviceset="CPL-RES-1206-10-0.25W" device="1206" value="10R 1/4W">
+<attribute name="PARTNO" value="RC1206FR-0710RL"/>
+</part>
+<part name="R18" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K">
+<attribute name="PARTNO" value="PNM0603E5001BST5"/>
+</part>
+<part name="R19" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K">
+<attribute name="PARTNO" value="RC0603FR-0790K9L"/>
+</part>
 <part name="SUPPLY29" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U10" library="TinWhiskers" deviceset="CPL-DAC-12BIT-SOT23" device="" value="MCP4725"/>
+<part name="U10" library="TinWhiskers" deviceset="CPL-DAC-12BIT-SOT23" device="" value="MCP4725">
+<attribute name="PARTNO" value="MCP4725A0T-E/CH"/>
+</part>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY30" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="R20" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K"/>
+<part name="R20" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K">
+<attribute name="PARTNO" value="PNM0603E5001BST5"/>
+</part>
 <part name="SUPPLY31" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K">
 <attribute name="PARTNO" value="RC0603FR-0710KL"/>
 </part>
-<part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI"/>
+<part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI">
+<attribute name="PARTNO" value="67996-206HLF"/>
+</part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-7P-M-SMT-VRT" device="" value="SOL+PUMP"/>
-<part name="U11" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
+<part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-7P-M-SMT-VRT" device="" value="SOL+PUMP">
+<attribute name="PARTNO" value="B7B-PH-SM4-TB(LF)(SN)"/>
+</part>
+<part name="U11" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<attribute name="PARTNO" value="NTR4003NT3G"/>
+</part>
 <part name="SUPPLY32" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="+24V" device=""/>
-<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
-<part name="C14" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
+<part name="C14" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
 <part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="C15" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C15" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY33" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C16" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C16" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="GMK107BJ104KAHT"/>
+</part>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY34" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C17" library="TinWhiskers" deviceset="CPL-CAP-ALU-SMD-100UF-50V" device="" value="100uF"/>
+<part name="C17" library="TinWhiskers" deviceset="CPL-CAP-ALU-SMD-100UF-50V" device="" value="100uF">
+<attribute name="PARTNO" value="EMVA500ADA101MHA0G"/>
+</part>
 <part name="SUPPLY35" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C18" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF"/>
+<part name="C18" library="TinWhiskers" deviceset="CPL-CAP-ALU-6.4MM-10UF-10V" device="" value="10uF">
+<attribute name="PARTNO" value="EMVH350ADA100MF60G"/>
+</part>
 <part name="P+17" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY36" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY37" library="TinWhiskers" deviceset="GND" device=""/>
@@ -12200,10 +12254,18 @@ TRANSDUCER</text>
 <instance part="SUPPLY19" gate="GND" x="309.88" y="30.48" smashed="yes">
 <attribute name="VALUE" x="307.975" y="27.305" size="1.778" layer="96"/>
 </instance>
-<instance part="U4" gate="G$1" x="27.94" y="228.6"/>
-<instance part="U5" gate="G$1" x="27.94" y="210.82"/>
-<instance part="U6" gate="G$1" x="27.94" y="193.04"/>
-<instance part="U7" gate="G$1" x="27.94" y="175.26"/>
+<instance part="U4" gate="G$1" x="27.94" y="228.6">
+<attribute name="PARTNO" x="27.94" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U5" gate="G$1" x="27.94" y="210.82">
+<attribute name="PARTNO" x="27.94" y="210.82" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U6" gate="G$1" x="27.94" y="193.04">
+<attribute name="PARTNO" x="27.94" y="193.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U7" gate="G$1" x="27.94" y="175.26">
+<attribute name="PARTNO" x="27.94" y="175.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY20" gate="GND" x="15.24" y="167.64" smashed="yes">
 <attribute name="VALUE" x="13.335" y="164.465" size="1.778" layer="96"/>
 </instance>
@@ -12222,9 +12284,14 @@ TRANSDUCER</text>
 <instance part="D1" gate="G$1" x="157.48" y="233.68" smashed="yes">
 <attribute name="NAME" x="155.194" y="235.077" size="1.778" layer="95"/>
 <attribute name="VALUE" x="155.194" y="230.251" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="157.48" y="233.68" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L1" gate="G$1" x="132.08" y="231.14"/>
-<instance part="U8" gate="G$1" x="132.08" y="218.44"/>
+<instance part="L1" gate="G$1" x="132.08" y="231.14">
+<attribute name="PARTNO" x="132.08" y="231.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U8" gate="G$1" x="132.08" y="218.44">
+<attribute name="PARTNO" x="132.08" y="218.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+10" gate="1" x="116.84" y="236.22" smashed="yes">
 <attribute name="VALUE" x="114.3" y="236.22" size="1.778" layer="96"/>
 </instance>
@@ -12234,17 +12301,25 @@ TRANSDUCER</text>
 <instance part="C12" gate="G$1" x="104.14" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="103.759" y="214.122" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="106.299" y="212.344" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="104.14" y="220.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R15" gate="R$1" x="152.4" y="226.06" rot="R90"/>
-<instance part="R16" gate="R$1" x="152.4" y="208.28" rot="R90"/>
+<instance part="R15" gate="R$1" x="152.4" y="226.06" rot="R90">
+<attribute name="PARTNO" x="152.4" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="R$1" x="152.4" y="208.28" rot="R90">
+<attribute name="PARTNO" x="152.4" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY26" gate="GND" x="152.4" y="198.12" smashed="yes">
 <attribute name="VALUE" x="150.495" y="194.945" size="1.778" layer="96"/>
 </instance>
 <instance part="J7" gate="G$1" x="167.64" y="228.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="167.64" y="236.22" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="167.64" y="234.188" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="167.64" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U9" gate="G$1" x="241.3" y="228.6"/>
+<instance part="U9" gate="G$1" x="241.3" y="228.6">
+<attribute name="PARTNO" x="241.3" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY28" gate="GND" x="226.06" y="220.98"/>
 <instance part="+3V4" gate="G$1" x="248.92" y="236.22" smashed="yes">
 <attribute name="VALUE" x="246.38" y="237.49" size="1.778" layer="96"/>
@@ -12252,26 +12327,33 @@ TRANSDUCER</text>
 <instance part="R17" gate="G$1" x="167.64" y="208.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.1414" y="204.47" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="170.942" y="204.47" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="167.64" y="208.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R18" gate="G$1" x="160.02" y="215.9" smashed="yes">
 <attribute name="NAME" x="156.21" y="217.3986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="156.21" y="212.598" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="160.02" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R19" gate="G$1" x="144.78" y="205.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="143.2814" y="201.93" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="148.082" y="201.93" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="144.78" y="205.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY29" gate="GND" x="167.64" y="198.12" smashed="yes">
 <attribute name="VALUE" x="165.735" y="194.945" size="1.778" layer="96"/>
 </instance>
-<instance part="U10" gate="G$1" x="149.86" y="139.7"/>
+<instance part="U10" gate="G$1" x="149.86" y="139.7">
+<attribute name="PARTNO" x="149.86" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+15" gate="1" x="137.16" y="149.86" smashed="yes">
 <attribute name="VALUE" x="134.62" y="149.86" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY30" gate="GND" x="134.62" y="124.46" smashed="yes">
 <attribute name="VALUE" x="132.715" y="121.285" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="129.54" y="134.62" rot="R90"/>
+<instance part="R20" gate="G$1" x="129.54" y="134.62" rot="R90">
+<attribute name="PARTNO" x="129.54" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY31" gate="GND" x="129.54" y="124.46" smashed="yes">
 <attribute name="VALUE" x="127.635" y="121.285" size="1.778" layer="96"/>
 </instance>
@@ -12282,6 +12364,7 @@ TRANSDUCER</text>
 </instance>
 <instance part="J2" gate="G$1" x="233.68" y="137.16" smashed="yes" rot="R180">
 <attribute name="NAME" x="231.14" y="142.24" size="1.778" layer="125" ratio="12"/>
+<attribute name="PARTNO" x="233.68" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="215.9" y="149.86" smashed="yes">
 <attribute name="VALUE" x="213.36" y="149.86" size="1.778" layer="96"/>
@@ -12295,10 +12378,12 @@ TRANSDUCER</text>
 <instance part="J6" gate="G$1" x="66.04" y="203.2" smashed="yes">
 <attribute name="NAME" x="63.5" y="215.9" size="1.27" layer="95" ratio="12"/>
 <attribute name="VALUE" x="63.5" y="213.868" size="1.27" layer="96" ratio="10"/>
+<attribute name="PARTNO" x="66.04" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="U11" gate="G$1" x="73.66" y="180.34" smashed="yes" rot="MR0">
 <attribute name="NAME" x="66.04" y="187.96" size="1.778" layer="95" ratio="12"/>
 <attribute name="VALUE" x="66.04" y="185.928" size="1.27" layer="95" ratio="10"/>
+<attribute name="PARTNO" x="73.66" y="180.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY32" gate="GND" x="86.36" y="172.72" smashed="yes">
 <attribute name="VALUE" x="84.455" y="169.545" size="1.778" layer="96"/>
@@ -12309,10 +12394,12 @@ TRANSDUCER</text>
 <instance part="C13" gate="G$1" x="358.14" y="195.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="357.759" y="188.722" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="360.299" y="186.182" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="358.14" y="195.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="10.16" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="9.779" y="67.056" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="12.065" y="64.262" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="10.16" y="73.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="10.16" y="63.5"/>
 <instance part="+3V5" gate="G$1" x="10.16" y="81.28" smashed="yes">
@@ -12321,6 +12408,7 @@ TRANSDUCER</text>
 <instance part="C15" gate="G$1" x="119.38" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="118.999" y="132.842" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="121.539" y="130.556" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="119.38" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+16" gate="1" x="119.38" y="147.32" smashed="yes">
 <attribute name="VALUE" x="116.84" y="147.32" size="1.778" layer="96"/>
@@ -12331,6 +12419,7 @@ TRANSDUCER</text>
 <instance part="C16" gate="G$1" x="210.82" y="228.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="210.439" y="221.742" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="212.979" y="219.202" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="210.82" y="228.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V6" gate="G$1" x="210.82" y="236.22" smashed="yes">
 <attribute name="VALUE" x="208.28" y="237.49" size="1.778" layer="96"/>
@@ -12339,11 +12428,13 @@ TRANSDUCER</text>
 <instance part="C17" gate="G$1" x="281.94" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="281.559" y="133.096" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="284.099" y="130.81" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="281.94" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY35" gate="GND" x="281.94" y="132.08"/>
 <instance part="C18" gate="G$1" x="256.54" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="256.159" y="183.896" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="258.699" y="183.134" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="256.54" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+17" gate="1" x="256.54" y="198.12" smashed="yes">
 <attribute name="VALUE" x="254" y="198.12" size="1.778" layer="96"/>

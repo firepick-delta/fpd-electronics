@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -21922,14 +21922,20 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 </part>
 <part name="LOGO2" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE"/>
 <part name="SUPPLY17" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U5" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="74LVC"/>
+<part name="U5" library="TinWhiskers" deviceset="CPL-IC-LOGIC-OR-1CH-74LVC" device="" value="74LVC">
+<attribute name="PARTNO" value="SN74LVC1G32DBVR"/>
+</part>
 <part name="SUPPLY18" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI"/>
+<part name="J2" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI">
+<attribute name="PARTNO" value="67996-206HLF"/>
+</part>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL"/>
+<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL">
+<attribute name="PARTNO" value="*"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -22155,13 +22161,16 @@ for Firepick Delta</text>
 </instance>
 <instance part="LOGO2" gate="G$1" x="81.28" y="10.16"/>
 <instance part="SUPPLY17" gate="GND" x="350.52" y="45.72"/>
-<instance part="U5" gate="G$1" x="220.98" y="198.12"/>
+<instance part="U5" gate="G$1" x="220.98" y="198.12">
+<attribute name="PARTNO" x="220.98" y="198.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY18" gate="GND" x="205.74" y="190.5"/>
 <instance part="+3V4" gate="G$1" x="228.6" y="205.74" smashed="yes">
 <attribute name="VALUE" x="226.06" y="207.01" size="1.778" layer="96"/>
 </instance>
 <instance part="J2" gate="G$1" x="134.62" y="152.4" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.08" y="157.48" size="1.778" layer="125" ratio="12"/>
+<attribute name="PARTNO" x="134.62" y="152.4" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+4" gate="1" x="116.84" y="165.1" smashed="yes">
 <attribute name="VALUE" x="114.3" y="165.1" size="1.778" layer="96"/>
@@ -22172,7 +22181,9 @@ for Firepick Delta</text>
 <instance part="SUPPLY4" gate="GND" x="149.86" y="142.24" smashed="yes">
 <attribute name="VALUE" x="147.955" y="139.065" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="10.16" y="33.02"/>
+<instance part="U$1" gate="G$1" x="10.16" y="33.02">
+<attribute name="PARTNO" x="10.16" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

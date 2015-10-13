@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -26303,19 +26303,33 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="J1" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-8P-M-RA" device="" value="MODULAR TOOL">
 <attribute name="PARTNO" value="S8B-PH-SM4-TB(LF)(SN)"/>
 </part>
-<part name="R1" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K"/>
+<part name="R1" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K">
+<attribute name="PARTNO" value="RC0603FR-0710KL"/>
+</part>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="D1" library="TinWhiskers" deviceset="CPL-DIO-B340-13-F-SMA" device="" value="B340"/>
-<part name="L1" library="TinWhiskers" deviceset="CPL-IND-6.8UH-250MA" device="" value="6.8uH"/>
-<part name="U8" library="TinWhiskers" deviceset="CPL-LED-DRIVER-WHT-AP3032" device="" value="AP3032"/>
+<part name="D1" library="TinWhiskers" deviceset="CPL-DIO-B340-13-F-SMA" device="" value="B340">
+<attribute name="PARTNO" value="B340A-13-F"/>
+</part>
+<part name="L1" library="TinWhiskers" deviceset="CPL-IND-6.8UH-250MA" device="" value="6.8uH">
+<attribute name="PARTNO" value="BRL1608T6R8M"/>
+</part>
+<part name="U8" library="TinWhiskers" deviceset="CPL-LED-DRIVER-WHT-AP3032" device="" value="AP3032">
+<attribute name="PARTNO" value="AP3032KTR-G1"/>
+</part>
 <part name="P+10" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY27" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-10UF-25V" device="" value="10uF"/>
-<part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R"/>
-<part name="R16" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="DNP"/>
+<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-10UF-25V" device="" value="10uF">
+<attribute name="PARTNO" value="GRM188R61C106MA73D"/>
+</part>
+<part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R">
+<attribute name="PARTNO" value="RC0603JR-070RL"/>
+</part>
+<part name="R16" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="DNP">
+<attribute name="PARTNO" value="RC0603JR-070RL"/>
+</part>
 <part name="SUPPLY26" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="J5" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-VRT" device="" value="S4B-PH-SM4">
-<attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)"/>
+<part name="J5" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-SMT-VRT" device="" value="B4B-PH-SM4">
+<attribute name="PARTNO" value="B4B-PH-SM4-TB(LF)(SN)"/>
 </part>
 <part name="SUPPLY14" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="R9" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R">
@@ -26330,29 +26344,53 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="R13" library="TinWhiskers" deviceset="CPL-RES-0603-0-0.1W" device="" value="0R">
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
-<part name="U3" library="TinWhiskers" deviceset="CPL-DAC-12BIT-SOT23" device="" value="MCP4725"/>
+<part name="U3" library="TinWhiskers" deviceset="CPL-DAC-12BIT-SOT23" device="" value="MCP4725">
+<attribute name="PARTNO" value="MCP4725A0T-E/CH"/>
+</part>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY4" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U4" library="TinWhiskers" deviceset="CPL-THRM-MAX31855" device="" value="MAX31855"/>
+<part name="U4" library="TinWhiskers" deviceset="CPL-THRM-MAX31855" device="" value="MAX31855">
+<attribute name="PARTNO" value="MAX31855KASA+"/>
+</part>
 <part name="SUPPLY6" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
-<part name="J2" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN1"/>
-<part name="J3" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN2"/>
-<part name="J4" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN3"/>
-<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G"/>
+<part name="J2" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN1">
+<attribute name="PARTNO" value="22232031"/>
+</part>
+<part name="J3" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN2">
+<attribute name="PARTNO" value="22232031"/>
+</part>
+<part name="J4" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN3">
+<attribute name="PARTNO" value="22232031"/>
+</part>
+<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<attribute name="PARTNO" value="NTR4003NT3G"/>
+</part>
 <part name="SUPPLY7" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
 <part name="P+9" library="supply1" deviceset="+24V" device=""/>
 <part name="P+11" library="supply1" deviceset="+24V" device=""/>
-<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-2CKT-5.0MM-OST" device="" value="T-BLOCK"/>
+<part name="TB1" library="TinWhiskers" deviceset="CPL-TBLK-SCR-2CKT-5.0MM-OST" device="" value="T-BLOCK">
+<attribute name="PARTNO" value="OSTTH020160"/>
+</part>
 <part name="SUPPLY8" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="U6" library="TinWhiskers" deviceset="CPL-IC-LOGIC-NOR-1CH-74LVC" device="" value="NOR(74LVC)"/>
-<part name="J6" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2P-M" device="" value="SSR"/>
+<part name="U6" library="TinWhiskers" deviceset="CPL-IC-LOGIC-NOR-1CH-74LVC" device="" value="NOR(74LVC)">
+<attribute name="PARTNO" value="SN74LVC1G02DBVR"/>
+</part>
+<part name="J6" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2P-M" device="" value="SSR">
+<attribute name="PARTNO" value="68000-102HLF"/>
+</part>
 <part name="SUPPLY13" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="R6" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K"/>
-<part name="R7" library="TinWhiskers" deviceset="CPL-RES-1206-10-0.25W" device="1206" value="10R"/>
-<part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K"/>
+<part name="R6" library="TinWhiskers" deviceset="CPL-RES-0603-5K-0.1W" device="" value="5K">
+<attribute name="PARTNO" value="RC0603FR-074K99L"/>
+</part>
+<part name="R7" library="TinWhiskers" deviceset="CPL-RES-1206-10-0.25W" device="1206" value="10R">
+<attribute name="PARTNO" value="RC1206FR-0710RL"/>
+</part>
+<part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K">
+<attribute name="PARTNO" value="RC0603FR-0790K9L"/>
+</part>
 <part name="SUPPLY16" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
 <part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713">
@@ -26368,7 +26406,9 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY23" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-5P-SMT-VRT" device="" value="RINGLIGHT"/>
+<part name="J7" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-5P-SMT-VRT" device="" value="RINGLIGHT">
+<attribute name="PARTNO" value="B5B-PH-SM4-TB(LF)(SN)"/>
+</part>
 <part name="SUPPLY15" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+5V" device=""/>
 <part name="J8" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-6P-M" device="" value="FTDI">
@@ -26382,11 +26422,15 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="R14" library="TinWhiskers" deviceset="CPL-RES-0603-10K-0.1W" device="" value="10K">
 <attribute name="PARTNO" value="RC0603FR-0710KL"/>
 </part>
-<part name="J9" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI"/>
+<part name="J9" library="TinWhiskers" deviceset="CPL-CON-HEADER-0.1IN-2X3P-M" device="" value="SPI">
+<attribute name="PARTNO" value="67996-206HLF"/>
+</part>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY18" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="TSTOP"/>
+<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="TSTOP">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="SUPPLY5" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -26482,16 +26526,23 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <attribute name="VALUE" x="264.16" y="125.73" size="1.524" layer="96" ratio="10"/>
 <attribute name="PARTNO" x="264.16" y="115.57" size="1.778" layer="96" rot="MR0" display="off"/>
 </instance>
-<instance part="R1" gate="G$1" x="304.8" y="226.06"/>
+<instance part="R1" gate="G$1" x="304.8" y="226.06">
+<attribute name="PARTNO" x="304.8" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+3" gate="1" x="297.18" y="231.14" smashed="yes">
 <attribute name="VALUE" x="294.64" y="231.14" size="1.778" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="165.1" y="137.16" smashed="yes">
 <attribute name="NAME" x="162.814" y="138.557" size="1.778" layer="95"/>
 <attribute name="VALUE" x="162.814" y="133.731" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="165.1" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="L1" gate="G$1" x="139.7" y="134.62"/>
-<instance part="U8" gate="G$1" x="139.7" y="121.92"/>
+<instance part="L1" gate="G$1" x="139.7" y="134.62">
+<attribute name="PARTNO" x="139.7" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U8" gate="G$1" x="139.7" y="121.92">
+<attribute name="PARTNO" x="139.7" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+10" gate="1" x="124.46" y="139.7" smashed="yes">
 <attribute name="VALUE" x="121.92" y="139.7" size="1.778" layer="96"/>
 </instance>
@@ -26501,9 +26552,14 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="C12" gate="G$1" x="111.76" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="111.379" y="117.602" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="113.919" y="115.824" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="111.76" y="124.46" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R15" gate="R$1" x="160.02" y="129.54" rot="R90"/>
-<instance part="R16" gate="R$1" x="160.02" y="109.22" rot="R90"/>
+<instance part="R15" gate="R$1" x="160.02" y="129.54" rot="R90">
+<attribute name="PARTNO" x="160.02" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R16" gate="R$1" x="160.02" y="109.22" rot="R90">
+<attribute name="PARTNO" x="160.02" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY26" gate="GND" x="160.02" y="99.06" smashed="yes">
 <attribute name="VALUE" x="158.115" y="95.885" size="1.778" layer="96"/>
 </instance>
@@ -26525,14 +26581,18 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="R13" gate="R$1" x="43.18" y="114.3">
 <attribute name="PARTNO" x="43.18" y="114.3" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U3" gate="G$1" x="109.22" y="53.34"/>
+<instance part="U3" gate="G$1" x="109.22" y="53.34">
+<attribute name="PARTNO" x="109.22" y="53.34" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="P+5" gate="1" x="96.52" y="63.5" smashed="yes">
 <attribute name="VALUE" x="93.98" y="63.5" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="93.98" y="38.1" smashed="yes">
 <attribute name="VALUE" x="92.075" y="34.925" size="1.778" layer="96"/>
 </instance>
-<instance part="U4" gate="G$1" x="167.64" y="55.88"/>
+<instance part="U4" gate="G$1" x="167.64" y="55.88">
+<attribute name="PARTNO" x="167.64" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY6" gate="GND" x="154.94" y="45.72" smashed="yes">
 <attribute name="VALUE" x="153.035" y="42.545" size="1.778" layer="96"/>
 </instance>
@@ -26542,16 +26602,21 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="J2" gate="G$1" x="210.82" y="55.88" smashed="yes">
 <attribute name="NAME" x="203.2" y="63.5" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="203.2" y="61.468" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="210.82" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J3" gate="G$1" x="233.68" y="55.88" smashed="yes">
 <attribute name="NAME" x="226.06" y="63.5" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="226.06" y="61.468" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="233.68" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J4" gate="G$1" x="256.54" y="55.88" smashed="yes">
 <attribute name="NAME" x="248.92" y="63.5" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="248.92" y="61.468" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="256.54" y="55.88" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U5" gate="G$1" x="45.72" y="55.88"/>
+<instance part="U5" gate="G$1" x="45.72" y="55.88">
+<attribute name="PARTNO" x="45.72" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY7" gate="GND" x="33.02" y="48.26" smashed="yes">
 <attribute name="VALUE" x="31.115" y="45.085" size="1.778" layer="96"/>
 </instance>
@@ -26567,24 +26632,33 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="TB1" gate="G$1" x="147.32" y="53.34" smashed="yes">
 <attribute name="NAME" x="142.24" y="63.5" size="1.778" layer="95" font="vector" ratio="12" rot="MR180"/>
 <attribute name="VALUE" x="142.24" y="60.452" size="1.27" layer="96" font="vector" ratio="10" rot="MR180"/>
+<attribute name="PARTNO" x="147.32" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY8" gate="GND" x="297.18" y="48.26"/>
 <instance part="+3V1" gate="G$1" x="320.04" y="63.5" smashed="yes">
 <attribute name="VALUE" x="317.5" y="64.77" size="1.778" layer="96"/>
 </instance>
-<instance part="U6" gate="G$1" x="312.42" y="55.88"/>
+<instance part="U6" gate="G$1" x="312.42" y="55.88">
+<attribute name="PARTNO" x="312.42" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J6" gate="G$1" x="337.82" y="50.8" smashed="yes" rot="MR0">
 <attribute name="NAME" x="337.82" y="58.42" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="337.82" y="56.388" size="1.27" layer="96" font="vector" ratio="10"/>
+<attribute name="PARTNO" x="337.82" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="332.74" y="45.72" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="334.645" y="42.545" size="1.778" layer="96" rot="MR0"/>
 </instance>
-<instance part="R6" gate="G$1" x="167.64" y="119.38"/>
-<instance part="R7" gate="G$1" x="175.26" y="109.22" rot="R90"/>
+<instance part="R6" gate="G$1" x="167.64" y="119.38">
+<attribute name="PARTNO" x="167.64" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R7" gate="G$1" x="175.26" y="109.22" rot="R90">
+<attribute name="PARTNO" x="175.26" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R12" gate="G$1" x="152.4" y="109.22" smashed="yes" rot="R270">
 <attribute name="NAME" x="150.9014" y="105.41" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="155.702" y="105.41" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="152.4" y="109.22" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY16" gate="GND" x="175.26" y="99.06" smashed="yes">
 <attribute name="VALUE" x="173.355" y="95.885" size="1.778" layer="96"/>
@@ -26615,7 +26689,9 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="+3V4" gate="G$1" x="345.44" y="144.78" smashed="yes">
 <attribute name="VALUE" x="342.9" y="144.78" size="1.778" layer="96"/>
 </instance>
-<instance part="J7" gate="G$1" x="185.42" y="129.54" rot="MR0"/>
+<instance part="J7" gate="G$1" x="185.42" y="129.54" rot="MR0">
+<attribute name="PARTNO" x="185.42" y="129.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY15" gate="GND" x="180.34" y="116.84" smashed="yes">
 <attribute name="VALUE" x="178.435" y="113.665" size="1.778" layer="96"/>
 </instance>
@@ -26645,6 +26721,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 </instance>
 <instance part="J9" gate="G$1" x="134.62" y="200.66" smashed="yes" rot="R180">
 <attribute name="NAME" x="132.08" y="205.74" size="1.778" layer="125" ratio="12"/>
+<attribute name="PARTNO" x="134.62" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+15" gate="1" x="116.84" y="213.36" smashed="yes">
 <attribute name="VALUE" x="114.3" y="213.36" size="1.778" layer="96"/>
@@ -26655,7 +26732,9 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="SUPPLY18" gate="GND" x="149.86" y="190.5" smashed="yes">
 <attribute name="VALUE" x="147.955" y="187.325" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="347.98" y="25.4"/>
+<instance part="U$1" gate="G$1" x="347.98" y="25.4">
+<attribute name="PARTNO" x="347.98" y="25.4" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY5" gate="GND" x="132.08" y="38.1" smashed="yes">
 <attribute name="VALUE" x="130.175" y="34.925" size="1.778" layer="96"/>
 </instance>
