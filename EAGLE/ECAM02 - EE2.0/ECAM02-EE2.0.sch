@@ -1308,9 +1308,10 @@ Datasheet: http://www.exar.com/common/content/document.ashx?id=639</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-RES-0603-100-0.1W" prefix="R">
-<description>Resistor: 100 Ohm, 0.1W, 1%;
-Package: 0603;</description>
+<deviceset name="CPL-RES-0603-120-0.1W" prefix="R">
+<description>Resistor: 120 Ohm, 0.1W, 1%;
+Package: 0603 (SMT);
+Datasheet:</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
 </gates>
@@ -11776,8 +11777,8 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY1" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-100-0.1W" device="" value="100R">
-<attribute name="PARTNO" value="RC0603FR-07100RL"/>
+<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-120-0.1W" device="" value="120R">
+<attribute name="PARTNO" value="RC0603FR-07120RL"/>
 </part>
 <part name="R3" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K">
 <attribute name="PARTNO" value="RC0603FR-071KL"/>

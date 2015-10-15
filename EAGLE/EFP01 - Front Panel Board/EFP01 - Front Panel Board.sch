@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -23018,7 +23018,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY58" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="R51" library="TinWhiskers" deviceset="CPL-RES-0603-120-0.1W" device="" value="120R">
-<attribute name="PARTNO" value="RC0603FR-07100RL"/>
+<attribute name="PARTNO" value="RC0603FR-07120RL"/>
 </part>
 <part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
@@ -23573,7 +23573,9 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="C2" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF">
 <attribute name="PARTNO" value="GMK107BJ104KAHT"/>
 </part>
-<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="TSTOP"/>
+<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="TSTOP">
+<attribute name="PARTNO" value="*"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -24163,7 +24165,9 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="68.199" y="219.964" size="1.778" layer="96" rot="R90"/>
 <attribute name="PARTNO" x="66.04" y="231.14" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="7.62" y="33.02"/>
+<instance part="U$1" gate="G$1" x="7.62" y="33.02">
+<attribute name="PARTNO" x="7.62" y="33.02" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

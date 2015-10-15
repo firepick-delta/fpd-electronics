@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6396,7 +6396,7 @@ design rules under a new name.
 <attribute name="VALUE" x="115.7296" y="33.4968" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
 </element>
 <element name="R51" library="TinWhiskers" package="R0603" value="120R" x="117.5004" y="35.0012" smashed="yes" rot="MR180">
-<attribute name="PARTNO" value="RC0603FR-07100RL" x="117.5004" y="42.021196875" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="PARTNO" value="RC0603FR-07120RL" x="117.5004" y="42.021196875" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="NAME" x="119.13781875" y="34.23741875" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
 <attribute name="VALUE" x="119.4504" y="35.4512" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
 </element>
@@ -7014,7 +7014,9 @@ design rules under a new name.
 <attribute name="VALUE" x="49.7473" y="5.5549" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="48.2473" y="7.4549" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="21.7678" y="26.8351" rot="MR0"/>
+<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="21.7678" y="26.8351" rot="MR0">
+<attribute name="PARTNO" value="*" x="21.7678" y="26.8351" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND" class="1">
