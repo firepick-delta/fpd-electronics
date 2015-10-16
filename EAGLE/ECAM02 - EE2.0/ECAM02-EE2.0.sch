@@ -11861,7 +11861,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 </part>
 <part name="SUPPLY8" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J3" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-4P-M-THRU-VRT" device="" value="MOT">
-<attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)"/>
+<attribute name="PARTNO" value="B4B-PH-K-S(LF)(SN)"/>
 </part>
 <part name="SUPPLY13" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="J1" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-8P-SMT-VRT" device="" value="MODULAR TOOL">
@@ -11885,7 +11885,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <attribute name="PARTNO" value="RC0603JR-070RL"/>
 </part>
 <part name="X1" library="TinWhiskers" deviceset="CPL-SEN-PRS-MPXV5100DP" device="" value="MPXV5100DP">
-<attribute name="PARTNO" value="MPXV5004GP"/>
+<attribute name="PARTNO" value="MPXV5100DP"/>
 </part>
 <part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-1UF-50V" device="" value="1uF">
 <attribute name="PARTNO" value="UMK107AB7105KA-T"/>

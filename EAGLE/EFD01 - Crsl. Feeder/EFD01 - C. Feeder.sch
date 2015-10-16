@@ -21805,7 +21805,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-120-0.1W" device="" value="120R">
-<attribute name="PARTNO" value="RC0603FR-07100RL"/>
+<attribute name="PARTNO" value="RC0603FR-07120RL"/>
 </part>
 <part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713">
 <attribute name="PARTNO" value="TC1015-3.3VCT713"/>
