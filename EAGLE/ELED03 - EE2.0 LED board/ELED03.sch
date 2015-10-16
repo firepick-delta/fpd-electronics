@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -20439,63 +20439,73 @@ DIN A3, landscape with location and doc. field</description>
 </classes>
 <parts>
 <part name="LED1" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED2" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED3" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED4" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED5" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED6" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED7" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED8" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED9" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED10" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED11" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED12" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED13" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED14" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED15" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
 <part name="LED16" library="GinWhiskers - temp stuff" deviceset="LED" device="1210" value="RED">
-<attribute name="PARTNO" value="LTST-C150CKT"/>
+<attribute name="PARTNO" value="QBLP650-IW"/>
 </part>
-<part name="+" library="FirePick" deviceset="CONN-TESTPOINT" device=""/>
-<part name="-" library="FirePick" deviceset="CONN-TESTPOINT" device=""/>
-<part name="FID1" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
-<part name="FID2" library="TinWhiskers" deviceset="FIDUCIAL" device=""/>
+<part name="+" library="FirePick" deviceset="CONN-TESTPOINT" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="-" library="FirePick" deviceset="CONN-TESTPOINT" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="FID1" library="TinWhiskers" deviceset="FIDUCIAL" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
+<part name="FID2" library="TinWhiskers" deviceset="FIDUCIAL" device="">
+<attribute name="PARTNO" value="*"/>
+</part>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="LOGO4" library="FirePick" deviceset="LOGO-FIREPICK" device="MEDIUM" value="LOGO-FIREPICKMEDIUM">
 <attribute name="BOM" value="EXCLUDE"/>
 <attribute name="DNP" value="T"/>
 </part>
-<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL"/>
+<part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL">
+<attribute name="PARTNO" value="*"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -20589,16 +20599,26 @@ for FirePick Delta</text>
 <attribute name="VALUE" x="213.868" y="117.475" size="1.778" layer="96" rot="MR180"/>
 <attribute name="PARTNO" x="208.28" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+" gate="G$1" x="149.86" y="170.18"/>
-<instance part="-" gate="G$1" x="149.86" y="101.6"/>
-<instance part="FID1" gate="G$1" x="279.4" y="15.24"/>
-<instance part="FID2" gate="G$1" x="279.4" y="7.62"/>
+<instance part="+" gate="G$1" x="149.86" y="170.18">
+<attribute name="PARTNO" x="149.86" y="170.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="-" gate="G$1" x="149.86" y="101.6">
+<attribute name="PARTNO" x="149.86" y="101.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FID1" gate="G$1" x="279.4" y="15.24">
+<attribute name="PARTNO" x="279.4" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FID2" gate="G$1" x="279.4" y="7.62">
+<attribute name="PARTNO" x="279.4" y="7.62" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="FRAME1" gate="G$1" x="0.000003125" y="0"/>
 <instance part="LOGO4" gate="G$1" x="85.09" y="8.89">
 <attribute name="DNP" x="85.09" y="8.89" size="1.778" layer="96" display="off"/>
 <attribute name="BOM" x="85.09" y="8.89" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U$1" gate="G$1" x="340.36" y="30.48"/>
+<instance part="U$1" gate="G$1" x="340.36" y="30.48">
+<attribute name="PARTNO" x="340.36" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

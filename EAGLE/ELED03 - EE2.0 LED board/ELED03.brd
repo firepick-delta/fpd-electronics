@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5424,84 +5424,92 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="LED1" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="15" y="25" smashed="yes" rot="R90">
-<attribute name="PARTNO" value="LTST-C150CKT" x="15" y="25" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="15" y="25" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="18.175" y="23.095" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED2" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="18.827" y="24.239" smashed="yes" rot="R67.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="18.827" y="24.239" size="1.778" layer="27" rot="R67.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="18.827" y="24.239" size="1.778" layer="27" rot="R67.5" display="off"/>
 <attribute name="VALUE" x="21.031303125" y="21.2639875" size="1.27" layer="27" rot="R67.5"/>
 </element>
 <element name="LED3" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="22.071" y="22.071" smashed="yes" rot="R45">
-<attribute name="PARTNO" value="LTST-C150CKT" x="22.071" y="22.071" size="1.778" layer="27" rot="R45" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="22.071" y="22.071" size="1.778" layer="27" rot="R45" display="off"/>
 <attribute name="VALUE" x="22.969025" y="18.478896875" size="1.27" layer="27" rot="R45"/>
 </element>
 <element name="LED4" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="24.239" y="18.827" smashed="yes" rot="R22.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="24.239" y="18.827" size="1.778" layer="27" rot="R22.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="24.239" y="18.827" size="1.778" layer="27" rot="R22.5" display="off"/>
 <attribute name="VALUE" x="23.694028125" y="15.16466875" size="1.27" layer="27" rot="R22.5"/>
 </element>
 <element name="LED5" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="25" y="15" smashed="yes">
-<attribute name="PARTNO" value="LTST-C150CKT" x="25" y="15" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="25" y="15" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="23.095" y="11.825" size="1.27" layer="27"/>
 </element>
 <element name="LED6" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="24.239" y="11.173" smashed="yes" rot="R337.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="24.239" y="11.173" size="1.778" layer="27" rot="R337.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="24.239" y="11.173" size="1.778" layer="27" rot="R337.5" display="off"/>
 <attribute name="VALUE" x="21.2639875" y="8.96869375" size="1.27" layer="27" rot="R337.5"/>
 </element>
 <element name="LED7" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="22.071" y="7.929" smashed="yes" rot="R315">
-<attribute name="PARTNO" value="LTST-C150CKT" x="22.071" y="7.929" size="1.778" layer="27" rot="R315" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="22.071" y="7.929" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="VALUE" x="18.478896875" y="7.030971875" size="1.27" layer="27" rot="R315"/>
 </element>
 <element name="LED8" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="18.827" y="5.761" smashed="yes" rot="R292.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="18.827" y="5.761" size="1.778" layer="27" rot="R292.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="18.827" y="5.761" size="1.778" layer="27" rot="R292.5" display="off"/>
 <attribute name="VALUE" x="15.16466875" y="6.30596875" size="1.27" layer="27" rot="R292.5"/>
 </element>
 <element name="LED9" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="15" y="5" smashed="yes" rot="R270">
-<attribute name="PARTNO" value="LTST-C150CKT" x="15" y="5" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="15" y="5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="11.825" y="6.905" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="LED10" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="11.173" y="5.761" smashed="yes" rot="R247.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="11.173" y="5.761" size="1.778" layer="27" rot="R247.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="11.173" y="5.761" size="1.778" layer="27" rot="R247.5" display="off"/>
 <attribute name="VALUE" x="8.96869375" y="8.736009375" size="1.27" layer="27" rot="R247.5"/>
 </element>
 <element name="LED11" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="7.929" y="7.929" smashed="yes" rot="R225">
-<attribute name="PARTNO" value="LTST-C150CKT" x="7.929" y="7.929" size="1.778" layer="27" rot="R225" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="7.929" y="7.929" size="1.778" layer="27" rot="R225" display="off"/>
 <attribute name="VALUE" x="7.030971875" y="11.5211" size="1.27" layer="27" rot="R225"/>
 </element>
 <element name="LED12" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="5.761" y="11.173" smashed="yes" rot="R202.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="5.761" y="11.173" size="1.778" layer="27" rot="R202.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="5.761" y="11.173" size="1.778" layer="27" rot="R202.5" display="off"/>
 <attribute name="VALUE" x="6.30596875" y="14.835328125" size="1.27" layer="27" rot="R202.5"/>
 </element>
 <element name="LED13" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="5" y="15" smashed="yes" rot="R180">
-<attribute name="PARTNO" value="LTST-C150CKT" x="5" y="15" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="5" y="15" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="6.905" y="18.175" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="LED14" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="5.761" y="18.827" smashed="yes" rot="R157.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="5.761" y="18.827" size="1.778" layer="27" rot="R157.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="5.761" y="18.827" size="1.778" layer="27" rot="R157.5" display="off"/>
 <attribute name="VALUE" x="8.736009375" y="21.031303125" size="1.27" layer="27" rot="R157.5"/>
 </element>
 <element name="LED15" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="7.929" y="22.071" smashed="yes" rot="R135">
-<attribute name="PARTNO" value="LTST-C150CKT" x="7.929" y="22.071" size="1.778" layer="27" rot="R135" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="7.929" y="22.071" size="1.778" layer="27" rot="R135" display="off"/>
 <attribute name="VALUE" x="11.5211" y="22.969025" size="1.27" layer="27" rot="R135"/>
 </element>
 <element name="LED16" library="GinWhiskers - temp stuff" package="DIODE-1210" value="RED" x="11.173" y="24.239" smashed="yes" rot="R112.5">
-<attribute name="PARTNO" value="LTST-C150CKT" x="11.173" y="24.239" size="1.778" layer="27" rot="R112.5" display="off"/>
+<attribute name="PARTNO" value="QBLP650-IW" x="11.173" y="24.239" size="1.778" layer="27" rot="R112.5" display="off"/>
 <attribute name="VALUE" x="14.835328125" y="23.694028125" size="1.27" layer="27" rot="R112.5"/>
 </element>
 <element name="+" library="FirePick" package="CON-TESTPOINT" value="CONN-TESTPOINT" x="28" y="21" smashed="yes">
 <attribute name="NAME" x="28.23" y="18.151" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="26.73" y="17.571" size="1.27" layer="27" ratio="10"/>
+<attribute name="PARTNO" value="*" x="28" y="21" size="1.778" layer="27" display="off"/>
 </element>
 <element name="-" library="FirePick" package="CON-TESTPOINT" value="CONN-TESTPOINT" x="27.5" y="8" smashed="yes">
 <attribute name="NAME" x="28.23" y="9.651" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="26.23" y="4.571" size="1.27" layer="27" ratio="10"/>
+<attribute name="PARTNO" value="*" x="27.5" y="8" size="1.778" layer="27" display="off"/>
 </element>
-<element name="FID1" library="TinWhiskers" package="FIDUCIAL" value="FIDUCIAL" x="2.5" y="21.5" smashed="yes"/>
-<element name="FID2" library="TinWhiskers" package="FIDUCIAL" value="FIDUCIAL" x="21.5" y="2" smashed="yes"/>
+<element name="FID1" library="TinWhiskers" package="FIDUCIAL" value="FIDUCIAL" x="2.5" y="21.5" smashed="yes">
+<attribute name="PARTNO" value="*" x="2.5" y="21.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="FID2" library="TinWhiskers" package="FIDUCIAL" value="FIDUCIAL" x="21.5" y="2" smashed="yes">
+<attribute name="PARTNO" value="*" x="21.5" y="2" size="1.778" layer="27" display="off"/>
+</element>
 <element name="LOGO4" library="FirePick" package="LOGO-FIREPICK-MEDIUM" value="LOGO-FIREPICKMEDIUM" x="1" y="7.5" rot="MR90">
 <attribute name="BOM" value="EXCLUDE" x="-6.5" y="6" size="1" layer="28" font="vector" ratio="11" rot="MR90" display="off"/>
 <attribute name="DNP" value="T" x="-6.5" y="6" size="1" layer="28" font="vector" ratio="11" rot="MR90" display="off"/>
 </element>
-<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-SMALL" value="TIN-WHISKERSSMALL" x="23.5" y="0" rot="MR0"/>
+<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-SMALL" value="TIN-WHISKERSSMALL" x="23.5" y="0" rot="MR0">
+<attribute name="PARTNO" value="*" x="23.5" y="0" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
