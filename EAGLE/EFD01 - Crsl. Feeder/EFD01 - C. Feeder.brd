@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,23 +22,23 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -5917,15 +5917,15 @@ design rules under a new name.
 <elements>
 <element name="C1" library="TinWhiskers" package="C0603" value="10nF" x="40.8486" y="45.3312" smashed="yes">
 <attribute name="PARTNO" value="GRM188R71H103KA01D" x="40.8486" y="45.3312" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="42.3201" y="46.0057" size="1" layer="51" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="39.9943" y="46.3201" size="1" layer="51" font="vector" ratio="11"/>
 </element>
 <element name="C2" library="TinWhiskers" package="C0603" value="100nF" x="38.5016" y="43.877" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="UMK107B7104KA-T" x="38.5016" y="43.877" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="38.9996" y="42.4395" size="1" layer="51" font="vector" ratio="11" rot="R180"/>
+<attribute name="NAME" x="39.4996" y="42.4395" size="1" layer="51" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="C3" library="TinWhiskers" package="C0603" value="1uF" x="35.6235" y="16.256" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="UMK107AB7105KA-T" x="35.6235" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.1075" y="15.886" size="1" layer="51" font="vector" ratio="11"/>
+<attribute name="NAME" x="34.1425" y="16.614" size="1" layer="51" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="C4" library="TinWhiskers" package="C0603" value="12pF" x="12.81498125" y="32.596075" smashed="yes" rot="R225">
 <attribute name="PARTNO" value="GRM1885C1H120FA01J" x="12.81498125" y="32.596075" size="1.778" layer="27" rot="R225" display="off"/>
@@ -5933,11 +5933,11 @@ design rules under a new name.
 </element>
 <element name="C5" library="TinWhiskers" package="C0603" value="12pF" x="11.043846875" y="34.1522125" smashed="yes" rot="R225">
 <attribute name="PARTNO" value="GRM1885C1H120FA01J" x="11.043846875" y="34.1522125" size="1.778" layer="27" rot="R225" display="off"/>
-<attribute name="NAME" x="11.562509375" y="35.6247625" size="1" layer="51" font="vector" ratio="11" rot="R315"/>
+<attribute name="NAME" x="11.312509375" y="36.1247625" size="1" layer="51" font="vector" ratio="11" rot="R315"/>
 </element>
 <element name="C6" library="TinWhiskers" package="C0603" value="0.1uF" x="35.6235" y="14.605" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="UMK107B7104KA-T" x="35.6235" y="14.605" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="33.1075" y="14.4255" size="1" layer="51" font="vector" ratio="11"/>
+<attribute name="NAME" x="34.1425" y="14.3245" size="1" layer="51" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="C7" library="TinWhiskers" package="C0603" value="1uF" x="10.9626" y="8.8465" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="UMK107AB7105KA-T" x="10.9626" y="8.8465" size="1.778" layer="27" rot="R180" display="off"/>
@@ -5962,7 +5962,7 @@ design rules under a new name.
 </element>
 <element name="LED1" library="TinWhiskers" package="LED0603" value="GREEN" x="31.242" y="6.731" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="31.242" y="6.731" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="30.607" y="6.096" size="1" layer="51" ratio="11" rot="R90"/>
+<attribute name="NAME" x="30.357" y="5.596" size="1" layer="51" ratio="11" rot="R90"/>
 </element>
 <element name="LOGO2" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICKLARGE" x="0.7896" y="14.8244" smashed="yes">
 <attribute name="BOM" value="EXCLUDE" x="0.7896" y="14.8244" size="1.778" layer="27" display="off"/>
@@ -5982,11 +5982,11 @@ design rules under a new name.
 </element>
 <element name="R10" library="TinWhiskers" package="R0603" value="120" x="36.195" y="12.192" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="RC0603FR-07120RL" x="36.195" y="12.192" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="34.716" y="13.119" size="1" layer="51" font="vector" ratio="11"/>
+<attribute name="NAME" x="31.966" y="11.619" size="1" layer="51" font="vector" ratio="11"/>
 </element>
 <element name="R11" library="TinWhiskers" package="R0603" value="1K" x="31.242" y="2.921" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603FR-071KL" x="31.242" y="2.921" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="30.4615" y="4.5465" size="1" layer="51" font="vector" ratio="11"/>
+<attribute name="NAME" x="27.4615" y="2.5465" size="1" layer="51" font="vector" ratio="11"/>
 </element>
 <element name="R12" library="TinWhiskers" package="R0603" value="10K" x="5.334" y="35.56" smashed="yes">
 <attribute name="PARTNO" value="RC0603FR-0710KL" x="5.334" y="35.56" size="1.778" layer="27" display="off"/>
@@ -6006,15 +6006,15 @@ design rules under a new name.
 </element>
 <element name="R5" library="TinWhiskers" package="R1206" value="0R22" x="36.825" y="36.898" smashed="yes">
 <attribute name="PARTNO" value="RL1206FR-7W0R22L" x="36.825" y="36.898" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.678" y="35.819" size="1" layer="51" font="vector" ratio="11" rot="R90"/>
+<attribute name="NAME" x="37.069" y="38.322" size="1" layer="51" font="vector" ratio="11"/>
 </element>
 <element name="R6" library="TinWhiskers" package="R1206" value="0R22" x="36.925" y="34.385" smashed="yes">
 <attribute name="PARTNO" value="RL1206FR-7W0R22L" x="36.925" y="34.385" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="34.222" y="34.568" size="1" layer="51" font="vector" ratio="11" rot="R270"/>
+<attribute name="NAME" x="33.722" y="35.068" size="1" layer="51" font="vector" ratio="11" rot="R270"/>
 </element>
 <element name="R7" library="TinWhiskers" package="R0603" value="20K" x="35.687" y="17.907" smashed="yes">
 <attribute name="PARTNO" value="RC0603FR-0722KL" x="35.687" y="17.907" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="33.065" y="17.691" size="1" layer="51" font="vector" ratio="11"/>
+<attribute name="NAME" x="33.935" y="18.559" size="1" layer="51" font="vector" ratio="11" rot="R180"/>
 </element>
 <element name="R8" library="TinWhiskers" package="R0603" value="1M" x="9.712215625" y="31.65315" smashed="yes" rot="R135">
 <attribute name="PARTNO" value="RC0603FR-071ML" x="9.712215625" y="31.65315" size="1.778" layer="27" rot="R135" display="off"/>
