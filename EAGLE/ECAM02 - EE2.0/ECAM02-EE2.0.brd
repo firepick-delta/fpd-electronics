@@ -49,7 +49,7 @@
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -189,6 +189,12 @@ AREA</text>
 <hole x="10.578" y="58.25" drill="3.5"/>
 <hole x="72.066" y="58.25" drill="3.5"/>
 <hole x="41.322" y="5" drill="3.5"/>
+<circle x="41.322" y="5" radius="3" width="0" layer="42"/>
+<circle x="41.322" y="5" radius="3" width="0" layer="41"/>
+<circle x="72.066" y="58.25" radius="3" width="0" layer="42"/>
+<circle x="10.578" y="58.25" radius="3" width="0" layer="42"/>
+<circle x="72.066" y="58.25" radius="3" width="0" layer="41"/>
+<circle x="10.578" y="58.25" radius="3" width="0" layer="41"/>
 </plain>
 <libraries>
 <library name="TinWhiskers">
