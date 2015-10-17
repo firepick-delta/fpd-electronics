@@ -1274,24 +1274,6 @@ Datasheet: http://www.mouser.com/ds/2/149/BSS138-39381.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-RES-0603-100-0.1W" prefix="R">
-<description>Resistor: 100 Ohm, 0.1W, 1%;
-Package: 0603;</description>
-<gates>
-<gate name="G$1" symbol="R" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="CPL-REG-LIN-3.3V-0.1A" prefix="U">
 <description>Voltage Regulator: Linear, Vmax=6, Vout=3.3V, Io=0.1mA;
 Package: SOT-23-5
@@ -21822,8 +21804,8 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY1" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
-<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-100-0.1W" device="" value="100R">
-<attribute name="PARTNO" value="RC0603FR-07100RL"/>
+<part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-120-0.1W" device="" value="120R">
+<attribute name="PARTNO" value="RC0603FR-07120RL"/>
 </part>
 <part name="VR1" library="TinWhiskers" deviceset="CPL-REG-LIN-3.3V-0.1A" device="" value="TC1015-3.3VCT713">
 <attribute name="PARTNO" value="TC1015-3.3VCT713"/>

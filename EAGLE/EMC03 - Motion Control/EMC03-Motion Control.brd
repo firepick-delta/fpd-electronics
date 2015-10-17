@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.0025" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.002" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -188,7 +188,7 @@
 <text x="84.77143125" y="54.9342375" size="0.635" layer="21" ratio="10" rot="R300">ENCODER</text>
 <text x="7.126459375" y="41.458703125" size="0.635" layer="21" ratio="10">UART</text>
 <text x="22.313084375" y="32.582821875" size="0.635" layer="21" ratio="10" rot="R300">FRONT PANEL</text>
-<text x="79.30188125" y="34.49055625" size="0.635" layer="21" ratio="10" rot="R60">ENDSTOP</text>
+<text x="79.30188125" y="34.49055625" size="0.635" layer="21" ratio="10" rot="R60">MODULAR TOOL</text>
 <text x="82.677" y="43.815" size="1" layer="21" ratio="10">ECAM03 Rev--</text>
 </plain>
 <libraries>
@@ -4474,8 +4474,10 @@ design rules under a new name.
 <attribute name="VALUE" x="26.625" y="70.4905" size="1" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="PARTNO" value="RC0603FR-072R2L" x="28.575" y="70.0405" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="TB1" library="TinWhiskers" package="TBLOCK-3-5MM-OSTTH030160" value="DC-IN" x="50.513" y="91.547">
+<element name="TB1" library="TinWhiskers" package="TBLOCK-3-5MM-OSTTH030160" value="DC-IN" x="50.513" y="91.547" smashed="yes">
 <attribute name="PARTNO" value="OSTTH030160" x="50.513" y="91.547" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="39.0125" y="91.662" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="43.013" y="97.947" size="0.635" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R11" library="TinWhiskers" package="R0603" value="2R2" x="75.565" y="54.0893" smashed="yes">
 <attribute name="NAME" x="73.9141" y="53.3342" size="0.635" layer="51" font="vector" ratio="12" rot="R90"/>

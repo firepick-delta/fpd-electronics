@@ -26288,7 +26288,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="R2" library="TinWhiskers" deviceset="CPL-RES-0603-120-0.1W" device="" value="120R">
-<attribute name="PARTNO" value="RC0603FR-07100RL"/>
+<attribute name="PARTNO" value="RC0603FR-07120RL"/>
 </part>
 <part name="R3" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K">
 <attribute name="PARTNO" value="RC0603FR-071KL"/>
@@ -26388,7 +26388,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="R7" library="TinWhiskers" deviceset="CPL-RES-1206-10-0.25W" device="1206" value="10R">
 <attribute name="PARTNO" value="RC1206FR-0710RL"/>
 </part>
-<part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K">
+<part name="R12" library="TinWhiskers" deviceset="CPL-RES-0603-90K-0.1W" device="" value="90K9">
 <attribute name="PARTNO" value="RC0603FR-0790K9L"/>
 </part>
 <part name="SUPPLY16" library="TinWhiskers" deviceset="GND" device=""/>
