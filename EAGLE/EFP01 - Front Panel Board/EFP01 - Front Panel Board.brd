@@ -6476,7 +6476,7 @@ design rules under a new name.
 <attribute name="NAME" x="176.800840625" y="32.688146875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="176.472" y="29.1142" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
 </element>
-<element name="R13" library="TinWhiskers" package="R0603" value="12.4K" x="156.9212" y="30.9626" smashed="yes" rot="MR270">
+<element name="R13" library="TinWhiskers" package="R0603" value="12.4K 1%" x="156.9212" y="30.9626" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-0712K4L" x="156.9212" y="30.9626" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="156.0577" y="32.4416" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
 <attribute name="VALUE" x="157.3712" y="29.0126" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
@@ -6607,7 +6607,7 @@ design rules under a new name.
 <attribute name="PARTNO" value="GRM188C81E475KE11D" x="112.4204" y="48.2092" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="113.1711" y="49.7061" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
 </element>
-<element name="R35" library="TinWhiskers" package="R0603" value="12K" x="171.45" y="47.3456" smashed="yes" rot="MR270">
+<element name="R35" library="TinWhiskers" package="R0603" value="12K 1%" x="171.45" y="47.3456" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-0712KL" x="171.45" y="47.3456" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="172.166996875" y="48.983796875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
 <attribute name="VALUE" x="171.900003125" y="45.3956" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
