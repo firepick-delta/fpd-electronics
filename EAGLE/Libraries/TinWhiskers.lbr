@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -12788,6 +12788,17 @@ Datasheet: http://www.te.com/usa-en/product-147873-2.html</description>
 <pad name="2" x="1.27" y="0" drill="1.27"/>
 <text x="-2.54" y="2.54" size="1.016" layer="25" font="vector" ratio="10">&gt;Name</text>
 <text x="-2.54" y="1.27" size="1.016" layer="27" font="vector" ratio="10">&gt;Value</text>
+<rectangle x1="-5.375" y1="4" x2="5.375" y2="15.95" layer="39"/>
+<hole x="-8" y="6" drill="3.5"/>
+<hole x="-8" y="13.95" drill="3.5"/>
+<hole x="8" y="13.95" drill="3.5"/>
+<hole x="8" y="6" drill="3.5"/>
+</package>
+<package name="MTHOLE(M3)">
+<description>Mounting Hole (3.5mm dia.) w/ 7mm dia. keepouts</description>
+<hole x="0" y="0" drill="3.5"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="40"/>
 </package>
 </packages>
 <symbols>
@@ -20329,6 +20340,11 @@ Package: TO223</description>
 <text x="-2.54" y="12.7" size="1.27" layer="95" ratio="12">&gt;Name</text>
 <text x="-2.54" y="10.668" size="1.27" layer="96" ratio="10">&gt;Value</text>
 </symbol>
+<symbol name="MTHOLE(M3)">
+<description>Mounting Hole (3.5mm dia.), w/ 7mm dia. keepouts</description>
+<text x="0" y="0" size="1.27" layer="96">&gt;Value</text>
+<text x="-5.08" y="0" size="1.27" layer="95">&gt;Name</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CPL-MDR-2PHSTEPPER" uservalue="yes">
@@ -24660,6 +24676,19 @@ Datasheet: http://www.te.com/usa-en/product-147873-2.html</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTHOLE(M3)" prefix="MT">
+<description>Mounting Hole: Diameter (3.5mm), Keepout (7mm)</description>
+<gates>
+<gate name="G$1" symbol="MTHOLE(M3)" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="MTHOLE(M3)">
 <technologies>
 <technology name=""/>
 </technologies>

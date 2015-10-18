@@ -174,6 +174,11 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <pad name="2" x="1.27" y="0" drill="1.27"/>
 <text x="-2.54" y="2.54" size="1.016" layer="25" font="vector" ratio="10">&gt;Name</text>
 <text x="-2.54" y="1.27" size="1.016" layer="27" font="vector" ratio="10">&gt;Value</text>
+<rectangle x1="-5.375" y1="4" x2="5.375" y2="15.95" layer="39"/>
+<hole x="-8" y="6" drill="3.5"/>
+<hole x="-8" y="13.95" drill="3.5"/>
+<hole x="8" y="13.95" drill="3.5"/>
+<hole x="8" y="6" drill="3.5"/>
 </package>
 <package name="CON-JST-PH-2.0MM-2P-SMT-VRT">
 <description>Connector: 2.0mm Pitch, 2-Pin, JST:(B2B-PH-SM4-TB(LF)(SN));
@@ -189,6 +194,12 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="-3" y1="1" x2="-3" y2="6.5" width="0.127" layer="51"/>
 <text x="-2.5" y="8" size="0.635" layer="25" font="vector" ratio="10">&gt;Name</text>
 <text x="-2.5" y="7" size="0.635" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="MTHOLE(M3)">
+<description>Mounting Hole (3.5mm dia.) w/ 7mm dia. keepouts</description>
+<hole x="0" y="0" drill="3.5"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="39"/>
+<circle x="0" y="0" radius="3.5" width="0.127" layer="40"/>
 </package>
 </packages>
 <symbols>
@@ -244,6 +255,11 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <wire x1="-5.08" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <text x="10.16" y="2.54" size="1.778" layer="95" font="vector" ratio="12">&gt;Name</text>
 <text x="10.16" y="0" size="1.27" layer="96" font="vector" ratio="10">&gt;Value</text>
+</symbol>
+<symbol name="MTHOLE(M3)">
+<description>Mounting Hole (3.5mm dia.), w/ 7mm dia. keepouts</description>
+<text x="0" y="0" size="1.27" layer="96">&gt;Value</text>
+<text x="-5.08" y="0" size="1.27" layer="95">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -315,6 +331,19 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTHOLE(M3)" prefix="MT">
+<description>Mounting Hole: Diameter (3.5mm), Keepout (7mm)</description>
+<gates>
+<gate name="G$1" symbol="MTHOLE(M3)" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="MTHOLE(M3)">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -9982,6 +10011,10 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+24V" device=""/>
 <part name="LOGO2" library="FirePick" deviceset="LOGO-FIREPICK" device="LARGE"/>
+<part name="MT1" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (5MM, 5MM)"/>
+<part name="MT2" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (5MM, 29MM)"/>
+<part name="MT3" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (64MM, 29MM)"/>
+<part name="MT4" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (64MM, 5MM)"/>
 </parts>
 <sheets>
 <sheet>
@@ -9996,6 +10029,7 @@ Pump Control Passthrough</text>
 <text x="292.1" y="20.32" size="1.778" layer="94" ratio="15">DRAWING BY: DANIEL SMITH</text>
 <text x="292.1" y="17.78" size="1.778" layer="94" ratio="15">APPROVED BY: NEIL JANSEN</text>
 <text x="292.1" y="10.16" size="2.54" layer="94" ratio="10">REVISION:</text>
+<text x="35.56" y="63.5" size="7.62" layer="94">MT HOLES</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -10042,9 +10076,25 @@ Pump Control Passthrough</text>
 <attribute name="VALUE" x="63.5" y="88.9" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="66.04" y="167.64" smashed="yes">
-<attribute name="VALUE" x="63.5" y="162.56" size="1.778" layer="96" rot="R90"/>
+<attribute name="VALUE" x="62.992" y="168.91" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="91.44" y="10.16"/>
+<instance part="MT1" gate="G$1" x="55.88" y="58.42" smashed="yes">
+<attribute name="VALUE" x="55.88" y="58.42" size="1.27" layer="96"/>
+<attribute name="NAME" x="50.8" y="58.42" size="1.27" layer="95"/>
+</instance>
+<instance part="MT2" gate="G$1" x="55.88" y="55.88" smashed="yes">
+<attribute name="VALUE" x="55.88" y="55.88" size="1.27" layer="96"/>
+<attribute name="NAME" x="50.8" y="55.88" size="1.27" layer="95"/>
+</instance>
+<instance part="MT3" gate="G$1" x="55.88" y="53.34" smashed="yes">
+<attribute name="VALUE" x="55.88" y="53.34" size="1.27" layer="96"/>
+<attribute name="NAME" x="50.8" y="53.34" size="1.27" layer="95"/>
+</instance>
+<instance part="MT4" gate="G$1" x="55.88" y="50.8" smashed="yes">
+<attribute name="VALUE" x="55.88" y="50.8" size="1.27" layer="96"/>
+<attribute name="NAME" x="50.8" y="50.8" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
