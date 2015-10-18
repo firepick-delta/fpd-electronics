@@ -23080,7 +23080,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <attribute name="PARTNO" value="RC0603FR-07825RL"/>
 </part>
 <part name="P+19" library="supply1" deviceset="+3V3" device=""/>
-<part name="R13" library="TinWhiskers" deviceset="CPL-RES-0603-12.4K-0.1W" device="" value="12.4K">
+<part name="R13" library="TinWhiskers" deviceset="CPL-RES-0603-12.4K-0.1W" device="" value="12.4K 1%">
 <attribute name="PARTNO" value="RC0603FR-0712K4L"/>
 </part>
 <part name="SUPPLY7" library="TinWhiskers" deviceset="GND" device=""/>
@@ -23200,7 +23200,7 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 </part>
 <part name="+3V29" library="supply1" deviceset="+3V3" device=""/>
 <part name="SUPPLY75" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="R35" library="TinWhiskers" deviceset="CPL-RES-0603-12K-0.1W" device="" value="12K">
+<part name="R35" library="TinWhiskers" deviceset="CPL-RES-0603-12K-0.1W" device="" value="12K 1%">
 <attribute name="PARTNO" value="RC0603FR-0712KL"/>
 </part>
 <part name="SUPPLY76" library="TinWhiskers" deviceset="GND" device=""/>

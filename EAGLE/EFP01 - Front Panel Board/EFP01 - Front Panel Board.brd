@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.002" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.0005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,24 +22,24 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -149,10 +149,10 @@
 <hole x="5" y="5" drill="3.5"/>
 <hole x="195" y="5" drill="3.5"/>
 <hole x="195" y="60" drill="3.5"/>
-<text x="5.8831" y="20.0958" size="0.635" layer="22" ratio="10" rot="MR315">+3.3V</text>
-<text x="5.3556875" y="21.090275" size="0.635" layer="22" ratio="10" rot="MR315">+5V</text>
-<text x="5.8768" y="18.7192" size="0.635" layer="22" ratio="10" rot="MR315">+24V</text>
-<text x="5.3699875" y="22.550475" size="0.635" layer="22" ratio="10" rot="MR315">GND</text>
+<text x="7.0007" y="18.9274" size="0.9" layer="22" ratio="12" rot="MR0">+3.3V</text>
+<text x="6.9812875" y="20.379075" size="0.9" layer="22" ratio="12" rot="MR0">+5V</text>
+<text x="6.9944" y="17.6524" size="0.9" layer="22" ratio="12" rot="MR0">+24V</text>
+<text x="5.6747875" y="21.636075" size="0.9" layer="22" ratio="12" rot="MR0">GND</text>
 <circle x="195" y="60" radius="3.25" width="0.1524" layer="41"/>
 <circle x="5" y="60" radius="3.25" width="0" layer="41"/>
 <circle x="195" y="5" radius="3.25" width="0.1524" layer="41"/>
@@ -161,9 +161,9 @@
 <circle x="195" y="60" radius="3.25" width="0.1524" layer="42"/>
 <circle x="5" y="5" radius="3.25" width="0" layer="42"/>
 <circle x="195" y="5" radius="3.25" width="0.1524" layer="42"/>
-<text x="1.051878125" y="17.1817625" size="0.635" layer="22" rot="MR90">TEST POINTS</text>
-<text x="53.03" y="92.442" size="1" layer="21" ratio="10">SPARE I/O</text>
-<text x="192.4304" y="13.1572" size="0.635" layer="22" font="vector" rot="MR270">USB-A</text>
+<text x="0.797878125" y="17.1309625" size="0.9" layer="22" ratio="12" rot="MR90">TEST POINTS</text>
+<text x="53.03" y="92.442" size="0.9" layer="21" ratio="12">SPARE I/O</text>
+<text x="192.0748" y="16.8148" size="0.9" layer="22" font="vector" ratio="12" rot="MR270">USB-A</text>
 <wire x1="0" y1="0" x2="200" y2="0" width="0" layer="20"/>
 <wire x1="200" y1="0" x2="200" y2="65" width="0" layer="20"/>
 <wire x1="200" y1="65" x2="0" y2="65" width="0" layer="20"/>
@@ -176,18 +176,18 @@
 <circle x="58.221" y="57.853" radius="2.35" width="0.1524" layer="42"/>
 <circle x="58.1702" y="7.18" radius="2.35" width="0.1524" layer="42"/>
 <circle x="58.1702" y="7.18" radius="2.35" width="0.1524" layer="41"/>
-<text x="31.3830375" y="8.773478125" size="0.635" layer="22" rot="MR0">PWR</text>
-<text x="58.7869625" y="55.814278125" size="0.635" layer="21">LCD</text>
-<text x="94.3864" y="37.6936" size="0.635" layer="22" font="vector" rot="MR0">SBC</text>
-<text x="167.894" y="21.7424" size="0.635" layer="22" font="vector" rot="MR0">ETHERNET</text>
-<text x="122.2756" y="4.7244" size="0.635" layer="22" font="vector" rot="MR0">EMC03</text>
-<text x="104.5972" y="4.6228" size="0.635" layer="22" font="vector" rot="MR0">END EFFECTOR</text>
-<text x="83.312" y="4.7244" size="0.635" layer="22" font="vector" rot="MR0">UP-LOOK CAM</text>
-<text x="67.4624" y="54.9656" size="0.635" layer="22" font="vector" rot="MR0">E-STOP</text>
-<text x="79.9084" y="54.9656" size="0.635" layer="22" font="vector" rot="MR0">PWR BTN</text>
-<text x="102.7176" y="60.9092" size="0.635" layer="22" font="vector" rot="MR0">MOD TOOL</text>
-<text x="131.2164" y="49.3268" size="0.635" layer="22" font="vector" rot="MR0">USB-B</text>
-<text x="37" y="35" size="1" layer="22" ratio="10" rot="MR0">EFP01 Rev --</text>
+<text x="28.1826375" y="6.741478125" size="0.9" layer="22" ratio="12" rot="MR0">PWR</text>
+<text x="58.7869625" y="55.814278125" size="0.9" layer="21" ratio="12">LCD</text>
+<text x="94.3864" y="37.6936" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">SBC</text>
+<text x="172.6184" y="22.0472" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">ETHERNET</text>
+<text x="129.032" y="3.81" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">EMC03</text>
+<text x="110.3376" y="3.8608" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">END EFFECTOR</text>
+<text x="88.0872" y="4.0132" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">UP-LOOK CAM</text>
+<text x="66.9036" y="54.5592" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">E-STOP</text>
+<text x="79.2988" y="54.5592" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">PWR BTN</text>
+<text x="104.2416" y="61.6204" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">MOD TOOL</text>
+<text x="133.9088" y="62.992" size="0.9" layer="22" font="vector" ratio="12" rot="MR0">USB-B</text>
+<text x="37" y="35" size="0.9" layer="22" ratio="12" rot="MR0">EFP01 Rev --</text>
 </plain>
 <libraries>
 <library name="TinWhiskers">
@@ -6298,723 +6298,723 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="TP4" library="TinWhiskers" package="TESTPAD" value="GND" x="2.7432" y="22.1996" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="-0.685803125" y="20.929603125" size="1.5" layer="28" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="-0.685803125" y="20.929603125" size="0.9" layer="28" ratio="12" rot="MR90"/>
 <attribute name="DNP" value="T" x="2.7432" y="22.1996" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PARTNO" value="N/A" x="2.7432" y="22.1996" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="TP2" library="TinWhiskers" package="TESTPAD" value="+5V" x="2.7432" y="20.6756" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="-0.6858" y="19.405603125" size="1.5" layer="28" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="-0.6858" y="19.405603125" size="0.9" layer="28" ratio="12" rot="MR90"/>
 <attribute name="DNP" value="T" x="2.7432" y="20.6756" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PARTNO" value="N/A" x="2.7432" y="20.6756" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="TP1" library="TinWhiskers" package="TESTPAD" value="+3.3V" x="2.7432" y="19.4056" smashed="yes" rot="MR90">
-<attribute name="VALUE" x="-0.6858" y="18.135603125" size="1.5" layer="28" ratio="10" rot="MR90"/>
+<attribute name="VALUE" x="-0.6858" y="18.135603125" size="0.9" layer="28" ratio="12" rot="MR90"/>
 <attribute name="DNP" value="T" x="2.7432" y="19.4056" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="PARTNO" value="N/A" x="2.7432" y="19.4056" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R22" library="TinWhiskers" package="R0603" value="49R9" x="179.578" y="17.3228" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-0749R9L" x="179.578" y="17.3228" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="180.3894" y="18.9876" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="179.128" y="19.2728" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="177.7376" y="17.121" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="179.128" y="19.2728" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R30" library="TinWhiskers" package="R0603" value="49R9" x="179.578" y="21.336" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-0749R9L" x="179.578" y="21.336" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="180.3895" y="23.0015" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="179.128" y="23.286" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="177.2303" y="20.6769" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="179.128" y="23.286" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R31" library="TinWhiskers" package="R0603" value="49R9" x="179.578" y="13.2588" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-0749R9L" x="179.578" y="13.2588" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="180.3286" y="14.9508" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="179.128" y="15.2088" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="177.8156" y="13.2194" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="179.128" y="15.2088" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R32" library="TinWhiskers" package="R0603" value="49R9" x="160.4772" y="22.8092" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="RC0603FR-0749R9L" x="160.4772" y="22.8092" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="162.2108" y="22.0516" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="158.5272" y="22.3592" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="162.1072" y="23.1584" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="158.5272" y="22.3592" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C24" library="TinWhiskers" package="C0603" value="0.1uF" x="179.578" y="8.89" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="179.578" y="8.89" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="180.3168" y="10.3608" size="0.635" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="177.7976" y="7.7956" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C25" library="TinWhiskers" package="C0603" value="0.1uF" x="181.7624" y="8.89" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="181.7624" y="8.89" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="182.4726" y="10.4068" size="0.635" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="182.6696" y="7.8242" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C26" library="TinWhiskers" package="C0603" value="18pF" x="181.61" y="17.4752" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GCM1885C1H180JA16D" x="181.61" y="17.4752" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="182.3172" y="19.0082" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="182.4826" y="15.5488" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C30" library="TinWhiskers" package="C0603" value="18pF" x="181.61" y="21.4884" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GCM1885C1H180JA16D" x="181.61" y="21.4884" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="182.384" y="22.9514" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="182.565" y="21.3748" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C31" library="TinWhiskers" package="C0603" value="18pF" x="181.5084" y="13.462" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GCM1885C1H180JA16D" x="181.5084" y="13.462" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="182.3092" y="14.9572" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="182.394" y="11.5944" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C32" library="TinWhiskers" package="C0603" value="18pF" x="160.6804" y="24.6888" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GCM1885C1H180JA16D" x="160.6804" y="24.6888" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="162.1784" y="23.8808" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
+<attribute name="NAME" x="162.1584" y="25.0704" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="RJ1" library="TinWhiskers" package="MAGJACK(HR911105A)" value="HR911105A" x="167.4118" y="11.062" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="HR911105A" x="167.4118" y="11.062" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="175.2762" y="21.7556" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="175.2762" y="21.7556" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R33" library="TinWhiskers" package="R0603" value="330R" x="157.8356" y="2.6924" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-07330RL" x="157.8356" y="2.6924" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="158.5806" y="4.4034" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="158.2856" y="0.7424" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="158.5806" y="4.4034" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="158.2856" y="0.7424" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="R34" library="TinWhiskers" package="R0603" value="330R" x="176.8348" y="2.794" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-07330RL" x="176.8348" y="2.794" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="177.6068" y="4.473" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="177.2848" y="0.844" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="178.064" y="4.5238" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="177.2848" y="0.844" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="J20" library="TinWhiskers" package="DF40HC(3.0)-70DS-0.4V(51)" value="Intel EDISON" x="95.98374375" y="29.1816625" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="DF40HC(3.0)-70DS-0.4V(51)" x="95.98374375" y="29.1816625" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="97.47094375" y="37.6506" size="0.635" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="93.383740625" y="34.3816625" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="97.47094375" y="37.6506" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="93.383740625" y="34.3816625" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="R48" library="TinWhiskers" package="R0603" value="10K" x="80.6196" y="51.3588" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-0710KL" x="80.6196" y="51.3588" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="81.3986" y="53.062" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="81.0696" y="49.4088" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="81.3986" y="53.062" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="81.0696" y="49.4088" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U9" library="TinWhiskers" package="SOICN-8" value="SP3485" x="116.642396875" y="24.5010125" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="SP3485" x="116.642396875" y="24.5010125" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="113.194765625" y="26.52919375" size="1.016" layer="26" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="117.1424" y="29.5010125" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="113.194765625" y="26.52919375" size="0.9" layer="26" font="vector" ratio="12" rot="MR270"/>
+<attribute name="VALUE" x="117.1424" y="29.5010125" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R49" library="TinWhiskers" package="R0603" value="1K" x="118.618" y="31.5976" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-071KL" x="115.108003125" y="31.5976" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="119.525684375" y="30.141146875" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="119.068003125" y="29.6476" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="119.525684375" y="30.141146875" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="119.068003125" y="29.6476" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="R50" library="TinWhiskers" package="R0603" value="1K" x="116.1796" y="31.5468" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-071KL" x="119.689596875" y="31.5468" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="117.05695625" y="30.069875" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="115.7296" y="33.4968" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="114.21215625" y="30.171475" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="115.7296" y="33.4968" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R51" library="TinWhiskers" package="R0603" value="120R" x="117.5004" y="35.0012" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="RC0603FR-07120RL" x="117.5004" y="42.021196875" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="119.13781875" y="34.23741875" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="119.4504" y="35.4512" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="118.31498125" y="35.92741875" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="119.4504" y="35.4512" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="C77" library="TinWhiskers" package="C0603" value="0.1uF" x="118.0592" y="39.5224" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="118.0592" y="39.5224" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="116.8132" y="38.6859" size="1.016" layer="51" font="vector" ratio="12" rot="MR180"/>
+<attribute name="NAME" x="116.8132" y="38.6351" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="FB3" library="TinWhiskers" package="F0603" value="120R" x="113.4872" y="62.9412" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="BLM18AG121SN1D" x="113.4872" y="62.9412" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="111.765" y="62.4776" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="111.5872" y="62.2412" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="111.765" y="62.7824" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="111.5872" y="62.2412" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C78" library="TinWhiskers" package="C0603" value="10nF" x="113.4872" y="60.7568" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GRM188R71H103KA01D" x="113.4872" y="60.7568" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="111.8122" y="60.2979" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="111.8122" y="60.2979" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R53" library="TinWhiskers" package="R0603" value="270R" x="117.7036" y="47.8536" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-07270RL" x="117.7036" y="47.8536" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="118.4736" y="49.5166" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="117.2536" y="49.8036" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="118.8292" y="49.6182" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="117.2536" y="49.8036" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R54" library="TinWhiskers" package="R0603" value="270R" x="132.6388" y="48.8188" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-07270RL" x="132.6388" y="48.8188" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="133.5658" y="47.3398" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="132.1888" y="50.7688" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="130.721" y="47.797" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="132.1888" y="50.7688" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="LED8" library="TinWhiskers" package="LED0603" value="GREEN" x="117.7544" y="44.6024" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="117.7544" y="44.6024" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="118.3086" y="42.5926" size="1.016" layer="51" rot="MR90"/>
-<attribute name="VALUE" x="119.6594" y="45.2374" size="1.27" layer="28" rot="MR270"/>
+<attribute name="NAME" x="118.4102" y="42.3894" size="0.9" layer="52" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="119.6594" y="45.2374" size="0.9" layer="28" ratio="12" rot="MR270"/>
 </element>
 <element name="LED9" library="TinWhiskers" package="LED0603" value="GREEN" x="132.6896" y="45.5676" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="132.6896" y="45.5676" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="133.3196" y="44.4976" size="1.016" layer="51" rot="MR90"/>
-<attribute name="VALUE" x="134.5946" y="46.2026" size="1.27" layer="28" rot="MR270"/>
+<attribute name="NAME" x="131.0336" y="43.6848" size="0.9" layer="52" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="134.5946" y="46.2026" size="0.9" layer="28" ratio="12" rot="MR270"/>
 </element>
 <element name="U12" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="133.7056" y="36.7284" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="133.7056" y="36.7284" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="134.953" y="35.93139375" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="134.805603125" y="38.6284" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="134.953" y="35.93139375" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="134.805603125" y="38.6284" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U4" library="TinWhiskers" package="64-QFN" value="LAN9514" x="166.7002" y="38.9382" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="LAN9514-JZX" x="166.7002" y="38.9382" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="161.776175" y="43.190065625" size="0.635" layer="26" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="161.2002" y="41.038196875" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="160.517934375" y="44.275775" size="0.9" layer="26" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="161.2002" y="41.038196875" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="LED11" library="TinWhiskers" package="LED0603" value="GREEN" x="170.434" y="27.432" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="170.434" y="27.432" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="171.831" y="28.067" size="1.016" layer="51" rot="MR0"/>
-<attribute name="VALUE" x="171.068996875" y="25.527" size="1.27" layer="28" rot="MR0"/>
+<attribute name="NAME" x="171.4246" y="25.781" size="0.9" layer="52" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="171.068996875" y="25.527" size="0.9" layer="28" ratio="12" rot="MR0"/>
 </element>
 <element name="R10" library="TinWhiskers" package="R0603" value="330R" x="173.5328" y="27.94" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="RC0603FR-07330RL" x="173.5328" y="27.94" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="175.011796875" y="28.803503125" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="175.482803125" y="28.389996875" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="173.628603125" y="26.974896875" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="175.482803125" y="28.389996875" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="Q2" library="TinWhiskers" package="HC-49/U-S" value="25MHz" x="172.847" y="57.8612" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="HCM4925000000MABJ" x="172.847" y="57.8612" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="166.6758" y="58.935796875" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="180.847" y="57.961203125" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="166.6758" y="58.935796875" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="180.847" y="57.961203125" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R11" library="TinWhiskers" package="R0603" value="1M" x="173.482" y="54.0512" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="RC0603FR-071ML" x="173.482" y="54.0512" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="171.799496875" y="54.757196875" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="175.431996875" y="54.5012" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="171.302803125" y="53.130696875" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="175.431996875" y="54.5012" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="C11" library="TinWhiskers" package="C0603" value="33pF" x="168.783" y="54.0512" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="C0603C330K5GACTU" x="168.783" y="54.0512" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="167.3115" y="54.7892" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
+<attribute name="NAME" x="166.5972" y="53.2147" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="C12" library="TinWhiskers" package="C0603" value="33pF" x="177.419" y="54.0512" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="C0603C330K5GACTU" x="177.419" y="54.0512" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="175.9865" y="54.7677" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
+<attribute name="NAME" x="176.2707" y="53.1521" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R12" library="TinWhiskers" package="R0603" value="825R" x="176.022" y="31.0642" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-07825RL" x="176.022" y="31.0642" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="176.800840625" y="32.688146875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="176.472" y="29.1142" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="175.497159375" y="33.656653125" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="176.472" y="29.1142" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
-<element name="R13" library="TinWhiskers" package="R0603" value="12.4K" x="156.9212" y="30.9626" smashed="yes" rot="MR270">
+<element name="R13" library="TinWhiskers" package="R0603" value="12.4K 1%" x="156.9212" y="30.9626" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-0712K4L" x="156.9212" y="30.9626" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="156.0577" y="32.4416" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="157.3712" y="29.0126" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="155.9561" y="32.2384" size="0.9" layer="52" font="vector" ratio="12" rot="MR270"/>
+<attribute name="VALUE" x="157.3712" y="29.0126" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="R14" library="TinWhiskers" package="R0603" value="10K" x="156.7688" y="39.1668" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="RC0603FR-0710KL" x="156.7688" y="39.1668" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="158.3248" y="40.05185625" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="154.8188" y="38.7168" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="158.3248" y="40.05185625" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="154.8188" y="38.7168" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U3" library="TinWhiskers" package="SOT-23-6" value="93LC66A" x="165.481" y="30.2514" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="93LC66A-I/SN" x="165.481" y="30.2514" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="167.1112375" y="29.294325" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="163.480996875" y="29.3514" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="167.1112375" y="29.294325" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="163.480996875" y="29.3514" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U11" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="133.9596" y="42.3164" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="133.9596" y="42.3164" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="135.1943" y="41.521203125" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="135.059596875" y="44.2164" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="135.1943" y="41.521203125" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="135.059596875" y="44.2164" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U13" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="113.538" y="17.9832" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="113.538" y="17.9832" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="114.257" y="15.7127" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="111.638003125" y="19.0832" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="113.9522" y="14.8491" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="111.638003125" y="19.0832" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U14" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="116.6876" y="18.0848" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="116.6876" y="18.0848" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="117.450790625" y="15.803521875" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="118.587596875" y="16.9848" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="117.450790625" y="15.549521875" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="118.587596875" y="16.9848" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="U15" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="119.8372" y="18.1356" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="119.8372" y="18.1356" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="120.606996875" y="15.8651" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="121.7372" y="17.0356" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="121.521396875" y="15.9159" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="121.7372" y="17.0356" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C13" library="TinWhiskers" package="C0603" value="0.1uF" x="185.7248" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="185.7248" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="186.5307875" y="29.114628125" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="185.375428125" y="23.9336125" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C14" library="TinWhiskers" package="C0603" value="0.1uF" x="187.7568" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="187.7568" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="188.529984375" y="29.093021875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="188.682384375" y="29.194621875" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C18" library="TinWhiskers" package="C0603" value="0.1uF" x="189.7888" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="189.7888" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="190.651196875" y="29.117021875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="189.441821875" y="29.211203125" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C19" library="TinWhiskers" package="C0603" value="0.1uF" x="191.8208" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="191.8208" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="192.610790625" y="29.099021875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="191.405021875" y="29.182009375" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C20" library="TinWhiskers" package="C0603" value="0.1uF" x="193.8528" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="193.8528" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="194.67438125" y="29.110225" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="193.397425" y="29.20121875" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C21" library="TinWhiskers" package="C0603" value="0.1uF" x="195.8848" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="195.8848" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="196.6121875" y="29.112215625" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="195.533015625" y="29.1938125" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C22" library="TinWhiskers" package="C0603" value="0.1uF" x="197.9168" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="197.9168" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="198.7141875" y="29.109625" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="197.562425" y="29.2762125" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="FB1" library="TinWhiskers" package="F0603" value="120R" x="183.8198" y="27.6606" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="BLM18AG121SN1D" x="183.8198" y="27.6606" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="184.52790625" y="29.13223125" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="184.5198" y="25.7606" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="182.24343125" y="26.64769375" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="184.5198" y="25.7606" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="C23" library="TinWhiskers" package="C0603" value="0.1uF" x="157.0736" y="19.8628" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="157.0736" y="19.8628" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="157.811984375" y="21.303215625" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="156.685215625" y="21.410415625" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C79" library="TinWhiskers" package="C0603" value="0.1uF" x="155.194" y="19.8628" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="155.194" y="19.8628" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="156.026575" y="21.314228125" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="154.765828125" y="21.367025" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C80" library="TinWhiskers" package="C0603" value="0.1uF" x="153.3144" y="19.8628" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="153.3144" y="19.8628" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="154.11419375" y="21.28341875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="152.60141875" y="21.34900625" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C81" library="TinWhiskers" package="C0603" value="0.1uF" x="151.4348" y="19.8628" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="151.4348" y="19.8628" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="152.263784375" y="21.265421875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="151.059421875" y="21.421415625" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C82" library="TinWhiskers" package="C0603" value="0.1uF" x="149.5552" y="19.8628" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="149.5552" y="19.8628" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="150.31719375" y="21.269215625" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="149.132815625" y="21.43760625" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C83" library="TinWhiskers" package="C0603" value="4.7uF" x="156.718" y="34.544" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GRM188C81E475KE11D" x="156.718" y="34.544" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="157.4616" y="35.99308125" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="156.33828125" y="35.9848" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C84" library="TinWhiskers" package="C0603" value="0.1uF" x="154.7368" y="34.544" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="154.7368" y="34.544" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="155.476790625" y="35.976809375" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="154.340809375" y="36.090009375" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C85" library="TinWhiskers" package="C0603" value="0.1uF" x="152.8064" y="34.544" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="152.8064" y="34.544" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="153.507390625" y="35.999546875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="152.433146875" y="36.078209375" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C73" library="TinWhiskers" package="C0603" value="1.0uF" x="161.1376" y="52.959" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="UMK107AB7105KA-T" x="161.1376" y="52.959" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="160.23760625" y="54.458996875" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
+<attribute name="NAME" x="160.23760625" y="54.458996875" size="0.9" layer="52" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="C74" library="TinWhiskers" package="C0603" value="0.1uF" x="158.2674" y="49.1998" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="158.2674" y="49.1998" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="156.7674" y="48.2998" size="1.016" layer="51" font="vector" ratio="12" rot="MR180"/>
+<attribute name="NAME" x="156.7674" y="48.2998" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="FB4" library="TinWhiskers" package="F0603" value="120R" x="161.1122" y="49.9872" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="BLM18AG121SN1D" x="161.1122" y="49.9872" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="160.399215625" y="51.25581875" size="1.016" layer="51" font="vector" ratio="12" rot="MR270"/>
-<attribute name="VALUE" x="161.812203125" y="48.087196875" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="160.399215625" y="51.25581875" size="0.9" layer="52" font="vector" ratio="12" rot="MR270"/>
+<attribute name="VALUE" x="161.812203125" y="48.087196875" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="R15" library="TinWhiskers" package="R0603" value="0R1" x="160.1408" y="62.8412" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="RL0603FR-070R1L" x="160.1408" y="62.8412" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="161.7868" y="62.078" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="158.1908" y="62.3912" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="161.7868" y="62.078" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="158.1908" y="62.3912" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R16" library="TinWhiskers" package="R0603" value="DNP" x="160.1408" y="60.7536" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="160.1408" y="60.7536" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="161.782" y="59.9952" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="158.1908" y="60.3036" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="161.782" y="59.9952" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="158.1908" y="60.3036" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C60" library="TinWhiskers" package="C0603" value="0.1uF" x="114.2492" y="48.26" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="114.2492" y="48.26" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="115.038" y="49.7569" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="115.292" y="49.8077" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="C61" library="TinWhiskers" package="C0603" value="4.7uF" x="112.4204" y="48.2092" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="GRM188C81E475KE11D" x="112.4204" y="48.2092" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="113.1711" y="49.7061" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
+<attribute name="NAME" x="112.2567" y="49.8077" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
 </element>
-<element name="R35" library="TinWhiskers" package="R0603" value="12K" x="171.45" y="47.3456" smashed="yes" rot="MR270">
+<element name="R35" library="TinWhiskers" package="R0603" value="12K 1%" x="171.45" y="47.3456" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="RC0603FR-0712KL" x="171.45" y="47.3456" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="172.166996875" y="48.983796875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="171.900003125" y="45.3956" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="172.268596875" y="49.136196875" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="171.900003125" y="45.3956" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U18" library="TinWhiskers" package="SOIC-8" value="MIC2026-1YM" x="184.0992" y="43.2562" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="MIC2026-1YM" x="184.0992" y="43.2562" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="186.3992" y="46.2162" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="189.0992" y="42.7562" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="186.3992" y="46.2162" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="189.0992" y="42.7562" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="U19" library="TinWhiskers" package="SOIC-8" value="MIC2026-1YM" x="184.023" y="33.0708" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="MIC2026-1YM" x="184.023" y="33.0708" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="186.323" y="36.0308" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="189.023" y="32.5708" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="186.323" y="36.0308" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="189.023" y="32.5708" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R37" library="TinWhiskers" package="R0603" value="511R" x="193.3448" y="39.0652" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-07511RL" x="193.3448" y="39.0652" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="194.0238" y="40.7012" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="192.8948" y="41.0152" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="192.898" y="40.8754" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="192.8948" y="41.0152" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R52" library="TinWhiskers" package="R0603" value="511R" x="191.3128" y="39.0652" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-07511RL" x="191.3128" y="39.0652" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="192.0728" y="40.7472" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="190.8628" y="41.0152" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="190.8612" y="40.7944" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="190.8628" y="41.0152" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R55" library="TinWhiskers" package="R0603" value="511R" x="197.4596" y="39.116" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-07511RL" x="197.4596" y="39.116" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="198.3006" y="40.717" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="197.0096" y="41.066" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="197.0794" y="40.9674" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="197.0096" y="41.066" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R56" library="TinWhiskers" package="R0603" value="511R" x="195.326" y="39.116" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603FR-07511RL" x="195.326" y="39.116" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="196.0702" y="40.7376" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="194.876" y="41.066" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="195.0172" y="40.9118" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="194.876" y="41.066" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="LED10" library="TinWhiskers" package="LED0603" value="GREEN" x="193.3448" y="35.56" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="193.3448" y="35.56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="193.9543" y="33.999" size="1.016" layer="51" rot="MR90"/>
-<attribute name="VALUE" x="195.2498" y="36.195" size="1.27" layer="28" rot="MR270"/>
+<attribute name="NAME" x="193.9543" y="33.999" size="0.9" layer="52" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="195.2498" y="36.195" size="0.9" layer="28" ratio="12" rot="MR270"/>
 </element>
 <element name="LED12" library="TinWhiskers" package="LED0603" value="GREEN" x="191.3128" y="35.56" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="191.3128" y="35.56" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="191.9473" y="34.0625" size="1.016" layer="51" rot="MR90"/>
-<attribute name="VALUE" x="193.2178" y="36.195" size="1.27" layer="28" rot="MR270"/>
+<attribute name="NAME" x="189.7629" y="32.9957" size="0.9" layer="52" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="193.2178" y="36.195" size="0.9" layer="28" ratio="12" rot="MR270"/>
 </element>
 <element name="LED13" library="TinWhiskers" package="LED0603" value="GREEN" x="197.5104" y="35.6616" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="197.5104" y="35.6616" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="198.1064" y="34.1006" size="1.016" layer="51" rot="MR90"/>
-<attribute name="VALUE" x="199.4154" y="36.2966" size="1.27" layer="28" rot="MR270"/>
+<attribute name="NAME" x="198.1064" y="34.1006" size="0.9" layer="52" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="199.4154" y="36.2966" size="0.9" layer="28" ratio="12" rot="MR270"/>
 </element>
 <element name="LED14" library="TinWhiskers" package="LED0603" value="GREEN" x="195.326" y="35.6108" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="SML-D12M8WT86" x="195.326" y="35.6108" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="195.947" y="34.4308" size="1.016" layer="51" rot="MR90"/>
-<attribute name="VALUE" x="197.231" y="36.2458" size="1.27" layer="28" rot="MR270"/>
+<attribute name="NAME" x="195.947" y="34.4308" size="0.9" layer="52" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="197.231" y="36.2458" size="0.9" layer="28" ratio="12" rot="MR270"/>
 </element>
 <element name="R57" library="TinWhiskers" package="R0603" value="0R1" x="160.1724" y="58.6232" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="RL0603FR-070R1L" x="160.1724" y="58.6232" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="161.8868" y="57.9316" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="158.2224" y="58.1732" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="161.8868" y="57.9316" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="158.2224" y="58.1732" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R58" library="TinWhiskers" package="R0603" value="DNP" x="160.1724" y="56.5404" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="160.1724" y="56.5404" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="161.836" y="55.798" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="158.2224" y="56.0904" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="161.836" y="55.798" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="158.2224" y="56.0904" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U10" library="TinWhiskers" package="20-SSOP" value="FT231XS-R" x="125.984" y="41.0972" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="FT231XS-R" x="125.984" y="41.0972" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="127.381" y="45.6692" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="121.412" y="42.3672" size="1.27" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="127.381" y="45.6692" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="121.412" y="42.3672" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="R36" library="TinWhiskers" package="R0603" value="0R" x="173.99" y="31.0388" smashed="yes" rot="MR90">
 <attribute name="PARTNO" value="RC0603JR-070RL" x="173.99" y="31.0388" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="NAME" x="174.808603125" y="32.676996875" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="173.539996875" y="32.988796875" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="174.148203125" y="32.676996875" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="173.539996875" y="32.988796875" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="U17" library="TinWhiskers" package="SOT-23-5" value="OR" x="176.4792" y="40.0812" smashed="yes" rot="MR270">
-<attribute name="NAME" x="177.4632" y="42.2612" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="176.8792" y="37.5812" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="177.4632" y="42.2612" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="176.8792" y="37.5812" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="SN74LVC1G32DBVR" x="176.4792" y="40.0812" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U20" library="TinWhiskers" package="SOT-23-5" value="OR" x="176.6062" y="46.0502" smashed="yes" rot="MR270">
-<attribute name="NAME" x="177.6328" y="48.1712" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="177.0062" y="43.5502" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="177.6328" y="48.1712" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="177.0062" y="43.5502" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="SN74LVC1G32DBVR" x="176.6062" y="46.0502" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U21" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="120.7516" y="48.4124" smashed="yes" rot="MR270">
-<attribute name="NAME" x="121.546803125" y="49.710603125" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="118.851596875" y="49.512403125" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="121.546803125" y="49.710603125" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="118.851596875" y="49.512403125" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="120.7516" y="48.4124" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U22" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="173.99" y="62.5856" smashed="yes" rot="MR90">
-<attribute name="NAME" x="174.835040625" y="63.875303125" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="175.890003125" y="61.4856" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="174.835040625" y="63.875303125" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="175.890003125" y="61.4856" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="173.99" y="62.5856" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="R1" library="TinWhiskers" package="R0603" value="4.7K" x="70.4088" y="51.4604" smashed="yes" rot="MR90">
-<attribute name="NAME" x="71.1512" y="53.1748" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="69.9588" y="53.4104" size="1" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="71.1512" y="53.1748" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="69.9588" y="53.4104" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="RC0603FR-074K7L" x="70.4088" y="51.4604" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="J16" library="TinWhiskers" package="CON-JST-PH-2.0MM-8P-SMT-VRT" value="S8B-PH-SM4" x="105.8926" y="6.5532" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)" x="105.8926" y="6.5532" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="111.4534" y="4.3616" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="94.8926" y="11.9532" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="113.6378" y="3.8536" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="94.8926" y="11.9532" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="J17" library="TinWhiskers" package="CON-JST-PH-2.0MM-8P-SMT-VRT" value="S8B-PH-SM4" x="84.6074" y="6.604" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)" x="84.6074" y="6.604" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="91.743" y="4.1076" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="73.6074" y="12.004" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="91.8446" y="3.9552" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="73.6074" y="12.004" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="J18" library="TinWhiskers" package="CON-JST-PH-2.00MM-6P-SMT-VRT" value="S6B-PH-SM4" x="101.8286" y="59.7408" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="B6B-PH-SM4-TB(LF)(SN)" x="101.8286" y="59.7408" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="NAME" x="107.475" y="61.1084" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="111.8286" y="54.7408" size="1" layer="28" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="107.475" y="61.1084" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="111.8286" y="54.7408" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="TB1" library="TinWhiskers" package="TBLOCK-3-5MM-OSTTH030160" value="DCIN" x="37.0078" y="6.8176" smashed="yes" rot="MR0">
-<attribute name="NAME" x="29.711" y="1.6988" size="1.016" layer="26" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="44.5078" y="13.2176" size="0.635" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="29.711" y="1.6988" size="0.9" layer="26" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="44.5078" y="13.2176" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="OSTTH030160" x="37.0078" y="6.8176" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="R2" library="TinWhiskers" package="R0603" value="10K" x="68.3768" y="51.4604" smashed="yes" rot="MR270">
-<attribute name="NAME" x="69.1192" y="53.124" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="68.8268" y="49.5104" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="69.1192" y="53.124" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="68.8268" y="49.5104" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="RC0603FR-0710KL" x="68.3768" y="51.4604" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="R3" library="TinWhiskers" package="R0603" value="ORNG" x="84.6328" y="51.3588" smashed="yes" rot="MR270">
-<attribute name="NAME" x="85.3752" y="53.0732" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="85.0828" y="49.4088" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="85.3752" y="53.0732" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="85.0828" y="49.4088" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="RC0603JR-070RL" x="84.6328" y="51.3588" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="J1" library="TinWhiskers" package="CON-JST-PH-2.0MM-4P-SMT-RA" value="PWRBTN" x="83.6422" y="56.6166" smashed="yes" rot="MR0">
-<attribute name="NAME" x="89.433" y="54.721" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="75.4122" y="58.8866" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="89.433" y="54.721" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="75.4122" y="58.8866" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="S4B-PH-SM4-TB(LF)(SN)" x="83.6422" y="56.6166" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J2" library="TinWhiskers" package="CON-JST-PH-2.0MM-2P-SMT-RA" value="ESTOP" x="69.2912" y="56.5912" smashed="yes" rot="MR0">
-<attribute name="NAME" x="73.4816" y="54.6336" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="62.6612" y="59.2612" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="73.4816" y="54.6336" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="62.6612" y="59.2612" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="S2B-PH-SM4-TB(LF)(SN)" x="69.2912" y="56.5912" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J5" library="TinWhiskers" package="LCD-34P-3.2IN" value="LCD" x="100.508" y="32.5" smashed="yes">
-<attribute name="NAME" x="55.3468" y="54.2424" size="0.635" layer="25" font="vector" ratio="12"/>
-<attribute name="VALUE" x="56.058" y="61.71" size="1" layer="27" font="vector" ratio="10"/>
+<attribute name="NAME" x="55.3468" y="54.2424" size="0.9" layer="25" font="vector" ratio="12"/>
+<attribute name="VALUE" x="56.058" y="61.71" size="0.9" layer="27" font="vector" ratio="12"/>
 <attribute name="PARTNO" value="TSW-117-07-T-D" x="100.508" y="32.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="50.8" y="31.1912" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="50.8" y="31.1912" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="52.1744" y="30.3452" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="48.9" y="32.2912" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="52.1744" y="30.3452" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="48.9" y="32.2912" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U2" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="64.516" y="33.528" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="64.516" y="33.528" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="65.7888" y="32.936" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="65.616" y="35.428" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="65.8396" y="33.698" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="65.616" y="35.428" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U5" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="64.516" y="30.226" smashed="yes" rot="MR0">
-<attribute name="NAME" x="65.7888" y="29.5832" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="65.616" y="32.126" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="65.7888" y="29.5832" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="65.616" y="32.126" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="64.516" y="30.226" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U6" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="50.8" y="27.686" smashed="yes" rot="MR270">
-<attribute name="NAME" x="52.2252" y="26.8908" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="48.9" y="28.786" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="52.2252" y="26.8908" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="48.9" y="28.786" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="50.8" y="27.686" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U7" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="50.7492" y="24.2824" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="50.7492" y="24.2824" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="52.1236" y="23.9444" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="48.8492" y="25.3824" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="52.1236" y="23.9444" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="48.8492" y="25.3824" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U8" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="64.516" y="26.7208" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="64.516" y="26.7208" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="65.7888" y="26.1288" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="65.616" y="28.6208" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="65.7888" y="26.1288" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="65.616" y="28.6208" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U23" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="64.5668" y="23.3172" smashed="yes" rot="MR0">
-<attribute name="NAME" x="65.7888" y="22.5728" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="65.6668" y="25.2172" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="65.7888" y="22.4204" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="65.6668" y="25.2172" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="64.5668" y="23.3172" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U24" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="50.7492" y="21.082" smashed="yes" rot="MR270">
-<attribute name="NAME" x="52.1236" y="20.2868" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="48.8492" y="22.182" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="52.1236" y="20.2868" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="48.8492" y="22.182" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="50.7492" y="21.082" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
 <element name="U25" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="64.4652" y="13.6652" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="64.4652" y="13.6652" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="65.738" y="12.9208" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="65.5652" y="15.5652" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="65.738" y="12.9208" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="65.5652" y="15.5652" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U26" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="64.516" y="17.272" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="64.516" y="17.272" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="65.738" y="16.5276" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="65.616" y="19.172" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="66.1952" y="16.3752" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="65.616" y="19.172" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="U27" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="50.6984" y="17.8308" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="50.6984" y="17.8308" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="52.0728" y="17.3404" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="48.7984" y="18.9308" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="52.0728" y="17.3404" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="48.7984" y="18.9308" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U28" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="50.6476" y="14.7828" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="50.6476" y="14.7828" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="52.022" y="13.5304" size="1.016" layer="26" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="48.7476" y="15.8828" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="52.022" y="13.5304" size="0.9" layer="26" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="48.7476" y="15.8828" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="U30" library="TinWhiskers" package="SOT-363" value="74LVC1T45" x="163.6776" y="62.0776" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="74LVC1T45GW,125" x="163.6776" y="62.0776" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="164.4728" y="63.3504" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="161.7776" y="63.1776" size="1" layer="28" font="vector" ratio="10" rot="MR270"/>
+<attribute name="NAME" x="164.4728" y="63.3504" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="161.7776" y="63.1776" size="0.9" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="J6" library="TinWhiskers" package="CON-JST-PH-2.0MM-8P-SMT-VRT" value="S8B-PH-SM4" x="127.1524" y="6.5532" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="B8B-PH-SM4-TB(LF)(SN)" x="127.1524" y="6.5532" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="132.7132" y="4.2092" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="116.1524" y="11.9532" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="133.8308" y="3.8028" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="116.1524" y="11.9532" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 </element>
 <element name="J7" library="TinWhiskers" package="USB-B(SMT)-VERT-1734517" value="USB-B" x="132.8166" y="56.9468" smashed="yes" rot="MR0">
-<attribute name="NAME" x="131.215" y="50.072" size="1.016" layer="26" font="vector" ratio="10" rot="MR0"/>
-<attribute name="VALUE" x="131.3166" y="63.4468" size="0.635" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="131.215" y="50.072" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="131.3166" y="63.4468" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="1734517-1" x="132.8166" y="56.9468" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="J3" library="TinWhiskers" package="USB-A-THRU-VERT-2.0" value="USB-A(2.0)" x="195.0466" y="17.3482" smashed="yes" rot="MR90">
-<attribute name="NAME" x="192.4454" y="24.4974" size="1.016" layer="26" font="vector" ratio="10" rot="MR270"/>
-<attribute name="VALUE" x="199.9466" y="10.1482" size="0.635" layer="28" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="192.4454" y="24.4974" size="0.9" layer="26" font="vector" ratio="12" rot="MR270"/>
+<attribute name="VALUE" x="199.9466" y="10.1482" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="1734085-1" x="195.0466" y="17.3482" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="VR1" library="TinWhiskers" package="SOT-223" value="LMS8117AMP-3.3/NOPB" x="32.512" y="18.2372" smashed="yes" rot="MR0">
-<attribute name="NAME" x="29.324" y="20.3116" size="1.016" layer="26" font="vector" ratio="10" rot="MR90"/>
-<attribute name="VALUE" x="28.812" y="19.7372" size="0.635" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="33.6888" y="22.6184" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="28.812" y="19.7372" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="LMS8117AMP-3.3/NOPB" x="32.512" y="18.2372" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C3" library="TinWhiskers" package="C-SMD-6.3MM" value="10uF" x="24.892" y="17.4244" smashed="yes" rot="MR180">
-<attribute name="NAME" x="27.7428" y="21.0528" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="22.092" y="13.2244" size="0.635" layer="28" font="vector" ratio="12" rot="MR180"/>
+<attribute name="NAME" x="27.7428" y="21.0528" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="22.092" y="13.2244" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="EMVH350ADA100MF60G" x="24.892" y="17.4244" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C4" library="TinWhiskers" package="C-SMD-6.3MM" value="10uF" x="39.9288" y="17.6276" smashed="yes" rot="MR180">
-<attribute name="NAME" x="41.6112" y="21.0528" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="37.1288" y="13.4276" size="0.635" layer="28" font="vector" ratio="12" rot="MR180"/>
+<attribute name="NAME" x="38.36" y="21.256" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="37.1288" y="13.4276" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="EMVH350ADA100MF60G" x="39.9288" y="17.6276" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="TP3" library="TinWhiskers" package="TESTPAD" value="+5V" x="2.7432" y="18.0848" rot="MR270">
+<element name="TP3" library="TinWhiskers" package="TESTPAD" value="+5V" x="2.7432" y="18.0848" smashed="yes" rot="MR270">
 <attribute name="DNP" value="T" x="2.286" y="18.542" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="PARTNO" value="N/A" x="2.286" y="18.542" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="LOGO1" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICKLARGE" x="21.082" y="50.4952">
+<element name="LOGO1" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICKLARGE" x="21.082" y="50.4952" smashed="yes">
 <attribute name="DNP" value="T" x="21.082" y="50.4952" size="0.635" layer="27" display="off"/>
 <attribute name="BOM" value="EXCLUDE" x="21.082" y="50.4952" size="0.635" layer="27" display="off"/>
 </element>
-<element name="LOGO2" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICKLARGE" x="37.8968" y="50.4952" rot="MR0">
+<element name="LOGO2" library="FirePick" package="LOGO-FIREPICK" value="LOGO-FIREPICKLARGE" x="37.8968" y="50.4952" smashed="yes" rot="MR0">
 <attribute name="DNP" value="T" x="37.8968" y="50.4952" size="0.635" layer="28" rot="MR0" display="off"/>
 <attribute name="BOM" value="EXCLUDE" x="37.8968" y="50.4952" size="0.635" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C1" library="TinWhiskers" package="C0603" value="0.1uF" x="45.212" y="31.5468" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.5088" y="32.4468" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="46.712" y="29.6468" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="46.5088" y="32.4468" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="46.712" y="29.6468" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="45.212" y="31.5468" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C5" library="TinWhiskers" package="C0603" value="0.1uF" x="45.1104" y="28.2448" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.3564" y="29.1448" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="46.6104" y="26.3448" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="46.3564" y="29.1448" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="46.6104" y="26.3448" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="45.1104" y="28.2448" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C6" library="TinWhiskers" package="C0603" value="0.1uF" x="156.718" y="42.5704" smashed="yes" rot="MR90">
-<attribute name="NAME" x="157.5576" y="43.9784" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="154.818" y="41.0704" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="157.5576" y="43.9784" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="154.818" y="41.0704" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="156.718" y="42.5704" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C7" library="TinWhiskers" package="C0603" value="0.1uF" x="110.8456" y="39.7256" smashed="yes" rot="MR90">
-<attribute name="NAME" x="111.7456" y="38.2256" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="108.9456" y="38.2256" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="111.8472" y="39.0384" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="108.9456" y="38.2256" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="110.8456" y="39.7256" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C8" library="TinWhiskers" package="C0603" value="0.1uF" x="110.8456" y="43.0276" smashed="yes" rot="MR90">
-<attribute name="NAME" x="111.7456" y="41.5276" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="108.9456" y="41.5276" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="111.7964" y="42.2388" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="108.9456" y="41.5276" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="110.8456" y="43.0276" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C9" library="TinWhiskers" package="C0603" value="0.1uF" x="179.832" y="61.976" smashed="yes" rot="MR90">
-<attribute name="NAME" x="180.732" y="60.6792" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="177.932" y="60.476" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="180.732" y="60.6792" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="177.932" y="60.476" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="179.832" y="61.976" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C10" library="TinWhiskers" package="C0603" value="0.1uF" x="182.626" y="61.976" smashed="yes" rot="MR90">
-<attribute name="NAME" x="183.526" y="60.6792" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="180.726" y="60.476" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="183.526" y="60.6792" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="180.726" y="60.476" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="182.626" y="61.976" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C15" library="TinWhiskers" package="C0603" value="0.1uF" x="185.674" y="62.0268" smashed="yes" rot="MR90">
-<attribute name="NAME" x="186.574" y="60.73" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="183.774" y="60.5268" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="186.574" y="60.73" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="183.774" y="60.5268" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="185.674" y="62.0268" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C16" library="TinWhiskers" package="C0603" value="0.1uF" x="161.6964" y="27.94" smashed="yes" rot="MR90">
-<attribute name="NAME" x="162.5456" y="26.694" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="159.7964" y="26.44" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="162.5456" y="26.694" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="159.7964" y="26.44" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="161.6964" y="27.94" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C17" library="TinWhiskers" package="C0603" value="0.1uF" x="187.8076" y="48.3108" smashed="yes" rot="MR90">
-<attribute name="NAME" x="188.6568" y="47.0648" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="185.9076" y="46.8108" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="188.8092" y="47.268" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="185.9076" y="46.8108" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="187.8076" y="48.3108" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C27" library="TinWhiskers" package="C0603" value="0.1uF" x="179.2732" y="49.4792" smashed="yes" rot="MR90">
-<attribute name="NAME" x="180.1732" y="48.1824" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="177.3732" y="47.9792" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="180.224" y="48.4364" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="177.3732" y="47.9792" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="179.2732" y="49.4792" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C28" library="TinWhiskers" package="C0603" value="0.1uF" x="183.4388" y="48.4124" smashed="yes" rot="MR90">
-<attribute name="NAME" x="184.288" y="47.0648" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="181.5388" y="46.9124" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="184.4912" y="47.6236" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="181.5388" y="46.9124" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="183.4388" y="48.4124" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C29" library="TinWhiskers" package="C0603" value="0.1uF" x="183.2356" y="37.9476" smashed="yes" rot="MR0">
-<attribute name="NAME" x="184.5324" y="38.7968" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="184.7356" y="36.0476" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="184.5324" y="38.7968" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="184.7356" y="36.0476" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="183.2356" y="37.9476" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C33" library="TinWhiskers" package="C0603" value="0.1uF" x="108.6104" y="17.272" smashed="yes" rot="MR180">
-<attribute name="NAME" x="109.958" y="18.1212" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="107.1104" y="19.172" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="109.958" y="18.1212" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="107.1104" y="19.172" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="108.6104" y="17.272" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C34" library="TinWhiskers" package="C0603" value="0.1uF" x="110.4392" y="21.9964" smashed="yes" rot="MR90">
-<attribute name="NAME" x="111.2884" y="20.7504" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="108.5392" y="20.4964" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="111.2884" y="20.7504" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="108.5392" y="20.4964" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="110.4392" y="21.9964" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C35" library="TinWhiskers" package="C0603" value="0.1uF" x="121.666" y="20.9804" smashed="yes" rot="MR90">
-<attribute name="NAME" x="122.566" y="19.6836" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="119.766" y="19.4804" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="122.566" y="19.6836" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="119.766" y="19.4804" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="121.666" y="20.9804" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C36" library="TinWhiskers" package="C0603" value="0.1uF" x="122.2756" y="26.416" smashed="yes" rot="MR90">
-<attribute name="NAME" x="123.1756" y="25.2208" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="120.3756" y="24.916" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="123.1756" y="25.2208" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="120.3756" y="24.916" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="122.2756" y="26.416" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C37" library="TinWhiskers" package="C0603" value="0.1uF" x="44.958" y="25.1968" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.204" y="26.0968" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="46.458" y="23.2968" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="46.204" y="26.0968" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="46.458" y="23.2968" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="44.958" y="25.1968" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C38" library="TinWhiskers" package="C0603" value="0.1uF" x="45.0088" y="22.1996" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.5088" y="23.0996" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="46.5088" y="20.2996" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="46.5088" y="23.0996" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="46.5088" y="20.2996" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="45.0088" y="22.1996" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C39" library="TinWhiskers" package="C0603" value="0.1uF" x="45.4152" y="18.4404" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.6612" y="19.2896" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="46.9152" y="16.5404" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="46.6612" y="19.2896" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="46.9152" y="16.5404" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="45.4152" y="18.4404" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C40" library="TinWhiskers" package="C0603" value="0.1uF" x="45.466" y="15.4432" smashed="yes" rot="MR0">
-<attribute name="NAME" x="46.7628" y="16.2924" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="46.966" y="13.5432" size="1" layer="51" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="46.7628" y="16.2924" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="46.966" y="13.5432" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="45.466" y="15.4432" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C41" library="TinWhiskers" package="C0603" value="0.1uF" x="68.9864" y="33.5788" smashed="yes" rot="MR180">
-<attribute name="NAME" x="70.3848" y="34.428" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="67.4864" y="35.4788" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="70.3848" y="34.428" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="67.4864" y="35.4788" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="68.9864" y="33.5788" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C42" library="TinWhiskers" package="C0603" value="0.1uF" x="69.342" y="30.4292" smashed="yes" rot="MR180">
-<attribute name="NAME" x="70.6896" y="31.2784" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="67.842" y="32.3292" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="70.6896" y="31.2784" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="67.842" y="32.3292" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="69.342" y="30.4292" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C43" library="TinWhiskers" package="C0603" value="0.1uF" x="69.7484" y="27.178" smashed="yes" rot="MR180">
-<attribute name="NAME" x="71.0452" y="28.0272" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="68.2484" y="29.078" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="71.0452" y="28.0272" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="68.2484" y="29.078" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="69.7484" y="27.178" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C44" library="TinWhiskers" package="C0603" value="0.1uF" x="69.7484" y="23.368" smashed="yes" rot="MR180">
-<attribute name="NAME" x="70.9944" y="24.2172" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="68.2484" y="25.268" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="70.9944" y="24.2172" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="68.2484" y="25.268" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="69.7484" y="23.368" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C45" library="TinWhiskers" package="C0603" value="0.1uF" x="69.7484" y="17.4752" smashed="yes" rot="MR180">
-<attribute name="NAME" x="68.2484" y="16.5752" size="1.27" layer="51" font="vector" ratio="12" rot="MR180"/>
-<attribute name="VALUE" x="68.2484" y="19.3752" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="68.2484" y="16.5752" size="0.9" layer="52" font="vector" ratio="12" rot="MR180"/>
+<attribute name="VALUE" x="68.2484" y="19.3752" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="69.7484" y="17.4752" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C46" library="TinWhiskers" package="C0603" value="0.1uF" x="69.596" y="13.2588" smashed="yes" rot="MR180">
-<attribute name="NAME" x="70.9436" y="14.0572" size="1.016" layer="51" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="68.096" y="15.1588" size="1" layer="51" font="vector" ratio="10" rot="MR180"/>
+<attribute name="NAME" x="70.7912" y="14.108" size="0.9" layer="52" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="68.096" y="15.1588" size="0.9" layer="28" font="vector" ratio="12" rot="MR180"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="69.596" y="13.2588" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C47" library="TinWhiskers" package="C0603" value="0.1uF" x="115.0112" y="45.0596" smashed="yes" rot="MR90">
-<attribute name="NAME" x="115.9112" y="43.8644" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="113.1112" y="43.5596" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="115.9112" y="43.8644" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="113.1112" y="43.5596" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="115.0112" y="45.0596" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C48" library="TinWhiskers" package="C0603" value="0.1uF" x="120.5992" y="43.6372" smashed="yes" rot="MR90">
-<attribute name="NAME" x="121.4992" y="42.1372" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="118.6992" y="42.1372" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="121.4992" y="42.1372" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="118.6992" y="42.1372" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="120.5992" y="43.6372" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C49" library="TinWhiskers" package="C0603" value="0.1uF" x="137.16" y="38.8112" smashed="yes" rot="MR90">
-<attribute name="NAME" x="138.06" y="37.5144" size="1.016" layer="51" font="vector" ratio="12" rot="MR90"/>
-<attribute name="VALUE" x="135.26" y="37.3112" size="1" layer="51" font="vector" ratio="10" rot="MR90"/>
+<attribute name="NAME" x="138.06" y="37.5144" size="0.9" layer="52" font="vector" ratio="12" rot="MR90"/>
+<attribute name="VALUE" x="135.26" y="37.3112" size="0.9" layer="28" font="vector" ratio="12" rot="MR90"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="137.16" y="38.8112" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C2" library="TinWhiskers" package="C0603" value="0.1uF" x="48.2473" y="7.4549" smashed="yes" rot="MR0">
-<attribute name="NAME" x="49.7473" y="8.3549" size="1.016" layer="26" font="vector" ratio="12" rot="MR0"/>
-<attribute name="VALUE" x="49.7473" y="5.5549" size="1" layer="28" font="vector" ratio="10" rot="MR0"/>
+<attribute name="NAME" x="49.7473" y="8.3549" size="0.9" layer="26" font="vector" ratio="12" rot="MR0"/>
+<attribute name="VALUE" x="49.7473" y="5.5549" size="0.9" layer="28" font="vector" ratio="12" rot="MR0"/>
 <attribute name="PARTNO" value="GMK107BJ104KAHT" x="48.2473" y="7.4549" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="21.7678" y="26.8351" rot="MR0">
+<element name="U$1" library="!tin-whiskers-logo" package="TIN-WHISKERS-TSTOP" value="TIN-WHISKERSTSTOP" x="21.7678" y="26.8351" smashed="yes" rot="MR0">
 <attribute name="PARTNO" value="*" x="21.7678" y="26.8351" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>

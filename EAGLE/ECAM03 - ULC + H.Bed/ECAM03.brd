@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,8 +8,8 @@
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -22,44 +22,44 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -75,56 +75,56 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -136,12 +136,12 @@
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -7006,16 +7006,16 @@ design rules under a new name.
 </autorouter>
 <elements>
 <element name="C12" library="TinWhiskers" package="C0603" value="10uF" x="113.1618" y="21.6044" smashed="yes" rot="R90">
-<attribute name="NAME" x="112.211" y="20.333" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="110.333" y="23.289" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="PARTNO" value="GRM188R61C106MA73D" x="113.1618" y="21.6044" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C4" library="TinWhiskers" package="C0603" value="12pF" x="15.6464" y="25.4508" smashed="yes">
 <attribute name="PARTNO" value="GRM1885C1H120FA01J" x="15.6464" y="25.4508" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="14.2384" y="24.7763" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="16.9737" y="24.4884" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="C5" library="TinWhiskers" package="C0603" value="12pF" x="25.0444" y="25.4508" smashed="yes">
 <attribute name="PARTNO" value="GRM1885C1H120FA01J" x="25.0444" y="25.4508" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="23.5729" y="24.7763" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="25.9737" y="24.5729" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
 </element>
 <element name="D1" library="TinWhiskers" package="DIO-SMA" value="B340" x="107.7214" y="16.8402" smashed="yes" rot="R270">
 <attribute name="NAME" x="106.2024" y="14.5767" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
@@ -7084,33 +7084,33 @@ design rules under a new name.
 <attribute name="VALUE" x="58.8082" y="17.7604" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R15" library="TinWhiskers" package="R0603" value="0R" x="120.7632" y="20.1056" smashed="yes">
-<attribute name="NAME" x="122.2422" y="19.1786" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="122.5078" y="19.8214" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="VALUE" x="122.7132" y="19.6556" size="1" layer="27" font="vector" ratio="10"/>
 <attribute name="PARTNO" value="RC0603JR-070RL" x="120.7632" y="20.1056" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R16" library="TinWhiskers" package="R0603" value="DNP" x="120.8326" y="22.4118" smashed="yes" rot="R180">
-<attribute name="NAME" x="122.0068" y="21.4848" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="119.7432" y="23.5152" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="VALUE" x="118.8826" y="22.8618" size="1" layer="27" font="vector" ratio="10" rot="R180"/>
 <attribute name="PARTNO" value="RC0603JR-070RL" x="120.8326" y="22.4118" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R2" library="TinWhiskers" package="R0603" value="120R" x="21.59" y="48.514" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="RC0603FR-07120RL" x="21.59" y="48.514" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="20.7138" y="47.1112" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="23.7138" y="47.8612" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="21.14" y="46.564" size="1" layer="27" font="vector" ratio="10" rot="R270"/>
 </element>
 <element name="R3" library="TinWhiskers" package="R0603" value="1K" x="22.352" y="45.212" smashed="yes">
 <attribute name="PARTNO" value="RC0603FR-071KL" x="22.352" y="45.212" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.7138" y="44.495" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="24.245" y="44.7862" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="VALUE" x="24.302" y="44.762" size="1" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R4" library="TinWhiskers" package="R0603" value="1K" x="22.352" y="51.816" smashed="yes">
 <attribute name="PARTNO" value="RC0603FR-071KL" x="22.352" y="51.816" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="20.7138" y="51.0482" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="21.0482" y="52.7862" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="VALUE" x="24.302" y="51.366" size="1" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R8" library="TinWhiskers" package="R0603" value="1M" x="20.3454" y="25.4508" smashed="yes">
 <attribute name="PARTNO" value="RC0603FR-071ML" x="20.3454" y="25.4508" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="18.7199" y="24.7338" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="21.2662" y="24.4699" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="22.2954" y="25.0008" size="1" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="R9" library="TinWhiskers" package="R0603" value="0R" x="53.4162" y="19.7104" smashed="yes" rot="R270">
@@ -7124,7 +7124,7 @@ design rules under a new name.
 </element>
 <element name="U1" library="TinWhiskers" package="SOICN-8" value="SP3485" x="29.718" y="48.641" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="SP3485" x="29.718" y="48.641" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="27.352" y="52.092" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="28.852" y="52.342" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="24.718" y="48.141" size="1" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="U2" library="TinWhiskers" package="32-TQFN" value="ATMEGA238" x="35.4457" y="32.385" smashed="yes">
@@ -7133,7 +7133,7 @@ design rules under a new name.
 <attribute name="VALUE" x="41.7457" y="34.585" size="1" layer="27" font="vector" ratio="10"/>
 </element>
 <element name="U3" library="TinWhiskers" package="SOT-23-6" value="MCP4725" x="114.7318" y="26.5684" smashed="yes">
-<attribute name="NAME" x="113.1758" y="28.3384" size="1.016" layer="51" font="vector" ratio="12"/>
+<attribute name="NAME" x="112.6758" y="28.3384" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="PARTNO" value="MCP4725A0T-E/CH" x="114.7318" y="26.5684" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U4" library="TinWhiskers" package="SOICN-8" value="MAX31855" x="24.6634" y="10.5664" smashed="yes">
@@ -7147,11 +7147,11 @@ design rules under a new name.
 <attribute name="PARTNO" value="NTR4003NT3G" x="24.892" y="19.304" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U8" library="TinWhiskers" package="SOT-23-6" value="AP3032" x="116.1586" y="21.4764" smashed="yes" rot="R180">
-<attribute name="NAME" x="111.1824" y="22.9844" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="116.1824" y="23.2344" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="PARTNO" value="AP3032KTR-G1" x="116.1586" y="21.4764" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U6" library="TinWhiskers" package="SOT-23-5" value="NOR(74LVC)" x="48.133" y="47.625" smashed="yes" rot="R90">
-<attribute name="NAME" x="47.077" y="49.822" size="1.016" layer="25" font="vector" ratio="12"/>
+<attribute name="NAME" x="50.077" y="49.572" size="1.016" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="48.533" y="50.125" size="1" layer="27" font="vector" ratio="10" rot="R90"/>
 <attribute name="PARTNO" value="SN74LVC1G02DBVR" x="48.133" y="47.625" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
@@ -7161,20 +7161,20 @@ design rules under a new name.
 <attribute name="PARTNO" value="68000-102HLF" x="41.5417" y="51.0286" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="TinWhiskers" package="R0603" value="5K" x="119.674" y="17.6122" smashed="yes" rot="R180">
-<attribute name="NAME" x="121.0768" y="16.5836" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
+<attribute name="NAME" x="121.6732" y="17.1664" size="1.016" layer="51" font="vector" ratio="12"/>
 <attribute name="PARTNO" value="RC0603FR-074K99L" x="119.674" y="17.6122" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="TinWhiskers" package="R1206" value="10R" x="115.6208" y="17.9846" smashed="yes">
-<attribute name="NAME" x="112.9572" y="17.0724" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="113.4276" y="18.9572" size="1.016" layer="51" font="vector" ratio="12" rot="R180"/>
 <attribute name="PARTNO" value="RC1206FR-0710RL" x="115.6208" y="17.9846" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R12" library="TinWhiskers" package="R0603" value="90K9" x="117.6274" y="26.6954" smashed="yes" rot="R90">
-<attribute name="NAME" x="116.7004" y="25.2164" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="119.7004" y="25.9664" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
 <attribute name="PARTNO" value="RC0603FR-0790K9L" x="117.6274" y="26.6954" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="VR1" library="TinWhiskers" package="SOT-23-5" value="TC1015-3.3VCT713" x="9.1694" y="25.781" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="TC1015-3.3VCT713" x="9.1694" y="20.701" size="0.635" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="7.0486" y="24.6488" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="6.7986" y="24.6488" size="1.016" layer="51" font="vector" ratio="12" rot="R90"/>
 <attribute name="VALUE" x="6.6694" y="26.181" size="1" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
 <element name="C7" library="TinWhiskers" package="C0603" value="1uF" x="9.2964" y="21.844" smashed="yes" rot="R180">
