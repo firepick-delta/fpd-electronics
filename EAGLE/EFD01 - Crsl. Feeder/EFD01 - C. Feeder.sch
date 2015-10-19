@@ -681,6 +681,32 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <text x="-1.5" y="-4.4" size="1.27" layer="21" ratio="12">&gt;Name</text>
 <text x="-1.5" y="-5.8" size="1" layer="27" ratio="10">&gt;Value</text>
 </package>
+<package name="C-SMD-6.3MM">
+<description>Capacitor: 6.3MM Barrel Diameter;
+Package: SMD;</description>
+<smd name="POS" x="0" y="2.275" dx="0.9" dy="2.8" layer="1"/>
+<smd name="NEG" x="0" y="-2.275" dx="0.9" dy="2.8" layer="1"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.4" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="2.4" x2="-2.4" y2="3.3" width="0.127" layer="51"/>
+<wire x1="-2.4" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="51"/>
+<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.127" layer="51"/>
+<wire x1="3.3" y1="2.4" x2="3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="3.3" y1="-3.3" x2="-3.3" y2="-3.3" width="0.127" layer="51"/>
+<wire x1="-3.3" y1="-3.3" x2="-3.3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="2.4" x2="-2.4" y2="3.3" width="0.127" layer="21"/>
+<wire x1="2.4" y1="3.3" x2="3.3" y2="2.4" width="0.127" layer="21"/>
+<wire x1="3.3" y1="2.4" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+<text x="-2.8" y="5" size="0.635" layer="25" font="vector" ratio="12">&gt;Name</text>
+<text x="-2.8" y="4.2" size="0.635" layer="27" font="vector" ratio="12">&gt;Value</text>
+<circle x="0" y="0" radius="3.15" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="2.5" x2="-1.4" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-2" y1="2.9" x2="-2" y2="2" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.4" x2="-1.3" y2="-2.4" width="0.127" layer="21"/>
+<wire x1="-2.4" y1="3.3" x2="-0.8" y2="3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="3.3" x2="2.4" y2="3.3" width="0.127" layer="21"/>
+<wire x1="-3.3" y1="-3.3" x2="-0.7" y2="-3.3" width="0.127" layer="21"/>
+<wire x1="0.7" y1="-3.3" x2="3.3" y2="-3.3" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -1019,6 +1045,26 @@ Datasheet: http://www.ti.com/lit/ds/symlink/drv8825.pdf</description>
 <wire x1="-10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <text x="-7.62" y="-5.08" size="1.778" layer="125" ratio="12">&gt;Name</text>
+</symbol>
+<symbol name="CPOLAR">
+<description>Polar Capacitor</description>
+<rectangle x1="-2.54" y1="-0.254" x2="1.524" y2="0.254" layer="94" rot="R90"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<pin name="POS" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="NEG" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="-4.826" y="-4.699" size="1.778" layer="95">&gt;NAME</text>
+<text x="-4.826" y="-7.239" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="0.254" y1="-2.032" x2="0.254" y2="2.032" width="0.127" layer="94"/>
+<wire x1="0.254" y1="2.032" x2="1.016" y2="2.032" width="0.127" layer="94"/>
+<wire x1="1.016" y1="2.032" x2="1.016" y2="0" width="0.127" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-2.032" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="0.254" y2="-2.032" width="0.127" layer="94"/>
+<wire x1="-1.27" y1="1.524" x2="-1.778" y2="1.524" width="0.127" layer="94"/>
+<wire x1="2.13" y1="1.624" x2="1.622" y2="1.624" width="0.127" layer="94"/>
+<wire x1="-1.524" y1="1.78" x2="-1.524" y2="1.272" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1579,6 +1625,44 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-ALU-SMD-100UF-50V" prefix="C">
+<description>Capacitor: Al-Electrolytic, 100uF, 20%, 50V, 2000hrs@105C;
+Package: 6.3MM Diameter (Can);
+Datasheet: http://industrial.panasonic.com/lecs/www-data/pdf/ABA0000/ABA0000CE135.pdf</description>
+<gates>
+<gate name="G$1" symbol="CPOLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-SMD-6.3MM">
+<connects>
+<connect gate="G$1" pin="NEG" pad="NEG"/>
+<connect gate="G$1" pin="POS" pad="POS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X7R-0603-0.1UF-35V" prefix="C">
+<description>Capacitor: 0.1uF, 35V, 10%, X7R;
+Package: 0603;
+Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -21918,6 +22002,20 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL">
 <attribute name="PARTNO" value="*"/>
 </part>
+<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-ALU-SMD-100UF-50V" device="" value="100uF"/>
+<part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+13" library="supply1" deviceset="+24V" device=""/>
+<part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY19" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C11" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="P+14" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY20" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="P+15" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="P+16" library="supply1" deviceset="+5V" device=""/>
+<part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22029,8 +22127,8 @@ for Firepick Delta</text>
 <attribute name="VALUE" x="294.64" y="84.201" size="1.778" layer="96"/>
 <attribute name="PARTNO" x="294.64" y="86.36" size="2.54" layer="96" ratio="10" display="off"/>
 </instance>
-<instance part="P+5" gate="1" x="287.02" y="104.14" smashed="yes">
-<attribute name="VALUE" x="284.48" y="105.41" size="1.778" layer="96"/>
+<instance part="P+5" gate="1" x="287.02" y="109.22" smashed="yes">
+<attribute name="VALUE" x="284.48" y="110.49" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY5" gate="GND" x="307.34" y="48.26"/>
 <instance part="R6" gate="R$1" x="302.26" y="58.42" smashed="yes" rot="R90">
@@ -22166,6 +22264,43 @@ for Firepick Delta</text>
 <instance part="U$1" gate="G$1" x="10.16" y="33.02">
 <attribute name="PARTNO" x="10.16" y="33.02" size="1.778" layer="96" display="off"/>
 </instance>
+<instance part="C9" gate="G$1" x="274.32" y="101.6" smashed="yes" rot="R270">
+<attribute name="NAME" x="273.939" y="96.774" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="276.479" y="92.456" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY11" gate="GND" x="274.32" y="91.44"/>
+<instance part="P+13" gate="1" x="274.32" y="109.22" smashed="yes">
+<attribute name="VALUE" x="271.78" y="110.49" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="360.68" y="190.5" smashed="yes" rot="R90">
+<attribute name="NAME" x="360.299" y="183.642" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="362.839" y="181.102" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY19" gate="GND" x="360.68" y="180.34"/>
+<instance part="C11" gate="G$1" x="187.96" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="187.579" y="59.182" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="190.119" y="56.642" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+14" gate="1" x="187.96" y="73.66" smashed="yes">
+<attribute name="VALUE" x="185.42" y="73.66" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY20" gate="GND" x="187.96" y="55.88"/>
+<instance part="C12" gate="G$1" x="63.5" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="63.119" y="76.962" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="65.659" y="74.422" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+15" gate="1" x="63.5" y="91.44" smashed="yes">
+<attribute name="VALUE" x="60.96" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY21" gate="GND" x="63.5" y="73.66"/>
+<instance part="C13" gate="G$1" x="180.34" y="200.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="179.959" y="193.802" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="182.499" y="191.262" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+16" gate="1" x="180.34" y="208.28" smashed="yes">
+<attribute name="VALUE" x="177.8" y="208.28" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY24" gate="GND" x="180.34" y="190.5"/>
 </instances>
 <busses>
 </busses>
@@ -22301,6 +22436,31 @@ for Firepick Delta</text>
 <wire x1="149.86" y1="147.32" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="NEG"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<wire x1="274.32" y1="99.06" x2="274.32" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<wire x1="360.68" y1="185.42" x2="360.68" y2="182.88" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<wire x1="187.96" y1="60.96" x2="187.96" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C12" gate="G$1" pin="1"/>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<wire x1="63.5" y1="78.74" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C13" gate="G$1" pin="1"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+<wire x1="180.34" y1="195.58" x2="180.34" y2="193.04" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+24V" class="0">
 <segment>
@@ -22319,9 +22479,14 @@ for Firepick Delta</text>
 <wire x1="287.02" y1="81.28" x2="309.88" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C2" gate="C1" pin="1"/>
 <wire x1="289.56" y1="86.36" x2="287.02" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="86.36" x2="287.02" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="86.36" x2="287.02" y2="106.68" width="0.1524" layer="91"/>
 <junction x="287.02" y="86.36"/>
 <pinref part="P+5" gate="1" pin="+24V"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="POS"/>
+<wire x1="274.32" y1="106.68" x2="274.32" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="P+13" gate="1" pin="+24V"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -22359,7 +22524,8 @@ for Firepick Delta</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="VCC@4"/>
 <wire x1="335.28" y1="175.26" x2="347.98" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="175.26" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="175.26" x2="347.98" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="347.98" y1="195.58" x2="347.98" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="175.26" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
 <junction x="347.98" y="175.26"/>
 <pinref part="U3" gate="G$1" pin="VCC@6"/>
@@ -22369,6 +22535,10 @@ for Firepick Delta</text>
 <wire x1="335.28" y1="154.94" x2="347.98" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="347.98" y1="154.94" x2="347.98" y2="172.72" width="0.1524" layer="91"/>
 <junction x="347.98" y="172.72"/>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="347.98" y1="195.58" x2="360.68" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="195.58" x2="360.68" y2="193.04" width="0.1524" layer="91"/>
+<junction x="347.98" y="195.58"/>
 </segment>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
@@ -22401,6 +22571,21 @@ for Firepick Delta</text>
 <wire x1="147.32" y1="152.4" x2="149.86" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="152.4" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="P+14" gate="1" pin="+5V"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="187.96" y1="71.12" x2="187.96" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+15" gate="1" pin="+5V"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="88.9" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+16" gate="1" pin="+5V"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="180.34" y1="205.74" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">

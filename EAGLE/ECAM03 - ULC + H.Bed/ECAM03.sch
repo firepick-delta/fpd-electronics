@@ -148,10 +148,9 @@
 <library name="TinWhiskers">
 <description>&lt;b&gt;PCB Matrix Packages&lt;/b&gt;&lt;p&gt;</description>
 <packages>
-<package name="32-TQFN">
+<package name="32-TQF(ATMEGA)">
 <description>TQFN (32-Pin), 7mm;
 Source: Micrel (http://www.micrel.com/_PDF/other/unofficial-pcb-footprints/TQFPEP7X7-32LD-PL-1-A.pdf)</description>
-<smd name="PAD" x="0" y="0" dx="4.5" dy="4.5" layer="1"/>
 <wire x1="-3.5" y1="-3.5" x2="3.5" y2="-3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="-3.5" x2="3.5" y2="3.5" width="0.127" layer="51"/>
 <wire x1="3.5" y1="3.5" x2="-2.75" y2="3.5" width="0.127" layer="51"/>
@@ -764,7 +763,6 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <wire x1="7.62" y1="-40.64" x2="7.62" y2="15.24" width="0.254" layer="94"/>
 <text x="-7.62" y="17.78" size="1.27" layer="95" font="vector" ratio="10">&gt;Name</text>
 <text x="-7.62" y="15.24" size="1.27" layer="95" font="vector" ratio="10">&gt;Value</text>
-<pin name="TAB" x="-12.7" y="-38.1" length="short"/>
 </symbol>
 <symbol name="Q">
 <description>Crystal</description>
@@ -1068,7 +1066,7 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <gate name="G$1" symbol="AT328" x="2.54" y="5.08"/>
 </gates>
 <devices>
-<device name="" package="32-TQFN">
+<device name="" package="32-TQF(ATMEGA)">
 <connects>
 <connect gate="G$1" pin="ADC6" pad="19"/>
 <connect gate="G$1" pin="ADC7" pad="22"/>
@@ -1100,7 +1098,6 @@ Datasheet: http://www.atmel.com/devices/atmega328.aspx</description>
 <connect gate="G$1" pin="PD5" pad="9"/>
 <connect gate="G$1" pin="PD6" pad="10"/>
 <connect gate="G$1" pin="PD7" pad="11"/>
-<connect gate="G$1" pin="TAB" pad="PAD"/>
 <connect gate="G$1" pin="VCC@4" pad="4"/>
 <connect gate="G$1" pin="VCC@6" pad="6"/>
 </connects>
@@ -1354,7 +1351,7 @@ Datasheet: http://www.diodes.com/_files/datasheets/AP3032.pdf</description>
 </devices>
 </deviceset>
 <deviceset name="CPL-CAP-X5R-0603-10UF-25V" prefix="C">
-<description>Capacitor: 10uF, 20%, X5R;
+<description>Capacitor: 10uF, 16V, 20%, X5R;
 Package: 0603;
 Datasheet: http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx</description>
 <gates>
@@ -1401,7 +1398,17 @@ Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description
 <gate name="G$1" symbol="NTR4003N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-23-3">
+<device name="NTR4003N" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="3"/>
+<connect gate="G$1" pin="GATE" pad="1"/>
+<connect gate="G$1" pin="SOURCE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ZXMN10A07FTA" package="SOT-23-3">
 <connects>
 <connect gate="G$1" pin="DRAIN" pad="3"/>
 <connect gate="G$1" pin="GATE" pad="1"/>
@@ -1690,6 +1697,25 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-CAP-X5R-0603-0.1UF-35V" prefix="C">
+<description>Capacitor: 0.1uF, 35V, 10%, X5R;
+Package: 0603;
+Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</description>
+<gates>
+<gate name="G$1" symbol="C" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -26279,7 +26305,6 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="SUPPLY9" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
-<part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="U1" library="TinWhiskers" deviceset="SP3485" device="">
 <attribute name="PARTNO" value="SP3485"/>
@@ -26363,7 +26388,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <part name="J4" library="FirePick" deviceset="CONN-RECT-3PIN" device="MOLEX-KK" value="FAN3">
 <attribute name="PARTNO" value="22232031"/>
 </part>
-<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="NTR4003N" value="NTR4003NT3G">
 <attribute name="PARTNO" value="NTR4003NT3G"/>
 </part>
 <part name="SUPPLY7" library="TinWhiskers" deviceset="GND" device=""/>
@@ -26432,6 +26457,23 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <attribute name="PARTNO" value="*"/>
 </part>
 <part name="SUPPLY5" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C1" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY19" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C2" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="SUPPLY20" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="C3" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+17" library="supply1" deviceset="+5V" device=""/>
+<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+18" library="supply1" deviceset="+5V" device=""/>
+<part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY25" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+19" library="supply1" deviceset="+5V" device=""/>
+<part name="C11" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="SUPPLY28" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="P+20" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26492,7 +26534,6 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="P+7" gate="1" x="358.14" y="236.22" smashed="yes">
 <attribute name="VALUE" x="355.6" y="236.22" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="GND" x="320.04" y="175.26"/>
 <instance part="SUPPLY12" gate="GND" x="347.98" y="175.26"/>
 <instance part="U1" gate="G$1" x="210.82" y="116.84" smashed="yes">
 <attribute name="NAME" x="208.28" y="127" size="1.778" layer="95" font="vector" ratio="12"/>
@@ -26517,8 +26558,12 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="R4" gate="G$1" x="233.68" y="101.6" rot="R90">
 <attribute name="PARTNO" x="233.68" y="101.6" size="2.54" layer="96" ratio="10" display="off"/>
 </instance>
-<instance part="+3V2" gate="G$1" x="233.68" y="142.24"/>
-<instance part="+3V3" gate="G$1" x="226.06" y="142.24"/>
+<instance part="+3V2" gate="G$1" x="233.68" y="142.24" smashed="yes">
+<attribute name="VALUE" x="231.14" y="142.24" size="1.778" layer="96"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="226.06" y="142.24" smashed="yes">
+<attribute name="VALUE" x="223.52" y="142.24" size="1.778" layer="96"/>
+</instance>
 <instance part="SUPPLY2" gate="GND" x="233.68" y="91.44"/>
 <instance part="SUPPLY3" gate="GND" x="226.06" y="91.44"/>
 <instance part="J1" gate="G$1" x="264.16" y="115.57" smashed="yes" rot="MR0">
@@ -26738,6 +26783,51 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <instance part="SUPPLY5" gate="GND" x="132.08" y="38.1" smashed="yes">
 <attribute name="VALUE" x="130.175" y="34.925" size="1.778" layer="96"/>
 </instance>
+<instance part="C1" gate="G$1" x="279.4" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="279.019" y="214.884" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="281.559" y="211.582" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY19" gate="GND" x="279.4" y="210.82"/>
+<instance part="C2" gate="G$1" x="195.58" y="104.14" smashed="yes" rot="R90">
+<attribute name="NAME" x="195.199" y="98.044" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="197.739" y="94.742" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="+3V5" gate="G$1" x="195.58" y="111.76" smashed="yes">
+<attribute name="VALUE" x="193.04" y="111.76" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY20" gate="GND" x="195.58" y="93.98"/>
+<instance part="C3" gate="G$1" x="15.24" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="14.859" y="49.784" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="17.399" y="46.482" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY21" gate="GND" x="15.24" y="45.72"/>
+<instance part="P+17" gate="1" x="15.24" y="63.5" smashed="yes">
+<attribute name="VALUE" x="12.7" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="C9" gate="G$1" x="81.28" y="55.88" smashed="yes" rot="R90">
+<attribute name="NAME" x="80.899" y="49.784" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="83.439" y="46.482" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY24" gate="GND" x="81.28" y="45.72"/>
+<instance part="P+18" gate="1" x="81.28" y="63.5" smashed="yes">
+<attribute name="VALUE" x="78.74" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="C10" gate="G$1" x="193.04" y="58.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="192.659" y="51.308" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="195.199" y="49.022" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY25" gate="GND" x="193.04" y="48.26"/>
+<instance part="P+19" gate="1" x="193.04" y="66.04" smashed="yes">
+<attribute name="VALUE" x="190.5" y="66.04" size="1.778" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="279.4" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="279.019" y="43.942" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="281.559" y="41.402" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY28" gate="GND" x="279.4" y="40.64"/>
+<instance part="P+20" gate="1" x="279.4" y="58.42" smashed="yes">
+<attribute name="VALUE" x="276.86" y="58.42" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -26770,12 +26860,6 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <wire x1="345.44" y1="185.42" x2="347.98" y2="185.42" width="0.1524" layer="91"/>
 <junction x="347.98" y="185.42"/>
 <pinref part="SUPPLY12" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="TAB"/>
-<wire x1="322.58" y1="180.34" x2="320.04" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="320.04" y1="180.34" x2="320.04" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <wire x1="261.62" y1="119.38" x2="259.08" y2="119.38" width="0.1524" layer="91"/>
@@ -26888,6 +26972,36 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <wire x1="119.38" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="55.88" x2="132.08" y2="40.64" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="1"/>
+<pinref part="SUPPLY19" gate="GND" pin="GND"/>
+<wire x1="279.4" y1="215.9" x2="279.4" y2="213.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="1"/>
+<pinref part="SUPPLY20" gate="GND" pin="GND"/>
+<wire x1="195.58" y1="99.06" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="1"/>
+<pinref part="SUPPLY21" gate="GND" pin="GND"/>
+<wire x1="15.24" y1="50.8" x2="15.24" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="SUPPLY24" gate="GND" pin="GND"/>
+<wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="1"/>
+<pinref part="SUPPLY25" gate="GND" pin="GND"/>
+<wire x1="193.04" y1="53.34" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="1"/>
+<pinref part="SUPPLY28" gate="GND" pin="GND"/>
+<wire x1="279.4" y1="45.72" x2="279.4" y2="43.18" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+5V" class="0">
 <segment>
@@ -26916,6 +27030,10 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="299.72" y1="226.06" x2="297.18" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="226.06" x2="297.18" y2="228.6" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="297.18" y1="226.06" x2="279.4" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="226.06" x2="279.4" y2="223.52" width="0.1524" layer="91"/>
+<junction x="297.18" y="226.06"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="VIN"/>
@@ -26985,6 +27103,26 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <wire x1="147.32" y1="200.66" x2="149.86" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="200.66" x2="149.86" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="P+16" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="60.96" x2="15.24" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+17" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="60.96" x2="81.28" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="P+18" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="193.04" y1="63.5" x2="193.04" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="P+19" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="C11" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="55.88" x2="279.4" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="P+20" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="RO" class="0">
@@ -27222,6 +27360,11 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <wire x1="345.44" y1="137.16" x2="345.44" y2="142.24" width="0.1524" layer="91"/>
 <junction x="340.36" y="137.16"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="195.58" y1="109.22" x2="195.58" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTR1" class="0">
@@ -27564,7 +27707,7 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <segment>
 <pinref part="U2" gate="G$1" pin="PB0"/>
 <wire x1="322.58" y1="231.14" x2="312.42" y2="231.14" width="0.1524" layer="91"/>
-<label x="312.42" y="231.14" size="1.778" layer="95"/>
+<label x="307.34" y="231.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J7" gate="G$1" pin="4"/>
