@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -29,7 +29,7 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -169,8 +169,8 @@
 <circle x="26.6" y="32" radius="8" width="0" layer="41"/>
 <circle x="56.96" y="32" radius="3.5" width="0.0001" layer="20"/>
 <circle x="26.6" y="32" radius="8" width="0.0001" layer="20"/>
-<text x="42.50655" y="67.851990625" size="1.016" layer="21" rot="MR24">SPI</text>
-<text x="51.90455" y="65.769190625" size="1.016" layer="21" rot="MR24">FTDI</text>
+<text x="39.230365625" y="69.455096875" size="1.016" layer="22" rot="R336">SPI</text>
+<text x="49.66906875" y="66.98308125" size="1.016" layer="22" rot="R336">FTDI</text>
 <text x="64.928646875" y="32.536546875" size="0.635" layer="21" rot="R86">SOLENOIDS</text>
 <text x="29.238465625" y="18.436003125" size="0.635" layer="21">MOD TOOL</text>
 <text x="23.275303125" y="46.71405" size="0.635" layer="21" rot="R90">USB CAM</text>
@@ -3692,8 +3692,8 @@ design rules under a new name.
 <attribute name="VALUE" x="73.88570625" y="38.747390625" size="0.635" layer="27" font="vector" ratio="10" rot="R264"/>
 <attribute name="PARTNO" value="B7B-PH-SM4-TB(LF)(SN)" x="66.19743125" y="33.5224125" size="1.778" layer="27" rot="R264" display="off"/>
 </element>
-<element name="U11" library="TinWhiskers" package="SOT-23-3" value="NTR4003NT3G" x="62.6872" y="31.5468" rot="MR90">
-<attribute name="PARTNO" value="NTR4003NT3G" x="62.6872" y="31.5468" size="1.778" layer="28" rot="MR90" display="off"/>
+<element name="U11" library="TinWhiskers" package="SOT-23-3" value="ZXMN10A07FTA" x="62.6872" y="31.5468" rot="MR90">
+<attribute name="PARTNO" value="ZXMN10A07FTA" x="62.6872" y="31.5468" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C13" library="TinWhiskers" package="C0603" value="0.1uF" x="48.7172" y="60.9092" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.03" y="62.368" size="1.016" layer="51" font="vector" ratio="12"/>

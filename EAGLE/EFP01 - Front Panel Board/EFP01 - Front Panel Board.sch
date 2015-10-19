@@ -24584,8 +24584,12 @@ for FirePick Delta</text>
 <segment>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
 <wire x1="220.98" y1="78.74" x2="208.28" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="78.74" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="78.74" x2="208.28" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U10" gate="G$1" pin="VCCIO"/>
+<pinref part="U10" gate="G$1" pin="VCC"/>
+<wire x1="208.28" y1="81.28" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="81.28" x2="220.98" y2="81.28" width="0.1524" layer="91"/>
+<junction x="208.28" y="81.28"/>
 </segment>
 <segment>
 <pinref part="R53" gate="G$1" pin="2"/>

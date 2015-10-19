@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -1770,7 +1770,17 @@ Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description
 <gate name="G$1" symbol="NTR4003N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-23-3">
+<device name="NTR4003N" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="3"/>
+<connect gate="G$1" pin="GATE" pad="1"/>
+<connect gate="G$1" pin="SOURCE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ZXMN10A07FTA" package="SOT-23-3">
 <connects>
 <connect gate="G$1" pin="DRAIN" pad="3"/>
 <connect gate="G$1" pin="GATE" pad="1"/>
@@ -11901,16 +11911,16 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="SUPPLY17" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="U4" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<part name="U4" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="NTR4003N" value="NTR4003NT3G">
 <attribute name="PARTNO" value="NTR4003NT3G"/>
 </part>
-<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<part name="U5" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="NTR4003N" value="NTR4003NT3G">
 <attribute name="PARTNO" value="NTR4003NT3G"/>
 </part>
-<part name="U6" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<part name="U6" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="NTR4003N" value="NTR4003NT3G">
 <attribute name="PARTNO" value="NTR4003NT3G"/>
 </part>
-<part name="U7" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
+<part name="U7" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="NTR4003N" value="NTR4003NT3G">
 <attribute name="PARTNO" value="NTR4003NT3G"/>
 </part>
 <part name="SUPPLY20" library="TinWhiskers" deviceset="GND" device=""/>
@@ -11978,8 +11988,8 @@ Datasheet: http://www.ti.com/lit/ds/symlink/lms8117a.pdf</description>
 <part name="J6" library="TinWhiskers" deviceset="CPL-CON-JST-2.0MM-7P-M-SMT-VRT" device="" value="SOL+PUMP">
 <attribute name="PARTNO" value="B7B-PH-SM4-TB(LF)(SN)"/>
 </part>
-<part name="U11" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="" value="NTR4003NT3G">
-<attribute name="PARTNO" value="NTR4003NT3G"/>
+<part name="U11" library="TinWhiskers" deviceset="CPL-MOSFET-NCH-SOT23" device="ZXMN10A07FTA" value="ZXMN10A07FTA">
+<attribute name="PARTNO" value="ZXMN10A07FTA"/>
 </part>
 <part name="SUPPLY32" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+14" library="supply1" deviceset="+24V" device=""/>

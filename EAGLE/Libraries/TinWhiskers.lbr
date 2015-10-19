@@ -23840,7 +23840,17 @@ Datasheet: http://www.onsemi.com/pub_link/Collateral/NTR4003N-D.PDF</description
 <gate name="G$1" symbol="NTR4003N" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOT-23-3">
+<device name="NTR4003N" package="SOT-23-3">
+<connects>
+<connect gate="G$1" pin="DRAIN" pad="3"/>
+<connect gate="G$1" pin="GATE" pad="1"/>
+<connect gate="G$1" pin="SOURCE" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="ZXMN10A07FTA" package="SOT-23-3">
 <connects>
 <connect gate="G$1" pin="DRAIN" pad="3"/>
 <connect gate="G$1" pin="GATE" pad="1"/>
