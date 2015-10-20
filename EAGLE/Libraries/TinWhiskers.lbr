@@ -12800,6 +12800,55 @@ Datasheet: http://www.te.com/usa-en/product-147873-2.html</description>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="39"/>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="40"/>
 </package>
+<package name="SOD-123">
+<description>Diode: Package SOD-123</description>
+<smd name="NEG" x="-1.675" y="0" dx="0.85" dy="0.85" layer="1"/>
+<smd name="POS" x="1.675" y="0" dx="0.85" dy="0.85" layer="1"/>
+<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.127" layer="51"/>
+<wire x1="1.425" y1="0.85" x2="1.425" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="0.85" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.5" x2="-0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0" x2="-0.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0" x2="0.6" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.5" x2="0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0" x2="0.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-0.5" x2="-0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0" x2="-1" y2="0" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0" x2="0.9" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="0.6" x2="-1.425" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.127" layer="21"/>
+<wire x1="1.425" y1="0.85" x2="1.425" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.425" y1="-0.6" x2="1.425" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="-0.6" width="0.127" layer="21"/>
+<text x="-1.4" y="2.2" size="1" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-1.4" y="1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="SOD-323">
+<description>Diode: Package (SOD-323);
+Source: http://www.vishay.com/docs/85886/1n4148wsfl-g.pdf</description>
+<smd name="NEG" x="-1.125" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="POS" x="1.125" y="0" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="-0.9" y1="-0.675" x2="-0.9" y2="0.675" width="0.127" layer="51"/>
+<wire x1="-0.9" y1="0.675" x2="0.9" y2="0.675" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.675" x2="0.9" y2="-0.675" width="0.127" layer="51"/>
+<wire x1="0.9" y1="-0.675" x2="-0.9" y2="-0.675" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="0.4" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="-0.3" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-0.3" x2="0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0.3" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.6" x2="-0.9" y2="0.675" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.675" x2="0.9" y2="0.675" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0.675" x2="0.9" y2="0.6" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.6" x2="0.9" y2="-0.675" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.675" x2="-0.9" y2="-0.675" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-0.675" x2="-0.9" y2="-0.6" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="IC-TMC2130-LA">
@@ -20691,7 +20740,7 @@ DIN A3, landscape with location and doc. field</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CAP-X7R-0603-100NF-50V">
+<deviceset name="CPL-CAP-X7R-0603-100NF-50V" prefix="C">
 <description>Capacitor: 100nF, 50V, 10%;
 Package: 0603</description>
 <gates>
@@ -24699,6 +24748,33 @@ Datasheet: http://www.te.com/usa-en/product-147873-2.html</description>
 </gates>
 <devices>
 <device name="" package="MTHOLE(M3)">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DIO-1N4148" prefix="D">
+<description>Diode: 1N4148, General Purpose, 75V-100V, 100mA-500mA, 1-3Vr;
+Datasheet: http://www.vishay.com/docs/85886/1n4148wsfl-g.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="POS"/>
+<connect gate="G$1" pin="C" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-323" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="POS"/>
+<connect gate="G$1" pin="C" pad="NEG"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

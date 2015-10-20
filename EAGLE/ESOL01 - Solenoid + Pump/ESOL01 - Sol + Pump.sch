@@ -201,6 +201,55 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="39"/>
 <circle x="0" y="0" radius="3.5" width="0.127" layer="40"/>
 </package>
+<package name="SOD-123">
+<description>Diode: Package SOD-123</description>
+<smd name="NEG" x="-1.675" y="0" dx="0.85" dy="0.85" layer="1"/>
+<smd name="POS" x="1.675" y="0" dx="0.85" dy="0.85" layer="1"/>
+<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.127" layer="51"/>
+<wire x1="1.425" y1="0.85" x2="1.425" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.127" layer="51"/>
+<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="0.85" width="0.127" layer="51"/>
+<wire x1="-0.6" y1="0.5" x2="-0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0" x2="-0.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0" x2="0.6" y2="0.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0.5" x2="0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0" x2="0.6" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="0.6" y1="-0.5" x2="-0.6" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.6" y1="0" x2="-1" y2="0" width="0.127" layer="21"/>
+<wire x1="0.6" y1="0" x2="0.9" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="0.6" x2="-1.425" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="0.85" x2="1.425" y2="0.85" width="0.127" layer="21"/>
+<wire x1="1.425" y1="0.85" x2="1.425" y2="0.6" width="0.127" layer="21"/>
+<wire x1="1.425" y1="-0.6" x2="1.425" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="1.425" y1="-0.85" x2="-1.425" y2="-0.85" width="0.127" layer="21"/>
+<wire x1="-1.425" y1="-0.85" x2="-1.425" y2="-0.6" width="0.127" layer="21"/>
+<text x="-1.4" y="2.2" size="1" layer="25" font="vector" ratio="10">&gt;Name</text>
+<text x="-1.4" y="1" size="1" layer="27" font="vector" ratio="10">&gt;Value</text>
+</package>
+<package name="SOD-323">
+<description>Diode: Package (SOD-323);
+Source: http://www.vishay.com/docs/85886/1n4148wsfl-g.pdf</description>
+<smd name="NEG" x="-1.125" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="POS" x="1.125" y="0" dx="0.8" dy="0.8" layer="1"/>
+<wire x1="-0.9" y1="-0.675" x2="-0.9" y2="0.675" width="0.127" layer="51"/>
+<wire x1="-0.9" y1="0.675" x2="0.9" y2="0.675" width="0.127" layer="51"/>
+<wire x1="0.9" y1="0.675" x2="0.9" y2="-0.675" width="0.127" layer="51"/>
+<wire x1="0.9" y1="-0.675" x2="-0.9" y2="-0.675" width="0.127" layer="51"/>
+<wire x1="-0.3" y1="0.4" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="-0.3" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="0.3" y2="-0.3" width="0.127" layer="21"/>
+<wire x1="0.3" y1="-0.3" x2="0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="0.3" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0.3" x2="-0.3" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.3" y1="0" x2="-0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3" y1="0" x2="0.5" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.6" x2="-0.9" y2="0.675" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="0.675" x2="0.9" y2="0.675" width="0.127" layer="21"/>
+<wire x1="0.9" y1="0.675" x2="0.9" y2="0.6" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.6" x2="0.9" y2="-0.675" width="0.127" layer="21"/>
+<wire x1="0.9" y1="-0.675" x2="-0.9" y2="-0.675" width="0.127" layer="21"/>
+<wire x1="-0.9" y1="-0.675" x2="-0.9" y2="-0.6" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -260,6 +309,19 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <description>Mounting Hole (3.5mm dia.), w/ 7mm dia. keepouts</description>
 <text x="0" y="0" size="1.27" layer="96">&gt;Value</text>
 <text x="-5.08" y="0" size="1.27" layer="95">&gt;Name</text>
+</symbol>
+<symbol name="DIODE">
+<wire x1="1.27" y1="1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<pin name="C" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="A" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.286" y="1.905" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.286" y="-3.429" size="1.778" layer="96">&gt;VALUE</text>
+<text x="0" y="-2.54" size="0.4064" layer="99" rot="R180" align="center">SpiceOrder 1</text>
+<text x="0" y="2.54" size="0.4064" layer="99" rot="R180" align="center">SpiceOrder 2</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -344,6 +406,33 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 </gates>
 <devices>
 <device name="" package="MTHOLE(M3)">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-DIO-1N4148" prefix="D">
+<description>Diode: 1N4148, General Purpose, 75V-100V, 100mA-500mA, 1-3Vr;
+Datasheet: http://www.vishay.com/docs/85886/1n4148wsfl-g.pdf</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOD-123" package="SOD-123">
+<connects>
+<connect gate="G$1" pin="A" pad="POS"/>
+<connect gate="G$1" pin="C" pad="NEG"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SOD-323" package="SOD-323">
+<connects>
+<connect gate="G$1" pin="A" pad="POS"/>
+<connect gate="G$1" pin="C" pad="NEG"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -10015,6 +10104,16 @@ Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf</description>
 <part name="MT2" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (5MM, 29MM)"/>
 <part name="MT3" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (64MM, 29MM)"/>
 <part name="MT4" library="TinWhiskers" deviceset="MTHOLE(M3)" device="" value=": (64MM, 5MM)"/>
+<part name="D1" library="TinWhiskers" deviceset="CPL-DIO-1N4148" device="SOD-323" value="1N4148"/>
+<part name="D2" library="TinWhiskers" deviceset="CPL-DIO-1N4148" device="SOD-323" value="1N4148"/>
+<part name="D3" library="TinWhiskers" deviceset="CPL-DIO-1N4148" device="SOD-323" value="1N4148"/>
+<part name="D4" library="TinWhiskers" deviceset="CPL-DIO-1N4148" device="SOD-323" value="1N4148"/>
+<part name="D5" library="TinWhiskers" deviceset="CPL-DIO-1N4148" device="SOD-323" value="1N4148"/>
+<part name="P+8" library="supply1" deviceset="+5V" device=""/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
+<part name="P+10" library="supply1" deviceset="+5V" device=""/>
+<part name="P+11" library="supply1" deviceset="+5V" device=""/>
+<part name="P+12" library="supply1" deviceset="+24V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10029,7 +10128,7 @@ Pump Control Passthrough</text>
 <text x="292.1" y="20.32" size="1.778" layer="94" ratio="15">DRAWING BY: DANIEL SMITH</text>
 <text x="292.1" y="17.78" size="1.778" layer="94" ratio="15">APPROVED BY: NEIL JANSEN</text>
 <text x="292.1" y="10.16" size="2.54" layer="94" ratio="10">REVISION:</text>
-<text x="35.56" y="63.5" size="7.62" layer="94">MT HOLES</text>
+<text x="35.56" y="58.42" size="7.62" layer="94">MT HOLES</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -10045,13 +10144,13 @@ Pump Control Passthrough</text>
 <attribute name="NAME" x="55.88" y="111.76" size="1.778" layer="95" font="vector" ratio="12"/>
 <attribute name="VALUE" x="55.88" y="109.22" size="1.27" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="J4" gate="G$1" x="60.96" y="91.44" smashed="yes">
-<attribute name="NAME" x="55.88" y="99.06" size="1.778" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="55.88" y="96.52" size="1.27" layer="96" font="vector" ratio="10"/>
+<instance part="J4" gate="G$1" x="60.96" y="88.9" smashed="yes">
+<attribute name="NAME" x="55.88" y="96.52" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="55.88" y="93.98" size="1.27" layer="96" font="vector" ratio="10"/>
 </instance>
-<instance part="J5" gate="G$1" x="60.96" y="78.74" smashed="yes">
-<attribute name="NAME" x="55.88" y="86.36" size="1.778" layer="95" font="vector" ratio="12"/>
-<attribute name="VALUE" x="55.88" y="83.82" size="1.27" layer="96" font="vector" ratio="10"/>
+<instance part="J5" gate="G$1" x="60.96" y="73.66" smashed="yes">
+<attribute name="NAME" x="55.88" y="81.28" size="1.778" layer="95" font="vector" ratio="12"/>
+<attribute name="VALUE" x="55.88" y="78.74" size="1.27" layer="96" font="vector" ratio="10"/>
 </instance>
 <instance part="J6" gate="G$1" x="60.96" y="157.48" smashed="yes">
 <attribute name="NAME" x="55.88" y="165.1" size="1.778" layer="95" font="vector" ratio="12"/>
@@ -10069,31 +10168,66 @@ Pump Control Passthrough</text>
 <instance part="P+4" gate="1" x="66.04" y="114.3" smashed="yes">
 <attribute name="VALUE" x="63.5" y="114.3" size="1.778" layer="96"/>
 </instance>
-<instance part="P+5" gate="1" x="66.04" y="101.6" smashed="yes">
-<attribute name="VALUE" x="63.5" y="101.6" size="1.778" layer="96"/>
+<instance part="P+5" gate="1" x="66.04" y="99.06" smashed="yes">
+<attribute name="VALUE" x="63.5" y="99.06" size="1.778" layer="96"/>
 </instance>
-<instance part="P+6" gate="1" x="66.04" y="88.9" smashed="yes">
-<attribute name="VALUE" x="63.5" y="88.9" size="1.778" layer="96"/>
+<instance part="P+6" gate="1" x="66.04" y="83.82" smashed="yes">
+<attribute name="VALUE" x="63.5" y="83.82" size="1.778" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="66.04" y="167.64" smashed="yes">
 <attribute name="VALUE" x="62.992" y="168.91" size="1.778" layer="96"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="91.44" y="10.16"/>
-<instance part="MT1" gate="G$1" x="55.88" y="58.42" smashed="yes">
-<attribute name="VALUE" x="55.88" y="58.42" size="1.27" layer="96"/>
-<attribute name="NAME" x="50.8" y="58.42" size="1.27" layer="95"/>
-</instance>
-<instance part="MT2" gate="G$1" x="55.88" y="55.88" smashed="yes">
-<attribute name="VALUE" x="55.88" y="55.88" size="1.27" layer="96"/>
-<attribute name="NAME" x="50.8" y="55.88" size="1.27" layer="95"/>
-</instance>
-<instance part="MT3" gate="G$1" x="55.88" y="53.34" smashed="yes">
+<instance part="MT1" gate="G$1" x="55.88" y="53.34" smashed="yes">
 <attribute name="VALUE" x="55.88" y="53.34" size="1.27" layer="96"/>
 <attribute name="NAME" x="50.8" y="53.34" size="1.27" layer="95"/>
 </instance>
-<instance part="MT4" gate="G$1" x="55.88" y="50.8" smashed="yes">
+<instance part="MT2" gate="G$1" x="55.88" y="50.8" smashed="yes">
 <attribute name="VALUE" x="55.88" y="50.8" size="1.27" layer="96"/>
 <attribute name="NAME" x="50.8" y="50.8" size="1.27" layer="95"/>
+</instance>
+<instance part="MT3" gate="G$1" x="55.88" y="48.26" smashed="yes">
+<attribute name="VALUE" x="55.88" y="48.26" size="1.27" layer="96"/>
+<attribute name="NAME" x="50.8" y="48.26" size="1.27" layer="95"/>
+</instance>
+<instance part="MT4" gate="G$1" x="55.88" y="45.72" smashed="yes">
+<attribute name="VALUE" x="55.88" y="45.72" size="1.27" layer="96"/>
+<attribute name="NAME" x="50.8" y="45.72" size="1.27" layer="95"/>
+</instance>
+<instance part="D1" gate="G$1" x="76.2" y="124.46" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.375" y="122.174" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.549" y="119.634" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D2" gate="G$1" x="76.2" y="109.22" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.375" y="106.934" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.549" y="104.394" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D3" gate="G$1" x="76.2" y="93.98" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.375" y="91.694" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.549" y="89.154" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D4" gate="G$1" x="76.2" y="78.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.375" y="76.454" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.549" y="73.914" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D5" gate="G$1" x="76.2" y="162.56" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.375" y="160.274" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="74.549" y="157.734" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+8" gate="1" x="76.2" y="132.08" smashed="yes">
+<attribute name="VALUE" x="73.66" y="132.08" size="1.778" layer="96"/>
+</instance>
+<instance part="P+9" gate="1" x="76.2" y="116.84" smashed="yes">
+<attribute name="VALUE" x="73.66" y="116.84" size="1.778" layer="96"/>
+</instance>
+<instance part="P+10" gate="1" x="76.2" y="101.6" smashed="yes">
+<attribute name="VALUE" x="73.66" y="101.6" size="1.778" layer="96"/>
+</instance>
+<instance part="P+11" gate="1" x="76.2" y="86.36" smashed="yes">
+<attribute name="VALUE" x="73.66" y="86.36" size="1.778" layer="96"/>
+</instance>
+<instance part="P+12" gate="1" x="76.2" y="170.18" smashed="yes">
+<attribute name="VALUE" x="73.152" y="171.45" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -10120,15 +10254,35 @@ Pump Control Passthrough</text>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="93.98" x2="66.04" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="93.98" x2="66.04" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="91.44" x2="66.04" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="91.44" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="81.28" x2="66.04" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="76.2" x2="66.04" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="76.2" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="P+11" gate="1" pin="+5V"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="83.82" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="99.06" x2="76.2" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+9" gate="1" pin="+5V"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="114.3" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+8" gate="1" pin="+5V"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="129.54" x2="76.2" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -10144,47 +10298,62 @@ Pump Control Passthrough</text>
 <wire x1="63.5" y1="160.02" x2="66.04" y2="160.02" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="160.02" x2="66.04" y2="165.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="76.2" y1="165.1" x2="76.2" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="P+12" gate="1" pin="+24V"/>
+</segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="119.38" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="119.38" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="119.38" x2="276.86" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="119.38" x2="276.86" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 <wire x1="276.86" y1="144.78" x2="317.5" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="121.92" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<junction x="76.2" y="119.38"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="317.5" y1="142.24" x2="279.4" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="142.24" x2="279.4" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="279.4" y1="116.84" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="116.84" x2="73.66" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="142.24" x2="279.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="J3" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="104.14" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="106.68" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
+<junction x="76.2" y="104.14"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="91.44" x2="76.2" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="114.3" x2="281.94" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="114.3" x2="281.94" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="88.9" x2="281.94" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="88.9" x2="281.94" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="5"/>
 <wire x1="281.94" y1="139.7" x2="317.5" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="91.44" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
+<junction x="76.2" y="88.9"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="78.74" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="111.76" x2="284.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="284.48" y1="111.76" x2="284.48" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="73.66" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="73.66" x2="284.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="73.66" x2="284.48" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="284.48" y1="137.16" x2="317.5" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="76.2" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<junction x="76.2" y="73.66"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10192,8 +10361,12 @@ Pump Control Passthrough</text>
 <pinref part="J1" gate="G$1" pin="7"/>
 <wire x1="317.5" y1="134.62" x2="287.02" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="134.62" x2="287.02" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="287.02" y1="157.48" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="J6" gate="G$1" pin="2"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="76.2" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="160.02" x2="76.2" y2="157.48" width="0.1524" layer="91"/>
+<junction x="76.2" y="157.48"/>
 </segment>
 </net>
 </nets>

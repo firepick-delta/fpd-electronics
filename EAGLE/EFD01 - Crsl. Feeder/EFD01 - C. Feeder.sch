@@ -1399,7 +1399,7 @@ Datasheet:</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPL-CAP-X7R-0603-100NF-50V">
+<deviceset name="CPL-CAP-X7R-0603-100NF-50V" prefix="C">
 <description>Capacitor: 100nF, 50V, 10%;
 Package: 0603</description>
 <gates>
@@ -1563,6 +1563,24 @@ Datasheet:</description>
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-LED-0603-RED" prefix="LED">
+<description>LED: Red;
+Package: 0603</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -22002,20 +22020,51 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <part name="U$1" library="!tin-whiskers-logo" deviceset="TIN-WHISKERS" device="SMALL">
 <attribute name="PARTNO" value="*"/>
 </part>
-<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-ALU-SMD-100UF-50V" device="" value="100uF"/>
+<part name="C9" library="TinWhiskers" deviceset="CPL-CAP-ALU-SMD-100UF-50V" device="" value="100uF">
+<attribute name="PARTNO" value="EMVA500ADA101MHA0G"/>
+</part>
 <part name="SUPPLY11" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+13" library="supply1" deviceset="+24V" device=""/>
-<part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C10" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="UMK107B7104KA-T"/>
+</part>
 <part name="SUPPLY19" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C11" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C11" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="UMK107B7104KA-T"/>
+</part>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY20" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C12" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="UMK107B7104KA-T"/>
+</part>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY21" library="TinWhiskers" deviceset="GND" device=""/>
-<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF"/>
+<part name="C13" library="TinWhiskers" deviceset="CPL-CAP-X7R-0603-0.1UF-35V" device="" value="0.1uF">
+<attribute name="PARTNO" value="UMK107B7104KA-T"/>
+</part>
 <part name="P+16" library="supply1" deviceset="+5V" device=""/>
 <part name="SUPPLY24" library="TinWhiskers" deviceset="GND" device=""/>
+<part name="LED2" library="TinWhiskers" deviceset="CPL-LED-0603-RED" device="" value="RED">
+<attribute name="PARTNO" value="SML-D12M8WT86"/>
+</part>
+<part name="P+17" library="supply1" deviceset="+5V" device=""/>
+<part name="R13" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K">
+<attribute name="PARTNO" value="RC0603FR-071KL"/>
+</part>
+<part name="LED3" library="TinWhiskers" deviceset="CPL-LED-0603-RED" device="" value="RED">
+<attribute name="PARTNO" value="SML-D12M8WT86"/>
+</part>
+<part name="P+18" library="supply1" deviceset="+5V" device=""/>
+<part name="R14" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K">
+<attribute name="PARTNO" value="RC0603FR-071KL"/>
+</part>
+<part name="LED4" library="TinWhiskers" deviceset="CPL-LED-0603-RED" device="" value="RED">
+<attribute name="PARTNO" value="SML-D12M8WT86"/>
+</part>
+<part name="P+19" library="supply1" deviceset="+5V" device=""/>
+<part name="R15" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K">
+<attribute name="PARTNO" value="RC0603FR-071KL"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -22267,6 +22316,7 @@ for Firepick Delta</text>
 <instance part="C9" gate="G$1" x="274.32" y="101.6" smashed="yes" rot="R270">
 <attribute name="NAME" x="273.939" y="96.774" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="276.479" y="92.456" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="274.32" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="274.32" y="91.44"/>
 <instance part="P+13" gate="1" x="274.32" y="109.22" smashed="yes">
@@ -22275,11 +22325,13 @@ for Firepick Delta</text>
 <instance part="C10" gate="G$1" x="360.68" y="190.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="360.299" y="183.642" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="362.839" y="181.102" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="360.68" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY19" gate="GND" x="360.68" y="180.34"/>
 <instance part="C11" gate="G$1" x="187.96" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="187.579" y="59.182" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="190.119" y="56.642" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="187.96" y="66.04" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+14" gate="1" x="187.96" y="73.66" smashed="yes">
 <attribute name="VALUE" x="185.42" y="73.66" size="1.778" layer="96"/>
@@ -22288,6 +22340,7 @@ for Firepick Delta</text>
 <instance part="C12" gate="G$1" x="63.5" y="83.82" smashed="yes" rot="R90">
 <attribute name="NAME" x="63.119" y="76.962" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="65.659" y="74.422" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="63.5" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+15" gate="1" x="63.5" y="91.44" smashed="yes">
 <attribute name="VALUE" x="60.96" y="91.44" size="1.778" layer="96"/>
@@ -22296,11 +22349,45 @@ for Firepick Delta</text>
 <instance part="C13" gate="G$1" x="180.34" y="200.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="179.959" y="193.802" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="182.499" y="191.262" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="180.34" y="200.66" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+16" gate="1" x="180.34" y="208.28" smashed="yes">
 <attribute name="VALUE" x="177.8" y="208.28" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY24" gate="GND" x="180.34" y="190.5"/>
+<instance part="LED2" gate="G$1" x="279.4" y="213.36" smashed="yes">
+<attribute name="NAME" x="282.956" y="208.788" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="285.115" y="208.788" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="279.4" y="213.36" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="P+17" gate="1" x="279.4" y="233.68" smashed="yes">
+<attribute name="VALUE" x="276.86" y="233.68" size="1.778" layer="96"/>
+</instance>
+<instance part="R13" gate="G$1" x="279.4" y="223.52" rot="R90">
+<attribute name="PARTNO" x="279.4" y="223.52" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="LED3" gate="G$1" x="269.24" y="213.36" smashed="yes">
+<attribute name="NAME" x="272.796" y="208.788" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="274.955" y="208.788" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="269.24" y="213.36" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="P+18" gate="1" x="269.24" y="233.68" smashed="yes">
+<attribute name="VALUE" x="266.7" y="233.68" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="269.24" y="223.52" rot="R90">
+<attribute name="PARTNO" x="269.24" y="223.52" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="LED4" gate="G$1" x="259.08" y="213.36" smashed="yes">
+<attribute name="NAME" x="262.636" y="208.788" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="264.795" y="208.788" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="259.08" y="213.36" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
+<instance part="P+19" gate="1" x="259.08" y="233.68" smashed="yes">
+<attribute name="VALUE" x="256.54" y="233.68" size="1.778" layer="96"/>
+</instance>
+<instance part="R15" gate="G$1" x="259.08" y="223.52" rot="R90">
+<attribute name="PARTNO" x="259.08" y="223.52" size="2.54" layer="96" ratio="10" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -22586,6 +22673,21 @@ for Firepick Delta</text>
 <pinref part="P+16" gate="1" pin="+5V"/>
 <pinref part="C13" gate="G$1" pin="2"/>
 <wire x1="180.34" y1="205.74" x2="180.34" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+17" gate="1" pin="+5V"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="279.4" y1="231.14" x2="279.4" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+18" gate="1" pin="+5V"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="231.14" x2="269.24" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+19" gate="1" pin="+5V"/>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="259.08" y1="231.14" x2="259.08" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">
@@ -23014,6 +23116,51 @@ for Firepick Delta</text>
 <pinref part="U3" gate="G$1" pin="PD7"/>
 <wire x1="335.28" y1="180.34" x2="342.9" y2="180.34" width="0.1524" layer="91"/>
 <label x="337.82" y="180.34" size="1.778" layer="95" ratio="10"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="U3" gate="G$1" pin="PB0"/>
+<wire x1="312.42" y1="198.12" x2="279.4" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="198.12" x2="279.4" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="279.4" y1="218.44" x2="279.4" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="U3" gate="G$1" pin="PB1"/>
+<wire x1="312.42" y1="195.58" x2="269.24" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="195.58" x2="269.24" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="269.24" y1="218.44" x2="269.24" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="LED4" gate="G$1" pin="C"/>
+<pinref part="U3" gate="G$1" pin="PB2"/>
+<wire x1="312.42" y1="193.04" x2="259.08" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="193.04" x2="259.08" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R15" gate="G$1" pin="1"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
+<wire x1="259.08" y1="218.44" x2="259.08" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

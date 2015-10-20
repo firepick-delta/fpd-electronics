@@ -686,6 +686,28 @@ Datasheet: http://www.mouser.com/ds/2/418/NG_CD_825440_G_baseFilename-672958.pdf
 <text x="-1.5" y="-4.4" size="1.27" layer="21" ratio="12">&gt;Name</text>
 <text x="-1.5" y="-5.8" size="1" layer="27" ratio="10">&gt;Value</text>
 </package>
+<package name="LED0603">
+<description>Diode: LED
+Package: 0603</description>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<smd name="A" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="C" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<wire x1="-0.1" y1="0.1" x2="-0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.1" y2="-0.1" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="-0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="-0.1" x2="0.1" y2="0" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.1" y2="0.1" width="0.05" layer="21"/>
+<wire x1="0.1" y1="0" x2="0.17" y2="0" width="0.05" layer="21"/>
+<wire x1="-0.1" y1="0" x2="-0.165" y2="0" width="0.05" layer="21"/>
+<text x="1.6" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">-</text>
+<text x="-2.5" y="-0.6" size="1.27" layer="51" font="vector" ratio="10">+</text>
+</package>
 </packages>
 <symbols>
 <symbol name="A3L-LOC">
@@ -1028,6 +1050,31 @@ Datasheet: http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</description
 <wire x1="-10.16" y1="7.62" x2="2.54" y2="7.62" width="0.254" layer="94"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
 <text x="-7.62" y="-5.08" size="1.778" layer="125" ratio="12">&gt;Name</text>
+</symbol>
+<symbol name="LED">
+<wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.032" y1="-0.762" x2="-3.429" y2="-2.159" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="-1.905" x2="-3.302" y2="-3.302" width="0.1524" layer="94"/>
+<text x="3.556" y="-4.572" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="-2.159"/>
+<vertex x="-3.048" y="-1.27"/>
+<vertex x="-2.54" y="-1.778"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="-3.302"/>
+<vertex x="-2.921" y="-2.413"/>
+<vertex x="-2.413" y="-2.921"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -1716,6 +1763,24 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPL-LED-0603-RED" prefix="LED">
+<description>LED: Red;
+Package: 0603</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LED0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -26474,6 +26539,12 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <part name="C11" library="TinWhiskers" deviceset="CPL-CAP-X5R-0603-0.1UF-35V" device="" value="0.1uF"/>
 <part name="SUPPLY28" library="TinWhiskers" deviceset="GND" device=""/>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
+<part name="P+21" library="supply1" deviceset="+5V" device=""/>
+<part name="P+22" library="supply1" deviceset="+5V" device=""/>
+<part name="R5" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K"/>
+<part name="R17" library="TinWhiskers" deviceset="CPL-RES-0603-1K-0.1W" device="" value="1K"/>
+<part name="LED1" library="TinWhiskers" deviceset="CPL-LED-0603-RED" device="" value="RED"/>
+<part name="LED2" library="TinWhiskers" deviceset="CPL-LED-0603-RED" device="" value="RED"/>
 </parts>
 <sheets>
 <sheet>
@@ -26828,6 +26899,22 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <instance part="P+20" gate="1" x="279.4" y="58.42" smashed="yes">
 <attribute name="VALUE" x="276.86" y="58.42" size="1.778" layer="96"/>
 </instance>
+<instance part="P+21" gate="1" x="375.92" y="236.22" smashed="yes">
+<attribute name="VALUE" x="373.38" y="236.22" size="1.778" layer="96"/>
+</instance>
+<instance part="P+22" gate="1" x="368.3" y="236.22" smashed="yes">
+<attribute name="VALUE" x="365.76" y="236.22" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="368.3" y="226.06" rot="R90"/>
+<instance part="R17" gate="G$1" x="375.92" y="226.06" rot="R90"/>
+<instance part="LED1" gate="G$1" x="368.3" y="215.9" smashed="yes">
+<attribute name="NAME" x="367.792" y="206.756" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="370.459" y="208.026" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED2" gate="G$1" x="375.92" y="215.9" smashed="yes">
+<attribute name="NAME" x="375.412" y="205.994" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="378.079" y="207.772" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -27123,6 +27210,16 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="279.4" y1="55.88" x2="279.4" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="P+20" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="P+22" gate="1" pin="+5V"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="368.3" y1="233.68" x2="368.3" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+21" gate="1" pin="+5V"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="375.92" y1="233.68" x2="375.92" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RO" class="0">
@@ -27713,6 +27810,40 @@ Datasheet: http://www.yuden.co.jp/productdata/catalog/en/mlcc01_hq_e.pdf</descri
 <pinref part="J7" gate="G$1" pin="4"/>
 <wire x1="182.88" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
 <label x="165.1" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R17" gate="G$1" pin="1"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="375.92" y1="220.98" x2="375.92" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="368.3" y1="220.98" x2="368.3" y2="218.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="PD2"/>
+<wire x1="345.44" y1="226.06" x2="363.22" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="226.06" x2="363.22" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="363.22" y1="205.74" x2="368.3" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="368.3" y1="205.74" x2="368.3" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="375.92" y1="210.82" x2="375.92" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="203.2" x2="360.68" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="PD6"/>
+<wire x1="360.68" y1="203.2" x2="360.68" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="215.9" x2="345.44" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
