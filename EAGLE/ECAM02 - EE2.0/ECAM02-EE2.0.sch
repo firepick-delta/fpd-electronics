@@ -12510,16 +12510,16 @@ TRANSDUCER</text>
 <attribute name="VALUE" x="208.28" y="237.49" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY34" gate="GND" x="210.82" y="218.44"/>
-<instance part="C17" gate="G$1" x="281.94" y="139.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="281.559" y="133.096" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="284.099" y="130.81" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="281.94" y="139.7" size="1.778" layer="96" display="off"/>
+<instance part="C17" gate="G$1" x="281.94" y="139.7" smashed="yes" rot="R270">
+<attribute name="NAME" x="281.559" y="133.858" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="284.099" y="130.556" size="1.778" layer="96" rot="R90"/>
+<attribute name="PARTNO" x="281.94" y="139.7" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="SUPPLY35" gate="GND" x="281.94" y="132.08"/>
-<instance part="C18" gate="G$1" x="256.54" y="190.5" smashed="yes" rot="R90">
+<instance part="C18" gate="G$1" x="256.54" y="190.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="256.159" y="183.896" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="258.699" y="183.134" size="1.778" layer="96" rot="R90"/>
-<attribute name="PARTNO" x="256.54" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="PARTNO" x="256.54" y="190.5" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="P+17" gate="1" x="256.54" y="198.12" smashed="yes">
 <attribute name="VALUE" x="254" y="198.12" size="1.778" layer="96"/>
@@ -12770,20 +12770,20 @@ TRANSDUCER</text>
 <wire x1="210.82" y1="223.52" x2="210.82" y2="220.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C17" gate="G$1" pin="POS"/>
-<pinref part="SUPPLY35" gate="GND" pin="GND"/>
-<wire x1="281.94" y1="137.16" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C18" gate="G$1" pin="POS"/>
-<pinref part="SUPPLY36" gate="GND" pin="GND"/>
-<wire x1="256.54" y1="187.96" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U10" gate="G$1" pin="A0"/>
 <pinref part="SUPPLY37" gate="GND" pin="GND"/>
 <wire x1="160.02" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="142.24" x2="172.72" y2="127" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="NEG"/>
+<pinref part="SUPPLY35" gate="GND" pin="GND"/>
+<wire x1="281.94" y1="137.16" x2="281.94" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="NEG"/>
+<pinref part="SUPPLY36" gate="GND" pin="GND"/>
+<wire x1="256.54" y1="187.96" x2="256.54" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -12806,11 +12806,11 @@ TRANSDUCER</text>
 <wire x1="292.1" y1="132.08" x2="292.1" y2="144.78" width="0.1524" layer="91"/>
 <junction x="292.1" y="132.08"/>
 <pinref part="P+5" gate="1" pin="+24V"/>
-<pinref part="C17" gate="G$1" pin="NEG"/>
 <wire x1="292.1" y1="144.78" x2="292.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="144.78" x2="281.94" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="144.78" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
 <junction x="292.1" y="144.78"/>
+<pinref part="C17" gate="G$1" pin="POS"/>
+<wire x1="281.94" y1="144.78" x2="281.94" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J6" gate="G$1" pin="1"/>
@@ -12939,11 +12939,6 @@ TRANSDUCER</text>
 <wire x1="119.38" y1="144.78" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="P+17" gate="1" pin="+5V"/>
-<pinref part="C18" gate="G$1" pin="NEG"/>
-<wire x1="256.54" y1="195.58" x2="256.54" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+18" gate="1" pin="+5V"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="284.48" y1="251.46" x2="284.48" y2="248.92" width="0.1524" layer="91"/>
@@ -12957,6 +12952,11 @@ TRANSDUCER</text>
 <pinref part="P+20" gate="1" pin="+5V"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="274.32" y1="251.46" x2="274.32" y2="248.92" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C18" gate="G$1" pin="POS"/>
+<pinref part="P+17" gate="1" pin="+5V"/>
+<wire x1="256.54" y1="193.04" x2="256.54" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A" class="0">
